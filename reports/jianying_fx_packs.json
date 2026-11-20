@@ -1,0 +1,1494 @@
+{
+  "categories": {
+    "混合/转场（MixMode）": [
+      {
+        "dir": "Resources/MixMode/042aa15b71b1e17bca0bd928eec6fba7",
+        "pack": "042aa15b71b1e17bca0bd928eec6fba7",
+        "kb": 19.3,
+        "files": 9,
+        "shaders": {
+          "gles": 2,
+          "metal": 2,
+          "xshader": 1
+        },
+        "props": [
+          "_MainTexEJ",
+          "baseTexEJ",
+          "blend",
+          "blend_Prefab",
+          "blend_material",
+          "blend_propertySheet",
+          "input",
+          "material",
+          "meshRenderer",
+          "root_entity",
+          "texture"
+        ],
+        "js": [],
+        "config": {
+          "config.json": {
+            "effect": {
+              "Link": [
+                {
+                  "type": "InfoSticker"
+                }
+              ]
+            },
+            "alphaState": 2,
+            "version": "5.7.0"
+          },
+          "content.json": {
+            "filemap": {
+              "prefab": "anim.prefab"
+            }
+          }
+        },
+        "role": "pack"
+      },
+      {
+        "dir": "Resources/MixMode/420c92a2b480dc8e402d9269a5f83515",
+        "pack": "420c92a2b480dc8e402d9269a5f83515",
+        "kb": 15.6,
+        "files": 9,
+        "shaders": {
+          "gles": 2,
+          "metal": 2,
+          "xshader": 1
+        },
+        "props": [
+          "_MainTexEJ",
+          "baseTexEJ",
+          "blend",
+          "blend_Prefab",
+          "blend_material",
+          "blend_propertySheet",
+          "input",
+          "material",
+          "meshRenderer",
+          "root_entity",
+          "texture"
+        ],
+        "js": [],
+        "config": {
+          "config.json": {
+            "effect": {
+              "Link": [
+                {
+                  "type": "InfoSticker"
+                }
+              ]
+            },
+            "alphaState": 2,
+            "version": "5.7.0"
+          },
+          "content.json": {
+            "filemap": {
+              "prefab": "anim.prefab"
+            }
+          }
+        },
+        "role": "pack"
+      },
+      {
+        "dir": "Resources/MixMode/655f3590dd07ece41209fb312348ffe9",
+        "pack": "655f3590dd07ece41209fb312348ffe9",
+        "kb": 15.8,
+        "files": 9,
+        "shaders": {
+          "gles": 2,
+          "metal": 2,
+          "xshader": 1
+        },
+        "props": [
+          "_MainTexEJ",
+          "baseTexEJ",
+          "blend",
+          "blend_Prefab",
+          "blend_material",
+          "blend_propertySheet",
+          "input",
+          "material",
+          "meshRenderer",
+          "root_entity",
+          "texture"
+        ],
+        "js": [],
+        "config": {
+          "config.json": {
+            "effect": {
+              "Link": [
+                {
+                  "type": "InfoSticker"
+                }
+              ]
+            },
+            "alphaState": 2,
+            "version": "5.7.0"
+          },
+          "content.json": {
+            "filemap": {
+              "prefab": "anim.prefab"
+            }
+          }
+        },
+        "role": "pack"
+      },
+      {
+        "dir": "Resources/MixMode/8001e07eefc5d8b69572b977ca14bef9",
+        "pack": "8001e07eefc5d8b69572b977ca14bef9",
+        "kb": 15.6,
+        "files": 9,
+        "shaders": {
+          "gles": 2,
+          "metal": 2,
+          "xshader": 1
+        },
+        "props": [
+          "_MainTexEJ",
+          "baseTexEJ",
+          "blend",
+          "blend_Prefab",
+          "blend_material",
+          "blend_propertySheet",
+          "input",
+          "material",
+          "meshRenderer",
+          "root_entity",
+          "texture"
+        ],
+        "js": [],
+        "config": {
+          "config.json": {
+            "effect": {
+              "Link": [
+                {
+                  "type": "InfoSticker"
+                }
+              ]
+            },
+            "alphaState": 2,
+            "version": "5.7.0"
+          },
+          "content.json": {
+            "filemap": {
+              "prefab": "anim.prefab"
+            }
+          }
+        },
+        "role": "pack"
+      },
+      {
+        "dir": "Resources/MixMode/840ca85a1a33e6fc3ea78bbdb2db8f60",
+        "pack": "840ca85a1a33e6fc3ea78bbdb2db8f60",
+        "kb": 17.9,
+        "files": 9,
+        "shaders": {
+          "gles": 2,
+          "metal": 2,
+          "xshader": 1
+        },
+        "props": [
+          "_MainTexEJ",
+          "baseTexEJ",
+          "blend",
+          "blend_Prefab",
+          "blend_material",
+          "blend_propertySheet",
+          "input",
+          "material",
+          "meshRenderer",
+          "root_entity",
+          "texture"
+        ],
+        "js": [],
+        "config": {
+          "config.json": {
+            "effect": {
+              "Link": [
+                {
+                  "type": "InfoSticker"
+                }
+              ]
+            },
+            "alphaState": 2,
+            "version": "5.7.0"
+          },
+          "content.json": {
+            "filemap": {
+              "prefab": "anim.prefab"
+            }
+          }
+        },
+        "role": "pack"
+      },
+      {
+        "dir": "Resources/MixMode/b0e90c43dc266a317b05b0cd3ca5bfba",
+        "pack": "b0e90c43dc266a317b05b0cd3ca5bfba",
+        "kb": 15.6,
+        "files": 9,
+        "shaders": {
+          "gles": 2,
+          "metal": 2,
+          "xshader": 1
+        },
+        "props": [
+          "_MainTexEJ",
+          "baseTexEJ",
+          "blend",
+          "blend_Prefab",
+          "blend_material",
+          "blend_propertySheet",
+          "input",
+          "material",
+          "meshRenderer",
+          "root_entity",
+          "texture"
+        ],
+        "js": [],
+        "config": {
+          "config.json": {
+            "effect": {
+              "Link": [
+                {
+                  "type": "InfoSticker"
+                }
+              ]
+            },
+            "alphaState": 2,
+            "version": "5.7.0"
+          },
+          "content.json": {
+            "filemap": {
+              "prefab": "anim.prefab"
+            }
+          }
+        },
+        "role": "pack"
+      },
+      {
+        "dir": "Resources/MixMode/b76087cda4833f553cf09e82fb81c463",
+        "pack": "b76087cda4833f553cf09e82fb81c463",
+        "kb": 18.6,
+        "files": 9,
+        "shaders": {
+          "gles": 2,
+          "metal": 2,
+          "xshader": 1
+        },
+        "props": [
+          "_MainTexEJ",
+          "baseTexEJ",
+          "blend",
+          "blend_Prefab",
+          "blend_material",
+          "blend_propertySheet",
+          "input",
+          "material",
+          "meshRenderer",
+          "root_entity",
+          "texture"
+        ],
+        "js": [],
+        "config": {
+          "config.json": {
+            "effect": {
+              "Link": [
+                {
+                  "type": "InfoSticker"
+                }
+              ]
+            },
+            "alphaState": 2,
+            "version": "5.7.0"
+          },
+          "content.json": {
+            "filemap": {
+              "prefab": "anim.prefab"
+            }
+          }
+        },
+        "role": "pack"
+      },
+      {
+        "dir": "Resources/MixMode/d9c1d4ca7ab91df4f48d12b339f2da88",
+        "pack": "d9c1d4ca7ab91df4f48d12b339f2da88",
+        "kb": 15.6,
+        "files": 9,
+        "shaders": {
+          "gles": 2,
+          "metal": 2,
+          "xshader": 1
+        },
+        "props": [
+          "_MainTexEJ",
+          "baseTexEJ",
+          "blend",
+          "blend_Prefab",
+          "blend_material",
+          "blend_propertySheet",
+          "input",
+          "material",
+          "meshRenderer",
+          "root_entity",
+          "texture"
+        ],
+        "js": [],
+        "config": {
+          "config.json": {
+            "effect": {
+              "Link": [
+                {
+                  "type": "InfoSticker"
+                }
+              ]
+            },
+            "alphaState": 2,
+            "version": "5.7.0"
+          },
+          "content.json": {
+            "filemap": {
+              "prefab": "anim.prefab"
+            }
+          }
+        },
+        "role": "pack"
+      },
+      {
+        "dir": "Resources/MixMode/e6a48579910dfe831ba53a6acc6737f9",
+        "pack": "e6a48579910dfe831ba53a6acc6737f9",
+        "kb": 17.8,
+        "files": 9,
+        "shaders": {
+          "gles": 2,
+          "metal": 2,
+          "xshader": 1
+        },
+        "props": [
+          "_MainTexEJ",
+          "baseTexEJ",
+          "blend",
+          "blend_Prefab",
+          "blend_material",
+          "blend_propertySheet",
+          "input",
+          "material",
+          "meshRenderer",
+          "root_entity",
+          "texture"
+        ],
+        "js": [],
+        "config": {
+          "config.json": {
+            "effect": {
+              "Link": [
+                {
+                  "type": "InfoSticker"
+                }
+              ]
+            },
+            "alphaState": 2,
+            "version": "5.7.0"
+          },
+          "content.json": {
+            "filemap": {
+              "prefab": "anim.prefab"
+            }
+          }
+        },
+        "role": "pack"
+      },
+      {
+        "dir": "Resources/MixMode/f979dd10def50fad3ffb77c7f0df3db7",
+        "pack": "f979dd10def50fad3ffb77c7f0df3db7",
+        "kb": 19.1,
+        "files": 9,
+        "shaders": {
+          "gles": 2,
+          "metal": 2,
+          "xshader": 1
+        },
+        "props": [
+          "_MainTexEJ",
+          "baseTexEJ",
+          "blend",
+          "blend_Prefab",
+          "blend_material",
+          "blend_propertySheet",
+          "input",
+          "material",
+          "meshRenderer",
+          "root_entity",
+          "texture"
+        ],
+        "js": [],
+        "config": {
+          "config.json": {
+            "effect": {
+              "Link": [
+                {
+                  "type": "InfoSticker"
+                }
+              ]
+            },
+            "alphaState": 2,
+            "version": "5.7.0"
+          },
+          "content.json": {
+            "filemap": {
+              "prefab": "anim.prefab"
+            }
+          }
+        },
+        "role": "pack"
+      }
+    ],
+    "色度键/抠像混合": [
+      {
+        "dir": "Resources/Chroma",
+        "pack": "Chroma",
+        "kb": 14.0,
+        "files": 12,
+        "shaders": {
+          "gles": 2,
+          "xshader": 1
+        },
+        "props": [
+          "enity_material44",
+          "enity_propertySheetY",
+          "entity",
+          "input",
+          "inputImageTextureEJ",
+          "texture"
+        ],
+        "js": [],
+        "config": {
+          "config.json": {
+            "effect": {
+              "Link": [
+                {
+                  "type": "AmazingFeature",
+                  "zorder": 10000,
+                  "path": "amazingfeature/"
+                }
+              ]
+            },
+            "moduleAlphaState": 1,
+            "name": "sexiangkoutu",
+            "version": "6.6.0"
+          }
+        },
+        "role": "single-pack"
+      },
+      {
+        "dir": "Resources/Chroma/amazingfeature",
+        "pack": "amazingfeature",
+        "kb": 13.7,
+        "files": 11,
+        "shaders": {
+          "gles": 2,
+          "xshader": 1
+        },
+        "props": [
+          "enity_material44",
+          "enity_propertySheetY",
+          "entity",
+          "input",
+          "inputImageTextureEJ",
+          "texture"
+        ],
+        "js": [],
+        "config": {
+          "content.json": {
+            "content": {},
+            "requirement": {
+              "3dFaceMeshPerspective": false,
+              "FaceAttributes": false,
+              "faceDetect": false,
+              "faceVerify": false,
+              "hairColor": false,
+              "handDetect": false,
+              "matting": false
+            },
+            "tag": "AMG_951574589175985720545982848693716849932",
+            "version": "1.0"
+          }
+        },
+        "role": "pack"
+      },
+      {
+        "dir": "Resources/Chroma2",
+        "pack": "Chroma2",
+        "kb": 32.3,
+        "files": 19,
+        "shaders": {
+          "gles": 6,
+          "xshader": 1
+        },
+        "props": [
+          "alpha",
+          "alphaMapTextureEJ",
+          "enity_material",
+          "enity_propertySheet",
+          "entity",
+          "input",
+          "inputImageTextureEJ",
+          "smoothMapTexturexEJ",
+          "texture"
+        ],
+        "js": [],
+        "config": {
+          "config.json": {
+            "effect": {
+              "Link": [
+                {
+                  "type": "AmazingFeature",
+                  "zorder": 10000,
+                  "path": "amazingfeature/"
+                }
+              ]
+            },
+            "moduleAlphaState": 1,
+            "name": "sexiangkoutu",
+            "version": "6.6.0"
+          }
+        },
+        "role": "single-pack"
+      },
+      {
+        "dir": "Resources/Chroma2/amazingfeature",
+        "pack": "amazingfeature",
+        "kb": 32.0,
+        "files": 18,
+        "shaders": {
+          "gles": 6,
+          "xshader": 1
+        },
+        "props": [
+          "alpha",
+          "alphaMapTextureEJ",
+          "enity_material",
+          "enity_propertySheet",
+          "entity",
+          "input",
+          "inputImageTextureEJ",
+          "smoothMapTexturexEJ",
+          "texture"
+        ],
+        "js": [],
+        "config": {
+          "content.json": {
+            "content": {},
+            "requirement": {
+              "3dFaceMeshPerspective": false,
+              "FaceAttributes": false,
+              "faceDetect": false,
+              "faceVerify": false,
+              "hairColor": false,
+              "handDetect": false,
+              "matting": false
+            },
+            "tag": "AMG_951574589175985720545982848693716849932",
+            "version": "1.0"
+          }
+        },
+        "role": "pack"
+      },
+      {
+        "dir": "Resources/mattingBlend",
+        "pack": "mattingBlend",
+        "kb": 9.8,
+        "files": 17,
+        "shaders": {
+          "xshader": 1,
+          "gles": 2
+        },
+        "props": [
+          "input",
+          "noFilter_material",
+          "noFilter_propertySheet",
+          "texture"
+        ],
+        "js": [],
+        "config": {
+          "config.json": {
+            "ae_tool": "AmazingEditor",
+            "bALG_BACH_CONFIG": false,
+            "effect": {
+              "Link": [
+                {
+                  "path": "AmazingFeature/",
+                  "type": "AmazingFeature",
+                  "zorder": 8011
+                }
+              ]
+            },
+            "name": "Editor_Sticker_Config_TAG_zbIdYdMdkd5jbCclcgcxUc8b67c6d",
+            "version": "10.1.0"
+          }
+        },
+        "role": "single-pack"
+      },
+      {
+        "dir": "Resources/mattingBlend/AmazingFeature",
+        "pack": "AmazingFeature",
+        "kb": 9.5,
+        "files": 16,
+        "shaders": {
+          "xshader": 1,
+          "gles": 2
+        },
+        "props": [
+          "input",
+          "noFilter_material",
+          "noFilter_propertySheet",
+          "texture"
+        ],
+        "js": [],
+        "config": {
+          "content.json": {
+            "ae_tool": "AmazingEditor",
+            "content": {},
+            "tag": "AMG_150823204608353877748505219496952153534",
+            "version": "1.0"
+          }
+        },
+        "role": "pack"
+      },
+      {
+        "dir": "Resources/mattingBlendV2",
+        "pack": "mattingBlendV2",
+        "kb": 103.9,
+        "files": 62,
+        "shaders": {
+          "xshader": 6,
+          "gles": 12,
+          "metal": 8
+        },
+        "props": [
+          "input",
+          "noFilter_material",
+          "noFilter_propertySheet",
+          "texture"
+        ],
+        "js": [],
+        "config": {
+          "config.json": {
+            "ae_tool": "AmazingEditor",
+            "bALG_BACH_CONFIG": true,
+            "effect": {
+              "Link": [
+                {
+                  "path": "AmazingFeature_DilateErode/",
+                  "type": "AmazingFeature",
+                  "zorder": 1999
+                },
+                {
+                  "path": "AmazingFeature/",
+                  "type": "AmazingFeature",
+                  "zorder": 8011
+                }
+              ]
+            },
+            "name": "Editor_Sticker_Config_TAG_zbIdYdMdkd5jbCclcgcxUc8b67c6d",
+            "version": "15.0.0"
+          }
+        },
+        "role": "single-pack"
+      },
+      {
+        "dir": "Resources/mattingBlendV2/AmazingFeature",
+        "pack": "AmazingFeature",
+        "kb": 10.5,
+        "files": 14,
+        "shaders": {
+          "xshader": 1,
+          "gles": 2
+        },
+        "props": [
+          "input",
+          "noFilter_material",
+          "noFilter_propertySheet",
+          "texture"
+        ],
+        "js": [],
+        "config": {
+          "content.json": {
+            "ae_tool": "AmazingEditor",
+            "content": {},
+            "needblend": false,
+            "tag": "AMG_751207320112677279714812316243971039368",
+            "version": "1.0"
+          }
+        },
+        "role": "pack"
+      },
+      {
+        "dir": "Resources/mattingBlendV2/AmazingFeature_DilateErode",
+        "pack": "AmazingFeature_DilateErode",
+        "kb": 93.0,
+        "files": 47,
+        "shaders": {
+          "xshader": 5,
+          "gles": 10,
+          "metal": 8
+        },
+        "props": [],
+        "js": [],
+        "config": {
+          "content.json": {
+            "ae_tool": "AmazingEditor",
+            "content": {},
+            "needblend": false,
+            "tag": "AMG_1572887623935392157413111705622841989002",
+            "version": "1.0"
+          }
+        },
+        "role": "pack"
+      },
+      {
+        "dir": "Resources/mattingBlendCloud",
+        "pack": "mattingBlendCloud",
+        "kb": 118.0,
+        "files": 67,
+        "shaders": {
+          "xshader": 7,
+          "gles": 14,
+          "metal": 10
+        },
+        "props": [
+          "noFilter_material",
+          "noFilter_propertySheet",
+          "outputTex"
+        ],
+        "js": [],
+        "config": {
+          "config.json": {
+            "ae_tool": "AmazingEditor",
+            "bALG_BACH_CONFIG": true,
+            "effect": {
+              "Link": [
+                {
+                  "path": "AmazingFeature_DilateErode/",
+                  "type": "AmazingFeature",
+                  "zorder": 1999
+                },
+                {
+                  "path": "AmazingFeature/",
+                  "type": "AmazingFeature",
+                  "zorder": 8011
+                }
+              ]
+            },
+            "name": "Editor_Sticker_Config_TAG_zbIdYdMdkd5jbCclcgcxUc8b67c6d",
+            "version": "7.0.0"
+          }
+        },
+        "role": "single-pack"
+      },
+      {
+        "dir": "Resources/mattingBlendCloud/AmazingFeature",
+        "pack": "AmazingFeature",
+        "kb": 12.3,
+        "files": 14,
+        "shaders": {
+          "xshader": 1,
+          "gles": 2
+        },
+        "props": [
+          "noFilter_material",
+          "noFilter_propertySheet"
+        ],
+        "js": [],
+        "config": {
+          "content.json": {
+            "ae_tool": "AmazingEditor",
+            "content": {},
+            "needblend": false,
+            "tag": "AMG_117643289560461696024719937306250873010",
+            "version": "1.0"
+          }
+        },
+        "role": "pack"
+      },
+      {
+        "dir": "Resources/mattingBlendCloud/AmazingFeature_DilateErode",
+        "pack": "AmazingFeature_DilateErode",
+        "kb": 104.9,
+        "files": 51,
+        "shaders": {
+          "xshader": 6,
+          "gles": 12,
+          "metal": 10
+        },
+        "props": [
+          "outputTex"
+        ],
+        "js": [],
+        "config": {
+          "content.json": {
+            "ae_tool": "AmazingEditor",
+            "content": {},
+            "needblend": false,
+            "tag": "AMG_127022985346141086948638858592814730416",
+            "version": "1.0"
+          }
+        },
+        "role": "pack"
+      }
+    ],
+    "调色控件资源": [
+      {
+        "dir": "Resources/Curves",
+        "pack": "Curves",
+        "kb": 35.3,
+        "files": 28,
+        "shaders": {
+          "gles": 4,
+          "xshader": 5
+        },
+        "props": [
+          "enity_material",
+          "enity_propertySheet",
+          "entity",
+          "input",
+          "inputImageTextureEJ",
+          "texture"
+        ],
+        "js": [],
+        "config": {
+          "config.json": {
+            "effect": {
+              "Link": [
+                {
+                  "path": "Curves/",
+                  "type": "AmazingFeature",
+                  "zorder": 5010
+                }
+              ],
+              "exclusiveScene": []
+            },
+            "name": "2021_04_14_16_32_48_86d025b011ea978facde48001122",
+            "alphaState": 2,
+            "version": "9.5.0"
+          }
+        },
+        "role": "single-pack"
+      },
+      {
+        "dir": "Resources/Curves/Curves",
+        "pack": "Curves",
+        "kb": 34.5,
+        "files": 26,
+        "shaders": {
+          "gles": 4,
+          "xshader": 5
+        },
+        "props": [
+          "enity_material",
+          "enity_propertySheet",
+          "entity",
+          "input",
+          "inputImageTextureEJ",
+          "texture"
+        ],
+        "js": [],
+        "config": {
+          "content.json": {
+            "ae_tool": "AmazingEditor",
+            "content": {},
+            "tag": "AMG_173870012207432250478850802881619851409",
+            "version": "1.0"
+          }
+        },
+        "role": "pack"
+      },
+      {
+        "dir": "Resources/LogWheel/log_wheel_v0",
+        "pack": "log_wheel_v0",
+        "kb": 18.3,
+        "files": 15,
+        "shaders": {
+          "xshader": 1,
+          "gles": 2
+        },
+        "props": [
+          "enity_material",
+          "enity_propertySheet",
+          "entity",
+          "input",
+          "inputImageTextureEJ",
+          "texture"
+        ],
+        "js": [],
+        "config": {
+          "config.json": {
+            "effect": {
+              "Link": [
+                {
+                  "path": "Wheel/",
+                  "type": "AmazingFeature",
+                  "zorder": 5012
+                }
+              ],
+              "exclusiveScene": []
+            },
+            "name": "2021_04_14_16_32_48_86d025b011earwq8facde48001122",
+            "version": "9.5.0"
+          }
+        },
+        "role": "pack"
+      },
+      {
+        "dir": "Resources/LogWheel/log_wheel_v1",
+        "pack": "log_wheel_v1",
+        "kb": 28.1,
+        "files": 15,
+        "shaders": {
+          "xshader": 1,
+          "gles": 2
+        },
+        "props": [
+          "enity_material",
+          "enity_propertySheet",
+          "entity",
+          "input",
+          "inputImageTextureEJ",
+          "texture"
+        ],
+        "js": [],
+        "config": {
+          "config.json": {
+            "effect": {
+              "Link": [
+                {
+                  "path": "Wheel/",
+                  "type": "AmazingFeature",
+                  "zorder": 5012
+                }
+              ],
+              "exclusiveScene": []
+            },
+            "name": "2021_04_14_16_32_48_86d025b011earwq8facde48001122",
+            "alphaState": 2,
+            "version": "9.5.0"
+          }
+        },
+        "role": "pack"
+      },
+      {
+        "dir": "Resources/PrimaryWheel/primary_wheel_v0",
+        "pack": "primary_wheel_v0",
+        "kb": 17.3,
+        "files": 15,
+        "shaders": {
+          "xshader": 1,
+          "gles": 2
+        },
+        "props": [
+          "enity_material",
+          "enity_propertySheet",
+          "entity",
+          "input",
+          "inputImageTextureEJ",
+          "texture"
+        ],
+        "js": [],
+        "config": {
+          "config.json": {
+            "effect": {
+              "Link": [
+                {
+                  "path": "Wheel/",
+                  "type": "AmazingFeature",
+                  "zorder": 5011
+                }
+              ],
+              "exclusiveScene": []
+            },
+            "name": "2021_04_14_16_32_48_832425b011ea978facde48001122",
+            "version": "9.5.0"
+          }
+        },
+        "role": "pack"
+      },
+      {
+        "dir": "Resources/PrimaryWheel/primary_wheel_v1",
+        "pack": "primary_wheel_v1",
+        "kb": 17.4,
+        "files": 15,
+        "shaders": {
+          "xshader": 1,
+          "gles": 2
+        },
+        "props": [
+          "enity_material",
+          "enity_propertySheet",
+          "entity",
+          "input",
+          "inputImageTextureEJ",
+          "texture"
+        ],
+        "js": [],
+        "config": {
+          "config.json": {
+            "effect": {
+              "Link": [
+                {
+                  "path": "Wheel/",
+                  "type": "AmazingFeature",
+                  "zorder": 5011
+                }
+              ],
+              "exclusiveScene": []
+            },
+            "name": "2021_04_14_16_32_48_832425b011ea978facde48001122",
+            "alphaState": 2,
+            "version": "9.5.0"
+          }
+        },
+        "role": "pack"
+      },
+      {
+        "dir": "Resources/lut",
+        "pack": "lut",
+        "kb": 1.4,
+        "files": 2,
+        "shaders": {},
+        "props": [],
+        "js": [],
+        "config": {
+          "config.json": {
+            "effect": {
+              "Link": [
+                {
+                  "defaultEnable": true,
+                  "path": "",
+                  "type": "AmazingFilter",
+                  "zorder": 2000
+                }
+              ],
+              "model_names": {
+                "skinseg": [
+                  "tt_skin_seg"
+                ]
+              }
+            },
+            "bALG_BACH_CONFIG": true,
+            "alphaState": 2,
+            "name": "5d90d3c2c16a11ee802d7c10c9c055a5",
+            "version": "10.2.0"
+          }
+        },
+        "role": "single-pack"
+      }
+    ],
+    "贴纸模板": [
+      {
+        "dir": "Resources/template_sticker",
+        "pack": "template_sticker",
+        "kb": 1375.7,
+        "files": 5,
+        "shaders": {},
+        "props": [],
+        "js": [
+          {
+            "file": "js/main.js",
+            "kb": 751.8
+          },
+          {
+            "file": "js/template/template.js",
+            "kb": 622.7
+          }
+        ],
+        "config": {
+          "config.json": {
+            "bALG_BACH_CONFIG": true,
+            "effect": {
+              "Link": [
+                {
+                  "scriptPath": "js/template/template.js",
+                  "type": "ScriptInfoSticker",
+                  "zorder": 8010
+                }
+              ]
+            },
+            "name": "lv_plugin_com.lv.template_gray-filter",
+            "version": "10.1.0",
+            "script_version": "1.0"
+          }
+        },
+        "role": "single-pack"
+      },
+      {
+        "dir": "Resources/image_h5_sticker_publish/static",
+        "pack": "static",
+        "role": "asset-dir",
+        "files": 32,
+        "kb": 1916.9
+      }
+    ],
+    "文字模板": [
+      {
+        "dir": "Resources/aigc_text_template",
+        "pack": "aigc_text_template",
+        "kb": 285.4,
+        "files": 6,
+        "shaders": {},
+        "props": [],
+        "js": [
+          {
+            "file": "js/main.js",
+            "kb": 267.4
+          },
+          {
+            "file": "js/template/template.js",
+            "kb": 14.5
+          }
+        ],
+        "config": {
+          "config.json": {
+            "bALG_BACH_CONFIG": true,
+            "effect": {
+              "Link": [
+                {
+                  "scriptPath": "js/template/template.js",
+                  "type": "ScriptInfoSticker",
+                  "zorder": 8010
+                }
+              ]
+            },
+            "name": "template_filter",
+            "script_version": "1.0.0",
+            "version": "13.1.0"
+          },
+          "content.json": {
+            "children": [
+              {
+                "anims": [],
+                "duration": 3,
+                "layout_params": {
+                  "bottom_toBottomOf": "",
+                  "fix_dimensionRatio": false,
+                  "fix_height": true,
+                  "fix_width": true,
+                  "hCenter_toHCenterOf": "",
+                  "left_toLeftOf": "",
+                  "right_toRightOf": "",
+                  "top_toTopOf": "",
+                  "vCenter_toVCenterOf": ""
+                },
+                "lineFeedKind": 1,
+                "name": "2BB784E5-54DA-44BE-AE32-DC1EE1EDF061",
+                "order_in_layer": 2,
+                "original_size": [
+                  275,
+                  82.8125
+                ],
+                "position": [
+                  0,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "start_time": 0,
+                "text_params": {
+                  "autoAdaptDpiEnabled": false,
+                  "boldValue": 0.008,
+                  "canvas": false,
+                  "canvasColor": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "canvasCustomized": true,
+                  "canvasOffsetCustomized": [
+                    0,
+                    0
+                  ],
+                  "canvasRoundCorner": false,
+                  "canvasRoundRadiusScale": 0,
+                  "canvasSplitPadding": 0.1,
+                  "canvasSplitThreshold": 1000,
+                  "canvasWHCustomized": [
+                    1,
+                    1
+                  ],
+                  "canvasWrapped": false,
+                  "decorationOffset": 0.22,
+                  "decorationWidth": 0.05,
+                  "fallbackFontPathList": [],
+                  "globalAlpha": 1,
+                  "innerPadding": 0.2,
+                  "italicDegree": 10,
+                  "letterSpacing": 0,
+                  "lineMaxWidth": -1,
+                  "lineSpacing": 0.02,
+                  "oneLineCutOff": false,
+                  "richText": "",
+                  "selectedColor": [
+                    0,
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.4000000059604645
+                  ],
+                  "shapeFlipX": false,
+                  "shapeFlipY": false,
+                  "shapePath": "",
+                  "typeSettingAlign": 1,
+                  "typeSettingKind": 0,
+                  "version": "2",
+                  "sdfTextAlpha": 0.5
+                },
+                "type": "text",
+                "visible": true
+              }
+            ],
+            "root": {
+              "duration": 3,
+              "name": "rootWidget",
+              "preview_time": 1.0333333333333332
+            },
+            "type": "ScriptTemplate"
+          }
+        },
+        "role": "single-pack"
+      },
+      {
+        "dir": "Resources/image_h5_text_template_publish/static",
+        "pack": "static",
+        "role": "asset-dir",
+        "files": 32,
+        "kb": 2426.4
+      },
+      {
+        "dir": "Resources/image_h5_smart_text/static",
+        "pack": "static",
+        "role": "asset-dir",
+        "files": 162,
+        "kb": 3217.7
+      },
+      {
+        "dir": "Resources/image_h5_smart_text_old/static",
+        "pack": "static",
+        "role": "asset-dir",
+        "files": 156,
+        "kb": 3167.2
+      }
+    ],
+    "字体": [
+      {
+        "dir": "Resources/Font/Effect",
+        "pack": "Effect",
+        "role": "asset-dir",
+        "files": 1,
+        "kb": 2023.8
+      },
+      {
+        "dir": "Resources/Font/SystemFont",
+        "pack": "SystemFont",
+        "role": "asset-dir",
+        "files": 12,
+        "kb": 21378.0
+      }
+    ],
+    "音频素材": []
+  },
+  "mixmode_index": [
+    {
+      "nameId": "color_filter",
+      "effectId": "871339",
+      "resourceId": "6758325170760323597",
+      "path": "d9c1d4ca7ab91df4f48d12b339f2da88"
+    },
+    {
+      "nameId": "dark_en",
+      "effectId": "871342",
+      "resourceId": "6758324839670354445",
+      "path": "420c92a2b480dc8e402d9269a5f83515"
+    },
+    {
+      "nameId": "bright_en",
+      "effectId": "871341",
+      "resourceId": "6758324919789949453",
+      "path": "b0e90c43dc266a317b05b0cd3ca5bfba"
+    },
+    {
+      "nameId": "over_lay",
+      "effectId": "871340",
+      "resourceId": "6758324989931295240",
+      "path": "e6a48579910dfe831ba53a6acc6737f9"
+    },
+    {
+      "nameId": "glare_pc",
+      "effectId": "871338",
+      "resourceId": "6758325264670790152",
+      "path": "840ca85a1a33e6fc3ea78bbdb2db8f60"
+    },
+    {
+      "nameId": "soft_light",
+      "effectId": "871337",
+      "resourceId": "6758325439212556814",
+      "path": "042aa15b71b1e17bca0bd928eec6fba7"
+    },
+    {
+      "nameId": "linear_deepening",
+      "effectId": "871336",
+      "resourceId": "6758325619253056013",
+      "path": "655f3590dd07ece41209fb312348ffe9"
+    },
+    {
+      "nameId": "darken_color",
+      "effectId": "871335",
+      "resourceId": "6758325724848853518",
+      "path": "b76087cda4833f553cf09e82fb81c463"
+    },
+    {
+      "nameId": "color_dodge",
+      "effectId": "871334",
+      "resourceId": "6758325800031752712",
+      "path": "f979dd10def50fad3ffb77c7f0df3db7"
+    },
+    {
+      "nameId": "multiply_blend_mode",
+      "effectId": "871333",
+      "resourceId": "6758325895519277582",
+      "path": "8001e07eefc5d8b69572b977ca14bef9"
+    }
+  ],
+  "audio_effect_names": [
+    "AECompressor",
+    "AVCLimiterX",
+    "AVChorusProcessor",
+    "AVCompressor",
+    "AVCompressorProcessor",
+    "AVDeepChorusModel",
+    "AVDenoiseModel",
+    "AVDenoiseProcessor",
+    "AVDistortionProcessor",
+    "AVEqualizerParametricX",
+    "AVEqualizerX",
+    "AVFlangerProcessor",
+    "AVIRReverbProcessor",
+    "AVLimiterProcessor",
+    "AVLimiterX",
+    "AVNonRealtimePitchShifterFactor",
+    "AVPhaserProcessor",
+    "AVPitchShifter",
+    "AVRenderDelayBuffer",
+    "AVRenderDelayBufferImpl",
+    "AVRenderDelayController",
+    "AVRenderDelayControllerImpl",
+    "AVReverb1",
+    "AVReverb2",
+    "AVReverbModel",
+    "AVReverbProcessor",
+    "AVReverseReverbProcessor",
+    "AVSamiCoreChorusContext",
+    "AVStreamDenoiseResunetModel",
+    "AVStreamDenoiseResunetModelV2",
+    "AVStudioReverbProcessor",
+    "AVTCNDenoiseModel",
+    "AVTimeDomainPitchShifterProcess",
+    "AVTremoloProcessor",
+    "AVVibratoProcessor",
+    "AVVibratoX",
+    "BufferDelay",
+    "CLimiter",
+    "CLimiterV2",
+    "CLimiterX",
+    "CalcLimiter",
+    "Chorus",
+    "ChorusDetection",
+    "Compressor",
+    "DeepChorusModel",
+    "Delay",
+    "DelayChanges",
+    "Denoise",
+    "DenoiseModel",
+    "DenoiseV2Executor",
+    "DenoiseV2_kDereverb44k",
+    "DenoiseV2_kMusic16k",
+    "DenoiseV2_kMusic44k",
+    "DenoiseV2_kSpeech16k",
+    "DenoiseV2_kSpeech44k",
+    "DenoiseV2_kTCN16k",
+    "DenoiseV2_kTCN44k",
+    "Denoise_V3_DeHowling",
+    "Denoise_V3_DeReverb",
+    "Denoise_V3_Music",
+    "Denoise_V3_Speech",
+    "Distortion",
+    "DynamicDelayAdjustX",
+    "EchoPathDelay",
+    "Equalizer",
+    "EqualizerParametric",
+    "EqualizerParametricX",
+    "EqualizerX",
+    "FilterDelay",
+    "Flanger",
+    "HighPassH",
+    "HighPassM9",
+    "IRReverb",
+    "IRReverbH",
+    "IRReverbH9",
+    "Limiter",
+    "LimiterGain",
+    "LimiterX",
+    "LowPass",
+    "NonRealtimePitchShifterFactory",
+    "Phaser",
+    "PitchShifter",
+    "ReliableDelayEstimates",
+    "Reverb",
+    "Reverb1",
+    "Reverb2",
+    "ReverbModel",
+    "ReverseReverb",
+    "SAMIDenoiseV2",
+    "SamiCoreChorusContext",
+    "SetLimiter",
+    "StreamDenoiseResunetModel",
+    "StreamDenoiseResunetModelV2",
+    "StudioReverb",
+    "TCNDenoiseModel",
+    "TimeDomainPitchShifter",
+    "Tremolo",
+    "VDeepChorusModel",
+    "VDenoiseModel",
+    "VReverbModel",
+    "VStreamDenoiseResunetModel",
+    "VStreamDenoiseResunetModelV2",
+    "VTCNDenoiseModel",
+    "Vibrato",
+    "VibratoX",
+    "audioPitchShifterCreateParamete",
+    "configReverb",
+    "cutDelaySamples_",
+    "getChorusResult",
+    "getIsDelayCutted",
+    "getOutDelayFrames",
+    "inputDelay",
+    "maxPreDelay",
+    "maxRepeatDelay",
+    "minPreDelay",
+    "minRepeatDelay",
+    "preDelay_",
+    "repeatDelay_",
+    "setCutDelaySamples",
+    "setMaxPreDelay",
+    "setMaxRepeatDelay",
+    "setMinPreDelay",
+    "setMinRepeatDelay",
+    "setNeedCutDelays"
+  ]
+}

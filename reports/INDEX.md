@@ -19,12 +19,15 @@
 | `drp_fuse_seq.json` | 0.9 KB |
 | `imp_dv_fusionscript.json` | 180.6 KB |
 | `imp_jy_veditor.json` | 819.3 KB |
-| `INDEX.md` | 1.7 KB |
+| `INDEX.md` | 1.9 KB |
 | `jianying_ai_deep.json` | 148 KB |
 | `jianying_ai_deep.md` | 84 KB |
 | `jianying_ai_matrix.json` | 30.9 KB |
 | `jianying_ai_matrix.md` | 11.4 KB |
 | `jianying_ai_playbook.md` | 12.9 KB |
+| `jianying_fx_packs.json` | 36 KB |
+| `jianying_fx_packs.md` | 9.3 KB |
+| `jianying_fx_playbook.md` | 14 KB |
 | `pe_dv_fairlight.json` | 6.1 KB |
 | `pe_dv_fusiongfx.json` | 3.6 KB |
 | `pe_dv_fusionscript.json` | 6.3 KB |
