@@ -116,6 +116,8 @@ def analyze_draft(path, sample_n=3):
             cursor = start + dur
         main["contiguity_gaps"] = gaps
         main["track_end_us"] = cursor
+        # 假设：剪映草稿 tracks[0] 是主轨（实测样本成立，官方未文档化）
+        main["assumed_main_track"] = True
 
     out["keyframes_top"] = {k: len(v) for k, v in (doc.get("keyframes") or {}).items() if isinstance(v, list)}
     out["config_keys"] = sorted((doc.get("config") or {}).keys())

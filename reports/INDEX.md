@@ -1,12 +1,12 @@
-﻿# 实跑产物索引
+# 实跑产物索引
 
 本目录所有文件都是脚本对真实二进制的输出，删掉可重生成。
 
 | 文件 | 大小 |
 | --- | ---: |
-| `api_jy_clipflow.md` | 0.7 KB |
+| `api_jy_clipflow.md` | 0.6 KB |
 | `api_jy_lvve.md` | 0.1 KB |
-| `api_jy_lyra.md` | 84 KB |
+| `api_jy_lyra.md` | 83.8 KB |
 | `api_resolve.json` | 123.3 KB |
 | `api_resolve.md` | 74.5 KB |
 | `commands_jy.json` | 5.8 KB |
@@ -19,6 +19,7 @@
 | `drp_fuse_seq.json` | 0.9 KB |
 | `imp_dv_fusionscript.json` | 180.6 KB |
 | `imp_jy_veditor.json` | 819.3 KB |
+| `INDEX.md` | 1.5 KB |
 | `pe_dv_fairlight.json` | 6.1 KB |
 | `pe_dv_fusiongfx.json` | 3.6 KB |
 | `pe_dv_fusionscript.json` | 6.3 KB |

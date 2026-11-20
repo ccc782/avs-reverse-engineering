@@ -5,6 +5,7 @@
 配套仓库：`ai-video-studio-research`（架构、工程格式设计、选型、路线图）。
 
 **先读**：[`REVERSE_ENGINEERING.md`](REVERSE_ENGINEERING.md) —— 全部数字来自本仓库脚本对真机二进制的实跑。
+**审阅结论**：[`AUDIT.md`](AUDIT.md) —— 本仓逐文件审计 + 两个仓库的交叉审计。
 
 ---
 
@@ -29,6 +30,7 @@ tools/                      通用二进制工具
   src_tree.py               回收源码树（__FILE__ 残留路径）
   strings_extract.py        分类字符串提取
   find_crypto.py            算法常量 + 库指纹 + 指令特征
+  check_words.py            交付文档用词扫描（递归）
 jianying/
   draft_reader.py           草稿读取（明文解剖 / 密文壳特征）
   command_table.py          原生编辑命令表抽取（含模型安全子集）
@@ -38,7 +40,9 @@ resolve/
   api_client.py             连活实例的脚本客户端
 ae/
   rifx_parse.py             .aep RIFX 走查（带自检）
-reports/                    实跑产物（json + md）
+reports/                    实跑产物（json + md），INDEX.md 列出全部
+
+> 口径提示：`src_tree.py` 抓的是 `__FILE__` 残留路径，跨模块日志里会带进别的模块的 .cpp，回收数量是「提及量」不是「文件数下限」；`rtti_dump.py` 统计的是类型描述符出现次数去重后的类名，模板实例化会重复计数一次。
 ```
 
 ## 环境

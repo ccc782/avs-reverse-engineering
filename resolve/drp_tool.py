@@ -41,18 +41,6 @@ def info(path):
             "sha256": hashlib.sha256(open(path, "rb").read()).hexdigest()}
 
 
-def _parse_xml_safe(raw: bytes):
-    """达芬奇的 XML 里会混进裸控制字节（编码块/版本表），先清洗再解析。"""
-    text = raw.decode("utf-8", "replace")
-    cleaned = "".join(ch for ch in text if ch in "\t\n\r" or ord(ch) >= 0x20)
-    try:
-        return ET.fromstring(cleaned)
-    except ET.ParseError:
-        # 兜底：把解析器塞不下的段落整体剥掉，只保留结构标签
-        cleaned = re.sub(r">[^<>]{0,8000}<", "><", cleaned)
-        return ET.fromstring(cleaned)
-
-
 def _tag_text(block, tag, default=None):
     m = re.search(rf"<{tag}>([^<]*)</{tag}>", block)
     return m.group(1) if m else default

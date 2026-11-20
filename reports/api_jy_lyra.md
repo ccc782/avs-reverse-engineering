@@ -1,14 +1,13 @@
-# 接口面反推：rtti_jy_veditor.json
+# 接口面反推：reports/rtti_jy_veditor.json
 
 - 限定命名空间：`lyra`
-- 反推出的方法总数：**771**
+- 反推出的方法总数：**770**
 - 输入类名：3545
 
 ## `lyra` — 770 个方法（类总数 3420）
 
 | 方法 | 请求结构 | 响应结构 | 其它同族结构 |
 | --- | --- | --- | --- |
-| `` | `ReqStruct` | `RespStruct` | `AIGCEffectStartVETaskMixNodeConvertResp`<br>`AIGCEffectStartVETaskMixNodeParam`<br>`AIGCEffectStartVETaskMixNodeReq`<br>`AIGCEffectStartVETaskMixNodeResp` |
 | `AIGCEffectStartVETaskMixNode` | `AIGCEffectStartVETaskMixNodeReq` | `AIGCEffectStartVETaskMixNodeResp` | `AIGCEffectStartVETaskMixNodeConvertResp`<br>`AIGCEffectStartVETaskMixNodeParam` |
 | `AddAiQueueInfoItem` | `AddAiQueueInfoItemReqStruct` | `AddAiQueueInfoItemRespStruct` | — |
 | `AddAnimation` | `AddAnimationReqStruct` | `AddAnimationRespStruct` | — |

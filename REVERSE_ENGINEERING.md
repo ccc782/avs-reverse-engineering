@@ -71,7 +71,7 @@ videoeditor\lyra\
 
 ### 1.4 接口面反推：lyra 770 个方法（`api_surface.py`）
 
-C++ 里 `<方法>ReqStruct` / `<方法>RespStruct` 成对命名，配对即可还原接口清单。`lyra` 命名空间下 3,420 个类反推出 **770 个方法**，示例（原样取自 RTTI）：
+C++ 里 `<方法>ReqStruct` / `<方法>RespStruct` 成对命名，配对即可还原接口清单。`lyra` 命名空间下 3,545 个类反推出 **770 个方法**，示例（原样取自 RTTI）：
 
 ```
 AddAudio            AddAudioReqStruct            AddAudioRespStruct
@@ -171,7 +171,7 @@ python jianying/draft_reader.py <草稿目录> --json reports/draft_plain.json
 | `SeqContainer/c9dd78a8-….xml` | 24,124 | 13,025 | `68c4faea` |
 | `Gallery.xml` | 8,917 | 1,216 | — |
 
-压缩比 21:1（171KB→11KB），因为 XML 里全是重复标签名，适合 deflate。
+压缩比 15.7:1（171KB→11KB），因为 XML 里全是重复标签名，适合 deflate。
 
 ### 2.3 时间轴解析（`drp_tool.py seq`）
 

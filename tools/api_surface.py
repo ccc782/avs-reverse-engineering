@@ -65,11 +65,11 @@ def main():
                     d["resp"] = base + resp_s
         if not methods:
             continue
-        total_methods += len(methods)
+        total_methods += len([m for m in methods if m])
         md += [f"## `{ns}` — {len(methods)} 个方法（类总数 {len(simple)}）", "",
                "| 方法 | 请求结构 | 响应结构 | 其它同族结构 |",
                "| --- | --- | --- | --- |"]
-        for base in sorted(methods):
+        for base in sorted(m for m in methods if m):
             d = methods[base]
             family = [s for s in simple
                       if s.startswith(base) and s not in (d.get("req"), d.get("resp"))][:4]
