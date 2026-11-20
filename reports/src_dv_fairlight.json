@@ -1,0 +1,29 @@
+{
+ "file": "FairlightPage.dll",
+ "count": 23,
+ "paths": {
+  "C:\\Components_windows-10VS2019\\boost-1.74.0_7\\dev\\windows\\include\\boost/property_tree/json_parser.hpp": 1,
+  "C:\\Components_windows-10VS2019\\boost-1.74.0_7\\dev\\windows\\include\\boost/property_tree/json_parser/detail/parser.hpp": 1,
+  "C:\\Components_windows-10VS2019\\boost-1.74.0_7\\dev\\windows\\include\\boost/rational.hpp": 1,
+  "C:\\jenkins\\workspace\\fairlight\\Fairlight\\Tests\\FairlightBridge\\Core\\BaseLib\\Debug.cpp": 1,
+  "C:\\jenkins\\workspace\\fairlight\\Fairlight\\Tests\\FairlightBridge\\FairlightPage\\CustomWidget\\GraphicsView\\UiGraphicButtonItem.cpp": 1,
+  "C:\\jenkins\\workspace\\fairlight\\Fairlight\\Tests\\FairlightBridge\\FairlightPage\\Mixer\\UiMixerEffectButtonView.cpp": 1,
+  "C:\\jenkins\\workspace\\fairlight\\Fairlight\\Tests\\FairlightBridge\\FairlightPage\\Mixer\\UiMixerTrackItem.cpp": 1,
+  "C:\\jenkins\\workspace\\fairlight\\Fairlight\\Tests\\FairlightBridge\\Main/VLib/SortedTree.h": 1,
+  "C:\\jenkins\\workspace\\fairlight\\Fairlight\\Tests\\FairlightBridge\\Main/VLib/VList.h": 1,
+  "C:\\jenkins\\workspace\\fairlight\\Fairlight\\Tests\\FairlightBridge\\Main\\EDL\\CrossFadeClip.cpp": 1,
+  "C:\\jenkins\\workspace\\fairlight\\Fairlight\\Tests\\FairlightBridge\\Main\\EDL\\DissolveClip.cpp": 1,
+  "C:\\jenkins\\workspace\\fairlight\\Fairlight\\Tests\\FairlightBridge\\Main\\EDL\\EditEngine.cpp": 1,
+  "C:\\jenkins\\workspace\\fairlight\\Fairlight\\Tests\\FairlightBridge\\Main\\EDL\\EditList.cpp": 1,
+  "C:\\jenkins\\workspace\\fairlight\\Fairlight\\Tests\\FairlightBridge\\Main\\EDL\\GroupClips.cpp": 1,
+  "C:\\jenkins\\workspace\\fairlight\\Fairlight\\Tests\\FairlightBridge\\Main\\EDL\\SimpleClip.cpp": 1,
+  "C:\\jenkins\\workspace\\fairlight\\Fairlight\\Tests\\FairlightBridge\\Main\\EDL\\SimplePlaylist.cpp": 1,
+  "C:\\jenkins\\workspace\\fairlight\\Fairlight\\Tests\\FairlightBridge\\Main\\EDL\\SimpleTrack.cpp": 1,
+  "C:\\jenkins\\workspace\\fairlight\\Fairlight\\Tests\\FairlightBridge\\Main\\VLib\\AudioCache.cpp": 1,
+  "C:\\jenkins\\workspace\\fairlight\\Fairlight\\Tests\\FairlightBridge\\Main\\VLib\\SortedTree.h": 1,
+  "C:\\jenkins\\workspace\\fairlight\\Fairlight\\Tests\\FairlightBridge\\Main\\VLib\\SortedTreeSTL.h": 1,
+  "C:\\jenkins\\workspace\\fairlight\\Fairlight\\Tests\\FairlightBridge\\Main\\VLib\\VList.h": 1,
+  "C:\\temp\\MATCHBOX_SUMMARY.json": 1,
+  "C:\\temp\\progress.c": 1
+ }
+}

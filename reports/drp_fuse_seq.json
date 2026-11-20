@@ -1,0 +1,32 @@
+[
+  {
+    "member": "SeqContainer/c9dd78a8-594a-4198-9c9b-2d9138040406.xml",
+    "db_id": "c9dd78a8-594a-4198-9c9b-2d9138040406",
+    "tracks": [
+      {
+        "db_id": "498a1758-604d-4240-9212-610d10d0c3fc",
+        "type": "0",
+        "sub_type": "0",
+        "sequence": "82eb0fb8-f6da-469b-bbb0-614920ec6a7b",
+        "clips": [
+          {
+            "tag": "Sm2TiVideoClip",
+            "db_id": "c34373d8-a05f-42f0-befa-28c2cd41ce1f",
+            "type": "Fusion Title",
+            "name": "Fusion Title",
+            "start": 86400,
+            "duration": 120,
+            "has_composition": true
+          }
+        ]
+      },
+      {
+        "db_id": "c8469e13-5c91-4eb3-bafa-13b62650ea8f",
+        "type": "1",
+        "sub_type": "0",
+        "sequence": "82eb0fb8-f6da-469b-bbb0-614920ec6a7b",
+        "clips": []
+      }
+    ]
+  }
+]

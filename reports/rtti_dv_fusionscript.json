@@ -1,0 +1,422 @@
+[
+  {
+    "name": "Fusion::AssertDisableList",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::CMWCRandom",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::ConnectApp",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::EnvBool",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::EnvFloat",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::EnvInt",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::EnvString",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::EnvVar",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::ExecNode",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FFIConst",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FFIDef",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FFIEnumMap",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FFIFunc",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FFILua",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FFILuaCFunc",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FFILuaFunc",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FFIMemCGet",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FFIMemCSet",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FFIMemGet",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FFIMemSet",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FFINode",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FFITagMap",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FFIType",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FuPath",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FusionScript::DebugBreakPoint",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FusionScript::DebugSourceFile",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FusionScript::DebugWatch",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FusionScript::Event",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FusionScript::EventQueue",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FusionScript::Layout::Container",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FusionScript::Layout::ExtRef",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FusionScript::Layout::Gap",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FusionScript::Layout::Group",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FusionScript::Layout::HGap",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FusionScript::Layout::HGroup",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FusionScript::Layout::LayoutManager",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FusionScript::Layout::LayoutObj",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FusionScript::Layout::ScriptLayoutManager",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FusionScript::Layout::Stack",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FusionScript::Layout::VGap",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FusionScript::Layout::VGroup",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FusionScript::Lock",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FusionScript::LuaDebug",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FusionScript::LuaScriptLanguage",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FusionScript::LuaScriptState",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FusionScript::MinList",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FusionScript::MinNode",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FusionScript::Py3ScriptLanguage",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FusionScript::Py3ScriptState",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FusionScript::QueueNode",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FusionScript::ScriptDebug",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FusionScript::ScriptLanguage",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FusionScript::ScriptMessage",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FusionScript::ScriptState",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FusionScript::SyncMessage",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::FusionScript::Thread",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::HostApp",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::HostObject",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::HostScriptSymbol",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::LuaClass",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::LuaType",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::LuaType_LuaClass",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::LuaType_RemoteObject",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::MailAddress",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::MailAttachment",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::MailMessage",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::Matrix3",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::Matrix4",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::Matrix4f",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::MemBlock",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::MersenneTwister",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::Noise3",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::Object",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::Random",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::RefCount",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::RefObject",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::RemoteApp",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::ReusePoolManager",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::Reuser",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::ScriptArgs",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::ScriptHelp",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::ScriptInfo",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::ScriptObject",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::ScriptServerApp",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::ScriptServerObject",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::ScriptSymbol",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::ScriptVal",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::ScriptValText",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::TableEntry",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::TagList",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::TagListReadOnly",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::ThreadTimingChart",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::TimingChart",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::Vector2",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::Vector3",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::Vector3f",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::Vector4",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::Vector4f",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::ZipFile",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::_LuaType",
+    "hits": 1
+  },
+  {
+    "name": "Fusion::_Object",
+    "hits": 1
+  },
+  {
+    "name": "std::bad_alloc",
+    "hits": 1
+  },
+  {
+    "name": "std::bad_array_new_length",
+    "hits": 1
+  },
+  {
+    "name": "std::exception",
+    "hits": 1
+  },
+  {
+    "name": "type_info",
+    "hits": 1
+  }
+]

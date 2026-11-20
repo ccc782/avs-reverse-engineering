@@ -1,0 +1,178 @@
+{
+  "file": "fusiongraphics.dll",
+  "size": 3640688,
+  "sha256": "12c4d77c6faf3ae3ffd174a92894f3517286582b5ceb87d481b6939a567294d6",
+  "machine": "IMAGE_FILE_MACHINE_AMD64",
+  "characteristics": "0x2822",
+  "dll_characteristics": "0x160",
+  "timestamp_utc": 1793771052,
+  "linker": "14.44",
+  "image_base": "0x180000000",
+  "entry_point": "0x1744",
+  "subsystem_dll": true,
+  "aslr": true,
+  "dep": true,
+  "cfg": false,
+  "high_entropy_va": true,
+  "certificate": true,
+  "sections": [
+    {
+      "name": ".text",
+      "va": "0x1000",
+      "vsize": 3849,
+      "raw_size": 4096,
+      "entropy": 5.979,
+      "exec": true,
+      "write": false
+    },
+    {
+      "name": ".rdata",
+      "va": "0x2000",
+      "vsize": 3622238,
+      "raw_size": 3622400,
+      "entropy": 7.992,
+      "exec": false,
+      "write": false
+    },
+    {
+      "name": ".data",
+      "va": "0x377000",
+      "vsize": 280,
+      "raw_size": 512,
+      "entropy": 0.518,
+      "exec": false,
+      "write": true
+    },
+    {
+      "name": ".pdata",
+      "va": "0x378000",
+      "vsize": 480,
+      "raw_size": 512,
+      "entropy": 3.854,
+      "exec": false,
+      "write": false
+    },
+    {
+      "name": ".rsrc",
+      "va": "0x379000",
+      "vsize": 1000,
+      "raw_size": 1024,
+      "entropy": 3.232,
+      "exec": false,
+      "write": false
+    },
+    {
+      "name": ".reloc",
+      "va": "0x37a000",
+      "vsize": 56,
+      "raw_size": 512,
+      "entropy": 0.694,
+      "exec": false,
+      "write": false
+    }
+  ],
+  "timestamp_iso": "2026-11-04T05:44:12Z",
+  "pdb": [
+    "C:\\jenkins\\workspace\\fusion\\Fusion\\Projects\\vc17\\Lite\\fusiongraphics.pdb"
+  ],
+  "rich_header": [
+    {
+      "prod_id": 21358,
+      "build": 24900,
+      "count": 2117852057
+    },
+    {
+      "prod_id": 0,
+      "build": 0,
+      "count": 2117852057
+    },
+    {
+      "prod_id": 147,
+      "build": 30729,
+      "count": 2117852059
+    },
+    {
+      "prod_id": 257,
+      "build": 35207,
+      "count": 2117852061
+    },
+    {
+      "prod_id": 257,
+      "build": 33145,
+      "count": 2117852059
+    },
+    {
+      "prod_id": 257,
+      "build": 30148,
+      "count": 2117852058
+    },
+    {
+      "prod_id": 1,
+      "build": 0,
+      "count": 2117852092
+    },
+    {
+      "prod_id": 259,
+      "build": 35207,
+      "count": 2117852059
+    },
+    {
+      "prod_id": 260,
+      "build": 35207,
+      "count": 2117852062
+    },
+    {
+      "prod_id": 261,
+      "build": 35207,
+      "count": 2117852050
+    },
+    {
+      "prod_id": 261,
+      "build": 35223,
+      "count": 2117852060
+    },
+    {
+      "prod_id": 255,
+      "build": 35223,
+      "count": 2117852056
+    }
+  ],
+  "version_info": {
+    "CompanyName": "Blackmagic Design.",
+    "FileDescription": "Standard Graphics Images for Fusion",
+    "FileVersion": "21.2",
+    "InternalName": "eyeonGraphics.dll",
+    "ProductName": "Fusion",
+    "LegalCopyright": "Copyright © 1988 - 2026 Blackmagic Design",
+    "OriginalFilename": "eyeonGraphics.dll",
+    "ProductVersion": "21.2",
+    "SpecialBuild": "",
+    "APIVersion": "10",
+    "LoadFlags": "",
+    "Translation": "{b'Translation': '0x0c09 0x04b0'}"
+  },
+  "manifest_head": "",
+  "imports_dll": [
+    {
+      "dll": "Qt5Core.dll",
+      "funcs": 2
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "funcs": 13
+    },
+    {
+      "dll": "VCRUNTIME140.dll",
+      "funcs": 5
+    },
+    {
+      "dll": "VCRUNTIME140_1.dll",
+      "funcs": 1
+    },
+    {
+      "dll": "api-ms-win-crt-runtime-l1-1-0.dll",
+      "funcs": 10
+    }
+  ],
+  "exports_count": 0
+}

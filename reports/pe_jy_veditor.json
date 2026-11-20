@@ -1,0 +1,282 @@
+{
+  "file": "videoeditor.dll",
+  "size": 73839384,
+  "sha256": "737782e01257b875eedba5f67a8c955eb7ab32c5aa96b6f9bf8286903438c923",
+  "machine": "IMAGE_FILE_MACHINE_AMD64",
+  "characteristics": "0x2022",
+  "dll_characteristics": "0x160",
+  "timestamp_utc": 1793189931,
+  "linker": "14.29",
+  "image_base": "0x180000000",
+  "entry_point": "0x2f6a2e4",
+  "subsystem_dll": true,
+  "aslr": true,
+  "dep": true,
+  "cfg": false,
+  "high_entropy_va": true,
+  "certificate": true,
+  "sections": [
+    {
+      "name": ".text",
+      "va": "0x1000",
+      "vsize": 51670203,
+      "raw_size": 51670528,
+      "entropy": 6.42,
+      "exec": true,
+      "write": false
+    },
+    {
+      "name": ".rdata",
+      "va": "0x3148000",
+      "vsize": 16868192,
+      "raw_size": 16868352,
+      "entropy": 5.525,
+      "exec": false,
+      "write": false
+    },
+    {
+      "name": ".data",
+      "va": "0x415f000",
+      "vsize": 3728804,
+      "raw_size": 3676672,
+      "entropy": 5.003,
+      "exec": false,
+      "write": true
+    },
+    {
+      "name": ".pdata",
+      "va": "0x44ee000",
+      "vsize": 1208220,
+      "raw_size": 1208320,
+      "entropy": 6.888,
+      "exec": false,
+      "write": false
+    },
+    {
+      "name": ".rsrc",
+      "va": "0x4615000",
+      "vsize": 436,
+      "raw_size": 512,
+      "entropy": 5.107,
+      "exec": false,
+      "write": false
+    },
+    {
+      "name": ".reloc",
+      "va": "0x4616000",
+      "vsize": 400788,
+      "raw_size": 400896,
+      "entropy": 5.481,
+      "exec": false,
+      "write": false
+    }
+  ],
+  "timestamp_iso": "2026-10-28T12:18:51Z",
+  "pdb": [
+    "D:\\j\\workspace\\lv-window-Release@2\\WorkSpace\\bin\\JYPacket\\11.7.0.14652\\videoeditor.pdb"
+  ],
+  "rich_header": [
+    {
+      "prod_id": 21358,
+      "build": 24900,
+      "count": 2873832986
+    },
+    {
+      "prod_id": 0,
+      "build": 0,
+      "count": 2873832986
+    },
+    {
+      "prod_id": 147,
+      "build": 30729,
+      "count": 2873832972
+    },
+    {
+      "prod_id": 260,
+      "build": 30034,
+      "count": 2873832978
+    },
+    {
+      "prod_id": 259,
+      "build": 30034,
+      "count": 2873832990
+    },
+    {
+      "prod_id": 261,
+      "build": 30034,
+      "count": 2873833022
+    },
+    {
+      "prod_id": 257,
+      "build": 30034,
+      "count": 2873832978
+    },
+    {
+      "prod_id": 253,
+      "build": 28518,
+      "count": 2873832985
+    },
+    {
+      "prod_id": 257,
+      "build": 30795,
+      "count": 2873832976
+    },
+    {
+      "prod_id": 257,
+      "build": 30159,
+      "count": 2873832984
+    },
+    {
+      "prod_id": 257,
+      "build": 30138,
+      "count": 2873832982
+    },
+    {
+      "prod_id": 257,
+      "build": 30154,
+      "count": 2873832985
+    },
+    {
+      "prod_id": 1,
+      "build": 0,
+      "count": 2873832852
+    },
+    {
+      "prod_id": 260,
+      "build": 30148,
+      "count": 2873832964
+    },
+    {
+      "prod_id": 259,
+      "build": 30148,
+      "count": 2873832987
+    },
+    {
+      "prod_id": 261,
+      "build": 30148,
+      "count": 2873835453
+    },
+    {
+      "prod_id": 256,
+      "build": 30148,
+      "count": 2873832987
+    }
+  ],
+  "version_info": {},
+  "manifest_head": "<assembly xmlns=\"urn:schemas-microsoft-com:asm.v1\" manifestVersion=\"1.0\">\r\n  <trustInfo xmlns=\"urn:schemas-microsoft-com:asm.v3\">\r\n    <security>\r\n      <requestedPrivileges>\r\n        <requestedExecutionLevel level=\"asInvoker\" uiAccess=\"false\"></requestedExecutionLevel>\r\n      </requestedPrivileges>\r\n    </security>\r\n  </trustInfo>\r\n</assembly>",
+  "imports_dll": [
+    {
+      "dll": "cccreator.dll",
+      "funcs": 196
+    },
+    {
+      "dll": "avcodec-61.dll",
+      "funcs": 21
+    },
+    {
+      "dll": "avfilter-10.dll",
+      "funcs": 8
+    },
+    {
+      "dll": "avformat-61.dll",
+      "funcs": 18
+    },
+    {
+      "dll": "avutil-59.dll",
+      "funcs": 29
+    },
+    {
+      "dll": "swscale-8.dll",
+      "funcs": 4
+    },
+    {
+      "dll": "swresample-5.dll",
+      "funcs": 6
+    },
+    {
+      "dll": "clipflow_sdk.dll",
+      "funcs": 77
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "funcs": 86
+    },
+    {
+      "dll": "USER32.dll",
+      "funcs": 10
+    },
+    {
+      "dll": "ole32.dll",
+      "funcs": 1
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "funcs": 3
+    },
+    {
+      "dll": "MSVCP140.dll",
+      "funcs": 216
+    },
+    {
+      "dll": "MSVCP140_CODECVT_IDS.dll",
+      "funcs": 2
+    },
+    {
+      "dll": "SHLWAPI.dll",
+      "funcs": 2
+    },
+    {
+      "dll": "VCRUNTIME140.dll",
+      "funcs": 24
+    },
+    {
+      "dll": "VCRUNTIME140_1.dll",
+      "funcs": 1
+    },
+    {
+      "dll": "api-ms-win-crt-runtime-l1-1-0.dll",
+      "funcs": 19
+    },
+    {
+      "dll": "api-ms-win-crt-math-l1-1-0.dll",
+      "funcs": 41
+    },
+    {
+      "dll": "api-ms-win-crt-heap-l1-1-0.dll",
+      "funcs": 7
+    },
+    {
+      "dll": "api-ms-win-crt-convert-l1-1-0.dll",
+      "funcs": 7
+    },
+    {
+      "dll": "api-ms-win-crt-stdio-l1-1-0.dll",
+      "funcs": 38
+    },
+    {
+      "dll": "api-ms-win-crt-string-l1-1-0.dll",
+      "funcs": 22
+    },
+    {
+      "dll": "api-ms-win-crt-locale-l1-1-0.dll",
+      "funcs": 3
+    },
+    {
+      "dll": "api-ms-win-crt-filesystem-l1-1-0.dll",
+      "funcs": 8
+    },
+    {
+      "dll": "api-ms-win-crt-time-l1-1-0.dll",
+      "funcs": 9
+    },
+    {
+      "dll": "api-ms-win-crt-utility-l1-1-0.dll",
+      "funcs": 2
+    },
+    {
+      "dll": "api-ms-win-crt-environment-l1-1-0.dll",
+      "funcs": 1
+    }
+  ],
+  "exports_count": 13767
+}

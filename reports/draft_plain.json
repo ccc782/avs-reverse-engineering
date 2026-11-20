@@ -1,0 +1,412 @@
+{
+  "file": "draft_content.json",
+  "kind": "plaintext-json",
+  "top_keys": [
+    "canvas_config",
+    "color_space",
+    "config",
+    "cover",
+    "create_time",
+    "duration",
+    "extra_info",
+    "fps",
+    "free_render_index_mode_on",
+    "group_container",
+    "id",
+    "keyframe_graph_list",
+    "keyframes",
+    "last_modified_platform",
+    "materials",
+    "mutable_config",
+    "name",
+    "new_version",
+    "platform",
+    "relationships",
+    "render_index_track_mode_on",
+    "retouch_cover",
+    "source",
+    "static_cover_image_path",
+    "time_marks",
+    "tracks",
+    "update_time",
+    "version"
+  ],
+  "version": 360000,
+  "new_version": "110.0.0",
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "ratio": "original"
+  },
+  "fps": 30,
+  "duration_us": 945875000,
+  "platform": {
+    "app_id": 3704,
+    "app_source": "lv",
+    "app_version": "5.9.0",
+    "os": "windows"
+  },
+  "materials": {
+    "classes": 46,
+    "non_empty": {
+      "speeds": 95,
+      "texts": 313,
+      "videos": 95
+    },
+    "empty_classes": [
+      "ai_translates",
+      "audio_balances",
+      "audio_effects",
+      "audio_fades",
+      "audio_track_indexes",
+      "audios",
+      "beats",
+      "canvases",
+      "chromas",
+      "color_curves",
+      "common_mask",
+      "digital_humans",
+      "drafts",
+      "effects",
+      "flowers",
+      "green_screens",
+      "handwrites",
+      "hsl",
+      "images",
+      "log_color_wheels",
+      "loudnesses",
+      "manual_deformations",
+      "masks",
+      "material_animations",
+      "material_colors",
+      "multi_language_refs",
+      "placeholders",
+      "plugin_effects",
+      "primary_color_wheels",
+      "realtime_denoises",
+      "shapes",
+      "smart_crops",
+      "smart_relights",
+      "sound_channel_mappings",
+      "stickers",
+      "tail_leaders",
+      "text_templates",
+      "time_marks",
+      "transitions",
+      "video_effects",
+      "video_trackings",
+      "vocal_beautifys",
+      "vocal_separations"
+    ]
+  },
+  "tracks": [
+    {
+      "id": "afe3df5abab747649ef7a66081fcac83",
+      "type": "video",
+      "attribute": 0,
+      "flag": 0,
+      "segment_count": 95,
+      "segments": [
+        {
+          "id": "e1c41a977c80466ca7f79bb36bdf4882",
+          "material_id": "ae2a828606f048279de99b09662d98c5",
+          "render_index": 0,
+          "speed": 1.0,
+          "volume": 1.0,
+          "visible": true,
+          "track_render_index": 0,
+          "extra_material_refs": [
+            "6e25beb1aa084b8f9fd16b9693d98469"
+          ],
+          "target_timerange": {
+            "start": 0,
+            "duration": 6150000
+          },
+          "source_timerange": {
+            "start": 1565260000,
+            "duration": 6150000
+          },
+          "clip": {
+            "alpha": 1.0,
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "transform": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "flip": {
+              "horizontal": false,
+              "vertical": false
+            }
+          },
+          "_keyframe_count": 0
+        },
+        {
+          "id": "92f2a6793a7341eb9be1236d3959bbd2",
+          "material_id": "695b619fb6b44b05a80233a6e4335314",
+          "render_index": 0,
+          "speed": 1.0,
+          "volume": 1.0,
+          "visible": true,
+          "track_render_index": 0,
+          "extra_material_refs": [
+            "a75b6ea2e305417c98e3d8143f67ecc5"
+          ],
+          "target_timerange": {
+            "start": 6150000,
+            "duration": 42140000
+          },
+          "source_timerange": {
+            "start": 370000,
+            "duration": 42140000
+          },
+          "clip": {
+            "alpha": 1.0,
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "transform": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "flip": {
+              "horizontal": false,
+              "vertical": false
+            }
+          },
+          "_keyframe_count": 0
+        },
+        {
+          "id": "480506a768b24d74b7a20115dc9e280a",
+          "material_id": "6e35084f9fb04e22bcfcf77606be20ef",
+          "render_index": 0,
+          "speed": 1.0,
+          "volume": 1.0,
+          "visible": true,
+          "track_render_index": 0,
+          "extra_material_refs": [
+            "5c6987c3e72f4f6b9fe98741dc2a2ba5"
+          ],
+          "target_timerange": {
+            "start": 48290000,
+            "duration": 35300000
+          },
+          "source_timerange": {
+            "start": 42510000,
+            "duration": 35300000
+          },
+          "clip": {
+            "alpha": 1.0,
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "transform": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "flip": {
+              "horizontal": false,
+              "vertical": false
+            }
+          },
+          "_keyframe_count": 0
+        }
+      ],
+      "contiguity_gaps": 0,
+      "track_end_us": 945875000
+    },
+    {
+      "id": "49d07c0f53ef4c57bab42fa89a265095",
+      "type": "text",
+      "attribute": 0,
+      "flag": 0,
+      "segment_count": 312,
+      "segments": [
+        {
+          "id": "c6818929dc6f4e2792328122d27e039c",
+          "material_id": "82a0746a2dd34003bc666ac7cefa13e5",
+          "render_index": 1,
+          "speed": 1.0,
+          "volume": 1.0,
+          "visible": true,
+          "track_render_index": 0,
+          "extra_material_refs": [
+            "cc1ce2ad002c41efa0edf2def2863792"
+          ],
+          "target_timerange": {
+            "start": 0,
+            "duration": 3510000
+          },
+          "clip": {
+            "alpha": 1.0,
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "transform": {
+              "x": 0.0,
+              "y": -0.76
+            },
+            "flip": {
+              "horizontal": false,
+              "vertical": false
+            }
+          },
+          "_keyframe_count": 0
+        },
+        {
+          "id": "f716cb3fe8624f2e9d8ae76d258872a5",
+          "material_id": "e8baf44b170d4972bdd96809ce5cf7e3",
+          "render_index": 1,
+          "speed": 1.0,
+          "volume": 1.0,
+          "visible": true,
+          "track_render_index": 0,
+          "extra_material_refs": [
+            "6123e9dd940845e8967c14a94fa3db20"
+          ],
+          "target_timerange": {
+            "start": 3520000,
+            "duration": 2630000
+          },
+          "clip": {
+            "alpha": 1.0,
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "transform": {
+              "x": 0.0,
+              "y": -0.76
+            },
+            "flip": {
+              "horizontal": false,
+              "vertical": false
+            }
+          },
+          "_keyframe_count": 0
+        },
+        {
+          "id": "9d1d67ade0c344caad0fd3179d806e5f",
+          "material_id": "18995e719ee24a63ba02602b69aa010d",
+          "render_index": 1,
+          "speed": 1.0,
+          "volume": 1.0,
+          "visible": true,
+          "track_render_index": 0,
+          "extra_material_refs": [
+            "8169fa328dbf4ce7bcf86f9eb8c7f35c"
+          ],
+          "target_timerange": {
+            "start": 6160000,
+            "duration": 6000000
+          },
+          "clip": {
+            "alpha": 1.0,
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "transform": {
+              "x": 0.0,
+              "y": -0.76
+            },
+            "flip": {
+              "horizontal": false,
+              "vertical": false
+            }
+          },
+          "_keyframe_count": 0
+        }
+      ]
+    },
+    {
+      "id": "3e414fa1e488492e93d3adfe4f650b38",
+      "type": "text",
+      "attribute": 0,
+      "flag": 0,
+      "segment_count": 1,
+      "segments": [
+        {
+          "id": "b9fe144a169d4f8c9580410ad5aff307",
+          "material_id": "c9ea4e4d25e44a77836bb2fb181400a9",
+          "render_index": 2,
+          "speed": 1.0,
+          "volume": 1.0,
+          "visible": true,
+          "track_render_index": 0,
+          "extra_material_refs": [
+            "ef2f69e42f72445581e2f69a863a785f"
+          ],
+          "target_timerange": {
+            "start": 942875000,
+            "duration": 3000000
+          },
+          "clip": {
+            "alpha": 1.0,
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "transform": {
+              "x": 0.0,
+              "y": 0.86
+            },
+            "flip": {
+              "horizontal": false,
+              "vertical": false
+            }
+          },
+          "_keyframe_count": 0
+        }
+      ]
+    }
+  ],
+  "keyframes_top": {
+    "adjusts": 0,
+    "audios": 0,
+    "effects": 0,
+    "filters": 0,
+    "handwrites": 0,
+    "stickers": 0,
+    "texts": 0,
+    "videos": 0
+  },
+  "config_keys": [
+    "adjust_max_index",
+    "attachment_info",
+    "combination_max_index",
+    "export_range",
+    "extract_audio_last_index",
+    "lyrics_recognition_id",
+    "lyrics_sync",
+    "lyrics_taskinfo",
+    "maintrack_adsorb",
+    "material_save_mode",
+    "multi_language_current",
+    "multi_language_list",
+    "multi_language_main",
+    "multi_language_mode",
+    "original_sound_last_index",
+    "record_audio_last_index",
+    "sticker_max_index",
+    "subtitle_keywords_config",
+    "subtitle_recognition_id",
+    "subtitle_sync",
+    "subtitle_taskinfo",
+    "system_font_list",
+    "video_mute",
+    "zoom_info_params"
+  ]
+}

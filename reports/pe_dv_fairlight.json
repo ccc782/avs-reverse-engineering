@@ -1,0 +1,298 @@
+{
+  "file": "FairlightPage.dll",
+  "size": 33310168,
+  "sha256": "d36cff8999b619530b15caf9c978ecdaff22fa574f4f7023ae3dbb18f4cb115d",
+  "machine": "IMAGE_FILE_MACHINE_AMD64",
+  "characteristics": "0x2022",
+  "dll_characteristics": "0x160",
+  "timestamp_utc": 1793671994,
+  "linker": "14.44",
+  "image_base": "0x180000000",
+  "entry_point": "0x1131c18",
+  "subsystem_dll": true,
+  "aslr": true,
+  "dep": true,
+  "cfg": false,
+  "high_entropy_va": true,
+  "certificate": true,
+  "sections": [
+    {
+      "name": ".text",
+      "va": "0x1000",
+      "vsize": 19348851,
+      "raw_size": 19348992,
+      "entropy": 6.364,
+      "exec": true,
+      "write": false
+    },
+    {
+      "name": ".rdata",
+      "va": "0x1275000",
+      "vsize": 11866406,
+      "raw_size": 11866624,
+      "entropy": 7.794,
+      "exec": false,
+      "write": false
+    },
+    {
+      "name": ".data",
+      "va": "0x1dc7000",
+      "vsize": 31773768,
+      "raw_size": 968704,
+      "entropy": 3.016,
+      "exec": false,
+      "write": true
+    },
+    {
+      "name": ".pdata",
+      "va": "0x3c15000",
+      "vsize": 815376,
+      "raw_size": 815616,
+      "entropy": 6.87,
+      "exec": false,
+      "write": false
+    },
+    {
+      "name": "_RDATA",
+      "va": "0x3cdd000",
+      "vsize": 8712,
+      "raw_size": 9216,
+      "entropy": 6.042,
+      "exec": false,
+      "write": false
+    },
+    {
+      "name": ".rsrc",
+      "va": "0x3ce0000",
+      "vsize": 1432,
+      "raw_size": 1536,
+      "entropy": 3.947,
+      "exec": false,
+      "write": false
+    },
+    {
+      "name": ".reloc",
+      "va": "0x3ce1000",
+      "vsize": 287244,
+      "raw_size": 287744,
+      "entropy": 5.462,
+      "exec": false,
+      "write": false
+    }
+  ],
+  "timestamp_iso": "2026-11-03T02:13:14Z",
+  "pdb": [
+    "C:\\jenkins\\workspace\\fairlight\\Fairlight\\Tests\\FairlightBridge\\build\\x64\\release\\release\\FairlightPage.pdb"
+  ],
+  "rich_header": [
+    {
+      "prod_id": 21358,
+      "build": 24900,
+      "count": 610992347
+    },
+    {
+      "prod_id": 0,
+      "build": 0,
+      "count": 610992347
+    },
+    {
+      "prod_id": 147,
+      "build": 30729,
+      "count": 610992335
+    },
+    {
+      "prod_id": 253,
+      "build": 35207,
+      "count": 610992351
+    },
+    {
+      "prod_id": 259,
+      "build": 35207,
+      "count": 610992338
+    },
+    {
+      "prod_id": 260,
+      "build": 35207,
+      "count": 610992339
+    },
+    {
+      "prod_id": 261,
+      "build": 35207,
+      "count": 610992380
+    },
+    {
+      "prod_id": 257,
+      "build": 35207,
+      "count": 610992349
+    },
+    {
+      "prod_id": 260,
+      "build": 33145,
+      "count": 610992346
+    },
+    {
+      "prod_id": 262,
+      "build": 33145,
+      "count": 610992346
+    },
+    {
+      "prod_id": 260,
+      "build": 30148,
+      "count": 610992345
+    },
+    {
+      "prod_id": 261,
+      "build": 30148,
+      "count": 610992322
+    },
+    {
+      "prod_id": 257,
+      "build": 30148,
+      "count": 610992337
+    },
+    {
+      "prod_id": 257,
+      "build": 30040,
+      "count": 610992345
+    },
+    {
+      "prod_id": 260,
+      "build": 35223,
+      "count": 610992354
+    },
+    {
+      "prod_id": 257,
+      "build": 33145,
+      "count": 610992332
+    },
+    {
+      "prod_id": 1,
+      "build": 0,
+      "count": 610996399
+    },
+    {
+      "prod_id": 261,
+      "build": 35223,
+      "count": 610993270
+    },
+    {
+      "prod_id": 256,
+      "build": 35223,
+      "count": 610992346
+    },
+    {
+      "prod_id": 255,
+      "build": 35223,
+      "count": 610992346
+    },
+    {
+      "prod_id": 151,
+      "build": 0,
+      "count": 610992346
+    }
+  ],
+  "version_info": {
+    "Comments": "",
+    "CompanyName": "Blackmagic Design Pty. Ltd.",
+    "FileDescription": "DaVinci Resolve component",
+    "FileVersion": "21.2.0.3",
+    "InternalName": "DaVinci Resolve component",
+    "LegalCopyright": "Copyright Blackmagic Design Pty. Ltd. 2026, All rights reserved.",
+    "OriginalFilename": "",
+    "ProductName": "DaVinci Resolve",
+    "ProductVersion": "21.2.0.3",
+    "Translation": "{b'Translation': '0x0409 0x04b0'}"
+  },
+  "manifest_head": "<?xml version='1.0' encoding='UTF-8' standalone='yes'?>\r\n<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>\r\n  <trustInfo xmlns=\"urn:schemas-microsoft-com:asm.v3\">\r\n    <security>\r\n      <requestedPrivileges>\r\n        <requestedExecutionLevel level='asInvoker' uiAccess='false' />\r\n      </requestedPrivileges>\r\n    </security>\r\n  </trustInfo>\r\n</assembly>\r\n",
+  "imports_dll": [
+    {
+      "dll": "WINMM.dll",
+      "funcs": 22
+    },
+    {
+      "dll": "soxr.dll",
+      "funcs": 11
+    },
+    {
+      "dll": "BMDDavUI.dll",
+      "funcs": 695
+    },
+    {
+      "dll": "WS2_32.dll",
+      "funcs": 25
+    },
+    {
+      "dll": "Qt5Widgets.dll",
+      "funcs": 1512
+    },
+    {
+      "dll": "Qt5Multimedia.dll",
+      "funcs": 28
+    },
+    {
+      "dll": "Qt5Gui.dll",
+      "funcs": 482
+    },
+    {
+      "dll": "Qt5Core.dll",
+      "funcs": 802
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "funcs": 158
+    },
+    {
+      "dll": "USER32.dll",
+      "funcs": 24
+    },
+    {
+      "dll": "SHELL32.dll",
+      "funcs": 4
+    },
+    {
+      "dll": "ole32.dll",
+      "funcs": 8
+    },
+    {
+      "dll": "OLEAUT32.dll",
+      "funcs": 10
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "funcs": 5
+    },
+    {
+      "dll": "MSVCP140.dll",
+      "funcs": 223
+    },
+    {
+      "dll": "MPR.dll",
+      "funcs": 1
+    },
+    {
+      "dll": "IPHLPAPI.DLL",
+      "funcs": 1
+    },
+    {
+      "dll": "VCRUNTIME140.dll",
+      "funcs": 23
+    },
+    {
+      "dll": "VCRUNTIME140_1.dll",
+      "funcs": 1
+    },
+    {
+      "dll": "api-ms-win-crt-runtime-l1-1-0.dll",
+      "funcs": 20
+    },
+    {
+      "dll": "api-ms-win-crt-heap-l1-1-0.dll",
+      "funcs": 7
+    },
+    {
+      "dll": "api-ms-win-crt-string-l1-1-0.dll",
+      "funcs": 27
+    }
+  ],
+  "exports_count": 125
+}

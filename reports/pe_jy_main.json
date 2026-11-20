@@ -1,0 +1,179 @@
+{
+  "file": "JianyingPro.exe",
+  "size": 438552,
+  "sha256": "cdab9efbaf163b02fde35a005354f51d48feaf5fcd69fab1a165d09c3b74f196",
+  "machine": "IMAGE_FILE_MACHINE_AMD64",
+  "characteristics": "0x22",
+  "dll_characteristics": "0xc160",
+  "timestamp_utc": 1793192014,
+  "linker": "14.29",
+  "image_base": "0x140000000",
+  "entry_point": "0x4e70",
+  "subsystem_dll": false,
+  "aslr": true,
+  "dep": true,
+  "cfg": true,
+  "high_entropy_va": true,
+  "certificate": true,
+  "sections": [
+    {
+      "name": ".text",
+      "va": "0x1000",
+      "vsize": 23180,
+      "raw_size": 23552,
+      "entropy": 5.974,
+      "exec": true,
+      "write": false
+    },
+    {
+      "name": ".rdata",
+      "va": "0x7000",
+      "vsize": 17058,
+      "raw_size": 17408,
+      "entropy": 4.878,
+      "exec": false,
+      "write": false
+    },
+    {
+      "name": ".data",
+      "va": "0xc000",
+      "vsize": 2856,
+      "raw_size": 1024,
+      "entropy": 1.485,
+      "exec": false,
+      "write": true
+    },
+    {
+      "name": ".pdata",
+      "va": "0xd000",
+      "vsize": 1500,
+      "raw_size": 1536,
+      "entropy": 4.19,
+      "exec": false,
+      "write": false
+    },
+    {
+      "name": ".rsrc",
+      "va": "0xe000",
+      "vsize": 379716,
+      "raw_size": 379904,
+      "entropy": 1.74,
+      "exec": false,
+      "write": false
+    },
+    {
+      "name": ".reloc",
+      "va": "0x6b000",
+      "vsize": 180,
+      "raw_size": 512,
+      "entropy": 2.276,
+      "exec": false,
+      "write": false
+    },
+    {
+      "name": "gpS",
+      "va": "0x6c000",
+      "vsize": 4096,
+      "raw_size": 512,
+      "entropy": 1.591,
+      "exec": true,
+      "write": false
+    }
+  ],
+  "timestamp_iso": "2026-10-28T12:53:34Z",
+  "pdb": [
+    "D:\\j\\workspace\\lv-window-Release@2\\WorkSpace\\bin\\JYPacket\\11.7.0.14652\\JianyingPro.pdb"
+  ],
+  "rich_header": [
+    {
+      "prod_id": 21358,
+      "build": 24900,
+      "count": 3400957904
+    },
+    {
+      "prod_id": 0,
+      "build": 0,
+      "count": 3400957904
+    },
+    {
+      "prod_id": 147,
+      "build": 30729,
+      "count": 3400957916
+    },
+    {
+      "prod_id": 261,
+      "build": 30034,
+      "count": 3400957903
+    },
+    {
+      "prod_id": 260,
+      "build": 30034,
+      "count": 3400957914
+    },
+    {
+      "prod_id": 259,
+      "build": 30034,
+      "count": 3400957907
+    },
+    {
+      "prod_id": 257,
+      "build": 30034,
+      "count": 3400957910
+    },
+    {
+      "prod_id": 257,
+      "build": 30795,
+      "count": 3400957906
+    },
+    {
+      "prod_id": 257,
+      "build": 30148,
+      "count": 3400957908
+    },
+    {
+      "prod_id": 257,
+      "build": 30151,
+      "count": 3400957909
+    },
+    {
+      "prod_id": 1,
+      "build": 0,
+      "count": 3400957712
+    },
+    {
+      "prod_id": 261,
+      "build": 30148,
+      "count": 3400957888
+    },
+    {
+      "prod_id": 256,
+      "build": 30148,
+      "count": 3400957905
+    },
+    {
+      "prod_id": 255,
+      "build": 30148,
+      "count": 3400957905
+    }
+  ],
+  "version_info": {
+    "CompanyName": "ByteDance",
+    "FileVersion": "11.7.0.14652",
+    "InternalName": "XCode",
+    "LegalCopyright": "Copyright (C) 2026 ByteDance",
+    "LegalTrademarks1": "All rights reserved",
+    "LegalTrademarks2": "All rights reserved",
+    "OriginalFilename": "JianyingPro.exe",
+    "ProductName": "JianyingPro",
+    "ProductVersion": "11.7.0.c55059b72a0",
+    "Translation": "{b'Translation': '0x0409 0x04e4'}"
+  },
+  "manifest_head": "<assembly xmlns=\"urn:schemas-microsoft-com:asm.v1\" manifestVersion=\"1.0\"><dependency><dependentAssembly><assemblyIdentity type=\"Win32\" name=\"Microsoft.Windows.Common-Controls\" version=\"6.0.0.0\" processorArchitecture=\"*\" publicKeyToken=\"6595b64144ccf1df\" language=\"*\"></assemblyIdentity></dependentAssembly></dependency><trustInfo xmlns=\"urn:schemas-microsoft-com:asm.v3\"><security><requestedPrivileges><requestedExecutionLevel level=\"asInvoker\" uiAccess=\"false\"></requestedExecutionLevel></requestedPrivileges></security></trustInfo><compatibility xmlns=\"urn:schemas-microsoft-com:compatibility.v1\"><",
+  "imports_dll": [
+    {
+      "dll": "gpShell.dll",
+      "funcs": 1
+    }
+  ],
+  "exports_count": 2
+}

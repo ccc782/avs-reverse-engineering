@@ -1,0 +1,12 @@
+{
+  "file": "draft_info.json",
+  "kind": "base64-envelope",
+  "envelope": {
+    "size": 341036,
+    "entropy": 5.999,
+    "first_16_hex": "336336336458766267484a7a3553716f",
+    "printable_ratio": 1.0,
+    "looks_like_base64": true
+  },
+  "note": "密文/封装态：不解密，仅记录壳特征。剪映 6.0+ 由云端配置决定是否上锁。"
+}

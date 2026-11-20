@@ -1,0 +1,328 @@
+{
+  "file": "fusionscript.dll",
+  "size": 3719536,
+  "sha256": "34b7067b3b2400390df5a14c70d48015368975f474aa3817772bbd625fabeb26",
+  "machine": "IMAGE_FILE_MACHINE_AMD64",
+  "characteristics": "0x2822",
+  "dll_characteristics": "0x160",
+  "timestamp_utc": 1793770789,
+  "linker": "14.44",
+  "image_base": "0x180000000",
+  "entry_point": "0xd6684",
+  "subsystem_dll": true,
+  "aslr": true,
+  "dep": true,
+  "cfg": false,
+  "high_entropy_va": true,
+  "certificate": true,
+  "sections": [
+    {
+      "name": ".text",
+      "va": "0x1000",
+      "vsize": 956889,
+      "raw_size": 956928,
+      "entropy": 6.437,
+      "exec": true,
+      "write": false
+    },
+    {
+      "name": ".rdata",
+      "va": "0xeb000",
+      "vsize": 2115052,
+      "raw_size": 2115072,
+      "entropy": 5.854,
+      "exec": false,
+      "write": false
+    },
+    {
+      "name": ".data",
+      "va": "0x2f0000",
+      "vsize": 717248,
+      "raw_size": 505856,
+      "entropy": 3.755,
+      "exec": false,
+      "write": true
+    },
+    {
+      "name": ".pdata",
+      "va": "0x3a0000",
+      "vsize": 59652,
+      "raw_size": 59904,
+      "entropy": 5.953,
+      "exec": false,
+      "write": false
+    },
+    {
+      "name": "_RDATA",
+      "va": "0x3af000",
+      "vsize": 48,
+      "raw_size": 512,
+      "entropy": 0.184,
+      "exec": false,
+      "write": false
+    },
+    {
+      "name": ".rsrc",
+      "va": "0x3b0000",
+      "vsize": 3752,
+      "raw_size": 4096,
+      "entropy": 3.234,
+      "exec": false,
+      "write": false
+    },
+    {
+      "name": ".reloc",
+      "va": "0x3b1000",
+      "vsize": 65504,
+      "raw_size": 65536,
+      "entropy": 5.131,
+      "exec": false,
+      "write": false
+    }
+  ],
+  "timestamp_iso": "2026-11-04T05:39:49Z",
+  "pdb": [
+    "C:\\jenkins\\workspace\\fusion\\Fusion\\Projects\\vc17\\Lite\\fusionscript.pdb"
+  ],
+  "rich_header": [
+    {
+      "prod_id": 21358,
+      "build": 24900,
+      "count": 3500109847
+    },
+    {
+      "prod_id": 0,
+      "build": 0,
+      "count": 3500109847
+    },
+    {
+      "prod_id": 253,
+      "build": 35207,
+      "count": 3500109855
+    },
+    {
+      "prod_id": 262,
+      "build": 33145,
+      "count": 3500109846
+    },
+    {
+      "prod_id": 257,
+      "build": 30148,
+      "count": 3500109843
+    },
+    {
+      "prod_id": 147,
+      "build": 30729,
+      "count": 3500109837
+    },
+    {
+      "prod_id": 257,
+      "build": 33145,
+      "count": 3500109879
+    },
+    {
+      "prod_id": 260,
+      "build": 30148,
+      "count": 3500109852
+    },
+    {
+      "prod_id": 257,
+      "build": 35207,
+      "count": 3500109840
+    },
+    {
+      "prod_id": 1,
+      "build": 0,
+      "count": 3500110431
+    },
+    {
+      "prod_id": 259,
+      "build": 35207,
+      "count": 3500109840
+    },
+    {
+      "prod_id": 260,
+      "build": 35207,
+      "count": 3500109855
+    },
+    {
+      "prod_id": 261,
+      "build": 35207,
+      "count": 3500109833
+    },
+    {
+      "prod_id": 260,
+      "build": 35223,
+      "count": 3500109842
+    },
+    {
+      "prod_id": 261,
+      "build": 35223,
+      "count": 3500109911
+    },
+    {
+      "prod_id": 256,
+      "build": 35223,
+      "count": 3500109846
+    },
+    {
+      "prod_id": 255,
+      "build": 35223,
+      "count": 3500109846
+    }
+  ],
+  "version_info": {
+    "CompanyName": "Blackmagic Design Pty. Ltd.",
+    "FileDescription": "FusionScript support for Fusion",
+    "FileVersion": "21.2",
+    "InternalName": "FusionScript.dll",
+    "LegalCopyright": "Copyright © 1988 - 2026 Blackmagic Design",
+    "OriginalFilename": "FusionScript.dll",
+    "ProductName": "Fusion",
+    "ProductVersion": "21.2",
+    "SpecialBuild": "",
+    "APIVersion": "10",
+    "LoadFlags": "force",
+    "Translation": "{b'Translation': '0x0c09 0x04b0'}"
+  },
+  "manifest_head": "",
+  "imports_dll": [
+    {
+      "dll": "MSVCP140.dll",
+      "funcs": 1
+    },
+    {
+      "dll": "WS2_32.dll",
+      "funcs": 26
+    },
+    {
+      "dll": "VERSION.dll",
+      "funcs": 6
+    },
+    {
+      "dll": "imagehlp.dll",
+      "funcs": 12
+    },
+    {
+      "dll": "api-ms-win-core-path-l1-1-0.dll",
+      "funcs": 1
+    },
+    {
+      "dll": "tbbmalloc.dll",
+      "funcs": 10
+    },
+    {
+      "dll": "lua5.1.dll",
+      "funcs": 81
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "funcs": 137
+    },
+    {
+      "dll": "USER32.dll",
+      "funcs": 45
+    },
+    {
+      "dll": "SHELL32.dll",
+      "funcs": 15
+    },
+    {
+      "dll": "ole32.dll",
+      "funcs": 3
+    },
+    {
+      "dll": "COMDLG32.dll",
+      "funcs": 1
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "funcs": 21
+    },
+    {
+      "dll": "SHLWAPI.dll",
+      "funcs": 4
+    },
+    {
+      "dll": "MPR.dll",
+      "funcs": 4
+    },
+    {
+      "dll": "WTSAPI32.dll",
+      "funcs": 1
+    },
+    {
+      "dll": "USERENV.dll",
+      "funcs": 2
+    },
+    {
+      "dll": "WINMM.dll",
+      "funcs": 2
+    },
+    {
+      "dll": "SETUPAPI.dll",
+      "funcs": 5
+    },
+    {
+      "dll": "RPCRT4.dll",
+      "funcs": 3
+    },
+    {
+      "dll": "VCRUNTIME140.dll",
+      "funcs": 23
+    },
+    {
+      "dll": "VCRUNTIME140_1.dll",
+      "funcs": 1
+    },
+    {
+      "dll": "api-ms-win-crt-stdio-l1-1-0.dll",
+      "funcs": 40
+    },
+    {
+      "dll": "api-ms-win-crt-heap-l1-1-0.dll",
+      "funcs": 4
+    },
+    {
+      "dll": "api-ms-win-crt-string-l1-1-0.dll",
+      "funcs": 45
+    },
+    {
+      "dll": "api-ms-win-crt-utility-l1-1-0.dll",
+      "funcs": 3
+    },
+    {
+      "dll": "api-ms-win-crt-time-l1-1-0.dll",
+      "funcs": 9
+    },
+    {
+      "dll": "api-ms-win-crt-runtime-l1-1-0.dll",
+      "funcs": 17
+    },
+    {
+      "dll": "api-ms-win-crt-convert-l1-1-0.dll",
+      "funcs": 8
+    },
+    {
+      "dll": "api-ms-win-crt-environment-l1-1-0.dll",
+      "funcs": 4
+    },
+    {
+      "dll": "api-ms-win-crt-math-l1-1-0.dll",
+      "funcs": 28
+    },
+    {
+      "dll": "api-ms-win-crt-locale-l1-1-0.dll",
+      "funcs": 3
+    },
+    {
+      "dll": "api-ms-win-crt-filesystem-l1-1-0.dll",
+      "funcs": 5
+    },
+    {
+      "dll": "api-ms-win-crt-multibyte-l1-1-0.dll",
+      "funcs": 2
+    }
+  ],
+  "exports_count": 3066
+}

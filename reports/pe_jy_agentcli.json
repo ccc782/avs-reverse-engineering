@@ -1,0 +1,176 @@
+{
+  "file": "jianying-agent-cli.exe",
+  "size": 120856,
+  "sha256": "47d7762c88c5322991a76bc1a2bc5ae3e3b2016d06e2eb21de441d7842b68365",
+  "machine": "IMAGE_FILE_MACHINE_AMD64",
+  "characteristics": "0x22",
+  "dll_characteristics": "0x8160",
+  "timestamp_utc": 1793189965,
+  "linker": "14.29",
+  "image_base": "0x140000000",
+  "entry_point": "0xf288",
+  "subsystem_dll": false,
+  "aslr": true,
+  "dep": true,
+  "cfg": false,
+  "high_entropy_va": true,
+  "certificate": true,
+  "sections": [
+    {
+      "name": ".text",
+      "va": "0x1000",
+      "vsize": 70588,
+      "raw_size": 70656,
+      "entropy": 5.895,
+      "exec": true,
+      "write": false
+    },
+    {
+      "name": ".rdata",
+      "va": "0x13000",
+      "vsize": 32142,
+      "raw_size": 32256,
+      "entropy": 5.816,
+      "exec": false,
+      "write": false
+    },
+    {
+      "name": ".data",
+      "va": "0x1b000",
+      "vsize": 1920,
+      "raw_size": 512,
+      "entropy": 0.525,
+      "exec": false,
+      "write": true
+    },
+    {
+      "name": ".pdata",
+      "va": "0x1c000",
+      "vsize": 2412,
+      "raw_size": 2560,
+      "entropy": 4.59,
+      "exec": false,
+      "write": false
+    },
+    {
+      "name": ".rsrc",
+      "va": "0x1d000",
+      "vsize": 436,
+      "raw_size": 512,
+      "entropy": 5.105,
+      "exec": false,
+      "write": false
+    },
+    {
+      "name": ".reloc",
+      "va": "0x1e000",
+      "vsize": 96,
+      "raw_size": 512,
+      "entropy": 1.309,
+      "exec": false,
+      "write": false
+    }
+  ],
+  "timestamp_iso": "2026-10-28T12:19:25Z",
+  "pdb": [
+    "D:\\j\\workspace\\lv-window-Release@2\\WorkSpace\\bin\\JYPacket\\11.7.0.14652\\jianying-agent-cli.pdb"
+  ],
+  "rich_header": [
+    {
+      "prod_id": 21358,
+      "build": 24900,
+      "count": 3938571069
+    },
+    {
+      "prod_id": 0,
+      "build": 0,
+      "count": 3938571069
+    },
+    {
+      "prod_id": 147,
+      "build": 30729,
+      "count": 3938571063
+    },
+    {
+      "prod_id": 261,
+      "build": 30034,
+      "count": 3938571044
+    },
+    {
+      "prod_id": 260,
+      "build": 30034,
+      "count": 3938571063
+    },
+    {
+      "prod_id": 259,
+      "build": 30034,
+      "count": 3938571070
+    },
+    {
+      "prod_id": 257,
+      "build": 30034,
+      "count": 3938571067
+    },
+    {
+      "prod_id": 257,
+      "build": 30795,
+      "count": 3938571071
+    },
+    {
+      "prod_id": 257,
+      "build": 30151,
+      "count": 3938571070
+    },
+    {
+      "prod_id": 1,
+      "build": 0,
+      "count": 3938571241
+    },
+    {
+      "prod_id": 261,
+      "build": 30148,
+      "count": 3938571070
+    }
+  ],
+  "version_info": {},
+  "manifest_head": "<assembly xmlns=\"urn:schemas-microsoft-com:asm.v1\" manifestVersion=\"1.0\">\r\n  <trustInfo xmlns=\"urn:schemas-microsoft-com:asm.v3\">\r\n    <security>\r\n      <requestedPrivileges>\r\n        <requestedExecutionLevel level=\"asInvoker\" uiAccess=\"false\"></requestedExecutionLevel>\r\n      </requestedPrivileges>\r\n    </security>\r\n  </trustInfo>\r\n</assembly>",
+  "imports_dll": [
+    {
+      "dll": "Qt6Core.dll",
+      "funcs": 142
+    },
+    {
+      "dll": "VCRUNTIME140.dll",
+      "funcs": 6
+    },
+    {
+      "dll": "VCRUNTIME140_1.dll",
+      "funcs": 1
+    },
+    {
+      "dll": "api-ms-win-crt-heap-l1-1-0.dll",
+      "funcs": 1
+    },
+    {
+      "dll": "api-ms-win-crt-stdio-l1-1-0.dll",
+      "funcs": 3
+    },
+    {
+      "dll": "api-ms-win-crt-math-l1-1-0.dll",
+      "funcs": 2
+    },
+    {
+      "dll": "api-ms-win-crt-runtime-l1-1-0.dll",
+      "funcs": 18
+    },
+    {
+      "dll": "api-ms-win-crt-locale-l1-1-0.dll",
+      "funcs": 1
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "funcs": 25
+    }
+  ],
+  "exports_count": 0
+}

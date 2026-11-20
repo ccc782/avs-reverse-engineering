@@ -1,0 +1,3542 @@
+{
+  "AAFImportOptions": {
+    "methods": [],
+    "doc": ""
+  },
+  "AppendClipInfo": {
+    "methods": [],
+    "doc": ""
+  },
+  "AudioLevelsInfo": {
+    "methods": [],
+    "doc": ""
+  },
+  "AudioSyncSettings": {
+    "methods": [],
+    "doc": ""
+  },
+  "AutoAlignOptions": {
+    "methods": [],
+    "doc": ""
+  },
+  "AutoCaptionSettings": {
+    "methods": [],
+    "doc": ""
+  },
+  "CDL": {
+    "methods": [],
+    "doc": ""
+  },
+  "CloneStatus": {
+    "methods": [],
+    "doc": ""
+  },
+  "CloneToolSettings": {
+    "methods": [],
+    "doc": ""
+  },
+  "CloudSettings": {
+    "methods": [],
+    "doc": ""
+  },
+  "CompoundClipOptions": {
+    "methods": [],
+    "doc": ""
+  },
+  "CopyAttributesOptions": {
+    "methods": [],
+    "doc": ""
+  },
+  "CreateTimelineClipInfo": {
+    "methods": [],
+    "doc": ""
+  },
+  "DatabaseInfo": {
+    "methods": [],
+    "doc": ""
+  },
+  "DeblurOptions": {
+    "methods": [],
+    "doc": ""
+  },
+  "EffectInfo": {
+    "methods": [],
+    "doc": ""
+  },
+  "EncryptDCTLOptions": {
+    "methods": [],
+    "doc": ""
+  },
+  "FadeInfo": {
+    "methods": [],
+    "doc": ""
+  },
+  "FloatingWindowParams": {
+    "methods": [],
+    "doc": ""
+  },
+  "ImportClipInfo": {
+    "methods": [],
+    "doc": ""
+  },
+  "ImportOptions": {
+    "methods": [],
+    "doc": ""
+  },
+  "MarkInOut": {
+    "methods": [],
+    "doc": ""
+  },
+  "MarkerInfo": {
+    "methods": [],
+    "doc": ""
+  },
+  "MediaStorageItemInfo": {
+    "methods": [],
+    "doc": ""
+  },
+  "MulticamOptions": {
+    "methods": [],
+    "doc": ""
+  },
+  "NormalizeAudioOptions": {
+    "methods": [],
+    "doc": ""
+  },
+  "RemoveSilenceOptions": {
+    "methods": [],
+    "doc": ""
+  },
+  "OutputBlanking": {
+    "methods": [],
+    "doc": ""
+  },
+  "PhotoQuickExportRenderSettings": {
+    "methods": [],
+    "doc": ""
+  },
+  "PhotoRenderSettings": {
+    "methods": [],
+    "doc": ""
+  },
+  "PhotoAlbumItemProperties": {
+    "methods": [],
+    "doc": ""
+  },
+  "ProjectAttributes": {
+    "methods": [],
+    "doc": ""
+  },
+  "ProjectSettings": {
+    "methods": [],
+    "doc": ""
+  },
+  "ProjectSettingsPresetInfo": {
+    "methods": [],
+    "doc": ""
+  },
+  "QuickExportRenderSettings": {
+    "methods": [],
+    "doc": ""
+  },
+  "QuickExportRenderStatus": {
+    "methods": [],
+    "doc": ""
+  },
+  "ExportFrameOptions": {
+    "methods": [],
+    "doc": ""
+  },
+  "ExportFrameResult": {
+    "methods": [],
+    "doc": ""
+  },
+  "ThumbnailFrame": {
+    "methods": [],
+    "doc": ""
+  },
+  "ExportThumbnailsOptions": {
+    "methods": [],
+    "doc": ""
+  },
+  "ExportThumbnailsResult": {
+    "methods": [],
+    "doc": ""
+  },
+  "RenderJobInfo": {
+    "methods": [],
+    "doc": ""
+  },
+  "RenderJobStatus": {
+    "methods": [],
+    "doc": ""
+  },
+  "RenderSettings": {
+    "methods": [],
+    "doc": ""
+  },
+  "ResolutionInfo": {
+    "methods": [],
+    "doc": ""
+  },
+  "SmartSwitchSettings": {
+    "methods": [],
+    "doc": ""
+  },
+  "ExtrasPackageInfo": {
+    "methods": [],
+    "doc": ""
+  },
+  "SpeechSettings": {
+    "methods": [],
+    "doc": ""
+  },
+  "SpeedOptions": {
+    "methods": [],
+    "doc": ""
+  },
+  "TakeInfo": {
+    "methods": [],
+    "doc": ""
+  },
+  "ThumbnailData": {
+    "methods": [],
+    "doc": ""
+  },
+  "TimelineItemProperties": {
+    "methods": [],
+    "doc": ""
+  },
+  "TimelineItemPosition": {
+    "methods": [],
+    "doc": ""
+  },
+  "TimelineSettings": {
+    "methods": [],
+    "doc": ""
+  },
+  "DetectSceneCutsStatus": {
+    "methods": [],
+    "doc": ""
+  },
+  "SlateAnalysisStatus": {
+    "methods": [],
+    "doc": ""
+  },
+  "TranscribeAudioStatus": {
+    "methods": [],
+    "doc": ""
+  },
+  "SmartReframeStatus": {
+    "methods": [],
+    "doc": ""
+  },
+  "CreateSubtitlesFromAudioStatus": {
+    "methods": [],
+    "doc": ""
+  },
+  "Transcription": {
+    "methods": [],
+    "doc": ""
+  },
+  "TranscriptionSegment": {
+    "methods": [],
+    "doc": ""
+  },
+  "TranscriptionWord": {
+    "methods": [],
+    "doc": ""
+  },
+  "TransitionOptions": {
+    "methods": [],
+    "doc": ""
+  },
+  "VersionInfo": {
+    "methods": [],
+    "doc": ""
+  },
+  "VoiceIsolationState": {
+    "methods": [],
+    "doc": ""
+  },
+  "Resolve": {
+    "methods": [
+      {
+        "name": "GetProjectManager",
+        "args": "self",
+        "returns": "ProjectManager",
+        "doc": "Returns the project manager object for currently open database"
+      },
+      {
+        "name": "GetMediaStorage",
+        "args": "self",
+        "returns": "MediaStorage",
+        "doc": "Returns the media storage object to query and act on media locations"
+      },
+      {
+        "name": "Fusion",
+        "args": "self",
+        "returns": "Fusion",
+        "doc": "Starting point for Fusion scripts"
+      },
+      {
+        "name": "GetCurrentProject",
+        "args": "self",
+        "returns": "Project",
+        "doc": "Returns the currently loaded Resolve project"
+      },
+      {
+        "name": "GetCurrentTimeline",
+        "args": "self",
+        "returns": "Timeline",
+        "doc": "Returns the currently loaded timeline"
+      },
+      {
+        "name": "GetMediaPool",
+        "args": "self",
+        "returns": "MediaPool",
+        "doc": "Returns the MediaPool object for the current project"
+      },
+      {
+        "name": "GetGallery",
+        "args": "self",
+        "returns": "Gallery",
+        "doc": "Returns the Gallery object for the current project"
+      },
+      {
+        "name": "OpenPage",
+        "args": "self, pageName: str",
+        "returns": "bool",
+        "doc": "Switches DaVinci Resolve Page. pageName can be: 'media', 'photo', 'cut', 'edit', 'fusion', 'color', 'fairlight', 'deliver'"
+      },
+      {
+        "name": "GetCurrentPage",
+        "args": "self",
+        "returns": "str",
+        "doc": "Returns current DaVinci Resolve Page: 'media', 'photo', 'cut', 'edit', 'fusion', 'color', 'fairlight', 'deliver'"
+      },
+      {
+        "name": "SetHighPriority",
+        "args": "self, highPriority: bool",
+        "returns": "bool",
+        "doc": "Sets the script execution priority to high or normal"
+      },
+      {
+        "name": "GetVersion",
+        "args": "self",
+        "returns": "list[int | str]",
+        "doc": "Returns list of product version fields in [major, minor, patch, build, suffix] format"
+      },
+      {
+        "name": "GetVersionString",
+        "args": "self",
+        "returns": "str",
+        "doc": "Returns product version in major.minor.patch[suffix].build format"
+      },
+      {
+        "name": "GetProductName",
+        "args": "self",
+        "returns": "str",
+        "doc": "Returns product name"
+      },
+      {
+        "name": "IsStudio",
+        "args": "self",
+        "returns": "bool",
+        "doc": "Returns whether this is the Studio version of the product"
+      },
+      {
+        "name": "GetExtrasPackages",
+        "args": "self",
+        "returns": "list[ExtrasPackageInfo]",
+        "doc": "Returns the Extras Download Manager packages available for this system: optional packages, mostly AI models, that Studio and AI functions require. See README.md section 'Studio and AI Scripting APIs'."
+      },
+      {
+        "name": "InstallExtrasPackage",
+        "args": "self, name: str",
+        "returns": "bool",
+        "doc": "Queues the installation of an Extras Package, as given by the 'name' of a GetExtrasPackages() entry. Poll GetExtrasPackages() for status and progress."
+      },
+      {
+        "name": "UninstallExtrasPackage",
+        "args": "self, name: str",
+        "returns": "bool",
+        "doc": "Queues removal of an Extras Package, as given by the 'name' of a GetExtrasPackages() entry. Cancels an ongoing download."
+      },
+      {
+        "name": "GetLayoutPresetList",
+        "args": "self",
+        "returns": "list[str]",
+        "doc": "Returns a list of available UI layout preset names"
+      },
+      {
+        "name": "GetEffectsList",
+        "args": "self, mediaType: str | None = None",
+        "returns": "list[EffectInfo]",
+        "doc": "Returns all available effects that can be applied to a timeline item. Optional argument mediaType: \\\"video\\\" (default), \\\"photo\\\" or \\\"audio\\\" restricts the list to effects applicable to that media type."
+      },
+      {
+        "name": "LoadLayoutPreset",
+        "args": "self, presetName: str",
+        "returns": "bool",
+        "doc": "Loads UI layout from saved preset"
+      },
+      {
+        "name": "UpdateLayoutPreset",
+        "args": "self, presetName: str",
+        "returns": "bool",
+        "doc": "Overwrites preset named 'presetName' with current UI layout"
+      },
+      {
+        "name": "ExportLayoutPreset",
+        "args": "self, presetName: str, presetFilePath: str",
+        "returns": "bool",
+        "doc": "Exports preset named 'presetName' to path 'presetFilePath'"
+      },
+      {
+        "name": "DeleteLayoutPreset",
+        "args": "self, presetName: str",
+        "returns": "bool",
+        "doc": "Deletes preset named 'presetName'"
+      },
+      {
+        "name": "SaveLayoutPreset",
+        "args": "self, presetName: str",
+        "returns": "bool",
+        "doc": "Saves current UI layout as a preset"
+      },
+      {
+        "name": "ImportLayoutPreset",
+        "args": "self, presetFilePath: str, presetName: str | None = None",
+        "returns": "bool",
+        "doc": "Imports UI layout preset from file"
+      },
+      {
+        "name": "Quit",
+        "args": "self",
+        "returns": "bool",
+        "doc": "Quits the Resolve App"
+      },
+      {
+        "name": "ImportRenderPreset",
+        "args": "self, presetPath: str",
+        "returns": "bool",
+        "doc": "Import a render preset from a file and select it"
+      },
+      {
+        "name": "ExportRenderPreset",
+        "args": "self, presetName: str, exportPath: str",
+        "returns": "bool",
+        "doc": "Export a render preset to a file"
+      },
+      {
+        "name": "GetBurnInPresetList",
+        "args": "self",
+        "returns": "list[str]",
+        "doc": "Returns a list of available data burn in preset names"
+      },
+      {
+        "name": "DeleteBurnInPreset",
+        "args": "self, presetName: str",
+        "returns": "bool",
+        "doc": "Deletes the named data burn in preset"
+      },
+      {
+        "name": "ImportBurnInPreset",
+        "args": "self, presetPath: str",
+        "returns": "bool",
+        "doc": "Import a data burn in preset from a file"
+      },
+      {
+        "name": "ExportBurnInPreset",
+        "args": "self, presetName: str, exportPath: str",
+        "returns": "bool",
+        "doc": "Export a data burn in preset to a file"
+      },
+      {
+        "name": "GetKeyboardPresetList",
+        "args": "self",
+        "returns": "list[str]",
+        "doc": "Returns a list of available keyboard preset names"
+      },
+      {
+        "name": "LoadKeyboardPreset",
+        "args": "self, presetName: str",
+        "returns": "bool",
+        "doc": "Loads the named keyboard preset"
+      },
+      {
+        "name": "DeleteKeyboardPreset",
+        "args": "self, presetName: str",
+        "returns": "bool",
+        "doc": "Deletes the named keyboard preset"
+      },
+      {
+        "name": "GetCurrentKeyboardPreset",
+        "args": "self",
+        "returns": "str",
+        "doc": "Returns the name of the currently active keyboard preset"
+      },
+      {
+        "name": "ImportKeyboardPreset",
+        "args": "self, filePath: str, presetName: str | None = None",
+        "returns": "bool",
+        "doc": "Imports a keyboard preset from file. Uses file base name as preset name if not specified."
+      },
+      {
+        "name": "ExportKeyboardPreset",
+        "args": "self, presetName: str, exportPath: str",
+        "returns": "bool",
+        "doc": "Exports the named keyboard preset to the specified file path"
+      },
+      {
+        "name": "GetKeyframeMode",
+        "args": "self",
+        "returns": "KeyframeMode",
+        "doc": "Returns the currently set keyframe mode, one of the resolve.KEYFRAME_MODE_* constants."
+      },
+      {
+        "name": "SetKeyframeMode",
+        "args": "self, keyframeMode: KeyframeMode",
+        "returns": "bool",
+        "doc": "Set keyframe mode"
+      },
+      {
+        "name": "GetFairlightPresets",
+        "args": "self",
+        "returns": "list[str]",
+        "doc": "Returns a list of Fairlight presets by name"
+      },
+      {
+        "name": "DisableBackgroundTasksForCurrentResolveSession",
+        "args": "self",
+        "returns": "",
+        "doc": "Disables all background tasks for current Resolve session"
+      },
+      {
+        "name": "ValidateDCTL",
+        "args": "self, dctlSource: str",
+        "returns": "str | None",
+        "doc": "Validates DCTL source code. Returns None on success, error string on failure."
+      },
+      {
+        "name": "EncryptDCTL",
+        "args": "self, inputPath: str, encryptDCTLOptions: EncryptDCTLOptions | None = None",
+        "returns": "bool",
+        "doc": "Encrypts the DCTL at inputPath and writes it to an output folder."
+      },
+      {
+        "name": "GetUserPreferencesPresetList",
+        "args": "self",
+        "returns": "list[str]",
+        "doc": "Returns a list of available user preferences preset names"
+      },
+      {
+        "name": "LoadUserPreferencesPreset",
+        "args": "self, presetName: str",
+        "returns": "bool",
+        "doc": "Loads the named user preferences preset"
+      },
+      {
+        "name": "SaveUserPreferencesPreset",
+        "args": "self, presetName: str",
+        "returns": "bool",
+        "doc": "Saves current user preferences as a preset with the given name"
+      },
+      {
+        "name": "DeleteUserPreferencesPreset",
+        "args": "self, presetName: str",
+        "returns": "bool",
+        "doc": "Deletes the named user preferences preset"
+      },
+      {
+        "name": "ImportUserPreferencesPreset",
+        "args": "self, filePath: str, presetName: str | None = None",
+        "returns": "bool",
+        "doc": "Imports a user preferences preset from file. Uses file base name as preset name if not specified."
+      },
+      {
+        "name": "ExportUserPreferencesPreset",
+        "args": "self, presetName: str, exportPath: str",
+        "returns": "bool",
+        "doc": "Exports the named user preferences preset to the specified file path"
+      }
+    ],
+    "doc": ""
+  },
+  "ProjectManager": {
+    "methods": [
+      {
+        "name": "LoadProject",
+        "args": "self, projectName: str",
+        "returns": "Project | None",
+        "doc": "Loads and returns a project. Returns None if project was not found."
+      },
+      {
+        "name": "CreateProject",
+        "args": "self, projectName: str, mediaLocationPath: str | None = None",
+        "returns": "Project | None",
+        "doc": "Creates and returns a project. Returns None if projectName exists."
+      },
+      {
+        "name": "DeleteProject",
+        "args": "self, projectName: str",
+        "returns": "bool",
+        "doc": "Delete project in the current folder. Project must not be currently loaded."
+      },
+      {
+        "name": "SaveProject",
+        "args": "self",
+        "returns": "bool",
+        "doc": "Saves the currently loaded project with its own name."
+      },
+      {
+        "name": "GetCurrentProject",
+        "args": "self",
+        "returns": "Project",
+        "doc": "Returns the currently loaded Resolve project"
+      },
+      {
+        "name": "CreateFolder",
+        "args": "self, folderName: str",
+        "returns": "bool",
+        "doc": "Creates a folder. Returns False if it already existed."
+      },
+      {
+        "name": "GetProjectListInCurrentFolder",
+        "args": "self",
+        "returns": "list[str]",
+        "doc": "Returns a list of project names in current folder"
+      },
+      {
+        "name": "GetFolderListInCurrentFolder",
+        "args": "self",
+        "returns": "list[str]",
+        "doc": "Returns a list of folder names in current folder"
+      },
+      {
+        "name": "GotoRootFolder",
+        "args": "self",
+        "returns": "bool",
+        "doc": "Opens root folder in database"
+      },
+      {
+        "name": "GotoParentFolder",
+        "args": "self",
+        "returns": "bool",
+        "doc": "Opens parent folder of current folder in database. Returns False if current folder has no parent."
+      },
+      {
+        "name": "OpenFolder",
+        "args": "self, folderName: str",
+        "returns": "bool",
+        "doc": "Opens folder"
+      },
+      {
+        "name": "ImportProject",
+        "args": "self, filePath: str, projectName: str | None = None",
+        "returns": "bool",
+        "doc": "Imports a project from the file"
+      },
+      {
+        "name": "ExportProject",
+        "args": "self, projectName: str, filePath: str, withStillsAndLUTs = True",
+        "returns": "bool",
+        "doc": "Exports project to a file."
+      },
+      {
+        "name": "ArchiveProject",
+        "args": "self, projectName: str, filePath: str, isArchiveSrcMedia = True, isArchiveRenderCache = True, isArchiveProxyMedia = False",
+        "returns": "bool",
+        "doc": "Archives project to a file"
+      },
+      {
+        "name": "RestoreProject",
+        "args": "self, filePath: str, projectName: str | None = None",
+        "returns": "bool",
+        "doc": "Restores a project from the file"
+      },
+      {
+        "name": "GetProjectLastModifiedTime",
+        "args": "self, projectName: str",
+        "returns": "int",
+        "doc": "Returns the last modified time of the project as an epoch timestamp"
+      },
+      {
+        "name": "GetProjectAttributesInCurrentFolder",
+        "args": "self",
+        "returns": "dict[str, ProjectAttributes]",
+        "doc": "Returns a dict of project names mapped to their attributes (lastModifiedDate, creationDate, notes, liveCollaborationMode) for all projects in the current folder"
+      },
+      {
+        "name": "CloseProject",
+        "args": "self, project: Project",
+        "returns": "bool",
+        "doc": "Closes the specified project without saving"
+      },
+      {
+        "name": "GetCurrentFolder",
+        "args": "self",
+        "returns": "str",
+        "doc": "Returns the current folder name"
+      },
+      {
+        "name": "DeleteFolder",
+        "args": "self, folderName: str",
+        "returns": "bool",
+        "doc": "Deletes the specified folder"
+      },
+      {
+        "name": "GetCurrentDatabase",
+        "args": "self",
+        "returns": "DatabaseInfo",
+        "doc": "Returns a dictionary (with keys 'DbType', 'DbName' and optional 'IpAddress') corresponding to the current database connection"
+      },
+      {
+        "name": "GetDatabaseList",
+        "args": "self",
+        "returns": "list[DatabaseInfo]",
+        "doc": "Returns a list of dictionary items (with keys 'DbType', 'DbName' and optional 'IpAddress') corresponding to all the databases added to Resolve"
+      },
+      {
+        "name": "SetCurrentDatabase",
+        "args": "self, dbInfo: DatabaseInfo",
+        "returns": "bool",
+        "doc": "Switches current database connection to the database specified by the keys below, and closes any open project"
+      },
+      {
+        "name": "LoadCloudProject",
+        "args": "self, cloudSettings: CloudSettings",
+        "returns": "Project | None",
+        "doc": "Loads and returns a cloud project with the given cloud settings. Returns None if not found"
+      },
+      {
+        "name": "CreateCloudProject",
+        "args": "self, cloudSettings: CloudSettings",
+        "returns": "Project | None",
+        "doc": "Creates and returns a cloud project"
+      },
+      {
+        "name": "ImportCloudProject",
+        "args": "self, filePath: str, cloudSettings: CloudSettings",
+        "returns": "bool",
+        "doc": "Imports a cloud project from the file path with given cloud settings"
+      },
+      {
+        "name": "RestoreCloudProject",
+        "args": "self, folderPath: str, cloudSettings: CloudSettings",
+        "returns": "bool",
+        "doc": "Restores a cloud project from the folder path with given cloud settings"
+      }
+    ],
+    "doc": ""
+  },
+  "Project": {
+    "methods": [
+      {
+        "name": "GetMediaPool",
+        "args": "self",
+        "returns": "MediaPool",
+        "doc": "Returns the MediaPool object"
+      },
+      {
+        "name": "GetCurrentTimeline",
+        "args": "self",
+        "returns": "Timeline",
+        "doc": "Returns the currently loaded timeline"
+      },
+      {
+        "name": "SetCurrentTimeline",
+        "args": "self, timeline: Timeline",
+        "returns": "bool",
+        "doc": "Sets given timeline as current timeline for the project"
+      },
+      {
+        "name": "GetTimelineCount",
+        "args": "self",
+        "returns": "int",
+        "doc": "Returns the number of timelines in the project"
+      },
+      {
+        "name": "GetTimelineByIndex",
+        "args": "self, idx: int",
+        "returns": "Timeline | None",
+        "doc": "Returns timeline at the given index, 1 <= idx <= project.GetTimelineCount()"
+      },
+      {
+        "name": "GetPhotoAlbumCount",
+        "args": "self",
+        "returns": "int",
+        "doc": "Returns the number of photo albums in the project"
+      },
+      {
+        "name": "GetPhotoAlbumByIndex",
+        "args": "self, idx: int",
+        "returns": "PhotoAlbum | None",
+        "doc": "Returns photo album at the given index, 1 <= idx <= project.GetPhotoAlbumCount()"
+      },
+      {
+        "name": "GetCurrentPhotoAlbum",
+        "args": "self",
+        "returns": "PhotoAlbum | None",
+        "doc": "Returns the currently loaded photo album"
+      },
+      {
+        "name": "SetCurrentPhotoAlbum",
+        "args": "self, photoAlbum: PhotoAlbum",
+        "returns": "bool",
+        "doc": "Sets given photo album as current photo album for the project"
+      },
+      {
+        "name": "GetGallery",
+        "args": "self",
+        "returns": "Gallery",
+        "doc": "Returns the Gallery object"
+      },
+      {
+        "name": "GetName",
+        "args": "self",
+        "returns": "str",
+        "doc": "Returns project name"
+      },
+      {
+        "name": "SetName",
+        "args": "self, projectName: str",
+        "returns": "bool",
+        "doc": "Sets project name if given projectName is unique"
+      },
+      {
+        "name": "GetProjectSettingsPresetList",
+        "args": "self",
+        "returns": "list[ProjectSettingsPresetInfo]",
+        "doc": "Returns a list of project settings presets and their information"
+      },
+      {
+        "name": "SetProjectSettingsPreset",
+        "args": "self, presetName: str",
+        "returns": "bool",
+        "doc": "Sets project settings preset by given name into project"
+      },
+      {
+        "name": "DeleteProjectSettingsPreset",
+        "args": "self, presetName: str",
+        "returns": "bool",
+        "doc": "Deletes the project settings preset with the given name"
+      },
+      {
+        "name": "SaveCurrentProjectSettingsAsNewPreset",
+        "args": "self, presetName: str",
+        "returns": "bool",
+        "doc": "Saves the current project settings as a new preset with the given name"
+      },
+      {
+        "name": "UpdateProjectSettingsPreset",
+        "args": "self, presetName: str",
+        "returns": "bool",
+        "doc": "Updates the given project settings preset with current settings"
+      },
+      {
+        "name": "ExportProjectSettingsPreset",
+        "args": "self, presetName: str, exportPath: str",
+        "returns": "bool",
+        "doc": "Exports the given project settings preset to the specified file path"
+      },
+      {
+        "name": "ImportProjectSettingsPreset",
+        "args": "self, presetFilePath: str, presetName: str | None = None",
+        "returns": "bool",
+        "doc": "Imports a project settings preset from file. Uses file base name as preset name if not specified."
+      },
+      {
+        "name": "GetRenderJobList",
+        "args": "self",
+        "returns": "list[RenderJobInfo]",
+        "doc": "Returns a list of render jobs and their information"
+      },
+      {
+        "name": "GetRenderPresetList",
+        "args": "self",
+        "returns": "list[str]",
+        "doc": "Returns a list of render preset names"
+      },
+      {
+        "name": "LoadRenderPreset",
+        "args": "self, presetName: str",
+        "returns": "bool",
+        "doc": "Loads a render preset by name"
+      },
+      {
+        "name": "SaveAsNewRenderPreset",
+        "args": "self, presetName: str",
+        "returns": "bool",
+        "doc": "Saves current render settings as a new preset with the given name"
+      },
+      {
+        "name": "DeleteRenderPreset",
+        "args": "self, presetName: str",
+        "returns": "bool",
+        "doc": "Deletes given render preset"
+      },
+      {
+        "name": "UpdateRenderPreset",
+        "args": "self, presetName: str",
+        "returns": "bool",
+        "doc": "Updates given render preset with current render settings"
+      },
+      {
+        "name": "SetQuickExportEnabledForRenderPreset",
+        "args": "self, presetName: str, isEnabled: bool",
+        "returns": "bool",
+        "doc": "Enables or disables quick export for the named render preset"
+      },
+      {
+        "name": "StartRendering",
+        "args": "self, jobIds: list[str], isInteractiveMode = False",
+        "returns": "bool",
+        "doc": "Starts rendering jobs indicated by the input job ids"
+      },
+      {
+        "name": "StopRendering",
+        "args": "self",
+        "returns": "",
+        "doc": "Stops any current render processes"
+      },
+      {
+        "name": "IsRenderingInProgress",
+        "args": "self",
+        "returns": "bool",
+        "doc": "Returns True if a rendering is in progress"
+      },
+      {
+        "name": "AddRenderJob",
+        "args": "self",
+        "returns": "str",
+        "doc": "Adds a render job based on current render settings to the render queue"
+      },
+      {
+        "name": "DeleteRenderJob",
+        "args": "self, jobId: str",
+        "returns": "bool",
+        "doc": "Deletes render job for input job id"
+      },
+      {
+        "name": "DeleteAllRenderJobs",
+        "args": "self",
+        "returns": "bool",
+        "doc": "Deletes all render jobs in the queue"
+      },
+      {
+        "name": "SetRenderSettings",
+        "args": "self, settings: RenderSettings",
+        "returns": "bool",
+        "doc": "Sets given settings for rendering"
+      },
+      {
+        "name": "GetRenderResolutions",
+        "args": "self, format: str | None = None, codec: str | None = None",
+        "returns": "list[ResolutionInfo]",
+        "doc": "Returns list of resolutions applicable for the given render format and codec"
+      },
+      {
+        "name": "GetSettings",
+        "args": "self",
+        "returns": "ProjectSettings",
+        "doc": "Returns a dict with all project settings. See README.md section 'Looking up Project and Clip properties'."
+      },
+      {
+        "name": "SetSettings",
+        "args": "self, settings: ProjectSettings",
+        "returns": "bool",
+        "doc": "Sets the project settings with specified dict of setting names and values. See README.md section 'Looking up Project and Clip properties'."
+      },
+      {
+        "name": "GetRenderJobStatus",
+        "args": "self, jobId: str",
+        "returns": "RenderJobStatus",
+        "doc": "Returns a dict with job status and completion percentage"
+      },
+      {
+        "name": "GetQuickExportRenderPresets",
+        "args": "self",
+        "returns": "list[str]",
+        "doc": "Returns a list of quick export render presets"
+      },
+      {
+        "name": "RenderWithQuickExport",
+        "args": "self, quickExportPresetName: str, presetInfo: QuickExportRenderSettings",
+        "returns": "QuickExportRenderStatus",
+        "doc": "Renders current timeline with quick export preset"
+      },
+      {
+        "name": "GetRenderWithQuickExportStatus",
+        "args": "self",
+        "returns": "QuickExportRenderStatus",
+        "doc": "Returns progress information for active RenderWithQuickExport operation"
+      },
+      {
+        "name": "GetPhotoQuickExportRenderPresets",
+        "args": "self",
+        "returns": "list[str]",
+        "doc": "Returns a list of quick export render presets for photo albums"
+      },
+      {
+        "name": "SetPhotoRenderSettings",
+        "args": "self, settings: PhotoRenderSettings",
+        "returns": "bool",
+        "doc": "Sets given settings for rendering the current photo album, settings not given keep their current value"
+      },
+      {
+        "name": "RenderPhotosWithQuickExport",
+        "args": "self, quickExportPresetName: str, presetInfo: PhotoQuickExportRenderSettings",
+        "returns": "QuickExportRenderStatus",
+        "doc": "Renders current photo album with quick export preset"
+      },
+      {
+        "name": "GetRenderFormats",
+        "args": "self",
+        "returns": "dict",
+        "doc": "Returns a dict (format -> file extension) of available render formats"
+      },
+      {
+        "name": "GetAudioRenderFormats",
+        "args": "self",
+        "returns": "dict",
+        "doc": "Returns a dict (format -> file extension) of available audio render formats"
+      },
+      {
+        "name": "GetRenderCodecs",
+        "args": "self, renderFormatFileExtension: str",
+        "returns": "dict",
+        "doc": "Returns a dict (codec description -> codec name) of available codecs"
+      },
+      {
+        "name": "GetAudioRenderCodecs",
+        "args": "self, audioRenderFormatFileExtension: str",
+        "returns": "dict",
+        "doc": "Returns a dict (codec description -> codec name) of available audio codecs for the given format"
+      },
+      {
+        "name": "GetCurrentRenderFormatAndCodec",
+        "args": "self",
+        "returns": "dict[str, str]",
+        "doc": "Returns a dict with currently selected format and render codec"
+      },
+      {
+        "name": "SetCurrentRenderFormatAndCodec",
+        "args": "self, format: str, codec: str",
+        "returns": "bool",
+        "doc": "Sets given render format and render codec as options for rendering"
+      },
+      {
+        "name": "GetCurrentRenderMode",
+        "args": "self",
+        "returns": "int",
+        "doc": "Returns the render mode: 0 - Individual clips, 1 - Single clip"
+      },
+      {
+        "name": "SetCurrentRenderMode",
+        "args": "self, renderMode: int",
+        "returns": "bool",
+        "doc": "Sets the render mode: 0 for Individual clips, 1 for Single clip"
+      },
+      {
+        "name": "RefreshLUTList",
+        "args": "self",
+        "returns": "bool",
+        "doc": "Refreshes LUT List"
+      },
+      {
+        "name": "GetUniqueId",
+        "args": "self",
+        "returns": "str",
+        "doc": "Returns a unique ID for the project item"
+      },
+      {
+        "name": "InsertAudioToCurrentTrackAtPlayhead",
+        "args": "self, mediaPath: str, startOffsetInSamples: int, durationInSamples: int",
+        "returns": "bool",
+        "doc": "Inserts the media with startOffset and duration in samples to the current track at the playhead"
+      },
+      {
+        "name": "LoadBurnInPreset",
+        "args": "self, presetName: str",
+        "returns": "bool",
+        "doc": "Loads user defined data burn in preset"
+      },
+      {
+        "name": "ExportCurrentFrameAsStill",
+        "args": "self, filePath: str",
+        "returns": "bool",
+        "doc": "Exports current frame as still to supplied filePath"
+      },
+      {
+        "name": "GetColorGroupsList",
+        "args": "self",
+        "returns": "list[ColorGroup]",
+        "doc": "Returns a list of all group objects in the timeline"
+      },
+      {
+        "name": "AddColorGroup",
+        "args": "self, groupName: str",
+        "returns": "ColorGroup",
+        "doc": "Creates a new ColorGroup with unique groupName"
+      },
+      {
+        "name": "DeleteColorGroup",
+        "args": "self, colorGroup: ColorGroup",
+        "returns": "bool",
+        "doc": "Deletes the given ColorGroup and sets clips to ungrouped"
+      },
+      {
+        "name": "ApplyFairlightPresetToCurrentTimeline",
+        "args": "self, presetName: str",
+        "returns": "bool",
+        "doc": "Applies Fairlight preset to current timeline"
+      },
+      {
+        "name": "ResetIntellisearchAnalysis",
+        "args": "self",
+        "returns": "bool",
+        "doc": "Resets intellisearch analysis for the project"
+      },
+      {
+        "name": "GenerateSpeech",
+        "args": "self, speechSettings: SpeechSettings, timecode: str | None = None",
+        "returns": "MediaPoolItem | None",
+        "doc": "Generates speech for given speechSettings dict. Requires the 'AI Speech Generator' Extra to be installed; without it the call fails instead of returning a MediaPoolItem. Generates into the current project and timeline as of the call, not into the project this was called on. timecode sets where the audio lands and is only used when speechSettings has 'AddToTimeline' set. See README.md section 'Studio and AI Scripting APIs'."
+      },
+      {
+        "name": "GetTranscribeAudioStatus",
+        "args": "self",
+        "returns": "TranscribeAudioStatus",
+        "doc": "Returns a dict with job status and completion percentage of the active TranscribeAudio operation"
+      },
+      {
+        "name": "GetAnalyzeForSlateStatus",
+        "args": "self",
+        "returns": "SlateAnalysisStatus",
+        "doc": "Returns a dict with job status and completion percentage of the active AnalyzeForSlate operation"
+      },
+      {
+        "name": "GetSmartReframeStatus",
+        "args": "self",
+        "returns": "SmartReframeStatus",
+        "doc": "Returns a dict with job status and completion percentage of the active SmartReframe operation"
+      },
+      {
+        "name": "GetDetectSceneCutsStatus",
+        "args": "self",
+        "returns": "DetectSceneCutsStatus",
+        "doc": "Returns a dict with job status and completion percentage of the active DetectSceneCuts operation"
+      },
+      {
+        "name": "GetCreateSubtitlesFromAudioStatus",
+        "args": "self",
+        "returns": "CreateSubtitlesFromAudioStatus",
+        "doc": "Returns a dict with job status and completion percentage of the active CreateSubtitlesFromAudio operation"
+      }
+    ],
+    "doc": ""
+  },
+  "MediaPool": {
+    "methods": [
+      {
+        "name": "AddSubFolder",
+        "args": "self, folder: Folder, name: str",
+        "returns": "Folder | None",
+        "doc": "Adds new subfolder under specified Folder object with the given name. A name already used by another subfolder is accepted and adds a second subfolder with that name, so check GetSubFolderList() first when the call is meant to be idempotent"
+      },
+      {
+        "name": "GetCurrentFolder",
+        "args": "self",
+        "returns": "Folder",
+        "doc": "Returns currently selected Folder"
+      },
+      {
+        "name": "RefreshFolders",
+        "args": "self",
+        "returns": "bool",
+        "doc": "Updates the folders in collaboration mode"
+      },
+      {
+        "name": "SetCurrentFolder",
+        "args": "self, folder: Folder",
+        "returns": "bool",
+        "doc": "Sets current folder by given Folder"
+      },
+      {
+        "name": "GetRootFolder",
+        "args": "self",
+        "returns": "Folder",
+        "doc": "Returns root Folder of Media Pool"
+      },
+      {
+        "name": "CreateTimelineFromClips",
+        "args": "self, name: str, clipInfos: list[CreateTimelineClipInfo]",
+        "returns": "Timeline",
+        "doc": "Creates new timeline with specified name, and appends the specified MediaPoolItem objects"
+      },
+      {
+        "name": "AppendToTimeline",
+        "args": "self, clipInfos: list[AppendClipInfo]",
+        "returns": "list[TimelineItem]",
+        "doc": "Appends specified MediaPoolItem objects in the current timeline. Returns the list of appended timelineItems"
+      },
+      {
+        "name": "CreateEmptyTimeline",
+        "args": "self, name: str, timecode: str | None = None",
+        "returns": "Timeline | None",
+        "doc": "Adds new timeline with given name. Returns None if the timeline could not be created, which includes the name being empty, already used by another timeline, or containing characters that are not valid in a timeline name. Delete or rename the existing timeline before reusing its name"
+      },
+      {
+        "name": "ImportTimelineFromFile",
+        "args": "self, filePath: str, importOptions: ImportOptions | None = None",
+        "returns": "Timeline",
+        "doc": "Creates timeline based on parameters within given file (AAF/EDL/XML/FCPXML/DRT/ADL/OTIO) and optional importOptions dict"
+      },
+      {
+        "name": "DeleteTimelines",
+        "args": "self, timelines: list[Timeline]",
+        "returns": "bool",
+        "doc": "Deletes specified timelines in the media pool"
+      },
+      {
+        "name": "CreateEmptyPhotoAlbum",
+        "args": "self, name: str",
+        "returns": "PhotoAlbum",
+        "doc": "Adds new photo album with given name"
+      },
+      {
+        "name": "CreatePhotoAlbumFromPhotos",
+        "args": "self, name: str, photos: list[MediaPoolItem]",
+        "returns": "PhotoAlbum",
+        "doc": "Creates new photo album with specified name, and adds the specified still image MediaPoolItem objects"
+      },
+      {
+        "name": "DeletePhotoAlbums",
+        "args": "self, photoAlbums: list[PhotoAlbum]",
+        "returns": "bool",
+        "doc": "Deletes specified photo albums in the media pool"
+      },
+      {
+        "name": "AddToPhotoAlbum",
+        "args": "self, photos: list[MediaPoolItem]",
+        "returns": "list[PhotoAlbumItem]",
+        "doc": "Adds specified still image MediaPoolItem objects to the current photo album. Returns the list of added photoAlbumItems"
+      },
+      {
+        "name": "ExportMetadata",
+        "args": "self, fileName: str, clips: list[MediaPoolItem] | None = None",
+        "returns": "bool",
+        "doc": "Exports metadata of specified clips to 'fileName' in CSV format. If no clips are specified, all clips from media pool will be used"
+      },
+      {
+        "name": "DeleteClips",
+        "args": "self, clips: list[MediaPoolItem]",
+        "returns": "bool",
+        "doc": "Deletes specified clips or timeline mattes in the media pool"
+      },
+      {
+        "name": "ImportFolderFromFile",
+        "args": "self, filePath: str, sourceClipsPath: str | None = None",
+        "returns": "bool",
+        "doc": "Imports a DRB folder from the given file path"
+      },
+      {
+        "name": "DeleteFolders",
+        "args": "self, subfolders: list[Folder]",
+        "returns": "bool",
+        "doc": "Deletes specified subfolders in the media pool"
+      },
+      {
+        "name": "MoveClips",
+        "args": "self, clips: list[MediaPoolItem], targetFolder: Folder",
+        "returns": "bool",
+        "doc": "Moves specified clips to target folder"
+      },
+      {
+        "name": "MoveFolders",
+        "args": "self, folders: list[Folder], targetFolder: Folder",
+        "returns": "bool",
+        "doc": "Moves specified folders to target folder"
+      },
+      {
+        "name": "GetClipMatteList",
+        "args": "self, mediaPoolItem: MediaPoolItem",
+        "returns": "list[str]",
+        "doc": "Get mattes for specified MediaPoolItem, as a list of paths to the matte files"
+      },
+      {
+        "name": "GetTimelineMatteList",
+        "args": "self, folder: Folder",
+        "returns": "list[MediaPoolItem]",
+        "doc": "Get mattes in specified Folder, as list of MediaPoolItems"
+      },
+      {
+        "name": "DeleteClipMattes",
+        "args": "self, mediaPoolItem: MediaPoolItem, paths: list[str]",
+        "returns": "bool",
+        "doc": "Delete mattes based on their file paths, for specified MediaPoolItem"
+      },
+      {
+        "name": "RelinkClips",
+        "args": "self, clips: list[MediaPoolItem], folderPath: str",
+        "returns": "bool",
+        "doc": "Update the folder location of specified media pool clips with the specified folder path"
+      },
+      {
+        "name": "UnlinkClips",
+        "args": "self, clips: list[MediaPoolItem]",
+        "returns": "bool",
+        "doc": "Unlink specified media pool clips"
+      },
+      {
+        "name": "ImportMedia",
+        "args": "self, clipInfos: list[ImportClipInfo]",
+        "returns": "list[MediaPoolItem]",
+        "doc": "Imports specified file/folder paths into current Media Pool folder. Returns a list of the MediaPoolItems created"
+      },
+      {
+        "name": "GetUniqueId",
+        "args": "self",
+        "returns": "str",
+        "doc": "Returns a unique ID for the media pool"
+      },
+      {
+        "name": "CreateStereoClip",
+        "args": "self, leftMediaPoolItem: MediaPoolItem, rightMediaPoolItem: MediaPoolItem",
+        "returns": "MediaPoolItem",
+        "doc": "Takes in two existing media pool items and creates a new 3D stereoscopic media pool entry replacing the input media"
+      },
+      {
+        "name": "CreateMulticamClip",
+        "args": "self, clips: list[MediaPoolItem], multicamOptions: MulticamOptions",
+        "returns": "list[MediaPoolItem]",
+        "doc": "Creates Multicam clips from the specified MediaPoolItems and options"
+      },
+      {
+        "name": "AutoSyncAudio",
+        "args": "self, mediaPoolItems: list[MediaPoolItem], audioSyncSettings: AudioSyncSettings",
+        "returns": "bool",
+        "doc": "Syncs audio for specified MediaPoolItems. The list must contain at least one video and one audio clip."
+      },
+      {
+        "name": "GetSelectedClips",
+        "args": "self",
+        "returns": "list[MediaPoolItem]",
+        "doc": "Returns the current selected MediaPoolItems"
+      },
+      {
+        "name": "SetSelectedClip",
+        "args": "self, mediaPoolItem: MediaPoolItem",
+        "returns": "bool",
+        "doc": "Sets the selected MediaPoolItem to the given MediaPoolItem"
+      }
+    ],
+    "doc": ""
+  },
+  "MediaPoolItem": {
+    "methods": [
+      {
+        "name": "GetName",
+        "args": "self",
+        "returns": "str",
+        "doc": "Returns the clip name."
+      },
+      {
+        "name": "SetName",
+        "args": "self, name: str",
+        "returns": "bool",
+        "doc": "Sets the clip's name to name(string)."
+      },
+      {
+        "name": "GetTimeline",
+        "args": "self",
+        "returns": "Timeline",
+        "doc": "Returns the timeline object if the mpItem is a timeline clip"
+      },
+      {
+        "name": "GetPhotoAlbum",
+        "args": "self",
+        "returns": "PhotoAlbum | None",
+        "doc": "Returns the photo album object if the mpItem is a photo album clip"
+      },
+      {
+        "name": "GetParentFolder",
+        "args": "self",
+        "returns": "Folder",
+        "doc": "Returns the Folder object containing this media pool item."
+      },
+      {
+        "name": "GetMetadata",
+        "args": "self, metadataType: str | None = None",
+        "returns": "str | dict",
+        "doc": "Returns the metadata value for the key 'metadataType'. If no argument is specified, a dict of all set metadata properties is returned."
+      },
+      {
+        "name": "SetMetadata",
+        "args": "self, metadata: dict",
+        "returns": "bool",
+        "doc": "Sets the item metadata with specified dict of key-value pairs"
+      },
+      {
+        "name": "GetThirdPartyMetadata",
+        "args": "self, metadataType: str | None = None",
+        "returns": "str | dict",
+        "doc": "Returns the third party metadata value for the key 'metadataType'. If no argument, a dict of all set third party metadata properties is returned."
+      },
+      {
+        "name": "SetThirdPartyMetadata",
+        "args": "self, metadata: dict",
+        "returns": "bool",
+        "doc": "Sets/Add the item third party metadata with specified dict of key-value pairs"
+      },
+      {
+        "name": "GetMediaId",
+        "args": "self",
+        "returns": "str",
+        "doc": "Returns the unique ID for the MediaPoolItem."
+      },
+      {
+        "name": "AddMarker",
+        "args": "self, frameId: int, color: MarkerColor, name: str, note: str, duration: int, customData: str | None = None",
+        "returns": "bool",
+        "doc": "Creates a new marker at given frameId position. 'customData' is optional."
+      },
+      {
+        "name": "DeleteMarkersByColor",
+        "args": "self, color: MarkerColor | Literal['All']",
+        "returns": "bool",
+        "doc": "Delete all markers of the specified color. 'All' as argument deletes all color markers."
+      },
+      {
+        "name": "ExportFrame",
+        "args": "self, frameOffset: int, exportFrameOptions: ExportFrameOptions | None = None",
+        "returns": "ExportFrameResult",
+        "doc": "Exports the frame at frameOffset (0-based offset from the item start) as a still image per exportFrameOptions."
+      },
+      {
+        "name": "ExportThumbnails",
+        "args": "self, frames: list[int | ThumbnailFrame], exportThumbnailsOptions: ExportThumbnailsOptions | None = None",
+        "returns": "ExportThumbnailsResult",
+        "doc": "Renders the given frames (0-based offsets from the item start) into a single grid image, filled in the order given"
+      },
+      {
+        "name": "DeleteMarkerAtFrame",
+        "args": "self, frameNum: int",
+        "returns": "bool",
+        "doc": "Delete marker at frame number from the media pool item."
+      },
+      {
+        "name": "DeleteMarkerByCustomData",
+        "args": "self, customData: str",
+        "returns": "bool",
+        "doc": "Delete first matching marker with specified customData."
+      },
+      {
+        "name": "GetMarkers",
+        "args": "self",
+        "returns": "dict[int, MarkerInfo]",
+        "doc": "Returns a dict (frameId -> {information}) of all markers."
+      },
+      {
+        "name": "GetMarkerByCustomData",
+        "args": "self, customData: str",
+        "returns": "MarkerInfo",
+        "doc": "Returns marker {information} for the first matching marker with specified customData."
+      },
+      {
+        "name": "UpdateMarkerCustomData",
+        "args": "self, frameId: int, customData: str",
+        "returns": "bool",
+        "doc": "Updates customData for the marker at given frameId position."
+      },
+      {
+        "name": "GetMarkerCustomData",
+        "args": "self, frameId: int",
+        "returns": "str",
+        "doc": "Returns customData string for the marker at given frameId position."
+      },
+      {
+        "name": "AddFlag",
+        "args": "self, color: FlagColor",
+        "returns": "bool",
+        "doc": "Adds a flag with given color (string)."
+      },
+      {
+        "name": "GetFlagList",
+        "args": "self",
+        "returns": "list[str]",
+        "doc": "Returns a list of flag colors assigned to the item."
+      },
+      {
+        "name": "ClearFlags",
+        "args": "self, color: FlagColor | Literal['All']",
+        "returns": "bool",
+        "doc": "Clears the flag of the given color if one exists. An 'All' argument is supported and clears all flags."
+      },
+      {
+        "name": "GetClipColor",
+        "args": "self",
+        "returns": "ClipColor | Literal['']",
+        "doc": "Returns the item color as a string."
+      },
+      {
+        "name": "SetClipColor",
+        "args": "self, colorName: ClipColor",
+        "returns": "bool",
+        "doc": "Sets the item color based on the colorName (string)."
+      },
+      {
+        "name": "ClearClipColor",
+        "args": "self",
+        "returns": "bool",
+        "doc": "Clears the item color."
+      },
+      {
+        "name": "LinkFullResolutionMedia",
+        "args": "self, fullResMediaPath: str",
+        "returns": "bool",
+        "doc": "Links proxy media to full resolution media files specified via its path."
+      },
+      {
+        "name": "LinkProxyMedia",
+        "args": "self, proxyMediaFilePath: str",
+        "returns": "bool",
+        "doc": "Links proxy media located at path specified by arg 'proxyMediaFilePath' with the current clip."
+      },
+      {
+        "name": "UnlinkProxyMedia",
+        "args": "self",
+        "returns": "bool",
+        "doc": "Unlinks any proxy media associated with clip."
+      },
+      {
+        "name": "ReplaceClip",
+        "args": "self, filePath: str",
+        "returns": "bool",
+        "doc": "Replaces the underlying asset and metadata of MediaPoolItem with the specified absolute clip path."
+      },
+      {
+        "name": "ReplaceClipPreserveSubClip",
+        "args": "self, filePath: str",
+        "returns": "bool",
+        "doc": "Replaces the underlying asset and metadata preserving original sub clip extents."
+      },
+      {
+        "name": "GetClipProperty",
+        "args": "self, propertyName: str | None = None",
+        "returns": "str | ClipProperties",
+        "doc": "Returns the property value for the key 'propertyName'. If no argument, a dict of all clip properties is returned."
+      },
+      {
+        "name": "SetClipProperty",
+        "args": "self, propertyName: str, propertyValue: str",
+        "returns": "bool",
+        "doc": "Sets the given property to propertyValue (string)."
+      },
+      {
+        "name": "GetUniqueId",
+        "args": "self",
+        "returns": "str",
+        "doc": "Returns a unique ID for the media pool item"
+      },
+      {
+        "name": "TranscribeAudio",
+        "args": "self, useSpeakerDetection: bool | None = None, transcribeAsNestedClip = False",
+        "returns": "bool",
+        "doc": "Transcribes audio of the MediaPoolItem"
+      },
+      {
+        "name": "ClearTranscription",
+        "args": "self, clearNestedClipTranscription = False",
+        "returns": "bool",
+        "doc": "Clears audio transcription of the MediaPoolItem."
+      },
+      {
+        "name": "PerformAudioClassification",
+        "args": "self",
+        "returns": "bool",
+        "doc": "Analyzes and classifies the audio of a MediaPoolItem."
+      },
+      {
+        "name": "ClearAudioClassification",
+        "args": "self",
+        "returns": "bool",
+        "doc": "Clears audio classification of the MediaPoolItem."
+      },
+      {
+        "name": "GetAudioMapping",
+        "args": "self",
+        "returns": "str",
+        "doc": "Returns a string with MediaPoolItem's audio mapping information (JSON format)."
+      },
+      {
+        "name": "SetAudioMapping",
+        "args": "self, audioMapping: str",
+        "returns": "bool",
+        "doc": "Sets audio mapping from a JSON string."
+      },
+      {
+        "name": "GetMarkInOut",
+        "args": "self",
+        "returns": "MarkInOut",
+        "doc": "Returns dict of in/out marks set."
+      },
+      {
+        "name": "SetMarkInOut",
+        "args": "self, markIn: int, markOut: int, markType: MarkType | None = None",
+        "returns": "bool",
+        "doc": "Sets mark in/out of type MarkType (default: 'all')."
+      },
+      {
+        "name": "ClearMarkInOut",
+        "args": "self, markType: MarkType | None = None",
+        "returns": "bool",
+        "doc": "Clears mark in/out of type MarkType (default: 'all')."
+      },
+      {
+        "name": "MonitorGrowingFile",
+        "args": "self",
+        "returns": "bool",
+        "doc": "Monitor a file as long as it keeps growing."
+      },
+      {
+        "name": "RemoveMotionBlur",
+        "args": "self, deblurOption: DeblurOptions",
+        "returns": "MediaPoolItem",
+        "doc": "Apply Motion Deblur on MediaPoolItem, Returns newly created MediaPoolItem."
+      },
+      {
+        "name": "AnalyzeForIntellisearch",
+        "args": "self, identifyFaces: bool, isBetterMode: bool",
+        "returns": "bool",
+        "doc": "Perform Intellisearch analysis on the MediaPoolItem."
+      },
+      {
+        "name": "AnalyzeForSlate",
+        "args": "self, markerColor: SlateMarkerColor",
+        "returns": "bool",
+        "doc": "Perform Slate analysis on the MediaPoolItem, adding a 'Detected Slate' duration marker in markerColor over the frames of each slate found. The text written on the slate is not read: use GetMarkers() to locate the slate, the marker carries no transcription of its contents. See README.md section 'Analyze Slate Settings'."
+      },
+      {
+        "name": "GetTranscription",
+        "args": "self, useNestedClipTranscription = False",
+        "returns": "Transcription",
+        "doc": "Returns transcription data for the media pool item if available."
+      },
+      {
+        "name": "SetTranscription",
+        "args": "self, transcription: Transcription",
+        "returns": "bool",
+        "doc": "Replaces the transcription of the MediaPoolItem. Timelines are transcribed as a nested clip. See README.md section 'Setting a Transcription'."
+      }
+    ],
+    "doc": ""
+  },
+  "Timeline": {
+    "methods": [
+      {
+        "name": "GetName",
+        "args": "self",
+        "returns": "str",
+        "doc": "Returns the timeline name."
+      },
+      {
+        "name": "SetName",
+        "args": "self, timelineName: str",
+        "returns": "bool",
+        "doc": "Sets the timeline name if timelineName (string) is unique."
+      },
+      {
+        "name": "GetIsEnabled",
+        "args": "self",
+        "returns": "bool",
+        "doc": "Returns True if the timeline is enabled."
+      },
+      {
+        "name": "SetIsEnabled",
+        "args": "self, enabled: bool",
+        "returns": "bool",
+        "doc": "Enables/disables the timeline and returns True if successful."
+      },
+      {
+        "name": "GetStartFrame",
+        "args": "self",
+        "returns": "int",
+        "doc": "Returns the frame number at the start of timeline."
+      },
+      {
+        "name": "GetEndFrame",
+        "args": "self",
+        "returns": "int",
+        "doc": "Returns the frame number at the end of timeline."
+      },
+      {
+        "name": "GetTrackCount",
+        "args": "self, trackType: TrackType",
+        "returns": "int",
+        "doc": "Returns the number of tracks for the given TrackType."
+      },
+      {
+        "name": "GetItemListInTrack",
+        "args": "self, trackType: TrackType, index: int",
+        "returns": "list[TimelineItem]",
+        "doc": "Returns a list of timeline items on specified track."
+      },
+      {
+        "name": "GetSelectedClips",
+        "args": "self",
+        "returns": "list[TimelineItem]",
+        "doc": "Returns the currently selected timeline items"
+      },
+      {
+        "name": "GetCurrentTimecode",
+        "args": "self",
+        "returns": "str",
+        "doc": "Returns a string timecode representation for the current playhead position."
+      },
+      {
+        "name": "SetCurrentTimecode",
+        "args": "self, timecode: str",
+        "returns": "bool",
+        "doc": "Sets current playhead position from input timecode."
+      },
+      {
+        "name": "GetCurrentVideoItem",
+        "args": "self",
+        "returns": "TimelineItem | None",
+        "doc": "Returns the current video timeline item."
+      },
+      {
+        "name": "AddMarker",
+        "args": "self, frameId: int, color: MarkerColor, name: str, note: str, duration: int, customData: str | None = None",
+        "returns": "bool",
+        "doc": "Creates a new marker at given frameId position."
+      },
+      {
+        "name": "DeleteMarkersByColor",
+        "args": "self, color: MarkerColor | Literal['All']",
+        "returns": "bool",
+        "doc": "Deletes all timeline markers of the specified color."
+      },
+      {
+        "name": "DeleteMarkerAtFrame",
+        "args": "self, frameNum: int",
+        "returns": "bool",
+        "doc": "Deletes the timeline marker at the given frame number."
+      },
+      {
+        "name": "DeleteMarkerByCustomData",
+        "args": "self, customData: str",
+        "returns": "bool",
+        "doc": "Delete first matching marker with specified customData."
+      },
+      {
+        "name": "GetMarkers",
+        "args": "self",
+        "returns": "dict[int, MarkerInfo]",
+        "doc": "Returns a dict (frameId -> {information}) of all markers."
+      },
+      {
+        "name": "GetMarkerByCustomData",
+        "args": "self, customData: str",
+        "returns": "MarkerInfo",
+        "doc": "Returns marker {information} for the first matching marker with specified customData."
+      },
+      {
+        "name": "UpdateMarkerCustomData",
+        "args": "self, frameId: int, customData: str",
+        "returns": "bool",
+        "doc": "Updates customData for the marker at given frameId position."
+      },
+      {
+        "name": "GetMarkerCustomData",
+        "args": "self, frameId: int",
+        "returns": "str",
+        "doc": "Returns customData string for the marker at given frameId position."
+      },
+      {
+        "name": "GetCurrentClipThumbnailImage",
+        "args": "self",
+        "returns": "ThumbnailData",
+        "doc": "Returns a dict with data containing raw thumbnail image data for current media in the Color Page."
+      },
+      {
+        "name": "ExportFrame",
+        "args": "self, frameOffset: int, exportFrameOptions: ExportFrameOptions | None = None",
+        "returns": "ExportFrameResult",
+        "doc": "Exports the frame at frameOffset (0-based offset from the timeline start) as a still image per exportFrameOptions."
+      },
+      {
+        "name": "ExportThumbnails",
+        "args": "self, frames: list[int | ThumbnailFrame], exportThumbnailsOptions: ExportThumbnailsOptions | None = None",
+        "returns": "ExportThumbnailsResult",
+        "doc": "Renders the given frames (0-based offsets from the timeline start) into a single grid image, filled in the order given"
+      },
+      {
+        "name": "AddTrack",
+        "args": "self, trackType: TrackType, subTrackType: str | None = None",
+        "returns": "bool",
+        "doc": "Adds track of TrackType. Optional argument subTrackType."
+      },
+      {
+        "name": "DeleteTrack",
+        "args": "self, trackType: TrackType, trackIndex: int",
+        "returns": "bool",
+        "doc": "Deletes track of trackType and given trackIndex. 1 <= trackIndex <= GetTrackCount(trackType)."
+      },
+      {
+        "name": "GetTrackSubType",
+        "args": "self, trackType: TrackType, trackIndex: int",
+        "returns": "str",
+        "doc": "Returns an audio track's format."
+      },
+      {
+        "name": "SetTrackEnable",
+        "args": "self, trackType: TrackType, trackIndex: int, enabled: bool",
+        "returns": "bool",
+        "doc": "Enables/Disables track with given trackType and trackIndex"
+      },
+      {
+        "name": "GetIsTrackEnabled",
+        "args": "self, trackType: TrackType, trackIndex: int",
+        "returns": "bool",
+        "doc": "Returns True if track with given trackType and trackIndex is enabled."
+      },
+      {
+        "name": "SetTrackLock",
+        "args": "self, trackType: TrackType, trackIndex: int, locked: bool",
+        "returns": "bool",
+        "doc": "Locks/Unlocks track with given trackType and trackIndex"
+      },
+      {
+        "name": "GetIsTrackLocked",
+        "args": "self, trackType: TrackType, trackIndex: int",
+        "returns": "bool",
+        "doc": "Returns True if track with given trackType and trackIndex is locked."
+      },
+      {
+        "name": "DeleteClips",
+        "args": "self, timelineItems: list[TimelineItem], rippleDelete = False",
+        "returns": "bool",
+        "doc": "Deletes specified TimelineItems from the timeline, performing ripple delete if second argument is True."
+      },
+      {
+        "name": "DeleteGaps",
+        "args": "self",
+        "returns": "bool",
+        "doc": "Deletes all gaps between clips on the timeline, rippling content to close the gaps."
+      },
+      {
+        "name": "SetClipsLinked",
+        "args": "self, timelineItems: list[TimelineItem], linked: bool",
+        "returns": "bool",
+        "doc": "Links or unlinks the specified TimelineItems depending on second argument."
+      },
+      {
+        "name": "MoveItems",
+        "args": "self, timelineItems: list[TimelineItem], position: TimelineItemPosition, moveLinkedItems = True, subframePrecision = False",
+        "returns": "bool",
+        "doc": "Moves the leftmost TimelineItem (lowest track on ties) to the given position and the other items relative to it. Fails if any item cannot reach its destination. If subframePrecision is True, fractional startFrame values are allowed for audio clips when the 'Align audio edits to frame boundaries' preference is off. Otherwise, the position is aligned to whole frames."
+      },
+      {
+        "name": "NormalizeAudioLevel",
+        "args": "self, timelineItems: list[TimelineItem], normalizeAudioOptions: NormalizeAudioOptions | None = None",
+        "returns": "bool",
+        "doc": "Normalizes the audio level of specified TimelineItems using the given normalizeAudioOptions."
+      },
+      {
+        "name": "AutoAlignClips",
+        "args": "self, timelineItems: list[TimelineItem], autoAlignOptions: AutoAlignOptions | None = None",
+        "returns": "bool",
+        "doc": "Aligns specified TimelineItems using the given options. Returns True if successful, False otherwise."
+      },
+      {
+        "name": "GetNormalizeAudioModes",
+        "args": "self",
+        "returns": "list[str]",
+        "doc": "Returns the list of valid normalizationMode strings for NormalizeAudioLevel."
+      },
+      {
+        "name": "GetTrackName",
+        "args": "self, trackType: TrackType, trackIndex: int",
+        "returns": "str",
+        "doc": "Returns the track name for track indicated by trackType and index."
+      },
+      {
+        "name": "SetTrackName",
+        "args": "self, trackType: TrackType, trackIndex: int, name: str",
+        "returns": "bool",
+        "doc": "Sets the track name for track indicated by trackType and index."
+      },
+      {
+        "name": "DuplicateTimeline",
+        "args": "self, timelineName: str",
+        "returns": "Timeline",
+        "doc": "Duplicates the timeline and returns the created timeline."
+      },
+      {
+        "name": "GrabStill",
+        "args": "self",
+        "returns": "GalleryStill",
+        "doc": "Grabs still from the current video clip. Returns a GalleryStill object."
+      },
+      {
+        "name": "GrabAllStills",
+        "args": "self, stillFrameSource: int",
+        "returns": "list[GalleryStill]",
+        "doc": "Grabs stills from all clips at 'stillFrameSource' (1=First frame, 2=Middle frame)."
+      },
+      {
+        "name": "CreateCompoundClip",
+        "args": "self, timelineItems: list[TimelineItem], clipInfo: CompoundClipOptions | None = None",
+        "returns": "TimelineItem",
+        "doc": "Creates a compound clip of input timeline items."
+      },
+      {
+        "name": "CreateFusionClip",
+        "args": "self, timelineItems: list[TimelineItem]",
+        "returns": "TimelineItem",
+        "doc": "Creates a Fusion clip of input timeline items."
+      },
+      {
+        "name": "Export",
+        "args": "self, fileName: str, exportType: TimelineExportType, exportSubtype: TimelineExportSubtype",
+        "returns": "bool",
+        "doc": "Exports timeline to 'fileName' as per input exportType & exportSubtype format. See README.md section 'Looking up timeline export properties'."
+      },
+      {
+        "name": "GetSettings",
+        "args": "self",
+        "returns": "TimelineSettings | ProjectSettings",
+        "doc": "Returns a dict with all timeline settings, or the project settings when useCustomSettings is '0'. See README.md section 'Looking up Project and Clip properties'."
+      },
+      {
+        "name": "SetSettings",
+        "args": "self, settings: TimelineSettings",
+        "returns": "bool",
+        "doc": "Sets the timeline settings with specified dict of setting names and values. See README.md section 'Looking up Project and Clip properties'."
+      },
+      {
+        "name": "GetStartTimecode",
+        "args": "self",
+        "returns": "str",
+        "doc": "Returns the start timecode for the timeline."
+      },
+      {
+        "name": "SetStartTimecode",
+        "args": "self, timecode: str",
+        "returns": "bool",
+        "doc": "Set the start timecode of the timeline to the string 'timecode'."
+      },
+      {
+        "name": "ImportIntoTimeline",
+        "args": "self, filePath: str, importOptions: AAFImportOptions | None = None",
+        "returns": "bool",
+        "doc": "Imports timeline items from an AAF file."
+      },
+      {
+        "name": "InsertGeneratorIntoTimeline",
+        "args": "self, generatorName: str",
+        "returns": "TimelineItem",
+        "doc": "Inserts a generator into the timeline."
+      },
+      {
+        "name": "InsertFusionGeneratorIntoTimeline",
+        "args": "self, generatorName: str",
+        "returns": "TimelineItem",
+        "doc": "Inserts a Fusion generator into the timeline."
+      },
+      {
+        "name": "InsertFusionCompositionIntoTimeline",
+        "args": "self",
+        "returns": "TimelineItem",
+        "doc": "Inserts a Fusion composition into the timeline."
+      },
+      {
+        "name": "InsertOFXGeneratorIntoTimeline",
+        "args": "self, generatorName: str",
+        "returns": "TimelineItem",
+        "doc": "Inserts an OFX generator into the timeline."
+      },
+      {
+        "name": "InsertTitleIntoTimeline",
+        "args": "self, titleName: str",
+        "returns": "TimelineItem",
+        "doc": "Inserts a title into the timeline."
+      },
+      {
+        "name": "InsertFusionTitleIntoTimeline",
+        "args": "self, titleName: str",
+        "returns": "TimelineItem",
+        "doc": "Inserts a Fusion title into the timeline."
+      },
+      {
+        "name": "CreateSubtitlesFromAudio",
+        "args": "self, autoCaptionSettings: AutoCaptionSettings | None = None",
+        "returns": "bool",
+        "doc": "Creates subtitles from audio for the timeline."
+      },
+      {
+        "name": "GetUniqueId",
+        "args": "self",
+        "returns": "str",
+        "doc": "Returns a unique ID for the timeline"
+      },
+      {
+        "name": "DetectSceneCuts",
+        "args": "self",
+        "returns": "bool",
+        "doc": "Detects and makes scene cuts along the timeline."
+      },
+      {
+        "name": "ConvertTimelineToStereo",
+        "args": "self",
+        "returns": "bool",
+        "doc": "Converts timeline to stereo."
+      },
+      {
+        "name": "GetNodeGraph",
+        "args": "self",
+        "returns": "Graph",
+        "doc": "Returns the timeline's node graph object."
+      },
+      {
+        "name": "AnalyzeDolbyVision",
+        "args": "self, timelineItems: list[TimelineItem], analysisType: DolbyVisionAnalysisType",
+        "returns": "bool",
+        "doc": "Analyzes Dolby Vision on clips present on the timeline."
+      },
+      {
+        "name": "GetMediaPoolItem",
+        "args": "self",
+        "returns": "MediaPoolItem | None",
+        "doc": "Returns the media pool item corresponding to the timeline"
+      },
+      {
+        "name": "GetMarkInOut",
+        "args": "self",
+        "returns": "MarkInOut",
+        "doc": "Returns dict of in/out marks set."
+      },
+      {
+        "name": "SetMarkInOut",
+        "args": "self, markIn: int, markOut: int, markType: MarkType | None = None",
+        "returns": "bool",
+        "doc": "Sets mark in/out of type MarkType (default: 'all')"
+      },
+      {
+        "name": "ClearMarkInOut",
+        "args": "self, markType: MarkType | None = None",
+        "returns": "bool",
+        "doc": "Clears mark in/out of type MarkType (default: 'all')"
+      },
+      {
+        "name": "GetVoiceIsolationState",
+        "args": "self, trackIndex: int",
+        "returns": "VoiceIsolationState",
+        "doc": "Returns the Voice Isolation State as a dict."
+      },
+      {
+        "name": "SetVoiceIsolationState",
+        "args": "self, trackIndex: int, voiceIsolationState: VoiceIsolationState",
+        "returns": "bool",
+        "doc": "Sets Voice Isolation state of audio track."
+      },
+      {
+        "name": "SetOutputBlanking",
+        "args": "self, outputBlanking: OutputBlanking",
+        "returns": "bool",
+        "doc": "Sets the output blanking for the timeline. Accepts a dictionary with keys 'Top', 'Bottom', 'Left' and 'Right'. The values are in pixels."
+      },
+      {
+        "name": "GetOutputBlanking",
+        "args": "self",
+        "returns": "OutputBlanking",
+        "doc": "Returns the output blanking for the timeline as a dictionary with keys 'Top', 'Bottom', 'Left' and 'Right'. The values are in pixels."
+      }
+    ],
+    "doc": ""
+  },
+  "TimelineItem": {
+    "methods": [
+      {
+        "name": "GetType",
+        "args": "self",
+        "returns": "str",
+        "doc": "Returns the type of the item: 'video', 'audio', 'generator' or 'transition'"
+      },
+      {
+        "name": "AddTransition",
+        "args": "self, transitionOptions: TransitionOptions",
+        "returns": "TimelineItem | None",
+        "doc": "Adds a transition of the given type/category to the start or end of this item. Returns the created transition item or None on failure."
+      },
+      {
+        "name": "GetName",
+        "args": "self",
+        "returns": "str",
+        "doc": "Returns the item name"
+      },
+      {
+        "name": "SetName",
+        "args": "self, name: str",
+        "returns": "bool",
+        "doc": "Sets the clip's name to name."
+      },
+      {
+        "name": "GetStart",
+        "args": "self, subframePrecision = False",
+        "returns": "float",
+        "doc": "Returns the start frame position on the timeline. Returns fractional frames if subframe_precision is True"
+      },
+      {
+        "name": "GetEnd",
+        "args": "self, subframePrecision = False",
+        "returns": "float",
+        "doc": "Returns the end frame position on the timeline. Returns fractional frames if subframe_precision is True"
+      },
+      {
+        "name": "GetSourceStartFrame",
+        "args": "self",
+        "returns": "int",
+        "doc": "Returns the start frame position of the media pool clip in the timeline clip"
+      },
+      {
+        "name": "GetSourceEndFrame",
+        "args": "self",
+        "returns": "int",
+        "doc": "Returns the end frame position of the media pool clip in the timeline clip"
+      },
+      {
+        "name": "GetSourceStartTime",
+        "args": "self",
+        "returns": "float",
+        "doc": "Returns the start time position of the media pool clip in the timeline clip"
+      },
+      {
+        "name": "GetSourceEndTime",
+        "args": "self",
+        "returns": "float",
+        "doc": "Returns the end time position of the media pool clip in the timeline clip"
+      },
+      {
+        "name": "GetDuration",
+        "args": "self, subframePrecision = False",
+        "returns": "float",
+        "doc": "Returns the item duration. Returns fractional frames if subframe_precision is True"
+      },
+      {
+        "name": "GetLeftOffset",
+        "args": "self, subframePrecision = False",
+        "returns": "float",
+        "doc": "Returns the maximum extension by frame for clip from left side. Returns fractional frames if subframe_precision is True"
+      },
+      {
+        "name": "GetRightOffset",
+        "args": "self, subframePrecision = False",
+        "returns": "float",
+        "doc": "Returns the maximum extension by frame for clip from right side. Returns fractional frames if subframe_precision is True"
+      },
+      {
+        "name": "SetLeftOffset",
+        "args": "self, offset: float, subframePrecision = False, updateLinkedItems = True",
+        "returns": "bool",
+        "doc": "Sets the clip's left (start) edit point to have the given offset (in frames) available. If subframePrecision is True, fractional offsets are allowed for audio clips when the 'Align audio edits to frame boundaries' preference is off. Otherwise, the offset is aligned to whole frames. If updateLinkedItems is True, linked items are also adjusted."
+      },
+      {
+        "name": "SetRightOffset",
+        "args": "self, offset: float, subframePrecision = False, updateLinkedItems = True",
+        "returns": "bool",
+        "doc": "Sets the clip's right (end) edit point to have the given offset (in frames) available. If subframePrecision is True, fractional offsets are allowed for audio clips when the 'Align audio edits to frame boundaries' preference is off. Otherwise, the offset is aligned to whole frames. If updateLinkedItems is True, linked items are also adjusted."
+      },
+      {
+        "name": "GetFusionCompCount",
+        "args": "self",
+        "returns": "int",
+        "doc": "Returns number of Fusion compositions associated with the timeline item"
+      },
+      {
+        "name": "GetFusionCompNameList",
+        "args": "self",
+        "returns": "list[str]",
+        "doc": "Returns a list of Fusion composition names associated with the timeline item"
+      },
+      {
+        "name": "GetFusionCompByIndex",
+        "args": "self, compIndex: int",
+        "returns": "FusionComp | None",
+        "doc": "Returns the Fusion composition object based on given index. 1 <= compIndex <= timelineItem.GetFusionCompCount()"
+      },
+      {
+        "name": "GetFusionCompByName",
+        "args": "self, compName: str",
+        "returns": "FusionComp | None",
+        "doc": "Returns the Fusion composition object based on given name"
+      },
+      {
+        "name": "AddFusionComp",
+        "args": "self",
+        "returns": "FusionComp",
+        "doc": "Adds a new Fusion composition associated with the timeline item"
+      },
+      {
+        "name": "AddEffect",
+        "args": "self, category: str, id: str",
+        "returns": "Effect | None",
+        "doc": "Applies the effect with the provided category ('fusion', 'ofx' or 'audio') and id (see Resolve.GetEffectsList) to this timeline item"
+      },
+      {
+        "name": "GetEffects",
+        "args": "self, category: str",
+        "returns": "list[Effect]",
+        "doc": "Returns the effects of the given category ('fusion', 'ofx' or 'audio') applied to this timeline item"
+      },
+      {
+        "name": "DeleteEffects",
+        "args": "self, effects: list[Effect]",
+        "returns": "bool",
+        "doc": "Removes the given effects from this timeline item"
+      },
+      {
+        "name": "GetMediaPoolItem",
+        "args": "self",
+        "returns": "MediaPoolItem | None",
+        "doc": "Returns the media pool item corresponding to the timeline item if one exists"
+      },
+      {
+        "name": "AddMarker",
+        "args": "self, frameId: int, color: MarkerColor, name: str, note: str, duration: int, customData: str | None = None",
+        "returns": "bool",
+        "doc": "Creates a new marker at given frameId position and with given marker information. 'customData' is optional and helps to attach user specific data to the marker"
+      },
+      {
+        "name": "DeleteMarkersByColor",
+        "args": "self, color: MarkerColor | Literal['All']",
+        "returns": "bool",
+        "doc": "Deletes all markers of the specified color from the timeline item. 'All' as argument deletes all color markers"
+      },
+      {
+        "name": "DeleteMarkerAtFrame",
+        "args": "self, frameNum: int",
+        "returns": "bool",
+        "doc": "Deletes marker at frame number from the timeline item"
+      },
+      {
+        "name": "DeleteMarkerByCustomData",
+        "args": "self, customData: str",
+        "returns": "bool",
+        "doc": "Deletes first matching marker with specified customData"
+      },
+      {
+        "name": "ExportFrame",
+        "args": "self, frameOffset: int, exportFrameOptions: ExportFrameOptions | None = None",
+        "returns": "ExportFrameResult",
+        "doc": "Exports the frame at frameOffset (0-based offset from the item start) as a still image per exportFrameOptions."
+      },
+      {
+        "name": "ExportThumbnails",
+        "args": "self, frames: list[int | ThumbnailFrame], exportThumbnailsOptions: ExportThumbnailsOptions | None = None",
+        "returns": "ExportThumbnailsResult",
+        "doc": "Renders the given frames (0-based offsets from the item start) into a single grid image, filled in the order given"
+      },
+      {
+        "name": "GetMarkers",
+        "args": "self",
+        "returns": "dict[int, MarkerInfo]",
+        "doc": "Returns a dict (frameId -> {information}) of all markers and dicts with their information"
+      },
+      {
+        "name": "GetMarkerByCustomData",
+        "args": "self, customData: str",
+        "returns": "MarkerInfo",
+        "doc": "Returns marker {information} for the first matching marker with specified customData"
+      },
+      {
+        "name": "UpdateMarkerCustomData",
+        "args": "self, frameId: int, customData: str",
+        "returns": "bool",
+        "doc": "Updates customData (string) for the marker at given frameId position. CustomData is not exposed via UI and is useful for scripting developer to attach any user specific data to markers"
+      },
+      {
+        "name": "GetMarkerCustomData",
+        "args": "self, frameId: int",
+        "returns": "str",
+        "doc": "Returns customData string for the marker at given frameId position"
+      },
+      {
+        "name": "SetProperties",
+        "args": "self, properties: TimelineItemProperties",
+        "returns": "bool",
+        "doc": "Sets the item properties with specified dict of property keys and values. See README.md section 'Looking up Timeline item properties'."
+      },
+      {
+        "name": "GetProperties",
+        "args": "self",
+        "returns": "TimelineItemProperties",
+        "doc": "Returns a dict with all supported item properties. See README.md section 'Looking up Timeline item properties'."
+      },
+      {
+        "name": "SetSpeed",
+        "args": "self, speedOptions: SpeedOptions",
+        "returns": "bool",
+        "doc": "Sets the Clip Speed"
+      },
+      {
+        "name": "GetSpeed",
+        "args": "self",
+        "returns": "SpeedOptions",
+        "doc": "Returns the clip speed options"
+      },
+      {
+        "name": "AddFlag",
+        "args": "self, color: FlagColor",
+        "returns": "bool",
+        "doc": "Adds a flag with given color (string)"
+      },
+      {
+        "name": "GetFlagList",
+        "args": "self",
+        "returns": "list[str]",
+        "doc": "Returns a list of flag colors assigned to the item"
+      },
+      {
+        "name": "ClearFlags",
+        "args": "self, color: FlagColor | Literal['All']",
+        "returns": "bool",
+        "doc": "Clears flags of the specified color. An 'All' argument is supported to clear all flags"
+      },
+      {
+        "name": "GetStereoConvergenceValues",
+        "args": "self",
+        "returns": "dict[int, float]",
+        "doc": "Returns a dict (offset -> value) of keyframe offsets and respective convergence values"
+      },
+      {
+        "name": "GetStereoLeftFloatingWindowParams",
+        "args": "self",
+        "returns": "dict[int, FloatingWindowParams]",
+        "doc": "For the LEFT eye -> returns a dict (offset -> dict) of keyframe offsets and respective floating window params"
+      },
+      {
+        "name": "GetStereoRightFloatingWindowParams",
+        "args": "self",
+        "returns": "dict[int, FloatingWindowParams]",
+        "doc": "For the RIGHT eye -> returns a dict (offset -> dict) of keyframe offsets and respective floating window params"
+      },
+      {
+        "name": "GetClipColor",
+        "args": "self",
+        "returns": "ClipColor | Literal['']",
+        "doc": "Returns the item color as a string"
+      },
+      {
+        "name": "SetClipColor",
+        "args": "self, colorName: ClipColor",
+        "returns": "bool",
+        "doc": "Sets the item color based on the colorName (string)"
+      },
+      {
+        "name": "ClearClipColor",
+        "args": "self",
+        "returns": "bool",
+        "doc": "Clears the item color"
+      },
+      {
+        "name": "ImportFusionComp",
+        "args": "self, path: str",
+        "returns": "FusionComp",
+        "doc": "Imports a Fusion composition from given file path by creating and adding a new composition for the item"
+      },
+      {
+        "name": "ExportFusionComp",
+        "args": "self, path: str, compIndex: int",
+        "returns": "bool",
+        "doc": "Exports the Fusion composition based on given index to the path provided"
+      },
+      {
+        "name": "DeleteFusionCompByName",
+        "args": "self, compName: str",
+        "returns": "bool",
+        "doc": "Deletes the named Fusion composition"
+      },
+      {
+        "name": "LoadFusionCompByName",
+        "args": "self, compName: str",
+        "returns": "FusionComp",
+        "doc": "Loads the named Fusion composition as the active composition"
+      },
+      {
+        "name": "RenameFusionCompByName",
+        "args": "self, oldName: str, newName: str",
+        "returns": "bool",
+        "doc": "Renames the Fusion composition identified by oldName"
+      },
+      {
+        "name": "RenameVersionByName",
+        "args": "self, oldName: str, newName: str, versionType: int",
+        "returns": "bool",
+        "doc": "Renames the color version identified by oldName and versionType (0 - local, 1 - remote)"
+      },
+      {
+        "name": "DeleteVersionByName",
+        "args": "self, versionName: str, versionType: int",
+        "returns": "bool",
+        "doc": "Deletes a color version by name and versionType (0 - local, 1 - remote)"
+      },
+      {
+        "name": "LoadVersionByName",
+        "args": "self, versionName: str, versionType: int",
+        "returns": "bool",
+        "doc": "Loads a named color version as the active version. versionType: 0 - local, 1 - remote"
+      },
+      {
+        "name": "AddVersion",
+        "args": "self, versionName: str, versionType: int",
+        "returns": "bool",
+        "doc": "Adds a new color version for a video clip based on versionType (0 - local, 1 - remote)"
+      },
+      {
+        "name": "GetVersionNameList",
+        "args": "self, versionType: int",
+        "returns": "list[str]",
+        "doc": "Returns a list of all color versions for the given versionType (0 - local, 1 - remote)"
+      },
+      {
+        "name": "SetCDL",
+        "args": "self, CDL: CDL",
+        "returns": "bool",
+        "doc": "Sets CDL values on the node. Keys of map are: 'NodeIndex', 'Slope', 'Offset', 'Power', 'Saturation'"
+      },
+      {
+        "name": "GetCDL",
+        "args": "self, nodeIndex: int",
+        "returns": "CDL",
+        "doc": "Returns the ASC CDL equivalent of the primaries of the node at nodeIndex, as the dict"
+      },
+      {
+        "name": "AddTake",
+        "args": "self, mediaPoolItem: MediaPoolItem, startFrame: int | None = None, endFrame: int | None = None",
+        "returns": "bool",
+        "doc": "Adds mediaPoolItem as a new take. Initializes a take selector for the timeline item if needed. By default, the full clip extents is added. startFrame and endFrame are optional arguments used to specify the extents"
+      },
+      {
+        "name": "GetSelectedTakeIndex",
+        "args": "self",
+        "returns": "int",
+        "doc": "Returns the index of the currently selected take, or 0 if the clip is not a take selector"
+      },
+      {
+        "name": "GetTakesCount",
+        "args": "self",
+        "returns": "int",
+        "doc": "Returns the number of takes in take selector, or 0 if the clip is not a take selector"
+      },
+      {
+        "name": "AnalyzeAudioLevels",
+        "args": "self, standard: str",
+        "returns": "AudioLevelsInfo",
+        "doc": "Analyzes audio loudness levels for this timeline item. 'standard' is a mode name from timeline.GetNormalizeAudioModes(), excluding the peak-only 'Sample Peak Program' and 'True Peak' modes."
+      },
+      {
+        "name": "GetTakeByIndex",
+        "args": "self, idx: int",
+        "returns": "TakeInfo | None",
+        "doc": "Returns a dict with take info for specified index"
+      },
+      {
+        "name": "DeleteTakeByIndex",
+        "args": "self, idx: int",
+        "returns": "bool",
+        "doc": "Deletes a take by index, 1 <= idx <= number of takes"
+      },
+      {
+        "name": "SelectTakeByIndex",
+        "args": "self, idx: int",
+        "returns": "bool",
+        "doc": "Selects a take by index, 1 <= idx <= number of takes"
+      },
+      {
+        "name": "FinalizeTake",
+        "args": "self",
+        "returns": "bool",
+        "doc": "Finalizes take selection"
+      },
+      {
+        "name": "CopyGrades",
+        "args": "self, tgtTimelineItems: list[TimelineItem]",
+        "returns": "bool",
+        "doc": "Copies the current node stack layer grade to the same layer for each item in tgtTimelineItems."
+      },
+      {
+        "name": "ApplyAutoColor",
+        "args": "self",
+        "returns": "bool",
+        "doc": "Analyses the clip and applies the automatic balance and grade to frame the playhead is on, or from the first frame of the clip when it is not the current one. Replaces the grade of a previous call and clears the legacy auto color values."
+      },
+      {
+        "name": "SetAutoColorEnabled",
+        "args": "self, enabled: bool",
+        "returns": "bool",
+        "doc": "Enables or disables the grade a previous ApplyAutoColor() applied"
+      },
+      {
+        "name": "GetAutoColorEnabled",
+        "args": "self",
+        "returns": "bool | None",
+        "doc": "Returns whether auto color is applied and enabled, none if it has no auto color"
+      },
+      {
+        "name": "ClearAutoColor",
+        "args": "self",
+        "returns": "bool",
+        "doc": "Discards auto-color grades"
+      },
+      {
+        "name": "CopyAttributes",
+        "args": "self, targetItems: list[TimelineItem], options: CopyAttributesOptions",
+        "returns": "bool",
+        "doc": "Pastes the selected attributes from this item onto each item in targetItems. Equivalent to the Edit page's \\\"Paste Attributes\\\"."
+      },
+      {
+        "name": "GetClipEnabled",
+        "args": "self",
+        "returns": "bool",
+        "doc": "Gets clip enabled status"
+      },
+      {
+        "name": "SetClipEnabled",
+        "args": "self, enabled: bool",
+        "returns": "bool",
+        "doc": "Sets clip enabled based on argument"
+      },
+      {
+        "name": "GetCurrentVersion",
+        "args": "self",
+        "returns": "VersionInfo",
+        "doc": "Returns the current version of the video clip. The returned value will have the keys versionName and versionType (0 - local, 1 - remote)"
+      },
+      {
+        "name": "UpdateSidecar",
+        "args": "self",
+        "returns": "bool",
+        "doc": "Updates sidecar file for BRAW clips or RMD file for R3D clips"
+      },
+      {
+        "name": "GetUniqueId",
+        "args": "self",
+        "returns": "str",
+        "doc": "Returns a unique ID for the timeline item"
+      },
+      {
+        "name": "LoadBurnInPreset",
+        "args": "self, presetName: str",
+        "returns": "bool",
+        "doc": "Loads user defined data burn in preset for clip when supplied presetName (string)."
+      },
+      {
+        "name": "CreateMagicMask",
+        "args": "self, mode: str",
+        "returns": "bool",
+        "doc": "Creates a magic mask. mode can be 'F' (forward), 'B' (backward), or 'BI' (bidirectional)"
+      },
+      {
+        "name": "RegenerateMagicMask",
+        "args": "self",
+        "returns": "bool",
+        "doc": "Regenerates the magic mask"
+      },
+      {
+        "name": "Stabilize",
+        "args": "self",
+        "returns": "bool",
+        "doc": "Performs stabilization on the clip"
+      },
+      {
+        "name": "SmartReframe",
+        "args": "self",
+        "returns": "bool",
+        "doc": "Performs Smart Reframe, tracking the subject and repositioning it within the item's existing frame. It does not itself crop or rescale, so the frame must already be filled for the reposition to have anything to work with: when reframing to another aspect ratio, set the timeline's resolution and its 'timelineInputResMismatchBehavior' to 'scaleToCrop' first, then call this."
+      },
+      {
+        "name": "GetNodeGraph",
+        "args": "self, layerIdx: int | None = None",
+        "returns": "Graph",
+        "doc": "Returns the clip's node graph object at layerIdx (int, optional). Returns the first layer if layerIdx is skipped. 1 <= layerIdx <= project.GetSetting('nodeStackLayers')"
+      },
+      {
+        "name": "GetColorGroup",
+        "args": "self",
+        "returns": "ColorGroup | None",
+        "doc": "Returns the clip's color group if one exists"
+      },
+      {
+        "name": "AssignToColorGroup",
+        "args": "self, colorGroup: ColorGroup",
+        "returns": "bool",
+        "doc": "Assigns the clip to the given ColorGroup. ColorGroup must be an existing group in the current project"
+      },
+      {
+        "name": "RemoveFromColorGroup",
+        "args": "self",
+        "returns": "bool",
+        "doc": "Removes the clip from its ColorGroup"
+      },
+      {
+        "name": "ExportLUT",
+        "args": "self, exportType: ExportLutType, path: str",
+        "returns": "bool",
+        "doc": "Exports a LUT of the size given by 'exportType', saving it in the provided 'path'"
+      },
+      {
+        "name": "GetLinkedItems",
+        "args": "self",
+        "returns": "list[TimelineItem]",
+        "doc": "Returns a list of linked timeline items"
+      },
+      {
+        "name": "GetTrackTypeAndIndex",
+        "args": "self",
+        "returns": "list[str | int]",
+        "doc": "Returns a list of two values that correspond to the TimelineItem's trackType (string) and trackIndex (int) respectively"
+      },
+      {
+        "name": "GetPosition",
+        "args": "self, subframePrecision = False",
+        "returns": "TimelineItemPosition",
+        "doc": "Returns the TimelineItem's current absolute position. Returns a fractional frame if subframePrecision is True"
+      },
+      {
+        "name": "SetPosition",
+        "args": "self, position: TimelineItemPosition, moveLinkedItems = True, subframePrecision = False",
+        "returns": "bool",
+        "doc": "Updates the TimelineItem's position on the timeline. If subframePrecision is True, fractional startFrame values are allowed for audio clips when the 'Align audio edits to frame boundaries' preference is off. Otherwise, the position is aligned to whole frames."
+      },
+      {
+        "name": "GetSourceAudioChannelMapping",
+        "args": "self",
+        "returns": "str",
+        "doc": "Returns a string with TimelineItem's audio mapping information"
+      },
+      {
+        "name": "SetSourceAudioChannelMapping",
+        "args": "self, audioMapping: str",
+        "returns": "bool",
+        "doc": "Sets source audio channel mapping from a JSON string."
+      },
+      {
+        "name": "GetIsColorOutputCacheEnabled",
+        "args": "self",
+        "returns": "bool",
+        "doc": "Returns if the cache corresponding to cache_type is enabled"
+      },
+      {
+        "name": "GetIsFusionOutputCacheEnabled",
+        "args": "self",
+        "returns": "str",
+        "doc": "Returns if the cache corresponding to cache_type is enabled (or auto)"
+      },
+      {
+        "name": "SetColorOutputCache",
+        "args": "self, enabled: bool",
+        "returns": "bool",
+        "doc": "Sets caching to enabled or disabled. Equivalent to clip context menu action 'Render Cache Color Output'"
+      },
+      {
+        "name": "SetFusionOutputCache",
+        "args": "self, cacheValue: str",
+        "returns": "bool",
+        "doc": "Sets caching to auto, enabled or disabled. Equivalent to clip context menu action 'Render Cache Fusion Output'"
+      },
+      {
+        "name": "GetVoiceIsolationState",
+        "args": "self",
+        "returns": "VoiceIsolationState",
+        "doc": "Returns the Voice Isolation State as a dict {isEnabled, amount}, of the timelineItem"
+      },
+      {
+        "name": "SetVoiceIsolationState",
+        "args": "self, state: VoiceIsolationState",
+        "returns": "bool",
+        "doc": "Sets Voice Isolation state of the timelineItem to the given VoiceIsolationState of {isEnabled (bool), amount (int)}. amount is in range of [0, 100]."
+      },
+      {
+        "name": "ResetAllNodeColors",
+        "args": "self",
+        "returns": "bool",
+        "doc": "Resets node color for all nodes in the active version of the clip."
+      },
+      {
+        "name": "SetOutputBlanking",
+        "args": "self, outputBlanking: OutputBlanking",
+        "returns": "bool",
+        "doc": "Sets the output blanking for the clip. Accepts a dictionary with keys 'Top', 'Bottom', 'Left' and 'Right'. The values are in pixels."
+      },
+      {
+        "name": "GetOutputBlanking",
+        "args": "self",
+        "returns": "OutputBlanking",
+        "doc": "Returns the output blanking for the clip as a dictionary with keys 'Top', 'Bottom', 'Left' and 'Right'. The values are in pixels. The dictionary will be empty if the timeline's output blanking is used."
+      },
+      {
+        "name": "SetUseTimelineForOutputBlanking",
+        "args": "self, useTimelineOutputBlanking: bool",
+        "returns": "bool",
+        "doc": "Sets the flag to use the timeline's output blanking for the clip."
+      },
+      {
+        "name": "GetUseTimelineForOutputBlanking",
+        "args": "self",
+        "returns": "bool",
+        "doc": "Gets the flag to use the timeline's output blanking for the clip."
+      },
+      {
+        "name": "PerformMulticamSmartSwitch",
+        "args": "self, smartSwitchSettings: SmartSwitchSettings",
+        "returns": "bool",
+        "doc": "Performs Multicam SmartSwitch on the multicam TimelineItem using the given smartSwitchSettings"
+      },
+      {
+        "name": "FlattenMulticam",
+        "args": "self, gradeOption: FlattenMulticamGrade",
+        "returns": "bool",
+        "doc": "Flattens the multicam TimelineItem, using the grade source specified by gradeOption"
+      },
+      {
+        "name": "GetFades",
+        "args": "self",
+        "returns": "FadeInfo",
+        "doc": "Returns a dict {FadeIn, FadeOut} of the fade durations (in frames) for the item's video or audio fader"
+      },
+      {
+        "name": "SetFades",
+        "args": "self, fades: FadeInfo",
+        "returns": "bool",
+        "doc": "Sets the fade durations (in frames) for the item's video or audio fader from a dict {FadeIn, FadeOut}"
+      },
+      {
+        "name": "RippleDeleteSilence",
+        "args": "self, removeSilenceOptions: RemoveSilenceOptions | None = None",
+        "returns": "bool",
+        "doc": "Ripple deletes silent portions from this audio TimelineItem."
+      }
+    ],
+    "doc": ""
+  },
+  "ColorGroup": {
+    "methods": [
+      {
+        "name": "GetName",
+        "args": "self",
+        "returns": "str",
+        "doc": "Returns the name of the ColorGroup"
+      },
+      {
+        "name": "SetName",
+        "args": "self, groupName: str",
+        "returns": "bool",
+        "doc": "Renames ColorGroup to groupName"
+      },
+      {
+        "name": "GetClipsInTimeline",
+        "args": "self, timeline: Timeline | None = None",
+        "returns": "list[TimelineItem]",
+        "doc": "Returns a list of TimelineItems in the ColorGroup for the given Timeline"
+      },
+      {
+        "name": "GetPhotosInPhotoAlbum",
+        "args": "self, photoAlbum: PhotoAlbum | None = None",
+        "returns": "list[PhotoAlbumItem]",
+        "doc": "Returns a list of PhotoAlbumItems in the ColorGroup for the given PhotoAlbum. Uses the current photo album if photoAlbum is omitted"
+      },
+      {
+        "name": "GetPreClipNodeGraph",
+        "args": "self",
+        "returns": "Graph",
+        "doc": "Returns the ColorGroup Pre-clip graph"
+      },
+      {
+        "name": "GetPostClipNodeGraph",
+        "args": "self",
+        "returns": "Graph",
+        "doc": "Returns the ColorGroup Post-clip graph"
+      }
+    ],
+    "doc": ""
+  },
+  "Effect": {
+    "methods": [
+      {
+        "name": "GetInfo",
+        "args": "self",
+        "returns": "EffectInfo | None",
+        "doc": "Returns information about the effect"
+      },
+      {
+        "name": "GetIsEnabled",
+        "args": "self",
+        "returns": "bool",
+        "doc": "Returns whether the effect is enabled"
+      },
+      {
+        "name": "SetIsEnabled",
+        "args": "self, enabled: bool",
+        "returns": "bool",
+        "doc": "Sets whether the effect is enabled"
+      },
+      {
+        "name": "GetFusionComp",
+        "args": "self",
+        "returns": "FusionComp | None",
+        "doc": "Returns the Fusion composition object for this effect, or None if it's not a Fusion effect"
+      },
+      {
+        "name": "GetIndex",
+        "args": "self",
+        "returns": "int | None",
+        "doc": "Returns the effect's 1-based index among its siblings' effects of the same category, or None if it's no longer applied"
+      },
+      {
+        "name": "SetIndex",
+        "args": "self, index: int",
+        "returns": "bool",
+        "doc": "Moves the effect to the given 1-based index among its sibling effects"
+      }
+    ],
+    "doc": ""
+  },
+  "Folder": {
+    "methods": [
+      {
+        "name": "GetName",
+        "args": "self",
+        "returns": "str",
+        "doc": "Returns the media folder name"
+      },
+      {
+        "name": "GetParentFolder",
+        "args": "self",
+        "returns": "Folder",
+        "doc": "Returns the Folder object containing this folder, or None for the root folder."
+      },
+      {
+        "name": "GetSubFolderList",
+        "args": "self",
+        "returns": "list[Folder]",
+        "doc": "Returns a list of subfolders in the folder"
+      },
+      {
+        "name": "GetClipList",
+        "args": "self",
+        "returns": "list[MediaPoolItem]",
+        "doc": "Returns a list of clips (items) within the folder"
+      },
+      {
+        "name": "GetIsFolderStale",
+        "args": "self",
+        "returns": "bool",
+        "doc": "Returns true if folder is stale in collaboration mode"
+      },
+      {
+        "name": "GetUniqueId",
+        "args": "self",
+        "returns": "str",
+        "doc": "Returns a unique ID for the media pool folder"
+      },
+      {
+        "name": "Export",
+        "args": "self, filePath: str",
+        "returns": "bool",
+        "doc": "Exports the folder as a DRB file to filePath"
+      },
+      {
+        "name": "TranscribeAudio",
+        "args": "self, useSpeakerDetection: bool | None = None, transcribeAsNestedClip = False",
+        "returns": "bool",
+        "doc": "Transcribes audio of the MediaPoolItems within the folder and nested folders."
+      },
+      {
+        "name": "ClearTranscription",
+        "args": "self",
+        "returns": "bool",
+        "doc": "Clears audio transcription of the MediaPoolItems within the folder and nested folders."
+      },
+      {
+        "name": "PerformAudioClassification",
+        "args": "self",
+        "returns": "bool",
+        "doc": "Analyzes and classifies the audio of the MediaPoolItems within the folder and nested folders into categories and subcategories"
+      },
+      {
+        "name": "ClearAudioClassification",
+        "args": "self",
+        "returns": "bool",
+        "doc": "Clears audio classification of the MediaPoolItems within the folder and nested folders"
+      },
+      {
+        "name": "RemoveMotionBlur",
+        "args": "self, deblurOption: DeblurOptions | None = None",
+        "returns": "list[list[MediaPoolItem]]",
+        "doc": "Apply Motion Deblur on MediaPoolItems in Folder, Returns a list of original to newly created MediaPoolItems"
+      },
+      {
+        "name": "AnalyzeForIntellisearch",
+        "args": "self, identifyFaces: bool, isBetterMode: bool",
+        "returns": "bool",
+        "doc": "Perform Intellisearch analysis to all the MediaPoolItems in the folder."
+      },
+      {
+        "name": "AnalyzeForSlate",
+        "args": "self, markerColor: SlateMarkerColor",
+        "returns": "bool",
+        "doc": "Perform Slate analysis with current settings and use the stated markerColor to all the MediaPoolItems in the folder. Adds a 'Detected Slate' duration marker over the frames of each slate found; the text written on the slate is not read."
+      }
+    ],
+    "doc": ""
+  },
+  "Gallery": {
+    "methods": [
+      {
+        "name": "GetAlbumName",
+        "args": "self, galleryStillAlbum: GalleryStillAlbum",
+        "returns": "str",
+        "doc": "Returns the name of a GalleryStillAlbum object"
+      },
+      {
+        "name": "SetAlbumName",
+        "args": "self, galleryStillAlbum: GalleryStillAlbum, albumName: str",
+        "returns": "bool",
+        "doc": "Sets the name of a GalleryStillAlbum object"
+      },
+      {
+        "name": "GetCurrentStillAlbum",
+        "args": "self",
+        "returns": "GalleryStillAlbum",
+        "doc": "Returns current album as a GalleryStillAlbum object"
+      },
+      {
+        "name": "SetCurrentStillAlbum",
+        "args": "self, galleryStillAlbum: GalleryStillAlbum",
+        "returns": "bool",
+        "doc": "Sets current album to the given GalleryStillAlbum object"
+      },
+      {
+        "name": "CreateGalleryStillAlbum",
+        "args": "self",
+        "returns": "GalleryStillAlbum",
+        "doc": "Creates a new gallery still album"
+      },
+      {
+        "name": "CreateGalleryPowerGradeAlbum",
+        "args": "self",
+        "returns": "GalleryStillAlbum",
+        "doc": "Creates a new gallery power grade album"
+      },
+      {
+        "name": "GetGalleryStillAlbums",
+        "args": "self",
+        "returns": "list[GalleryStillAlbum]",
+        "doc": "Returns the gallery still albums as a list of GalleryStillAlbum objects"
+      },
+      {
+        "name": "GetGalleryPowerGradeAlbums",
+        "args": "self",
+        "returns": "list[GalleryStillAlbum]",
+        "doc": "Returns the gallery PowerGrade albums as a list of GalleryStillAlbum objects"
+      }
+    ],
+    "doc": ""
+  },
+  "GalleryStill": {
+    "methods": [],
+    "doc": ""
+  },
+  "GalleryStillAlbum": {
+    "methods": [
+      {
+        "name": "GetStills",
+        "args": "self",
+        "returns": "list[GalleryStill]",
+        "doc": "Returns the list of GalleryStill objects in the album"
+      },
+      {
+        "name": "GetLabel",
+        "args": "self, galleryStill: GalleryStill",
+        "returns": "str",
+        "doc": "Returns the label of the galleryStill"
+      },
+      {
+        "name": "SetLabel",
+        "args": "self, galleryStill: GalleryStill, label: str",
+        "returns": "bool",
+        "doc": "Sets the new label to a GalleryStill object"
+      },
+      {
+        "name": "ImportStills",
+        "args": "self, filePaths: list[str]",
+        "returns": "bool",
+        "doc": "Imports GalleryStill from each filePath in the list"
+      },
+      {
+        "name": "ExportStills",
+        "args": "self, galleryStill: list[GalleryStill], folderPath: str, filePrefix: str, format: str",
+        "returns": "bool",
+        "doc": "Exports list of GalleryStill objects to a directory"
+      },
+      {
+        "name": "DeleteStills",
+        "args": "self, galleryStill: list[GalleryStill]",
+        "returns": "bool",
+        "doc": "Deletes specified list of GalleryStill objects"
+      }
+    ],
+    "doc": ""
+  },
+  "Graph": {
+    "methods": [
+      {
+        "name": "GetNumNodes",
+        "args": "self",
+        "returns": "int",
+        "doc": "Returns the number of nodes in the graph"
+      },
+      {
+        "name": "SetLUT",
+        "args": "self, nodeIndex: int, lutPath: str",
+        "returns": "bool",
+        "doc": "Sets LUT on the node mapping the node index provided, 1 <= nodeIndex <= GetNumNodes()"
+      },
+      {
+        "name": "GetLUT",
+        "args": "self, nodeIndex: int",
+        "returns": "str",
+        "doc": "Gets relative LUT path based on the node index provided, 1 <= nodeIndex <= GetNumNodes()"
+      },
+      {
+        "name": "SetNodeCacheMode",
+        "args": "self, nodeIndex: int, cacheValue: CacheMode",
+        "returns": "bool",
+        "doc": "Sets the cache mode type on the node mapping the node index provided"
+      },
+      {
+        "name": "GetNodeCacheMode",
+        "args": "self, nodeIndex: int",
+        "returns": "int",
+        "doc": "Returns the cache mode type on the node mapping the node index provided"
+      },
+      {
+        "name": "GetNodeLabel",
+        "args": "self, nodeIndex: int",
+        "returns": "str",
+        "doc": "Returns the label of the node at nodeIndex"
+      },
+      {
+        "name": "SetNodeLabel",
+        "args": "self, nodeIndex: int, label: str",
+        "returns": "bool",
+        "doc": "Sets the label of the node at nodeIndex, 1 <= nodeIndex <= GetNumNodes()"
+      },
+      {
+        "name": "GetNodeColor",
+        "args": "self, nodeIndex: int",
+        "returns": "NodeColor | Literal['']",
+        "doc": "Returns the color of the node at nodeIndex as a string, or an empty string if no color is set"
+      },
+      {
+        "name": "SetNodeColor",
+        "args": "self, nodeIndex: int, colorName: NodeColor | Literal['']",
+        "returns": "bool",
+        "doc": "Sets the color of the node at nodeIndex based on the colorName (string). An empty string clears the color. 1 <= nodeIndex <= GetNumNodes()"
+      },
+      {
+        "name": "GetToolsInNode",
+        "args": "self, nodeIndex: int",
+        "returns": "list[str]",
+        "doc": "Returns the list of tools the node at nodeIndex uses, as the node tooltip shows them: the applied LUT ('LUT: name'), the OFX plugin ('OFX: name') and every group of parameters moved off its default ('Primary Balance', 'Custom Curves', 'HSL Qualifier', ...)"
+      },
+      {
+        "name": "SetNodeEnabled",
+        "args": "self, nodeIndex: int, isEnabled: bool",
+        "returns": "bool",
+        "doc": "Sets the node at the given nodeIndex to isEnabled, 1 <= nodeIndex <= GetNumNodes()"
+      },
+      {
+        "name": "GetNodeEnabled",
+        "args": "self, nodeIndex: int",
+        "returns": "bool",
+        "doc": "Returns whether the node at the given nodeIndex is enabled, 1 <= nodeIndex <= GetNumNodes()"
+      },
+      {
+        "name": "ApplyArriCdlLut",
+        "args": "self",
+        "returns": "bool",
+        "doc": "Applies ARRI CDL and LUT."
+      },
+      {
+        "name": "ApplyGradeFromDRX",
+        "args": "self, path: str, gradeMode: int, applyToAllLayers = False, keyframeMode = Resolve.KEYFRAME_MODE_ALL",
+        "returns": "bool",
+        "doc": "Loads a still from given file path and applies grade to graph with gradeMode (0=No keyframes, 1=Source Timecode aligned, 2=Start Frames aligned). If applyToAllLayers is True, the grade is applied to all node-stack layers instead of just the active layer. keyframeMode selects what is applied, one of the resolve.KEYFRAME_MODE_* constants (default KEYFRAME_MODE_ALL)."
+      },
+      {
+        "name": "ResetAllGrades",
+        "args": "self",
+        "returns": "bool",
+        "doc": "Resets all grades in the graph. Node labels are cleared too"
+      }
+    ],
+    "doc": ""
+  },
+  "MediaStorage": {
+    "methods": [
+      {
+        "name": "GetMountedVolumeList",
+        "args": "self",
+        "returns": "list[str]",
+        "doc": "Returns list of folder paths corresponding to mounted volumes displayed in Resolve's Media Storage"
+      },
+      {
+        "name": "GetSubFolderList",
+        "args": "self, folderPath: str",
+        "returns": "list[str]",
+        "doc": "Returns list of folder paths in the given absolute folder path"
+      },
+      {
+        "name": "GetFileList",
+        "args": "self, folderPath: str",
+        "returns": "list[str]",
+        "doc": "Returns list of media and file listings in the given absolute folder path"
+      },
+      {
+        "name": "RevealInStorage",
+        "args": "self, path: str",
+        "returns": "bool",
+        "doc": "Expands and displays given file/folder path in Resolve's Media Storage"
+      },
+      {
+        "name": "AddItemListToMediaPool",
+        "args": "self, itemInfos: list[MediaStorageItemInfo]",
+        "returns": "list[MediaPoolItem]",
+        "doc": "Adds specified file/folder paths from Media Storage into current Media Pool folder. Returns a list of the MediaPoolItems created"
+      },
+      {
+        "name": "AddClipMattesToMediaPool",
+        "args": "self, mediaPoolItem: MediaPoolItem, paths: list[str], stereoEye: str | None = None",
+        "returns": "bool",
+        "doc": "Adds specified media files as mattes for the specified MediaPoolItem. stereoEye is 'left' or 'right' for stereo clips"
+      },
+      {
+        "name": "AddTimelineMattesToMediaPool",
+        "args": "self, paths: list[str]",
+        "returns": "list[MediaPoolItem]",
+        "doc": "Adds specified media files as timeline mattes in current media pool folder. Returns a list of created MediaPoolItems"
+      },
+      {
+        "name": "StartCloneMedia",
+        "args": "self, sourceDir: str, targetDirs: str | list[str]",
+        "returns": "bool",
+        "doc": "Starts cloning media from sourceDir to targetDirs. Use SetCloneToolSettings to configure PreserveFolderName/ChecksumType beforehand."
+      },
+      {
+        "name": "SetCloneToolSettings",
+        "args": "self, cloneToolSettings: CloneToolSettings | None = None",
+        "returns": "bool",
+        "doc": "Sets the PreserveFolderName/ChecksumType options used by subsequent StartCloneMedia calls (and by the Clone Tool UI)."
+      },
+      {
+        "name": "StopCloneMedia",
+        "args": "self",
+        "returns": "bool",
+        "doc": "Stops the currently in-progress clone job started via StartCloneMedia. Returns False if no clone job is in progress."
+      },
+      {
+        "name": "GetCloneStatus",
+        "args": "self",
+        "returns": "CloneStatus",
+        "doc": "Returns a dict with the status of the current (or most recently started) clone job"
+      }
+    ],
+    "doc": ""
+  },
+  "PhotoAlbum": {
+    "methods": [
+      {
+        "name": "GetName",
+        "args": "self",
+        "returns": "str",
+        "doc": "Returns the photo album name."
+      },
+      {
+        "name": "SetName",
+        "args": "self, photoAlbumName: str",
+        "returns": "bool",
+        "doc": "Sets the photo album name if photoAlbumName (string) is unique."
+      },
+      {
+        "name": "GetUniqueId",
+        "args": "self",
+        "returns": "str",
+        "doc": "Returns a unique ID for the photo album"
+      },
+      {
+        "name": "GetPhotoList",
+        "args": "self",
+        "returns": "list[PhotoAlbumItem]",
+        "doc": "Returns a list of photo album items in the photo album."
+      },
+      {
+        "name": "ExportThumbnails",
+        "args": "self, photoIndices: list[int], exportThumbnailsOptions: ExportThumbnailsOptions | None = None",
+        "returns": "ExportThumbnailsResult",
+        "doc": "Renders the photos at the given 1-based album positions into a single grid image, one cell per photo labelled with its position, 1 <= photoIndex <= GetPhotoList() size"
+      },
+      {
+        "name": "GetCurrentItem",
+        "args": "self",
+        "returns": "PhotoAlbumItem | None",
+        "doc": "Returns the current photo album item."
+      },
+      {
+        "name": "DeletePhotos",
+        "args": "self, photoAlbumItems: list[PhotoAlbumItem]",
+        "returns": "bool",
+        "doc": "Deletes specified PhotoAlbumItems from the photo album."
+      },
+      {
+        "name": "GetNodeGraph",
+        "args": "self",
+        "returns": "Graph",
+        "doc": "Returns the photo album's node graph object."
+      },
+      {
+        "name": "GetMediaPoolItem",
+        "args": "self",
+        "returns": "MediaPoolItem | None",
+        "doc": "Returns the media pool item corresponding to the photo album"
+      },
+      {
+        "name": "GrabStill",
+        "args": "self",
+        "returns": "GalleryStill",
+        "doc": "Grabs still from the current photo. Returns a GalleryStill object."
+      },
+      {
+        "name": "GrabAllStills",
+        "args": "self",
+        "returns": "list[GalleryStill]",
+        "doc": "Grabs stills from all photos in the photo album."
+      }
+    ],
+    "doc": ""
+  },
+  "PhotoAlbumItem": {
+    "methods": [
+      {
+        "name": "GetName",
+        "args": "self",
+        "returns": "str",
+        "doc": "Returns the item name"
+      },
+      {
+        "name": "SetName",
+        "args": "self, name: str",
+        "returns": "bool",
+        "doc": "Sets the photo's name to name."
+      },
+      {
+        "name": "GetUniqueId",
+        "args": "self",
+        "returns": "str",
+        "doc": "Returns a unique ID for the photo album item"
+      },
+      {
+        "name": "GetFusionCompCount",
+        "args": "self",
+        "returns": "int",
+        "doc": "Returns number of Fusion compositions associated with the photo album item"
+      },
+      {
+        "name": "GetFusionCompNameList",
+        "args": "self",
+        "returns": "list[str]",
+        "doc": "Returns a list of Fusion composition names associated with the photo album item"
+      },
+      {
+        "name": "GetFusionCompByIndex",
+        "args": "self, compIndex: int",
+        "returns": "FusionComp | None",
+        "doc": "Returns the Fusion composition object based on given index. 1 <= compIndex <= photoAlbumItem.GetFusionCompCount()"
+      },
+      {
+        "name": "GetFusionCompByName",
+        "args": "self, compName: str",
+        "returns": "FusionComp | None",
+        "doc": "Returns the Fusion composition object based on given name"
+      },
+      {
+        "name": "AddFusionComp",
+        "args": "self",
+        "returns": "FusionComp",
+        "doc": "Adds a new Fusion composition associated with the photo album item"
+      },
+      {
+        "name": "DeleteFusionCompByName",
+        "args": "self, compName: str",
+        "returns": "bool",
+        "doc": "Deletes the named Fusion composition"
+      },
+      {
+        "name": "LoadFusionCompByName",
+        "args": "self, compName: str",
+        "returns": "FusionComp",
+        "doc": "Loads the named Fusion composition as the active composition"
+      },
+      {
+        "name": "RenameFusionCompByName",
+        "args": "self, oldName: str, newName: str",
+        "returns": "bool",
+        "doc": "Renames the Fusion composition identified by oldName"
+      },
+      {
+        "name": "ImportFusionComp",
+        "args": "self, path: str",
+        "returns": "FusionComp",
+        "doc": "Imports a Fusion composition from given file path by creating and adding a new composition for the item"
+      },
+      {
+        "name": "ExportFusionComp",
+        "args": "self, path: str, compIndex: int",
+        "returns": "bool",
+        "doc": "Exports the Fusion composition based on given index to the path provided"
+      },
+      {
+        "name": "GetMediaPoolItem",
+        "args": "self",
+        "returns": "MediaPoolItem | None",
+        "doc": "Returns the media pool item corresponding to the photo album item if one exists"
+      },
+      {
+        "name": "AddFlag",
+        "args": "self, color: FlagColor",
+        "returns": "bool",
+        "doc": "Adds a flag with given color (string)"
+      },
+      {
+        "name": "GetFlagList",
+        "args": "self",
+        "returns": "list[str]",
+        "doc": "Returns a list of flag colors assigned to the item"
+      },
+      {
+        "name": "ClearFlags",
+        "args": "self, color: FlagColor | Literal['All']",
+        "returns": "bool",
+        "doc": "Clears flags of the specified color. An 'All' argument is supported to clear all flags"
+      },
+      {
+        "name": "GetClipColor",
+        "args": "self",
+        "returns": "ClipColor | Literal['']",
+        "doc": "Returns the item color as a string"
+      },
+      {
+        "name": "SetClipColor",
+        "args": "self, colorName: ClipColor",
+        "returns": "bool",
+        "doc": "Sets the item color based on the colorName (string)"
+      },
+      {
+        "name": "ClearClipColor",
+        "args": "self",
+        "returns": "bool",
+        "doc": "Clears the item color"
+      },
+      {
+        "name": "CopyGrades",
+        "args": "self, tgtPhotoAlbumItems: list[PhotoAlbumItem]",
+        "returns": "bool",
+        "doc": "Copies the current node stack layer grade to the same layer for each item in tgtPhotoAlbumItems."
+      },
+      {
+        "name": "ApplyAutoColor",
+        "args": "self",
+        "returns": "bool",
+        "doc": "Analyses the photo and applies the automatic balance and grade. Replaces the grade of a previous call and clears the legacy auto color values."
+      },
+      {
+        "name": "SetAutoColorEnabled",
+        "args": "self, enabled: bool",
+        "returns": "bool",
+        "doc": "Enables or disables the grade a previous ApplyAutoColor() applied"
+      },
+      {
+        "name": "GetAutoColorEnabled",
+        "args": "self",
+        "returns": "bool | None",
+        "doc": "Returns whether auto color is applied and enabled, none if it has no auto color"
+      },
+      {
+        "name": "ClearAutoColor",
+        "args": "self",
+        "returns": "bool",
+        "doc": "Discards auto-color grades"
+      },
+      {
+        "name": "GetCurrentVersion",
+        "args": "self",
+        "returns": "VersionInfo",
+        "doc": "Returns the current version of the photo. The returned value will have the keys versionName and versionType (always 1 - remote, as photo albums only support remote versions)"
+      },
+      {
+        "name": "RenameVersionByName",
+        "args": "self, oldName: str, newName: str",
+        "returns": "bool",
+        "doc": "Renames the color version identified by oldName. Photo albums only support remote versions"
+      },
+      {
+        "name": "DeleteVersionByName",
+        "args": "self, versionName: str",
+        "returns": "bool",
+        "doc": "Deletes a color version by name. Photo albums only support remote versions"
+      },
+      {
+        "name": "LoadVersionByName",
+        "args": "self, versionName: str",
+        "returns": "bool",
+        "doc": "Loads a named color version as the active version. Photo albums only support remote versions"
+      },
+      {
+        "name": "AddVersion",
+        "args": "self, versionName: str",
+        "returns": "bool",
+        "doc": "Adds a new color version for a photo. Photo albums only support remote versions"
+      },
+      {
+        "name": "GetVersionNameList",
+        "args": "self",
+        "returns": "list[str]",
+        "doc": "Returns a list of all color versions. Photo albums only support remote versions"
+      },
+      {
+        "name": "SetCDL",
+        "args": "self, CDL: CDL",
+        "returns": "bool",
+        "doc": "Sets CDL values on the node. Keys of map are: 'NodeIndex', 'Slope', 'Offset', 'Power', 'Saturation'"
+      },
+      {
+        "name": "GetCDL",
+        "args": "self, nodeIndex: int",
+        "returns": "CDL",
+        "doc": "Returns the ASC CDL equivalent of the primaries of the node at nodeIndex, as the dict"
+      },
+      {
+        "name": "GetNodeGraph",
+        "args": "self, layerIdx: int | None = None",
+        "returns": "Graph",
+        "doc": "Returns the photo's node graph object at layerIdx (int, optional). Returns the first layer if layerIdx is skipped. 1 <= layerIdx <= project.GetSetting('nodeStackLayers')"
+      },
+      {
+        "name": "ResetAllNodeColors",
+        "args": "self",
+        "returns": "bool",
+        "doc": "Resets node color for all nodes in the active version of the photo."
+      },
+      {
+        "name": "ExportLUT",
+        "args": "self, exportType: ExportLutType, path: str",
+        "returns": "bool",
+        "doc": "Exports a LUT of the size given by 'exportType', saving it in the provided 'path'"
+      },
+      {
+        "name": "GetColorGroup",
+        "args": "self",
+        "returns": "ColorGroup | None",
+        "doc": "Returns the photo's color group if one exists"
+      },
+      {
+        "name": "AssignToColorGroup",
+        "args": "self, colorGroup: ColorGroup",
+        "returns": "bool",
+        "doc": "Assigns the photo to the given ColorGroup. ColorGroup must be an existing group in the current project"
+      },
+      {
+        "name": "RemoveFromColorGroup",
+        "args": "self",
+        "returns": "bool",
+        "doc": "Removes the photo from its ColorGroup"
+      },
+      {
+        "name": "LoadBurnInPreset",
+        "args": "self, presetName: str",
+        "returns": "bool",
+        "doc": "Loads user defined data burn in preset for photo when supplied presetName (string)."
+      },
+      {
+        "name": "GetRatings",
+        "args": "self",
+        "returns": "int",
+        "doc": "Returns the photo rating in stars (0-5)"
+      },
+      {
+        "name": "SetRatings",
+        "args": "self, stars: int",
+        "returns": "bool",
+        "doc": "Sets the photo rating to stars (int, 0-5)"
+      },
+      {
+        "name": "AddEffect",
+        "args": "self, category: str, id: str",
+        "returns": "Effect | None",
+        "doc": "Applies the effect with the provided category and id (see Resolve.GetEffectsList) to this photo album item"
+      },
+      {
+        "name": "GetEffects",
+        "args": "self, category: str",
+        "returns": "list[Effect]",
+        "doc": "Returns the effects of the given category ('fusion' or 'ofx') applied to this photo album item"
+      },
+      {
+        "name": "DeleteEffects",
+        "args": "self, effects: list[Effect]",
+        "returns": "bool",
+        "doc": "Removes the given effects from this photo album item"
+      },
+      {
+        "name": "ExportFrame",
+        "args": "self, exportFrameOptions: ExportFrameOptions | None = None",
+        "returns": "ExportFrameResult",
+        "doc": "Exports the photo as a still image per exportFrameOptions."
+      },
+      {
+        "name": "GetProperties",
+        "args": "self",
+        "returns": "PhotoAlbumItemProperties",
+        "doc": "Returns a dict with all supported photo properties (source transform, cropping and looks). See README.md section 'Looking up Photo Album Item properties'."
+      },
+      {
+        "name": "SetProperties",
+        "args": "self, properties: PhotoAlbumItemProperties",
+        "returns": "bool",
+        "doc": "Sets the photo properties (source transform, cropping and looks) with the specified dict of property keys and values. See README.md section 'Looking up Photo Album Item properties'."
+      }
+    ],
+    "doc": ""
+  },
+  "Fusion": {
+    "methods": [],
+    "doc": ""
+  },
+  "FusionComp": {
+    "methods": [],
+    "doc": ""
+  },
+  "STYPE_BOOL": {
+    "methods": [],
+    "doc": ""
+  },
+  "STYPE_STR": {
+    "methods": [],
+    "doc": ""
+  }
+}
