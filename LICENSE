@@ -1,0 +1,9 @@
+Copyright (c) 2026 AI Video Studio Project. All rights reserved.
+
+本仓库的脚本与文档版权归仓库所有者所有。未附带开源协议前默认保留所有权利。
+
+逆向分析对象为第三方商业软件的成品二进制，本仓库不含其任何原始代码或资源文件；
+仓库内的结论为独立分析所得的结构事实（类名、接口签名、文件格式、常量），用于互操作性研究。
+
+仓库中引用的第三方组件（Crypto++、OpenSSL、FFmpeg、OpenFX、OpenTimelineIO 等）
+各自适用其自身协议，本仓库不改变也不覆盖这些协议。

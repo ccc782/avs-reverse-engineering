@@ -1,0 +1,24 @@
+# 原始字符串转储（体积大，跑一遍就能重生成）
+reports/*.txt
+
+# 二进制与安装包不入库
+*.exe
+*.dll
+*.msi
+*.zip
+*.7z
+*.pdf
+*.cab
+
+# 逆向靶场（本机隔离安装目录，不入库）
+/../DaVinci_Resolve_21.2_隔离版/
+/../剪映专业版_11.7.0.14652_隔离版/
+
+# Python
+__pycache__/
+*.pyc
+
+# 系统
+.DS_Store
+Thumbs.db
+*.log
