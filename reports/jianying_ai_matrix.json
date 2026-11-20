@@ -1,0 +1,1096 @@
+{
+  "matrix": [
+    {
+      "capability": "人像抠像/视频分割",
+      "mode": "端侧",
+      "models": {
+        "hairparser": [
+          0.1,
+          1
+        ],
+        "headsegmodel": [
+          0.0,
+          1
+        ],
+        "humanparsingmodel": [
+          0.7,
+          1
+        ],
+        "mattingmodel": [
+          20.0,
+          7
+        ],
+        "saliency_seg_model": [
+          3.7,
+          1
+        ],
+        "skin_seg": [
+          0.6,
+          2
+        ],
+        "tt_interactive_matting": [
+          10.5,
+          1
+        ],
+        "tt_mobilevos": [
+          22.3,
+          2
+        ],
+        "tt_salient_human": [
+          1.4,
+          1
+        ]
+      },
+      "classes": [
+        "lvve::AIMattingClient",
+        "lvve::AIMattingClientPubApi",
+        "lvve::AiMattingApplyParams",
+        "lvve::Matting",
+        "lvve::MattingInfo",
+        "lvve::MattingStroke",
+        "lvve::MattingTaskService",
+        "lvve::MattingTaskServiceWin",
+        "lvve::MattingTaskServiceWin::EditorVEMattingListener",
+        "lvve::NodeWrapperMattingBlendMode",
+        "lvve::NodeWrapperMattingCopiedSegmentId",
+        "lvve::NodeWrapperMattingExpansion"
+      ],
+      "class_total": 59,
+      "commands": [
+        "video.setMatting",
+        "video.clearMatting",
+        "video.applyAllChroma"
+      ],
+      "endpoints": []
+    },
+    {
+      "capability": "绿幕/色度键",
+      "mode": "端侧",
+      "models": {},
+      "classes": [
+        "lvve::ChromaColorParam",
+        "lvve::ChromaEdgeSmoothParam",
+        "lvve::ChromaIntensityParam",
+        "lvve::ChromaParam",
+        "lvve::ChromaPickParam",
+        "lvve::ChromaShadowParam",
+        "lvve::ChromaSpillParam",
+        "lvve::GreenScreenBackground",
+        "lvve::GreenScreenForeground",
+        "lvve::MaterialChroma",
+        "lvve::MaterialGreenScreen",
+        "lvve::NodeWrapperGreenScreenBackgroundVideoPath"
+      ],
+      "class_total": 42,
+      "commands": [
+        "video.setChromaColor",
+        "video.setChromaIntensity",
+        "video.setChromaShadow",
+        "video.setChromaEdgeSmooth",
+        "video.setChromaSpill",
+        "video.resetChroma"
+      ],
+      "endpoints": []
+    },
+    {
+      "capability": "美颜/美妆/塑形",
+      "mode": "端侧",
+      "models": {
+        "bingo_facegan_model": [
+          5.1,
+          1
+        ],
+        "facebeautifymodel": [
+          0.5,
+          1
+        ],
+        "facefitting": [
+          1.2,
+          2
+        ],
+        "petfacemodel": [
+          1.0,
+          1
+        ],
+        "tt_eyefitting": [
+          0.1,
+          1
+        ],
+        "tt_facefitting_3d": [
+          2.0,
+          1
+        ],
+        "tt_gendergan": [
+          4.3,
+          1
+        ]
+      },
+      "classes": [
+        "lvve::BeautyBodyAutoPreset",
+        "lvve::BeautyBodyPreset",
+        "lvve::BeautyFaceAutoPreset",
+        "lvve::BeautyFaceAutoRetouchInfo",
+        "lvve::BeautyFacePreset",
+        "lvve::BeautyFacePresetInfo",
+        "lvve::FigureSlim",
+        "lvve::FigureStretch",
+        "lvve::FigureZoom",
+        "lvve::MaterialDigitalHumanFigureEffect",
+        "lvve::MaterialManualBeauty",
+        "lvve::NodeWrapperSegmentAudioVocalBeautyVersion"
+      ],
+      "class_total": 74,
+      "commands": [
+        "video.setFigure",
+        "video.setMakeupRoot",
+        "video.clearFigure",
+        "video.setFigureFaceId"
+      ],
+      "endpoints": []
+    },
+    {
+      "capability": "人脸识别/聚类/验证",
+      "mode": "端侧",
+      "models": {
+        "faceclustingmodel": [
+          4.7,
+          2
+        ],
+        "faceverifymodel": [
+          4.1,
+          1
+        ],
+        "freidmodel": [
+          23.6,
+          3
+        ]
+      },
+      "classes": [],
+      "class_total": 0,
+      "commands": [],
+      "endpoints": []
+    },
+    {
+      "capability": "手部/骨骼/动作",
+      "mode": "双路",
+      "models": {
+        "avatar3d": [
+          10.0,
+          1
+        ],
+        "avatar_drive": [
+          0.6,
+          1
+        ],
+        "handmodel": [
+          0.6,
+          3
+        ],
+        "skeleton_model": [
+          0.4,
+          1
+        ]
+      },
+      "classes": [
+        "Concurrency::details::_TaskProcHandle",
+        "lvve::AttachmentVipHandwrite",
+        "lvve::KeyframeHandwrite",
+        "lvve::MaterialHandwrite",
+        "lvve::NodeWrapperSegmentHandwriteGroupId",
+        "lvve::NodeWrapperSegmentHandwriteRenderIndex",
+        "lvve::SegmentHandwrite",
+        "lvve::TextEndComposeCmdParam",
+        "lvve::TextTemplateEndComposeCmdParam",
+        "lyra::AddHandwriteRespStruct",
+        "lyra::AddPatchHandler",
+        "lyra::AiMattingHandler"
+      ],
+      "class_total": 113,
+      "commands": [
+        "video.addDigitalHuman",
+        "video.updateDigitalHuman"
+      ],
+      "endpoints": [
+        "https://lv-api-sinfonlinec.ulikecam.com/lv/edit/digital_human/test"
+      ]
+    },
+    {
+      "capability": "深度/显著性/场景",
+      "mode": "端侧",
+      "models": {
+        "alg_scene_normal": [
+          5.1,
+          1
+        ],
+        "colorcard": [
+          0.2,
+          1
+        ],
+        "depthmodel": [
+          1.2,
+          1
+        ],
+        "scene_normal_model": [
+          5.1,
+          1
+        ]
+      },
+      "classes": [],
+      "class_total": 0,
+      "commands": [],
+      "endpoints": []
+    },
+    {
+      "capability": "插帧/超分/去闪烁",
+      "mode": "端侧",
+      "models": {
+        "deflicker": [
+          0.1,
+          1
+        ],
+        "interpolation": [
+          10.0,
+          1
+        ],
+        "umvfi": [
+          0.1,
+          1
+        ]
+      },
+      "classes": [
+        "lvve::Deflicker",
+        "lvve::SuperResolution",
+        "lvve::SuperResolutionParam",
+        "lvve::VideoDeflickerParam",
+        "lyra::CancelDeflickerReqStruct",
+        "lyra::CancelDeflickerRespStruct",
+        "lyra::CancelSuperResolutionReqStruct",
+        "lyra::CancelSuperResolutionRespStruct",
+        "lyra::DeflickerHandler",
+        "lyra::DeflickerService",
+        "lyra::FrameInterpolationHandler",
+        "lyra::GetDeflickerPathRespStruct"
+      ],
+      "class_total": 31,
+      "commands": [
+        "video.setStable",
+        "video.setVideoAlgorithm"
+      ],
+      "endpoints": []
+    },
+    {
+      "capability": "防抖/稳定",
+      "mode": "端侧",
+      "models": {},
+      "classes": [
+        "lvve::GameplayAdjustableConfig",
+        "lvve::NodeWrapperStableMatrixPath",
+        "lvve::SmartStableResult",
+        "lvve::Stable",
+        "lvve::VideoStableConfig",
+        "lvve::VideoStableParam",
+        "lvve::VideoStableResult",
+        "lyra::CancelVideoStableReqStruct",
+        "lyra::CancelVideoStableRespStruct",
+        "lyra::FlushStableResultReqStruct",
+        "lyra::FlushStableResultRespStruct",
+        "lyra::SetVideoStableReqStruct"
+      ],
+      "class_total": 18,
+      "commands": [
+        "video.setStable"
+      ],
+      "endpoints": []
+    },
+    {
+      "capability": "降噪（画/音）",
+      "mode": "端侧",
+      "models": {
+        "audiomodel": [
+          31.1,
+          8
+        ],
+        "noise_reduction": [
+          0.2,
+          1
+        ]
+      },
+      "classes": [
+        "lvve::AudioRealtimeDenoiseParam",
+        "lvve::MaterialRealtimeDenoise",
+        "lvve::NoiseReduction",
+        "lvve::VideoNoiseReductionParam",
+        "lvve::VideoRealtimeDenoiseParam",
+        "lyra::AudioRealtimeDenoiseReqStruct",
+        "lyra::AudioRealtimeDenoiseRespStruct",
+        "lyra::CancelNoiseReductionReqStruct",
+        "lyra::CancelNoiseReductionRespStruct",
+        "lyra::DenoiseHandler",
+        "lyra::GetNoiseReductionPathRespStruct",
+        "lyra::NoiseReductionService"
+      ],
+      "class_total": 23,
+      "commands": [
+        "video.denoiseOn",
+        "video.denoiseOff",
+        "audio.denoiseOn",
+        "audio.denoiseOff"
+      ],
+      "endpoints": []
+    },
+    {
+      "capability": "人声分离/修音/变声",
+      "mode": "端侧",
+      "models": {
+        "audiomodel": [
+          31.1,
+          8
+        ]
+      },
+      "classes": [
+        "lvve::AttachmentArticleVideoToneConfig",
+        "lvve::AttachmentMidvideoToneInfo",
+        "lvve::AttachmentOneoffDraft",
+        "lvve::AttachmentOneoffDraftControl",
+        "lvve::AttachmentOneoffGameplay",
+        "lvve::MaterialAudioPitchShift",
+        "lvve::MaterialVocalBeautify",
+        "lvve::MaterialVocalSeparation",
+        "lvve::MediaToneModifyParam",
+        "lvve::NodeWrapperSegmentAudioIsToneModify",
+        "lvve::NodeWrapperSegmentAudioVocalSeparationVersion",
+        "lvve::NodeWrapperSegmentVideoIsToneModify"
+      ],
+      "class_total": 43,
+      "commands": [
+        "video.pitchOn",
+        "video.pitchOff",
+        "audio.pitchOn",
+        "audio.pitchOff",
+        "audio.setVoiceEffect",
+        "audio.setVoiceEffectParams",
+        "audio.setVocalSeparation",
+        "audio.setVocalBeautify",
+        "audio.modifiedToneOn"
+      ],
+      "endpoints": []
+    },
+    {
+      "capability": "语音识别/字幕/歌词",
+      "mode": "双路",
+      "models": {
+        "audiomodel": [
+          31.1,
+          8
+        ]
+      },
+      "classes": [
+        "lvve::AddLyricEffectParam",
+        "lvve::AiMusicLyric",
+        "lvve::AttachmentAIClipperTranscriptControl",
+        "lvve::AttachmentAiClipperTranscript",
+        "lvve::AttachmentAiClipperTranscriptChapter",
+        "lvve::AttachmentAiClipperTranscriptDeletionSpan",
+        "lvve::AttachmentAiClipperTranscriptParagraph",
+        "lvve::AttachmentAiClipperTranscriptSegment",
+        "lvve::AttachmentAiClipperTranscriptSentence",
+        "lvve::AttachmentAiClipperTranscriptWord",
+        "lvve::AttachmentLyricSourceControl",
+        "lvve::AttachmentLyricsEffectControl"
+      ],
+      "class_total": 197,
+      "commands": [
+        "text.addSubtitles",
+        "text.deleteTextToAudioIds",
+        "text.updateSubtitleTemplate",
+        "text.setSubtitleKeywords",
+        "text.clearSubtitleKeywords"
+      ],
+      "endpoints": [
+        "/lv/v1/audio_subtitle/feedback",
+        "/lv/v1/audio_subtitle/get_keyword",
+        "/lv/v1/audio_subtitle/highlight",
+        "/lv/v1/audio_subtitle/query",
+        "/lv/v1/audio_subtitle/submit",
+        "/lv/v1/audio_subtitle/update_keyword",
+        "https://lv-api.ulikecam.com/lv/v1/audio_subtitle/highlight"
+      ]
+    },
+    {
+      "capability": "TTS/配音/音色克隆",
+      "mode": "云侧",
+      "models": {},
+      "classes": [
+        "lvve::DigitalHumanTtsMeta",
+        "lvve::TtsBenefitInfo",
+        "lvve::TtsBenefitInfoParam",
+        "lvve::TtsDriverMode",
+        "lvve::TtsDriverModeParam",
+        "lvve::TtsLanguageInfo",
+        "lvve::TtsLanguageInfoParam",
+        "lvve::TtsToneEmotion",
+        "lvve::TtsToneEmotionParam",
+        "lyra::AddTtsPartRespStruct",
+        "lyra::BatchMoveSuccessorTtsRespStruct",
+        "lyra::DigitalHumanConvertTtsRespStruct"
+      ],
+      "class_total": 21,
+      "commands": [
+        "text.deleteTextToAudioIds"
+      ],
+      "endpoints": [
+        "/lv/v1/text_to_audio",
+        "/lv/v1/voice/delete_voice_clone",
+        "/lv/v1/voice/release_voice_clone",
+        "/lv/v1/voice/voice_clone_condition"
+      ]
+    },
+    {
+      "capability": "视觉跟踪/物体锁定",
+      "mode": "端侧",
+      "models": {
+        "object_tracking": [
+          0.2,
+          1
+        ]
+      },
+      "classes": [
+        "lvve::AddObjectLockedParam",
+        "lvve::AttachmentEditableMaterialTracking",
+        "lvve::IObjectLockAlgorithm",
+        "lvve::MaskTrackingService",
+        "lvve::MaskTrackingServiceWin",
+        "lvve::MaterialVideoTracking",
+        "lvve::NodeWrapperMaterialVideoTrackingMapPath",
+        "lvve::NodeWrapperMaterialVideoTrackingResultPath",
+        "lvve::NodeWrapperMaterialVideoTrackingSurfaceEnableChangedSeq",
+        "lvve::NodeWrapperMaterialVideoTrackingVersion",
+        "lvve::ObjectLockAlgorithm",
+        "lvve::ObjectLocked"
+      ],
+      "class_total": 84,
+      "commands": [
+        "video.addObjectLocked",
+        "video.updateObjectLocked",
+        "video.removeObjectLocked",
+        "text.addVideoTracker",
+        "text.updateVideoTracker",
+        "text.removeVideoTracker",
+        "textTemplate.addVideoTracker",
+        "textTemplate.updateVideoTracker",
+        "textTemplate.removeVideoTracker",
+        "sticker.addVideoTracker",
+        "sticker.updateVideoTracker",
+        "sticker.removeVideoTracker"
+      ],
+      "endpoints": []
+    },
+    {
+      "capability": "智能裁剪/运镜/构图",
+      "mode": "端侧",
+      "models": {
+        "saliency_seg_model": [
+          3.7,
+          1
+        ]
+      },
+      "classes": [
+        "lvve::MaterialSmartCrop",
+        "lvve::NodeWrapperSegmentVideoSmartCropVersion",
+        "lvve::SmartCropManager",
+        "lvve::SmartCropManagerImpl",
+        "lvve::SmartCropParam",
+        "lvve::preset::SmartColorAdjust",
+        "lyra::ApplySmartCropReqStruct",
+        "lyra::ApplySmartCropRespStruct",
+        "lyra::CancelRunningSmartCropAlgorithmRespStruct",
+        "lyra::RemoveSmartCropReqStruct",
+        "lyra::RemoveSmartCropRespStruct",
+        "lyra::RemoveTempSmartCropParamReqStruct"
+      ],
+      "class_total": 24,
+      "commands": [
+        "video.removeSmartCrop",
+        "video.addSmartCrop",
+        "video.setSmartColorAdjust"
+      ],
+      "endpoints": []
+    },
+    {
+      "capability": "智能打光/眼神/画质修复",
+      "mode": "端侧",
+      "models": {
+        "bingo_facegan_model": [
+          5.1,
+          1
+        ],
+        "idream": [
+          0.9,
+          1
+        ]
+      },
+      "classes": [
+        "lvve::AttachmentAutoEnhancementConfig",
+        "lvve::AttachmentAutoEnhancementControl",
+        "lvve::AttachmentAutoEnhancementSingleConfig",
+        "lvve::AttachmentAutoEnhancementStrategy",
+        "lvve::MaterialSmartRelight",
+        "lvve::NodeWrapperMaterialSmartRelightCachePath",
+        "lvve::NodeWrapperMaterialVideoSmartRelightApplied",
+        "lvve::QualityEnhance",
+        "lvve::QualityEnhanceParam",
+        "lvve::SmartRelightPreset",
+        "lvve::VideoEnhanceParam",
+        "lvve::preset::RelightFinishedMarkInfo"
+      ],
+      "class_total": 74,
+      "commands": [
+        "video.setVideoAlgorithm"
+      ],
+      "endpoints": []
+    },
+    {
+      "capability": "素材语义检索",
+      "mode": "双路",
+      "models": {
+        "media_search": [
+          31.6,
+          8
+        ],
+        "SegmentJS": [
+          1.3,
+          4
+        ]
+      },
+      "classes": [],
+      "class_total": 0,
+      "commands": [],
+      "endpoints": [
+        "/lv/v1/cloud_property/search",
+        "/lv/v1/effect/search",
+        "/lv/v1/pc/search/commercial_templates",
+        "/lv/v1/pc/search/sug",
+        "/lv/v1/pc/search/templates",
+        "/lv/v1/search/songs",
+        "/lv/v1/search/sug_topic",
+        "/lv/v1/search_songs"
+      ]
+    },
+    {
+      "capability": "AIGC 生成（文/图/视频）",
+      "mode": "双路",
+      "models": {
+        "idream": [
+          0.9,
+          1
+        ],
+        "jianying_aigc_charge": [
+          0.0,
+          1
+        ],
+        "mangamodel": [
+          2.9,
+          1
+        ]
+      },
+      "classes": [
+        "lvve::AigcAudioGenerateInfo",
+        "lvve::AigcAudioGenerateInfoParam",
+        "lvve::AigcGenerate",
+        "lvve::AigcOutputConfig",
+        "lvve::AigcWorkflowDraftSegmentInfo",
+        "lvve::AigcWorkflowInputNodeInfo",
+        "lvve::AlgorithmAigcOutputConfig",
+        "lvve::ArticleVideoBgmInfo",
+        "lvve::ArticleVideoInfo",
+        "lvve::ArticleVideoRecommendInfo",
+        "lvve::ArticleVideoSegmentRelationship",
+        "lvve::ArticleVideoTextInfo"
+      ],
+      "class_total": 128,
+      "commands": [
+        "attachment.setAiCreatorContent",
+        "attachment.updateAiCreation",
+        "attachment.updateAiReelAgent"
+      ],
+      "endpoints": [
+        "/lv/v1/aigc_text/get_voiceclone_text",
+        "/lv/v1/asset/create_cloud_asset",
+        "/lv/v1/coordination/cluster_create",
+        "/lv/v1/coordination/share_create",
+        "/lv/v1/text_to_video/parse_article_url",
+        "/lv/v1/text_to_video/prompt_to_text",
+        "/lv/v1/text_to_video/query_generate_video_task",
+        "/lv/v1/text_to_video/submit_generate_video_task"
+      ]
+    },
+    {
+      "capability": "数字人",
+      "mode": "双路",
+      "models": {
+        "avatar3d": [
+          10.0,
+          1
+        ],
+        "avatar_drive": [
+          0.6,
+          1
+        ]
+      },
+      "classes": [
+        "lvve::AttachmentDigitalHumanTemplateToVideoInfo",
+        "lvve::DigitalHumanAudioMeta",
+        "lvve::DigitalHumanBackground",
+        "lvve::DigitalHumanBenefitInfo",
+        "lvve::DigitalHumanBsInfo",
+        "lvve::DigitalHumanDressupMeta",
+        "lvve::DigitalHumanTemplateSubtitles",
+        "lvve::DigitalHumanTtsMeta",
+        "lvve::DigitalHumanVideoMeta",
+        "lvve::DigitalHumanVoiceInfo",
+        "lvve::MaterialDigitalHuman",
+        "lvve::MaterialDigitalHumanFigureEffect"
+      ],
+      "class_total": 47,
+      "commands": [
+        "video.addDigitalHuman",
+        "video.updateDigitalHuman",
+        "video.updateDigitalHumanRendered"
+      ],
+      "endpoints": [
+        "https://lv-api-sinfonlinec.ulikecam.com/lv/edit/digital_human/test"
+      ]
+    },
+    {
+      "capability": "场景检测/镜头切分",
+      "mode": "云侧",
+      "models": {},
+      "classes": [
+        "lvve::AttachmentMidVideoHighlight",
+        "lvve::HighlightCutResult",
+        "lyra::CancelVideoHighlightcutProcessRespStruct",
+        "lyra::CopyHighLightSegmentReqStruct",
+        "lyra::CopyHighLightSegmentRespStruct",
+        "lyra::StartVideoHighlightcutProcessRespStruct",
+        "lyra::VideoHighlightcutService"
+      ],
+      "class_total": 7,
+      "commands": [],
+      "endpoints": [
+        "/lv/v1/audio_subtitle/highlight",
+        "/lv/v1/music_scene_check",
+        "https://lv-api.ulikecam.com/lv/v1/audio_subtitle/highlight"
+      ]
+    },
+    {
+      "capability": "隐形水印/AI 标识",
+      "mode": "双路",
+      "models": {
+        "invisible_watermark": [
+          1.5,
+          2
+        ]
+      },
+      "classes": [
+        "lvve::AttachmentWatermarkInfo",
+        "lvve::AttachmentWatermarkInfoControl",
+        "lyra::AddAudioWatermarkRespStruct",
+        "lyra::AddBrandWatermarkRespStruct",
+        "lyra::AddPreviewWatermarkReqStruct",
+        "lyra::AddPreviewWatermarkRespStruct",
+        "lyra::AddPreviewWatermarkTemplateReqStruct",
+        "lyra::AddPreviewWatermarkTemplateRespStruct",
+        "lyra::AddTemplateTokenWatermarkReqStruct",
+        "lyra::AddTemplateTokenWatermarkRespStruct",
+        "lyra::AddWatermarkRespStruct",
+        "lyra::AigcWatermarkStatusCallbackRespStruct"
+      ],
+      "class_total": 60,
+      "commands": [
+        "draft.updateDraftAIGCWatermark"
+      ],
+      "endpoints": [
+        "/lv/v1/watermark/get_watermark"
+      ]
+    }
+  ],
+  "models": {
+    "aec": {
+      "mb": 1.1,
+      "files": 2
+    },
+    "alg_scene_normal": {
+      "mb": 5.1,
+      "files": 1
+    },
+    "audiomodel": {
+      "mb": 31.1,
+      "files": 8
+    },
+    "avatar3d": {
+      "mb": 10.0,
+      "files": 1
+    },
+    "avatar_drive": {
+      "mb": 0.6,
+      "files": 1
+    },
+    "bingo_facegan_model": {
+      "mb": 5.1,
+      "files": 1
+    },
+    "colorcard": {
+      "mb": 0.2,
+      "files": 1
+    },
+    "deflicker": {
+      "mb": 0.1,
+      "files": 1
+    },
+    "depthmodel": {
+      "mb": 1.2,
+      "files": 1
+    },
+    "facebeautifymodel": {
+      "mb": 0.5,
+      "files": 1
+    },
+    "faceclustingmodel": {
+      "mb": 4.7,
+      "files": 2
+    },
+    "facefitting": {
+      "mb": 1.2,
+      "files": 2
+    },
+    "faceverifymodel": {
+      "mb": 4.1,
+      "files": 1
+    },
+    "freidmodel": {
+      "mb": 23.6,
+      "files": 3
+    },
+    "hairparser": {
+      "mb": 0.1,
+      "files": 1
+    },
+    "handmodel": {
+      "mb": 0.6,
+      "files": 3
+    },
+    "headsegmodel": {
+      "mb": 0.0,
+      "files": 1
+    },
+    "humanparsingmodel": {
+      "mb": 0.7,
+      "files": 1
+    },
+    "idream": {
+      "mb": 0.9,
+      "files": 1
+    },
+    "interpolation": {
+      "mb": 10.0,
+      "files": 1
+    },
+    "invisible_watermark": {
+      "mb": 1.5,
+      "files": 2
+    },
+    "jianying_aigc_charge": {
+      "mb": 0.0,
+      "files": 1
+    },
+    "mangamodel": {
+      "mb": 2.9,
+      "files": 1
+    },
+    "mattingmodel": {
+      "mb": 20.0,
+      "files": 7
+    },
+    "media_search": {
+      "mb": 31.6,
+      "files": 8
+    },
+    "nh_nodehub_image": {
+      "mb": 0.4,
+      "files": 1
+    },
+    "nh_script": {
+      "mb": 0.0,
+      "files": 1
+    },
+    "noise_reduction": {
+      "mb": 0.2,
+      "files": 1
+    },
+    "object_tracking": {
+      "mb": 0.2,
+      "files": 1
+    },
+    "oilpaintbrush": {
+      "mb": 0.0,
+      "files": 1
+    },
+    "petfacemodel": {
+      "mb": 1.0,
+      "files": 1
+    },
+    "saliency_seg_model": {
+      "mb": 3.7,
+      "files": 1
+    },
+    "scene_normal_model": {
+      "mb": 5.1,
+      "files": 1
+    },
+    "SegmentJS": {
+      "mb": 1.3,
+      "files": 4
+    },
+    "skeleton_model": {
+      "mb": 0.4,
+      "files": 1
+    },
+    "skin_seg": {
+      "mb": 0.6,
+      "files": 2
+    },
+    "tt_eyefitting": {
+      "mb": 0.1,
+      "files": 1
+    },
+    "tt_facefitting_3d": {
+      "mb": 2.0,
+      "files": 1
+    },
+    "tt_gendergan": {
+      "mb": 4.3,
+      "files": 1
+    },
+    "tt_interactive_matting": {
+      "mb": 10.5,
+      "files": 1
+    },
+    "tt_mobilevos": {
+      "mb": 22.3,
+      "files": 2
+    },
+    "tt_salient_human": {
+      "mb": 1.4,
+      "files": 1
+    },
+    "umvfi": {
+      "mb": 0.1,
+      "files": 1
+    },
+    "v1-models": {
+      "mb": 1.0,
+      "files": 8
+    },
+    "v2-models": {
+      "mb": 1.7,
+      "files": 12
+    }
+  },
+  "endpoints": [
+    "/lv/v1/account/get_pippit_token",
+    "/lv/v1/account/get_pippit_user_info",
+    "/lv/v1/account/user",
+    "/lv/v1/ai_writing/get_results_by_images",
+    "/lv/v1/ai_writing/get_results_by_texts",
+    "/lv/v1/aigc_text/get_voiceclone_text",
+    "/lv/v1/asset/create_cloud_asset",
+    "/lv/v1/asset/detail",
+    "/lv/v1/asset/prepare_upload_cloud",
+    "/lv/v1/audio_subtitle/feedback",
+    "/lv/v1/audio_subtitle/get_keyword",
+    "/lv/v1/audio_subtitle/highlight",
+    "/lv/v1/audio_subtitle/query",
+    "/lv/v1/audio_subtitle/submit",
+    "/lv/v1/audio_subtitle/update_keyword",
+    "/lv/v1/benefit_redemption",
+    "/lv/v1/calc_video_score",
+    "/lv/v1/capflow/cancel",
+    "/lv/v1/capflow/history_task",
+    "/lv/v1/capflow/query",
+    "/lv/v1/capflow/submit",
+    "/lv/v1/check_rate_limit",
+    "/lv/v1/check_spam",
+    "/lv/v1/cloud/auto_upload/get_setting",
+    "/lv/v1/cloud/auto_upload/update_setting",
+    "/lv/v1/cloud/group/free_space_gifted",
+    "/lv/v1/cloud/group/get_experiment",
+    "/lv/v1/cloud/group/give_temp_quota",
+    "/lv/v1/cloud/upload/get_record",
+    "/lv/v1/cloud_property/get_user_recent_package",
+    "/lv/v1/cloud_property/property_count",
+    "/lv/v1/cloud_property/search",
+    "/lv/v1/common_task/cancel",
+    "/lv/v1/common_task/new",
+    "/lv/v1/common_task/query",
+    "/lv/v1/common_task/sync",
+    "/lv/v1/coordination/batch_send_message",
+    "/lv/v1/coordination/check_white_list",
+    "/lv/v1/coordination/cluster_create",
+    "/lv/v1/coordination/get_share_info",
+    "/lv/v1/coordination/mark_notice/list_draft",
+    "/lv/v1/coordination/mark_notice/read_draft",
+    "/lv/v1/coordination/owner_share_list",
+    "/lv/v1/coordination/record_delete",
+    "/lv/v1/coordination/share_create",
+    "/lv/v1/coordination/share_update",
+    "/lv/v1/coordination/shared_record_list",
+    "/lv/v1/copilot/conversation/history",
+    "/lv/v1/copilot/get_preupload_time",
+    "/lv/v1/copilot/modify_message",
+    "/lv/v1/copilot/section/history",
+    "/lv/v1/copilot/upload_material",
+    "/lv/v1/custom_service/get_entrance",
+    "/lv/v1/custom_service/get_entrance_allow_guest",
+    "/lv/v1/custom_service/im/post_context_info",
+    "/lv/v1/edit/get_config",
+    "/lv/v1/effect/search",
+    "/lv/v1/encrypt/get_public_key",
+    "/lv/v1/ever_photo/get_token",
+    "/lv/v1/ever_photo/promote_asset",
+    "/lv/v1/font/check",
+    "/lv/v1/get_collection_songs",
+    "/lv/v1/get_collections",
+    "/lv/v1/get_music_effect_collections",
+    "/lv/v1/get_my_douyin_songs",
+    "/lv/v1/get_my_tiktok_songs",
+    "/lv/v1/get_recommend_songs",
+    "/lv/v1/get_sami_token",
+    "/lv/v1/get_user_vid_list",
+    "/lv/v1/group/templates",
+    "/lv/v1/image/anime_copyright_checker",
+    "/lv/v1/image/content_classifier",
+    "/lv/v1/image/face_compare",
+    "/lv/v1/intelligent_edit/security_audit",
+    "/lv/v1/lan_transfer/get_user_devices_info",
+    "/lv/v1/lan_transfer/upload_device_info",
+    "/lv/v1/multi_get_songs",
+    "/lv/v1/music/filter",
+    "/lv/v1/music/get_recommend_music",
+    "/lv/v1/music/similar_music_rec",
+    "/lv/v1/music/template_music_recommend",
+    "/lv/v1/music_finger",
+    "/lv/v1/music_scene_check",
+    "/lv/v1/oauth/access_token",
+    "/lv/v1/pc/aweme_collection_songs",
+    "/lv/v1/pc/commerce_replicate/operation_collection",
+    "/lv/v1/pc/commerce_replicate/operation_collection_contents",
+    "/lv/v1/pc/export_page/share_douyin_sign",
+    "/lv/v1/pc/export_page/share_douyin_vid",
+    "/lv/v1/pc/export_page/share_xigua",
+    "/lv/v1/pc/get_user_info",
+    "/lv/v1/pc/get_user_keyboard_shortcut",
+    "/lv/v1/pc/homepage/templates",
+    "/lv/v1/pc/replicate/delete",
+    "/lv/v1/pc/replicate/get_collection_templates",
+    "/lv/v1/pc/replicate/multi_get_templates",
+    "/lv/v1/pc/search/commercial_templates",
+    "/lv/v1/pc/search/sug",
+    "/lv/v1/pc/search/templates",
+    "/lv/v1/pc/share/exchange_rights",
+    "/lv/v1/pc/share/get_user_rights",
+    "/lv/v1/pc/share/is_activity_valid",
+    "/lv/v1/pc/share/token_gen",
+    "/lv/v1/pc/storyboard/entrance_click",
+    "/lv/v1/pc/to_shoot/add_item",
+    "/lv/v1/pc/to_shoot/get_list",
+    "/lv/v1/pc/to_shoot/remove_item",
+    "/lv/v1/pc/update_user_keyboard_shortcut",
+    "/lv/v1/pc/zenith/cancel_task",
+    "/lv/v1/pc/zenith/fetch_result",
+    "/lv/v1/pc/zenith/query_task",
+    "/lv/v1/pc/zenith/submit_task",
+    "/lv/v1/persona/get_features",
+    "/lv/v1/personal/pc/templates",
+    "/lv/v1/purchase/purchase_templates",
+    "/lv/v1/replicate/add",
+    "/lv/v1/replicate/add_usage_amount",
+    "/lv/v1/replicate/delete",
+    "/lv/v1/replicate/get_collections",
+    "/lv/v1/replicate/update_settings",
+    "/lv/v1/report/report",
+    "/lv/v1/search/songs",
+    "/lv/v1/search/sug_topic",
+    "/lv/v1/search_songs",
+    "/lv/v1/smart_recognition",
+    "/lv/v1/smartvideo/text_video/conversation/copy",
+    "/lv/v1/text_correction/get_correction_rlt",
+    "/lv/v1/text_to_audio",
+    "/lv/v1/text_to_video/parse_article_url",
+    "/lv/v1/text_to_video/prompt_to_text",
+    "/lv/v1/text_to_video/query_generate_video_task",
+    "/lv/v1/text_to_video/submit_generate_video_task",
+    "/lv/v1/third_crawl",
+    "/lv/v1/third_resource/favorite",
+    "/lv/v1/third_resource/get_category_info",
+    "/lv/v1/third_resource/mget",
+    "/lv/v1/third_resource/mget_by_category_id",
+    "/lv/v1/third_resource/mget_favorite_info",
+    "/lv/v1/third_resource/search",
+    "/lv/v1/topic/get_topic_list",
+    "/lv/v1/translate/translate_texts",
+    "/lv/v1/trial/batch_query_eligibility",
+    "/lv/v1/trial/finished_report",
+    "/lv/v1/update_user_vid_list",
+    "/lv/v1/upload_sign",
+    "/lv/v1/user/get_enable_list",
+    "/lv/v1/user/oauth/check_third_party",
+    "/lv/v1/user/oauth/get_auth_query_params",
+    "/lv/v1/user/update",
+    "/lv/v1/vmtag",
+    "/lv/v1/voice/delete_voice_clone",
+    "/lv/v1/voice/release_voice_clone",
+    "/lv/v1/voice/voice_clone_condition",
+    "/lv/v1/watermark/get_watermark",
+    "/lv/v1/zenith/submit_image_task",
+    "?/lv/v1/common_task/new",
+    "https://lv-api-lq.ulikecam.com/media/api/pic/afr",
+    "https://lv-api-sinfonlinea.ulikecam.com/privacy/setting/change",
+    "https://lv-api-sinfonlinea.ulikecam.com/privacy/setting/query",
+    "https://lv-api-sinfonlinec.ulikecam.com/lv/edit/digital_human/test",
+    "https://lv-api.ulikecam.com",
+    "https://lv-api.ulikecam.com/lv/v1/audio_subtitle/highlight",
+    "https://lv-api.ulikecam.com/mobile_agent_api/mobile/query_material_understand",
+    "https://lv-api.ulikecam.com/passport/web",
+    "https://lv-api.ulikecam.com/passport/web/auth/login_authorize/?aid=3704&platform=aweme_v2&is_vcd=1",
+    "https://lv-api.ulikecam.com/passport/web/logout/",
+    "https://lv-api.ulikecam.com/passport/web/web_login/",
+    "https://lv-api.ulikecam.com/passport/web/web_login_success",
+    "https://lv-pc-api-lf.ulikecam.com/lv/v1/custom_service/get_entrance",
+    "https://lv-pc-api-lf.ulikecam.com/lv/v1/custom_service/get_entrance_allow_guest",
+    "https://lv-pc-api-sinfonlinea.ulikecam.com/lv/v1/pc/export_page/share_douyin_sign",
+    "https://lv-pc-api-sinfonlinea.ulikecam.com/lv/v1/pc/export_page/share_douyin_vid",
+    "https://lv-pc-api-sinfonlinea.ulikecam.com/lv/v1/pc/export_page/share_xigua",
+    "https://lv-pc-api.ulikecam.com",
+    "https://lv-pc-api.ulikecam.com\" : 1       },       \"plugin_update_config\": {           \"enabled\" : true,           \"interval\" : -1,           \"first_interval\": 0       ",
+    "https://lv-pc-api.ulikecam.com\": 1},",
+    "https://lv-qos-api-sinfonlineb.ulikecam.com",
+    "https://lv.ulikecam.com/clause/agreement/pro",
+    "https://lv.ulikecam.com/lv_pc/bind_mobile_phone",
+    "https://lv.ulikecam.com/lv_pc/scan_login",
+    "https://lv.ulikecam.com/magic/eco/runtime/release/6131bc0f9f1cc2033253e284?appType=videocut&magic_page_no=1",
+    "https://lv.ulikecam.com/magic/eco/runtime/release/6170ddbb0894b4033485db8a?appType=videocut",
+    "https://lv.ulikecam.com/magic/page/ejs/5e68546691e18c0319c05ff1?appType=videocut",
+    "https://lv.ulikecam.com/magic/page/ejs/5ec6386a9c7eff02c6636276?appType=videocut",
+    "https://lv.ulikecam.com/passport/auth/login/",
+    "lv-api-lq.ulikecam.com",
+    "lv-api-sinfonlinea.ulikecam.com",
+    "lv-api-sinfonlinec.ulikecam.com",
+    "lv-api.ulikecam.com",
+    "lv-everphoto.ulikecam.com",
+    "lv-pc-api-lf.ulikecam.com",
+    "lv-pc-api-sinfonlinea.ulikecam.com",
+    "lv-pc-api.ulikecam.com",
+    "lv-qos-api-sinfonlineb.ulikecam.com",
+    "lv.ulikecam.com"
+  ]
+}

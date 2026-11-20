@@ -1,0 +1,5529 @@
+{
+  "rpc": [
+    {
+      "method": "AppendAsyncTaskListener",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::AppendAsyncTaskListenerRespStruct",
+      "domain": "AI 任务调度"
+    },
+    {
+      "method": "CancelAsyncTask",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::CancelAsyncTaskRespStruct",
+      "domain": "AI 任务调度"
+    },
+    {
+      "method": "CancelAsyncTasks",
+      "ns": "lyra",
+      "req": "lyra::CancelAsyncTasksReqStruct",
+      "resp": "lyra::CancelAsyncTasksRespStruct",
+      "domain": "AI 任务调度"
+    },
+    {
+      "method": "CancelDraftAsyncTasks",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::CancelDraftAsyncTasksRespStruct",
+      "domain": "AI 任务调度"
+    },
+    {
+      "method": "CancelVideoFramesAsync",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::CancelVideoFramesAsyncRespStruct",
+      "domain": "AI 任务调度"
+    },
+    {
+      "method": "CreateAsyncTaskWithPrepare",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::CreateAsyncTaskWithPrepareRespStruct",
+      "domain": "AI 任务调度"
+    },
+    {
+      "method": "CreateAsyncTasks",
+      "ns": "lyra",
+      "req": "lyra::CreateAsyncTasksReqStruct",
+      "resp": "lyra::CreateAsyncTasksRespStruct",
+      "domain": "AI 任务调度"
+    },
+    {
+      "method": "CreateAsyncTasksWithCallback",
+      "ns": "lyra",
+      "req": "lyra::CreateAsyncTasksWithCallbackReqStruct",
+      "resp": "lyra::CreateAsyncTasksWithCallbackRespStruct",
+      "domain": "AI 任务调度"
+    },
+    {
+      "method": "CreateBatchAsyncTasksWithPrepare",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::CreateBatchAsyncTasksWithPrepareRespStruct",
+      "domain": "AI 任务调度"
+    },
+    {
+      "method": "GetAsyncTask",
+      "ns": "lyra",
+      "req": "lyra::GetAsyncTaskReqStruct",
+      "resp": "lyra::GetAsyncTaskRespStruct",
+      "domain": "AI 任务调度"
+    },
+    {
+      "method": "GetAsyncTaskPersistDir",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetAsyncTaskPersistDirRespStruct",
+      "domain": "AI 任务调度"
+    },
+    {
+      "method": "GetAsyncTaskPostRealProgressEnable",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetAsyncTaskPostRealProgressEnableRespStruct",
+      "domain": "AI 任务调度"
+    },
+    {
+      "method": "GetAsyncTasks",
+      "ns": "lyra",
+      "req": "lyra::GetAsyncTasksReqStruct",
+      "resp": "lyra::GetAsyncTasksRespStruct",
+      "domain": "AI 任务调度"
+    },
+    {
+      "method": "GetDigitalHumanBoundingBoxPositionAsync",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetDigitalHumanBoundingBoxPositionAsyncRespStruct",
+      "domain": "AI 任务调度"
+    },
+    {
+      "method": "GetGpuInfoAsync",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetGpuInfoAsyncRespStruct",
+      "domain": "AI 任务调度"
+    },
+    {
+      "method": "GetMainSeqAsync",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetMainSeqAsyncRespStruct",
+      "domain": "AI 任务调度"
+    },
+    {
+      "method": "GetSegmentProgress",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetSegmentProgressRespStruct",
+      "domain": "AI 任务调度"
+    },
+    {
+      "method": "GetShadowEditorGpuInfoAsync",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetShadowEditorGpuInfoAsyncRespStruct",
+      "domain": "AI 任务调度"
+    },
+    {
+      "method": "GetStickerBoundingBoxPositionAsync",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetStickerBoundingBoxPositionAsyncRespStruct",
+      "domain": "AI 任务调度"
+    },
+    {
+      "method": "GetTotalProgress",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetTotalProgressRespStruct",
+      "domain": "AI 任务调度"
+    },
+    {
+      "method": "GetVideoFramesAsync",
+      "ns": "lyra",
+      "req": "lyra::GetVideoFramesAsyncReqStruct",
+      "resp": "lyra::GetVideoFramesAsyncRespStruct",
+      "domain": "AI 任务调度"
+    },
+    {
+      "method": "GetVideoImageAsync",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetVideoImageAsyncRespStruct",
+      "domain": "AI 任务调度"
+    },
+    {
+      "method": "GetVideoImageRealAsync",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetVideoImageRealAsyncRespStruct",
+      "domain": "AI 任务调度"
+    },
+    {
+      "method": "GetVideoTimeOriginImageAsync",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetVideoTimeOriginImageAsyncRespStruct",
+      "domain": "AI 任务调度"
+    },
+    {
+      "method": "GetVideoUiImageAsync",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetVideoUiImageAsyncRespStruct",
+      "domain": "AI 任务调度"
+    },
+    {
+      "method": "GetWatermarkBoundingBoxRectAndPositionAsync",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetWatermarkBoundingBoxRectAndPositionAsyncRespStruct",
+      "domain": "AI 任务调度"
+    },
+    {
+      "method": "GetWatermarkBoundingBoxRectAsync",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetWatermarkBoundingBoxRectAsyncRespStruct",
+      "domain": "AI 任务调度"
+    },
+    {
+      "method": "InitAsyncTaskManager",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::InitAsyncTaskManagerRespStruct",
+      "domain": "AI 任务调度"
+    },
+    {
+      "method": "LoadAttachmentsAsync",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::LoadAttachmentsAsyncRespStruct",
+      "domain": "AI 任务调度"
+    },
+    {
+      "method": "PreCreateAsyncTasks",
+      "ns": "lyra",
+      "req": "lyra::PreCreateAsyncTasksReqStruct",
+      "resp": "lyra::PreCreateAsyncTasksRespStruct",
+      "domain": "AI 任务调度"
+    },
+    {
+      "method": "RegisterAlgorithmCacheProgressCallback",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::RegisterAlgorithmCacheProgressCallbackRespStruct",
+      "domain": "AI 任务调度"
+    },
+    {
+      "method": "RegisterPlayProgressCallback",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::RegisterPlayProgressCallbackRespStruct",
+      "domain": "AI 任务调度"
+    },
+    {
+      "method": "RegisterPlayerProgress",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::RegisterPlayerProgressRespStruct",
+      "domain": "AI 任务调度"
+    },
+    {
+      "method": "RetryAlgorithmBatchAsyncTasks",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::RetryAlgorithmBatchAsyncTasksRespStruct",
+      "domain": "AI 任务调度"
+    },
+    {
+      "method": "SetConsumeProgressCallback",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SetConsumeProgressCallbackRespStruct",
+      "domain": "AI 任务调度"
+    },
+    {
+      "method": "SetOnBindTasksProgressCallback",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SetOnBindTasksProgressCallbackRespStruct",
+      "domain": "AI 任务调度"
+    },
+    {
+      "method": "SetOnBindTasksTypeProgressCallback",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SetOnBindTasksTypeProgressCallbackRespStruct",
+      "domain": "AI 任务调度"
+    },
+    {
+      "method": "SetOnTasksProgressCallback",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SetOnTasksProgressCallbackRespStruct",
+      "domain": "AI 任务调度"
+    },
+    {
+      "method": "SetupAlgorithmCacheTaskAsync",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SetupAlgorithmCacheTaskAsyncRespStruct",
+      "domain": "AI 任务调度"
+    },
+    {
+      "method": "SetupAsyncTaskPipelineListener",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SetupAsyncTaskPipelineListenerRespStruct",
+      "domain": "AI 任务调度"
+    },
+    {
+      "method": "SingleResourcePlayerRegisterPlayerProgress",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SingleResourcePlayerRegisterPlayerProgressRespStruct",
+      "domain": "AI 任务调度"
+    },
+    {
+      "method": "UnregisterAlgorithmCacheProgressCallback",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UnregisterAlgorithmCacheProgressCallbackRespStruct",
+      "domain": "AI 任务调度"
+    },
+    {
+      "method": "UpdateTaskProgressManually",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateTaskProgressManuallyRespStruct",
+      "domain": "AI 任务调度"
+    },
+    {
+      "method": "UpdateTaskProgressProportionManually",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateTaskProgressProportionManuallyRespStruct",
+      "domain": "AI 任务调度"
+    },
+    {
+      "method": "AIGCEffectStartVETaskMixNode",
+      "ns": "lyra",
+      "req": "lyra::AIGCEffectStartVETaskMixNodeReq",
+      "resp": "lyra::AIGCEffectStartVETaskMixNodeResp",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "AIGCEffectStartVETaskMixNodeConvert",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::AIGCEffectStartVETaskMixNodeConvertResp",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "AddAICreateEditedEditor",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::AddAICreateEditedEditorRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "AddAigcGenerate",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::AddAigcGenerateRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "AddAigcGenerateItems",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::AddAigcGenerateItemsRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "AddAigcSegment",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::AddAigcSegmentRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "AddArticleVideoShotGeneratedRecord",
+      "ns": "lyra",
+      "req": "lyra::AddArticleVideoShotGeneratedRecordReqStruct",
+      "resp": "lyra::AddArticleVideoShotGeneratedRecordRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "AddHistoryChangeCallback",
+      "ns": "lyra",
+      "req": "lyra::AddHistoryChangeCallbackReqStruct",
+      "resp": "lyra::AddHistoryChangeCallbackRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "AddWorkflowGenerateNode",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::AddWorkflowGenerateNodeRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "AigcWatermarkStatusCallback",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::AigcWatermarkStatusCallbackRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "ApplyAiGenerateImageWriteBack",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::ApplyAiGenerateImageWriteBackRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "ApplyAiGenerateVideoWriteBack",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::ApplyAiGenerateVideoWriteBackRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "ApplyAigcGenerateAttachment",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::ApplyAigcGenerateAttachmentRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "ApplyAigcGenerateAudio",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::ApplyAigcGenerateAudioRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "ApplyScriptAiCutClipInfoToMainDraft",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::ApplyScriptAiCutClipInfoToMainDraftRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "AutoSortAndReplaceArticleVideoAllVideos",
+      "ns": "lyra",
+      "req": "lyra::AutoSortAndReplaceArticleVideoAllVideosReqStruct",
+      "resp": "lyra::AutoSortAndReplaceArticleVideoAllVideosRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "BatchAddAigcSegments",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::BatchAddAigcSegmentsRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "CancelAIGCTask",
+      "ns": "lyra",
+      "req": "lyra::CancelAIGCTaskReqStruct",
+      "resp": "lyra::CancelAIGCTaskRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "CheckAllAIGCContent",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::CheckAllAIGCContentRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "CheckUseAIGCContent",
+      "ns": "lyra",
+      "req": "lyra::CheckUseAIGCContentReqStruct",
+      "resp": "lyra::CheckUseAIGCContentRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "ClearVideoAigcAlgorithmState",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::ClearVideoAigcAlgorithmStateRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "ConvertDraftToArticleVideoDraft",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::ConvertDraftToArticleVideoDraftRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "ConvertFromArticleVideoDraft",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::ConvertFromArticleVideoDraftRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "ConvertFromArticleVideoDraftToJson",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::ConvertFromArticleVideoDraftToJsonRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "DestoryLockObjectAlgorithm",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::DestoryLockObjectAlgorithmRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "DestorySegmentPrerender",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::DestorySegmentPrerenderRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "EditScriptRegenerate",
+      "ns": "lyra",
+      "req": "lyra::EditScriptRegenerateReqStruct",
+      "resp": "lyra::EditScriptRegenerateRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "GenerateAiMusicMv",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GenerateAiMusicMvRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "GenerateAiTextTemplatePackage",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GenerateAiTextTemplatePackageRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "GenerateBrushMaskFromVe",
+      "ns": "lyra",
+      "req": "lyra::GenerateBrushMaskFromVeReqStruct",
+      "resp": "lyra::GenerateBrushMaskFromVeRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "GenerateFrameTime",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GenerateFrameTimeRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "GenerateJson",
+      "ns": "lyra",
+      "req": "lyra::GenerateJsonReqStruct",
+      "resp": "lyra::GenerateJsonRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "GenerateOverdubSegments",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GenerateOverdubSegmentsRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "GenerateResourcePackage",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GenerateResourcePackageRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "GenerateResourcePackageFromDir",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GenerateResourcePackageFromDirRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "GenerateTranscriptSegments",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GenerateTranscriptSegmentsRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "GetAIClipperInfo",
+      "ns": "lyra",
+      "req": "lyra::GetAIClipperInfoReqStruct",
+      "resp": "lyra::GetAIClipperInfoRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "GetAICreateAttachmentData",
+      "ns": "lyra",
+      "req": "lyra::GetAICreateAttachmentDataReqStruct",
+      "resp": "lyra::GetAICreateAttachmentDataRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "GetAdScriptDraftFromArticleVideoJson",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetAdScriptDraftFromArticleVideoJsonRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "GetAigcGenerateRecords",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetAigcGenerateRecordsRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "GetAllAigcGenerateItems",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetAllAigcGenerateItemsRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "GetArticleVideoJsonStrFromDraft",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetArticleVideoJsonStrFromDraftRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "GetAttachmentAigcGenerate",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetAttachmentAigcGenerateRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "GetDraftFromArticleVideoJson",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetDraftFromArticleVideoJsonRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "GetDraftFromArticleVideoJsonMergeSame",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetDraftFromArticleVideoJsonMergeSameRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "GetHistoryDraft",
+      "ns": "lyra",
+      "req": "lyra::GetHistoryDraftReqStruct",
+      "resp": "lyra::GetHistoryDraftRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "GetHistoryInfo",
+      "ns": "lyra",
+      "req": "lyra::GetHistoryInfoReqStruct",
+      "resp": "lyra::GetHistoryInfoRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "GetHistoryMergeChangeNodes",
+      "ns": "lyra",
+      "req": "lyra::GetHistoryMergeChangeNodesReqStruct",
+      "resp": "lyra::GetHistoryMergeChangeNodesRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "GetHistoryMgr",
+      "ns": "lyra",
+      "req": "lyra::GetHistoryMgrReqStruct",
+      "resp": "lyra::GetHistoryMgrRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "GetLastPreCommitHistory",
+      "ns": "lyra",
+      "req": "lyra::GetLastPreCommitHistoryReqStruct",
+      "resp": "lyra::GetLastPreCommitHistoryRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "GetSegmentGenerateAlgorithm",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetSegmentGenerateAlgorithmRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "GetSegmentLastGenerateAlgorithm",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetSegmentLastGenerateAlgorithmRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "GetUndoHistoryIdentifiers",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetUndoHistoryIdentifiersRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "GlobalHistorySwitchTracing",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GlobalHistorySwitchTracingRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "GlobalOnDraftHistory",
+      "ns": "lyra",
+      "req": "lyra::GlobalOnDraftHistoryReqStruct",
+      "resp": "lyra::GlobalOnDraftHistoryRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "GlobalOnProjectHistoryCallback",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GlobalOnProjectHistoryCallbackRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "HandwriteRedo",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::HandwriteRedoRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "HasAigcWatermark",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::HasAigcWatermarkRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "HasAudioAigcFeature",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::HasAudioAigcFeatureRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "ProcessMediaAigc",
+      "ns": "lyra",
+      "req": "lyra::ProcessMediaAigcReqStruct",
+      "resp": "lyra::ProcessMediaAigcRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "QueryAIGCWatermarkTimeRangeInfo",
+      "ns": "lyra",
+      "req": "lyra::QueryAIGCWatermarkTimeRangeInfoReqStruct",
+      "resp": "lyra::QueryAIGCWatermarkTimeRangeInfoRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "QueryAigcTypesInDraft",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::QueryAigcTypesInDraftRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "QueryAigcWatermarkTimeRangeInfo",
+      "ns": "lyra",
+      "req": "lyra::QueryAigcWatermarkTimeRangeInfoReqStruct",
+      "resp": "lyra::QueryAigcWatermarkTimeRangeInfoRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "QueryCurrentPlayPositionHasAigcWatermark",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::QueryCurrentPlayPositionHasAigcWatermarkRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "QuerySubDraftAigcWatermarkTimeRangeInfo",
+      "ns": "lyra",
+      "req": "lyra::QuerySubDraftAigcWatermarkTimeRangeInfoReqStruct",
+      "resp": "lyra::QuerySubDraftAigcWatermarkTimeRangeInfoRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "RcDeleteAIClipperTranscriptInEditDraft",
+      "ns": "lyra",
+      "req": "lyra::RcDeleteAIClipperTranscriptInEditDraftReqStruct",
+      "resp": "lyra::RcDeleteAIClipperTranscriptInEditDraftRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "RcMoveAIClipperTranscriptChapterInEditDraft",
+      "ns": "lyra",
+      "req": "lyra::RcMoveAIClipperTranscriptChapterInEditDraftReqStruct",
+      "resp": "lyra::RcMoveAIClipperTranscriptChapterInEditDraftRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "RcMoveAIClipperTranscriptSegmentInEditDraft",
+      "ns": "lyra",
+      "req": "lyra::RcMoveAIClipperTranscriptSegmentInEditDraftReqStruct",
+      "resp": "lyra::RcMoveAIClipperTranscriptSegmentInEditDraftRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "RcRestoreAIClipperTranscriptInEditDraft",
+      "ns": "lyra",
+      "req": "lyra::RcRestoreAIClipperTranscriptInEditDraftReqStruct",
+      "resp": "lyra::RcRestoreAIClipperTranscriptInEditDraftRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "RcSplitAIClipperTranscriptSegmentInEditDraft",
+      "ns": "lyra",
+      "req": "lyra::RcSplitAIClipperTranscriptSegmentInEditDraftReqStruct",
+      "resp": "lyra::RcSplitAIClipperTranscriptSegmentInEditDraftRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "RcTrimAIClipperTranscriptSegmentInEditDraft",
+      "ns": "lyra",
+      "req": "lyra::RcTrimAIClipperTranscriptSegmentInEditDraftReqStruct",
+      "resp": "lyra::RcTrimAIClipperTranscriptSegmentInEditDraftRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "RcUnmarkAIClipperTranscriptInEditDraft",
+      "ns": "lyra",
+      "req": "lyra::RcUnmarkAIClipperTranscriptInEditDraftReqStruct",
+      "resp": "lyra::RcUnmarkAIClipperTranscriptInEditDraftRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "RecordSubHistory",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::RecordSubHistoryRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "RemoveAigcPainting",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::RemoveAigcPaintingRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "RemoveGenerateItem",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::RemoveGenerateItemRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "RemoveGenerateItemWithoutResult",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::RemoveGenerateItemWithoutResultRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "ReplaceAICreatorPromptAndMaterial",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::ReplaceAICreatorPromptAndMaterialRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "ReplaceArticleVideoAllVideos",
+      "ns": "lyra",
+      "req": "lyra::ReplaceArticleVideoAllVideosReqStruct",
+      "resp": "lyra::ReplaceArticleVideoAllVideosRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "RestoreAiGenerateTextTemplate",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::RestoreAiGenerateTextTemplateRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "SaveAICreateAttachment",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SaveAICreateAttachmentRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "SeRestoreFromHistoryNode",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SeRestoreFromHistoryNodeRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "SetAigcMetaDataCallback",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SetAigcMetaDataCallbackRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "SetGenerateCompletionCallback",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SetGenerateCompletionCallbackRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "SetGenerateProgressCallback",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SetGenerateProgressCallbackRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "SetGlobalHistoryStatusFetcher",
+      "ns": "lyra",
+      "req": "lyra::SetGlobalHistoryStatusFetcherReqStruct",
+      "resp": "lyra::SetGlobalHistoryStatusFetcherRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "StartAIGCTask",
+      "ns": "lyra",
+      "req": "lyra::StartAIGCTaskReqStruct",
+      "resp": "lyra::StartAIGCTaskRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "StartGenerate",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::StartGenerateRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "StartHistoryTracing",
+      "ns": "lyra",
+      "req": "lyra::StartHistoryTracingReqStruct",
+      "resp": "lyra::StartHistoryTracingRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "StopHistoryTracing",
+      "ns": "lyra",
+      "req": "lyra::StopHistoryTracingReqStruct",
+      "resp": "lyra::StopHistoryTracingRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "UpdateAICreatorMaterialIds",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateAICreatorMaterialIdsRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "UpdateAICreatorPromptInfo",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateAICreatorPromptInfoRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "UpdateAICreatorPromptInfoSceneContext",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateAICreatorPromptInfoSceneContextRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "UpdateAICreatorSceneType",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateAICreatorSceneTypeRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "UpdateAIGCPreviewWatermark",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateAIGCPreviewWatermarkRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "UpdateAIGCWatermark",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateAIGCWatermarkRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "UpdateAIGCWatermarkNewVersion",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateAIGCWatermarkNewVersionRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "UpdateAITransitionHistory",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateAITransitionHistoryRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "UpdateAiGenerateTextTemplateAdjustParam",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateAiGenerateTextTemplateAdjustParamRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "UpdateAiGenerateTextTemplateText",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateAiGenerateTextTemplateTextRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "UpdateAigcEffectArtifactPath",
+      "ns": "lyra",
+      "req": "lyra::UpdateAigcEffectArtifactPathReqStruct",
+      "resp": "lyra::UpdateAigcEffectArtifactPathRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "UpdateAigcSegment",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateAigcSegmentRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "UpdateAigcWatermarkLocation",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateAigcWatermarkLocationRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "UpdateArticleVideoShot",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateArticleVideoShotRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "UpdateSegmentGenerateItemOrder",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateSegmentGenerateItemOrderRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "UpdateSegmentGenerateStatus",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateSegmentGenerateStatusRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "VideoSetVideoAigcType",
+      "ns": "lyra",
+      "req": "lyra::VideoSetVideoAigcTypeReqStruct",
+      "resp": "lyra::VideoSetVideoAigcTypeRespStruct",
+      "domain": "AIGC 生成"
+    },
+    {
+      "method": "CancelMultFacesEffect",
+      "ns": "lyra",
+      "req": "lyra::CancelMultFacesEffectReqStruct",
+      "resp": "lyra::CancelMultFacesEffectRespStruct",
+      "domain": "人脸"
+    },
+    {
+      "method": "DetectFirstFaceFrame",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::DetectFirstFaceFrameRespStruct",
+      "domain": "人脸"
+    },
+    {
+      "method": "EnableEffectFaceRecognition",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::EnableEffectFaceRecognitionRespStruct",
+      "domain": "人脸"
+    },
+    {
+      "method": "EnableMultFacesEffect",
+      "ns": "lyra",
+      "req": "lyra::EnableMultFacesEffectReqStruct",
+      "resp": "lyra::EnableMultFacesEffectRespStruct",
+      "domain": "人脸"
+    },
+    {
+      "method": "EnableVideoFaceRecognition",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::EnableVideoFaceRecognitionRespStruct",
+      "domain": "人脸"
+    },
+    {
+      "method": "GetEffectFaceBoundingBoxInfos",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetEffectFaceBoundingBoxInfosRespStruct",
+      "domain": "人脸"
+    },
+    {
+      "method": "GetEffectFaceBoundingBoxInfosWithCb",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetEffectFaceBoundingBoxInfosWithCbRespStruct",
+      "domain": "人脸"
+    },
+    {
+      "method": "GetFaceBoundingBoxInfos",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetFaceBoundingBoxInfosRespStruct",
+      "domain": "人脸"
+    },
+    {
+      "method": "GetTrackerSurfaceBox",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetTrackerSurfaceBoxRespStruct",
+      "domain": "人脸"
+    },
+    {
+      "method": "GetTrackerSurfacePosition",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetTrackerSurfacePositionRespStruct",
+      "domain": "人脸"
+    },
+    {
+      "method": "GetVideoFaceBoundingBoxInfos",
+      "ns": "lyra",
+      "req": "lyra::GetVideoFaceBoundingBoxInfosReqStruct",
+      "resp": "lyra::GetVideoFaceBoundingBoxInfosRespStruct",
+      "domain": "人脸"
+    },
+    {
+      "method": "InitVideoFaceRecognitionPath",
+      "ns": "lyra",
+      "req": "lyra::InitVideoFaceRecognitionPathReqStruct",
+      "resp": "lyra::InitVideoFaceRecognitionPathRespStruct",
+      "domain": "人脸"
+    },
+    {
+      "method": "IsAiFaceOcclusionEffectWithRootPath",
+      "ns": "lyra",
+      "req": "lyra::IsAiFaceOcclusionEffectWithRootPathReqStruct",
+      "resp": "lyra::IsAiFaceOcclusionEffectWithRootPathRespStruct",
+      "domain": "人脸"
+    },
+    {
+      "method": "IsMultiFacesEffectWithRootPath",
+      "ns": "lyra",
+      "req": "lyra::IsMultiFacesEffectWithRootPathReqStruct",
+      "resp": "lyra::IsMultiFacesEffectWithRootPathRespStruct",
+      "domain": "人脸"
+    },
+    {
+      "method": "NotifyMediaFaceBodyFinish",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::NotifyMediaFaceBodyFinishRespStruct",
+      "domain": "人脸"
+    },
+    {
+      "method": "SetMagnifierSurface",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SetMagnifierSurfaceRespStruct",
+      "domain": "人脸"
+    },
+    {
+      "method": "SetPreviewSurfaceImage",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SetPreviewSurfaceImageRespStruct",
+      "domain": "人脸"
+    },
+    {
+      "method": "SetPreviewSurfaceImageToken",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SetPreviewSurfaceImageTokenRespStruct",
+      "domain": "人脸"
+    },
+    {
+      "method": "SetSurface",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SetSurfaceRespStruct",
+      "domain": "人脸"
+    },
+    {
+      "method": "SetSurfaceAsync",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SetSurfaceAsyncRespStruct",
+      "domain": "人脸"
+    },
+    {
+      "method": "SetVideoFaceRecognitionPath",
+      "ns": "lyra",
+      "req": "lyra::SetVideoFaceRecognitionPathReqStruct",
+      "resp": "lyra::SetVideoFaceRecognitionPathRespStruct",
+      "domain": "人脸"
+    },
+    {
+      "method": "AddHandwrite",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::AddHandwriteRespStruct",
+      "domain": "其它"
+    },
+    {
+      "method": "UpdateSubDraftNewTextTemplateCanvas",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateSubDraftNewTextTemplateCanvasRespStruct",
+      "domain": "其它"
+    },
+    {
+      "method": "AddCaptionAnim",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::AddCaptionAnimRespStruct",
+      "domain": "字幕/文本"
+    },
+    {
+      "method": "AddDigitalHumanTemplateSubtitles",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::AddDigitalHumanTemplateSubtitlesRespStruct",
+      "domain": "字幕/文本"
+    },
+    {
+      "method": "AddTranscriptEditWordsSyncSubtitle",
+      "ns": "lyra",
+      "req": "lyra::AddTranscriptEditWordsSyncSubtitleReqStruct",
+      "resp": "lyra::AddTranscriptEditWordsSyncSubtitleRespStruct",
+      "domain": "字幕/文本"
+    },
+    {
+      "method": "AvoidBilingualCaptionOverlap",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::AvoidBilingualCaptionOverlapRespStruct",
+      "domain": "字幕/文本"
+    },
+    {
+      "method": "BatchReplaceTextTemplateSubtitleText",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::BatchReplaceTextTemplateSubtitleTextRespStruct",
+      "domain": "字幕/文本"
+    },
+    {
+      "method": "CheckIsMixCaptionSegments",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::CheckIsMixCaptionSegmentsRespStruct",
+      "domain": "字幕/文本"
+    },
+    {
+      "method": "ClearSubtitleFragmentInfos",
+      "ns": "lyra",
+      "req": "lyra::ClearSubtitleFragmentInfosReqStruct",
+      "resp": "lyra::ClearSubtitleFragmentInfosRespStruct",
+      "domain": "字幕/文本"
+    },
+    {
+      "method": "CopyTextTemplateSubtitle",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::CopyTextTemplateSubtitleRespStruct",
+      "domain": "字幕/文本"
+    },
+    {
+      "method": "CreateSubtitleFragmentInfos",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::CreateSubtitleFragmentInfosRespStruct",
+      "domain": "字幕/文本"
+    },
+    {
+      "method": "CreateTranscriptEditSubtitle",
+      "ns": "lyra",
+      "req": "lyra::CreateTranscriptEditSubtitleReqStruct",
+      "resp": "lyra::CreateTranscriptEditSubtitleRespStruct",
+      "domain": "字幕/文本"
+    },
+    {
+      "method": "GenerateSubtitleData",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GenerateSubtitleDataRespStruct",
+      "domain": "字幕/文本"
+    },
+    {
+      "method": "GenerateTranscriptSegmentsForSubtitle",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GenerateTranscriptSegmentsForSubtitleRespStruct",
+      "domain": "字幕/文本"
+    },
+    {
+      "method": "GetSubTitleData",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetSubTitleDataRespStruct",
+      "domain": "字幕/文本"
+    },
+    {
+      "method": "GetSubtitleSpacing",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetSubtitleSpacingRespStruct",
+      "domain": "字幕/文本"
+    },
+    {
+      "method": "ImportCaption",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::ImportCaptionRespStruct",
+      "domain": "字幕/文本"
+    },
+    {
+      "method": "InitTranscriptEditAttachmentBySubtitle",
+      "ns": "lyra",
+      "req": "lyra::InitTranscriptEditAttachmentBySubtitleReqStruct",
+      "resp": "lyra::InitTranscriptEditAttachmentBySubtitleRespStruct",
+      "domain": "字幕/文本"
+    },
+    {
+      "method": "MatchCaptionTimeline",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::MatchCaptionTimelineRespStruct",
+      "domain": "字幕/文本"
+    },
+    {
+      "method": "MergeCaptionKeyWordStyles",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::MergeCaptionKeyWordStylesRespStruct",
+      "domain": "字幕/文本"
+    },
+    {
+      "method": "ModifyTextSubtitleBatchConfig",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::ModifyTextSubtitleBatchConfigRespStruct",
+      "domain": "字幕/文本"
+    },
+    {
+      "method": "RemoveMutilSubtitleSegment",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::RemoveMutilSubtitleSegmentRespStruct",
+      "domain": "字幕/文本"
+    },
+    {
+      "method": "RemoveTranscriptEditWordsSyncSubtitle",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::RemoveTranscriptEditWordsSyncSubtitleRespStruct",
+      "domain": "字幕/文本"
+    },
+    {
+      "method": "ReplaceSubtitleText",
+      "ns": "lyra",
+      "req": "lyra::ReplaceSubtitleTextReqStruct",
+      "resp": "lyra::ReplaceSubtitleTextRespStruct",
+      "domain": "字幕/文本"
+    },
+    {
+      "method": "ResetSubTitleGroupId",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::ResetSubTitleGroupIdRespStruct",
+      "domain": "字幕/文本"
+    },
+    {
+      "method": "ResetSubtitleTemplate",
+      "ns": "lyra",
+      "req": "lyra::ResetSubtitleTemplateReqStruct",
+      "resp": "lyra::ResetSubtitleTemplateRespStruct",
+      "domain": "字幕/文本"
+    },
+    {
+      "method": "SetCaptionTextCase",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SetCaptionTextCaseRespStruct",
+      "domain": "字幕/文本"
+    },
+    {
+      "method": "SplitSubtitleFragmentInfos",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SplitSubtitleFragmentInfosRespStruct",
+      "domain": "字幕/文本"
+    },
+    {
+      "method": "SplitSubtitleFragmentInfosStatic",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SplitSubtitleFragmentInfosStaticRespStruct",
+      "domain": "字幕/文本"
+    },
+    {
+      "method": "UpdateCaptionAnim",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateCaptionAnimRespStruct",
+      "domain": "字幕/文本"
+    },
+    {
+      "method": "UpdateCaptionAnimExpression",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateCaptionAnimExpressionRespStruct",
+      "domain": "字幕/文本"
+    },
+    {
+      "method": "UpdateCaptionFragment",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateCaptionFragmentRespStruct",
+      "domain": "字幕/文本"
+    },
+    {
+      "method": "UpdateCaptionKeyWordStyleUnbundling",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateCaptionKeyWordStyleUnbundlingRespStruct",
+      "domain": "字幕/文本"
+    },
+    {
+      "method": "UpdateCaptionKeywordStyle",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateCaptionKeywordStyleRespStruct",
+      "domain": "字幕/文本"
+    },
+    {
+      "method": "UpdateCaptionKeywords",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateCaptionKeywordsRespStruct",
+      "domain": "字幕/文本"
+    },
+    {
+      "method": "UpdateKeywordStyle",
+      "ns": "lyra",
+      "req": "lyra::UpdateKeywordStyleReqStruct",
+      "resp": "lyra::UpdateKeywordStyleRespStruct",
+      "domain": "字幕/文本"
+    },
+    {
+      "method": "UpdatePartBySubtitleJson",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdatePartBySubtitleJsonRespStruct",
+      "domain": "字幕/文本"
+    },
+    {
+      "method": "UpdateScriptAndSubTitle",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateScriptAndSubTitleRespStruct",
+      "domain": "字幕/文本"
+    },
+    {
+      "method": "UpdateSentenceSubtitleSegId",
+      "ns": "lyra",
+      "req": "lyra::UpdateSentenceSubtitleSegIdReqStruct",
+      "resp": "lyra::UpdateSentenceSubtitleSegIdRespStruct",
+      "domain": "字幕/文本"
+    },
+    {
+      "method": "UpdateSubtitleFragmentInfos",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateSubtitleFragmentInfosRespStruct",
+      "domain": "字幕/文本"
+    },
+    {
+      "method": "UpdateSubtitleFragmentTimerange",
+      "ns": "lyra",
+      "req": "lyra::UpdateSubtitleFragmentTimerangeReqStruct",
+      "resp": "lyra::UpdateSubtitleFragmentTimerangeRespStruct",
+      "domain": "字幕/文本"
+    },
+    {
+      "method": "UpdateSubtitleKeywords",
+      "ns": "lyra",
+      "req": "lyra::UpdateSubtitleKeywordsReqStruct",
+      "resp": "lyra::UpdateSubtitleKeywordsRespStruct",
+      "domain": "字幕/文本"
+    },
+    {
+      "method": "UpdateSubtitleTemplate",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateSubtitleTemplateRespStruct",
+      "domain": "字幕/文本"
+    },
+    {
+      "method": "UpdateSubtitleTextSegmentAddSource",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateSubtitleTextSegmentAddSourceRespStruct",
+      "domain": "字幕/文本"
+    },
+    {
+      "method": "UpdateTextTemplateKeywordStyle",
+      "ns": "lyra",
+      "req": "lyra::UpdateTextTemplateKeywordStyleReqStruct",
+      "resp": "lyra::UpdateTextTemplateKeywordStyleRespStruct",
+      "domain": "字幕/文本"
+    },
+    {
+      "method": "UpdateTextTemplateSubtitleKeywords",
+      "ns": "lyra",
+      "req": "lyra::UpdateTextTemplateSubtitleKeywordsReqStruct",
+      "resp": "lyra::UpdateTextTemplateSubtitleKeywordsRespStruct",
+      "domain": "字幕/文本"
+    },
+    {
+      "method": "AddCustomMatting",
+      "ns": "lyra",
+      "req": "lyra::AddCustomMattingReqStruct",
+      "resp": "lyra::AddCustomMattingRespStruct",
+      "domain": "抠像/分割"
+    },
+    {
+      "method": "AddMatting",
+      "ns": "lyra",
+      "req": "lyra::AddMattingReqStruct",
+      "resp": "lyra::AddMattingRespStruct",
+      "domain": "抠像/分割"
+    },
+    {
+      "method": "AddMattingListener",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::AddMattingListenerRespStruct",
+      "domain": "抠像/分割"
+    },
+    {
+      "method": "AdjustDigitalHumanSpeaker",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::AdjustDigitalHumanSpeakerRespStruct",
+      "domain": "抠像/分割"
+    },
+    {
+      "method": "CheckMattingNeedRestore",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::CheckMattingNeedRestoreRespStruct",
+      "domain": "抠像/分割"
+    },
+    {
+      "method": "ChromaVideo",
+      "ns": "lyra",
+      "req": "lyra::ChromaVideoReqStruct",
+      "resp": "lyra::ChromaVideoRespStruct",
+      "domain": "抠像/分割"
+    },
+    {
+      "method": "CopyCustomMattingResult",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::CopyCustomMattingResultRespStruct",
+      "domain": "抠像/分割"
+    },
+    {
+      "method": "CopyMattingDataOnMattingEdit",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::CopyMattingDataOnMattingEditRespStruct",
+      "domain": "抠像/分割"
+    },
+    {
+      "method": "EnterAdjustChromaPick",
+      "ns": "lyra",
+      "req": "lyra::EnterAdjustChromaPickReqStruct",
+      "resp": "lyra::EnterAdjustChromaPickRespStruct",
+      "domain": "抠像/分割"
+    },
+    {
+      "method": "EnterVideoChromaPick",
+      "ns": "lyra",
+      "req": "lyra::EnterVideoChromaPickReqStruct",
+      "resp": "lyra::EnterVideoChromaPickRespStruct",
+      "domain": "抠像/分割"
+    },
+    {
+      "method": "ExportCurrentMattingFrame",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::ExportCurrentMattingFrameRespStruct",
+      "domain": "抠像/分割"
+    },
+    {
+      "method": "GetLvMattingPhotoUseNewModel",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetLvMattingPhotoUseNewModelRespStruct",
+      "domain": "抠像/分割"
+    },
+    {
+      "method": "GetLvMattingVideoUseNewModel",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetLvMattingVideoUseNewModelRespStruct",
+      "domain": "抠像/分割"
+    },
+    {
+      "method": "GetPortraitAlgorithmCacheOptEnable",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetPortraitAlgorithmCacheOptEnableRespStruct",
+      "domain": "抠像/分割"
+    },
+    {
+      "method": "GetSegmentMattingInfo",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetSegmentMattingInfoRespStruct",
+      "domain": "抠像/分割"
+    },
+    {
+      "method": "LeaveAdjustChromaPick",
+      "ns": "lyra",
+      "req": "lyra::LeaveAdjustChromaPickReqStruct",
+      "resp": "lyra::LeaveAdjustChromaPickRespStruct",
+      "domain": "抠像/分割"
+    },
+    {
+      "method": "LeaveVideoChromaPick",
+      "ns": "lyra",
+      "req": "lyra::LeaveVideoChromaPickReqStruct",
+      "resp": "lyra::LeaveVideoChromaPickRespStruct",
+      "domain": "抠像/分割"
+    },
+    {
+      "method": "PrepareMatting",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::PrepareMattingRespStruct",
+      "domain": "抠像/分割"
+    },
+    {
+      "method": "RefreshAllVideoChromaFilter",
+      "ns": "lyra",
+      "req": "lyra::RefreshAllVideoChromaFilterReqStruct",
+      "resp": "lyra::RefreshAllVideoChromaFilterRespStruct",
+      "domain": "抠像/分割"
+    },
+    {
+      "method": "RemoveMattingListener",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::RemoveMattingListenerRespStruct",
+      "domain": "抠像/分割"
+    },
+    {
+      "method": "RemoveMattingTask",
+      "ns": "lyra",
+      "req": "lyra::RemoveMattingTaskReqStruct",
+      "resp": "lyra::RemoveMattingTaskRespStruct",
+      "domain": "抠像/分割"
+    },
+    {
+      "method": "RestoreMattingFromDraft",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::RestoreMattingFromDraftRespStruct",
+      "domain": "抠像/分割"
+    },
+    {
+      "method": "SetChromaColor",
+      "ns": "lyra",
+      "req": "lyra::SetChromaColorReqStruct",
+      "resp": "lyra::SetChromaColorRespStruct",
+      "domain": "抠像/分割"
+    },
+    {
+      "method": "SetChromaEdgeSmooth",
+      "ns": "lyra",
+      "req": "lyra::SetChromaEdgeSmoothReqStruct",
+      "resp": "lyra::SetChromaEdgeSmoothRespStruct",
+      "domain": "抠像/分割"
+    },
+    {
+      "method": "SetChromaIntensity",
+      "ns": "lyra",
+      "req": "lyra::SetChromaIntensityReqStruct",
+      "resp": "lyra::SetChromaIntensityRespStruct",
+      "domain": "抠像/分割"
+    },
+    {
+      "method": "SetChromaShadow",
+      "ns": "lyra",
+      "req": "lyra::SetChromaShadowReqStruct",
+      "resp": "lyra::SetChromaShadowRespStruct",
+      "domain": "抠像/分割"
+    },
+    {
+      "method": "SetChromaSpill",
+      "ns": "lyra",
+      "req": "lyra::SetChromaSpillReqStruct",
+      "resp": "lyra::SetChromaSpillRespStruct",
+      "domain": "抠像/分割"
+    },
+    {
+      "method": "SetMattingCachePath",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SetMattingCachePathRespStruct",
+      "domain": "抠像/分割"
+    },
+    {
+      "method": "StopMattingTaskBeforeInteractive",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::StopMattingTaskBeforeInteractiveRespStruct",
+      "domain": "抠像/分割"
+    },
+    {
+      "method": "TemplateVideoAiMattingApply",
+      "ns": "lyra",
+      "req": "lyra::TemplateVideoAiMattingApplyReqStruct",
+      "resp": "lyra::TemplateVideoAiMattingApplyRespStruct",
+      "domain": "抠像/分割"
+    },
+    {
+      "method": "UpdateMatting",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateMattingRespStruct",
+      "domain": "抠像/分割"
+    },
+    {
+      "method": "UpdateVideoAiMattingApply",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateVideoAiMattingApplyRespStruct",
+      "domain": "抠像/分割"
+    },
+    {
+      "method": "UpdateVideoMattingWithFlagPath",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateVideoMattingWithFlagPathRespStruct",
+      "domain": "抠像/分割"
+    },
+    {
+      "method": "UpdateVideoMattingWithToggle",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateVideoMattingWithToggleRespStruct",
+      "domain": "抠像/分割"
+    },
+    {
+      "method": "VideoAiMattingToggle",
+      "ns": "lyra",
+      "req": "lyra::VideoAiMattingToggleReqStruct",
+      "resp": "lyra::VideoAiMattingToggleRespStruct",
+      "domain": "抠像/分割"
+    },
+    {
+      "method": "WaitForCustomMatting",
+      "ns": "lyra",
+      "req": "lyra::WaitForCustomMattingReqStruct",
+      "resp": "lyra::WaitForCustomMattingRespStruct",
+      "domain": "抠像/分割"
+    },
+    {
+      "method": "AddClipflowNodeHooker",
+      "ns": "clipflow",
+      "req": null,
+      "resp": "clipflow::AddClipflowNodeHookerRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "AddClipflowTaskHooker",
+      "ns": "clipflow",
+      "req": null,
+      "resp": "clipflow::AddClipflowTaskHookerRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "AddScenes",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::AddScenesRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "AppendClipFlowAsyncTaskListenerProxy",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::AppendClipFlowAsyncTaskListenerProxyRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "ApplySegmentSmartEdit",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::ApplySegmentSmartEditRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "ApplySmartCrop",
+      "ns": "lyra",
+      "req": "lyra::ApplySmartCropReqStruct",
+      "resp": "lyra::ApplySmartCropRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "ApplyTextSmartSplit",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::ApplyTextSmartSplitRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "ApplyTextTemplateSmartSplit",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::ApplyTextTemplateSmartSplitRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "CancelRunningSmartCropAlgorithm",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::CancelRunningSmartCropAlgorithmRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "CancelVideoHighlightcutProcess",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::CancelVideoHighlightcutProcessRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "ClipflowNode",
+      "ns": "clipflow",
+      "req": "clipflow::ClipflowNodeReq",
+      "resp": "clipflow::ClipflowNodeResp",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "CopyHighLightSegment",
+      "ns": "lyra",
+      "req": "lyra::CopyHighLightSegmentReqStruct",
+      "resp": "lyra::CopyHighLightSegmentRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "CreateClipFlowNode",
+      "ns": "clipflow",
+      "req": null,
+      "resp": "clipflow::CreateClipFlowNodeRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "DecisionNode",
+      "ns": "clipflow",
+      "req": null,
+      "resp": "clipflow::DecisionNodeResp",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "GetAiMaterialClipflowEnable",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetAiMaterialClipflowEnableRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "GetAlgorithmCacheProgressSnapshot",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetAlgorithmCacheProgressSnapshotRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "GetAllFeatureSceneSegment",
+      "ns": "lyra",
+      "req": "lyra::GetAllFeatureSceneSegmentReqStruct",
+      "resp": "lyra::GetAllFeatureSceneSegmentRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "GetAllRemovedSceneSegment",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetAllRemovedSceneSegmentRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "GetAllResourceSceneSegment",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetAllResourceSceneSegmentRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "GetAllSegmentScene",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetAllSegmentSceneRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "GetClipflowEngineAbtest",
+      "ns": "lyra",
+      "req": "lyra::GetClipflowEngineAbtestReqStruct",
+      "resp": "lyra::GetClipflowEngineAbtestRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "GetSceneTagAttachment",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetSceneTagAttachmentRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "GetSegmentShotInfo",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetSegmentShotInfoRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "GetSmartMask",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetSmartMaskRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "NotifyAsyncResult",
+      "ns": "clipflow",
+      "req": "clipflow::NotifyAsyncResultReqStruct",
+      "resp": null,
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "QueryClipFlowTask",
+      "ns": "clipflow",
+      "req": "clipflow::QueryClipFlowTaskReqStruct",
+      "resp": null,
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "QuerySceneTagByAlgorithm",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::QuerySceneTagByAlgorithmRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "QuerySceneTagByFeature",
+      "ns": "lyra",
+      "req": "lyra::QuerySceneTagByFeatureReqStruct",
+      "resp": "lyra::QuerySceneTagByFeatureRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "QuerySceneTagByResource",
+      "ns": "lyra",
+      "req": "lyra::QuerySceneTagByResourceReqStruct",
+      "resp": "lyra::QuerySceneTagByResourceRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "QuerySceneTagOfSegment",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::QuerySceneTagOfSegmentRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "RecordSceneTagByFeature",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::RecordSceneTagByFeatureRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "RecordSceneTagByResource",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::RecordSceneTagByResourceRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "RecordSceneTagOfSegment",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::RecordSceneTagOfSegmentRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "RegisterNodeCacheImpl",
+      "ns": "clipflow",
+      "req": null,
+      "resp": "clipflow::RegisterNodeCacheImplRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "RemoveSceneTagOfSegment",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::RemoveSceneTagOfSegmentRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "RemoveScenes",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::RemoveScenesRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "RemoveSmartCrop",
+      "ns": "lyra",
+      "req": "lyra::RemoveSmartCropReqStruct",
+      "resp": "lyra::RemoveSmartCropRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "RemoveTempSmartCropParam",
+      "ns": "lyra",
+      "req": "lyra::RemoveTempSmartCropParamReqStruct",
+      "resp": "lyra::RemoveTempSmartCropParamRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "ReplaceScenes",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::ReplaceScenesRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "ResetGlobalSmartColorAdjust",
+      "ns": "lyra",
+      "req": "lyra::ResetGlobalSmartColorAdjustReqStruct",
+      "resp": "lyra::ResetGlobalSmartColorAdjustRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "ResetSmartColorAdjust",
+      "ns": "lyra",
+      "req": "lyra::ResetSmartColorAdjustReqStruct",
+      "resp": "lyra::ResetSmartColorAdjustRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "RunSmartCropAlgorithm",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::RunSmartCropAlgorithmRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "SetSmartComplementFrame",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SetSmartComplementFrameRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "SetSmartMatchVideos",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SetSmartMatchVideosRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "SetVideoSmartMatchInfo",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SetVideoSmartMatchInfoRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "SmartColorAdjustEnable",
+      "ns": "lyra",
+      "req": "lyra::SmartColorAdjustEnableReqStruct",
+      "resp": "lyra::SmartColorAdjustEnableRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "StartVideoHighlightcutProcess",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::StartVideoHighlightcutProcessRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "SupplementSceneTagAttachment",
+      "ns": "lyra",
+      "req": "lyra::SupplementSceneTagAttachmentReqStruct",
+      "resp": "lyra::SupplementSceneTagAttachmentRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "UndoRedoTasks",
+      "ns": "clipflow",
+      "req": "clipflow::UndoRedoTasksReqStruct",
+      "resp": null,
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "UpdateSmartAdsInfo",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateSmartAdsInfoRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "UpdateSmartCropApplySource",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateSmartCropApplySourceRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "UpdateSmartCropParam",
+      "ns": "lyra",
+      "req": "lyra::UpdateSmartCropParamReqStruct",
+      "resp": "lyra::UpdateSmartCropParamRespStruct",
+      "domain": "智能剪辑决策"
+    },
+    {
+      "method": "AudioEnhance",
+      "ns": "lyra",
+      "req": "lyra::AudioEnhanceReqStruct",
+      "resp": "lyra::AudioEnhanceRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "AudioRealtimeDenoise",
+      "ns": "lyra",
+      "req": "lyra::AudioRealtimeDenoiseReqStruct",
+      "resp": "lyra::AudioRealtimeDenoiseRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "AutoAlignDraftFrameTimeWithDraft",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::AutoAlignDraftFrameTimeWithDraftRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "CancelDeflicker",
+      "ns": "lyra",
+      "req": "lyra::CancelDeflickerReqStruct",
+      "resp": "lyra::CancelDeflickerRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "CancelQualityEnhance",
+      "ns": "lyra",
+      "req": "lyra::CancelQualityEnhanceReqStruct",
+      "resp": "lyra::CancelQualityEnhanceRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "CancelRunSmartRelightAlgorithm",
+      "ns": "lyra",
+      "req": "lyra::CancelRunSmartRelightAlgorithmReqStruct",
+      "resp": "lyra::CancelRunSmartRelightAlgorithmRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "CancelSuperResolution",
+      "ns": "lyra",
+      "req": "lyra::CancelSuperResolutionReqStruct",
+      "resp": "lyra::CancelSuperResolutionRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "ClearSmartRelightCache",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::ClearSmartRelightCacheRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "ConvertRelightInfoFromDraft",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::ConvertRelightInfoFromDraftRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "ConvertRelightInfoFromJson",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::ConvertRelightInfoFromJsonRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "DelSmartRelight",
+      "ns": "lyra",
+      "req": "lyra::DelSmartRelightReqStruct",
+      "resp": "lyra::DelSmartRelightRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "EnhanceVideo",
+      "ns": "lyra",
+      "req": "lyra::EnhanceVideoReqStruct",
+      "resp": "lyra::EnhanceVideoRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "FixSegmentResourceWithDraft",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::FixSegmentResourceWithDraftRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "GetDeflickerPath",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetDeflickerPathRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "GetDraftResourcesWithDraft",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetDraftResourcesWithDraftRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "GetQualityEnhancePath",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetQualityEnhancePathRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "GetSuperResolutionPath",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetSuperResolutionPathRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "HdrVividEnable",
+      "ns": "lyra",
+      "req": "lyra::HdrVividEnableReqStruct",
+      "resp": "lyra::HdrVividEnableRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "InitSinglePlayerWithDraft",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::InitSinglePlayerWithDraftRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "InitSmartRelightDefaultSettings",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::InitSmartRelightDefaultSettingsRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "IsHdrSupported",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::IsHdrSupportedRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "IsSmartRelightCacheFinished",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::IsSmartRelightCacheFinishedRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "IsSmartRelightComplete",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::IsSmartRelightCompleteRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "IsSupportSuperResolution",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::IsSupportSuperResolutionRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "MakeSmartRelightCacheDir",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::MakeSmartRelightCacheDirRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "NotifyQualityEnhanceComplete",
+      "ns": "lyra",
+      "req": "lyra::NotifyQualityEnhanceCompleteReqStruct",
+      "resp": "lyra::NotifyQualityEnhanceCompleteRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "NotifySuperResolutionComplete",
+      "ns": "lyra",
+      "req": "lyra::NotifySuperResolutionCompleteReqStruct",
+      "resp": "lyra::NotifySuperResolutionCompleteRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "PauseDeflicker",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::PauseDeflickerRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "PauseInterpolationVideo",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::PauseInterpolationVideoRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "PauseSmartRelight",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::PauseSmartRelightRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "ResumeDeflicker",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::ResumeDeflickerRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "ResumeInterpolationVideo",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::ResumeInterpolationVideoRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "RunQualityEnhanceAlgorithm",
+      "ns": "lyra",
+      "req": "lyra::RunQualityEnhanceAlgorithmReqStruct",
+      "resp": "lyra::RunQualityEnhanceAlgorithmRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "RunSmartRelightAlgorithm",
+      "ns": "lyra",
+      "req": "lyra::RunSmartRelightAlgorithmReqStruct",
+      "resp": "lyra::RunSmartRelightAlgorithmRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "ScaleComposition",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::ScaleCompositionRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "ScaleCoverSegment",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::ScaleCoverSegmentRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "ScaleSegment",
+      "ns": "lyra",
+      "req": "lyra::ScaleSegmentReqStruct",
+      "resp": "lyra::ScaleSegmentRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "ScaleText",
+      "ns": "lyra",
+      "req": "lyra::ScaleTextReqStruct",
+      "resp": "lyra::ScaleTextRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "ScaleTextLayer",
+      "ns": "lyra",
+      "req": "lyra::ScaleTextLayerReqStruct",
+      "resp": "lyra::ScaleTextLayerRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "SetDenoiseModelPath",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SetDenoiseModelPathRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "SetHdrSettings",
+      "ns": "lyra",
+      "req": "lyra::SetHdrSettingsReqStruct",
+      "resp": "lyra::SetHdrSettingsRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "SetQualityEnhance",
+      "ns": "lyra",
+      "req": "lyra::SetQualityEnhanceReqStruct",
+      "resp": "lyra::SetQualityEnhanceRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "SetSegmentUniformScale",
+      "ns": "lyra",
+      "req": "lyra::SetSegmentUniformScaleReqStruct",
+      "resp": "lyra::SetSegmentUniformScaleRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "SetSuperResolution",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SetSuperResolutionRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "SingleResourcePlayerOnHDRUnsupported",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SingleResourcePlayerOnHDRUnsupportedRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "StartConvertDeflicker",
+      "ns": "lyra",
+      "req": "lyra::StartConvertDeflickerReqStruct",
+      "resp": "lyra::StartConvertDeflickerRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "StartConvertQualityEnhance",
+      "ns": "lyra",
+      "req": "lyra::StartConvertQualityEnhanceReqStruct",
+      "resp": "lyra::StartConvertQualityEnhanceRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "StartConvertSuperResolution",
+      "ns": "lyra",
+      "req": "lyra::StartConvertSuperResolutionReqStruct",
+      "resp": "lyra::StartConvertSuperResolutionRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "UpdateDraftCanvasScale",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateDraftCanvasScaleRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "UpdateGreenScale",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateGreenScaleRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "UpdateSmartRelight",
+      "ns": "lyra",
+      "req": "lyra::UpdateSmartRelightReqStruct",
+      "resp": "lyra::UpdateSmartRelightRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "UpdateSmartRelightAlgorithmParam",
+      "ns": "lyra",
+      "req": "lyra::UpdateSmartRelightAlgorithmParamReqStruct",
+      "resp": "lyra::UpdateSmartRelightAlgorithmParamRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "UpdateSubDraftSegmentScale",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateSubDraftSegmentScaleRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "VideoDeflicker",
+      "ns": "lyra",
+      "req": "lyra::VideoDeflickerReqStruct",
+      "resp": "lyra::VideoDeflickerRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "VideoRealtimeDenoise",
+      "ns": "lyra",
+      "req": "lyra::VideoRealtimeDenoiseReqStruct",
+      "resp": "lyra::VideoRealtimeDenoiseRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "VideoScaleToAll",
+      "ns": "lyra",
+      "req": "lyra::VideoScaleToAllReqStruct",
+      "resp": "lyra::VideoScaleToAllRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "VideoUpdateHdrSettings",
+      "ns": "lyra",
+      "req": "lyra::VideoUpdateHdrSettingsReqStruct",
+      "resp": "lyra::VideoUpdateHdrSettingsRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "VideoUpdateHdrVividSettings",
+      "ns": "lyra",
+      "req": "lyra::VideoUpdateHdrVividSettingsReqStruct",
+      "resp": "lyra::VideoUpdateHdrVividSettingsRespStruct",
+      "domain": "画质"
+    },
+    {
+      "method": "BeautyFaceApplyToAll",
+      "ns": "lyra",
+      "req": "lyra::BeautyFaceApplyToAllReqStruct",
+      "resp": "lyra::BeautyFaceApplyToAllRespStruct",
+      "domain": "美颜/塑形"
+    },
+    {
+      "method": "ConfigureEmbeddedAlgorithmTaskPersistence",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::ConfigureEmbeddedAlgorithmTaskPersistenceRespStruct",
+      "domain": "美颜/塑形"
+    },
+    {
+      "method": "DeleteBeautyBodyPreset",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::DeleteBeautyBodyPresetRespStruct",
+      "domain": "美颜/塑形"
+    },
+    {
+      "method": "DeleteBeautyFacePreset",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::DeleteBeautyFacePresetRespStruct",
+      "domain": "美颜/塑形"
+    },
+    {
+      "method": "DeserializeBeautyBodyPreset",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::DeserializeBeautyBodyPresetRespStruct",
+      "domain": "美颜/塑形"
+    },
+    {
+      "method": "DeserializeBeautyFacePreset",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::DeserializeBeautyFacePresetRespStruct",
+      "domain": "美颜/塑形"
+    },
+    {
+      "method": "GetBeautyBodyPreset",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetBeautyBodyPresetRespStruct",
+      "domain": "美颜/塑形"
+    },
+    {
+      "method": "GetBeautyFacePreset",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetBeautyFacePresetRespStruct",
+      "domain": "美颜/塑形"
+    },
+    {
+      "method": "GetManualBeautyUndoRedoEnable",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetManualBeautyUndoRedoEnableRespStruct",
+      "domain": "美颜/塑形"
+    },
+    {
+      "method": "GetRetouchManager",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetRetouchManagerRespStruct",
+      "domain": "美颜/塑形"
+    },
+    {
+      "method": "RemoveAllFigure",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::RemoveAllFigureRespStruct",
+      "domain": "美颜/塑形"
+    },
+    {
+      "method": "RemoveAutoBeautyBodyPreset",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::RemoveAutoBeautyBodyPresetRespStruct",
+      "domain": "美颜/塑形"
+    },
+    {
+      "method": "RemoveAutoBeautyFacePreset",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::RemoveAutoBeautyFacePresetRespStruct",
+      "domain": "美颜/塑形"
+    },
+    {
+      "method": "RemoveBeauty",
+      "ns": "lyra",
+      "req": "lyra::RemoveBeautyReqStruct",
+      "resp": "lyra::RemoveBeautyRespStruct",
+      "domain": "美颜/塑形"
+    },
+    {
+      "method": "RemoveBeautyFacePreset",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::RemoveBeautyFacePresetRespStruct",
+      "domain": "美颜/塑形"
+    },
+    {
+      "method": "RemoveEmptyFigure",
+      "ns": "lyra",
+      "req": "lyra::RemoveEmptyFigureReqStruct",
+      "resp": "lyra::RemoveEmptyFigureRespStruct",
+      "domain": "美颜/塑形"
+    },
+    {
+      "method": "RemoveFigure",
+      "ns": "lyra",
+      "req": "lyra::RemoveFigureReqStruct",
+      "resp": "lyra::RemoveFigureRespStruct",
+      "domain": "美颜/塑形"
+    },
+    {
+      "method": "RemoveRetouchCover",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::RemoveRetouchCoverRespStruct",
+      "domain": "美颜/塑形"
+    },
+    {
+      "method": "ResetManualBeautyEffect",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::ResetManualBeautyEffectRespStruct",
+      "domain": "美颜/塑形"
+    },
+    {
+      "method": "SerializeBeautyBodyPreset",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SerializeBeautyBodyPresetRespStruct",
+      "domain": "美颜/塑形"
+    },
+    {
+      "method": "SerializeBeautyFacePreset",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SerializeBeautyFacePresetRespStruct",
+      "domain": "美颜/塑形"
+    },
+    {
+      "method": "SetAutoBeautyBodyPreset",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SetAutoBeautyBodyPresetRespStruct",
+      "domain": "美颜/塑形"
+    },
+    {
+      "method": "SetAutoBeautyFacePreset",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SetAutoBeautyFacePresetRespStruct",
+      "domain": "美颜/塑形"
+    },
+    {
+      "method": "SetBeauty",
+      "ns": "lyra",
+      "req": "lyra::SetBeautyReqStruct",
+      "resp": "lyra::SetBeautyRespStruct",
+      "domain": "美颜/塑形"
+    },
+    {
+      "method": "SetBeautyBodyPreset",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SetBeautyBodyPresetRespStruct",
+      "domain": "美颜/塑形"
+    },
+    {
+      "method": "SetBeautyFacePreset",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SetBeautyFacePresetRespStruct",
+      "domain": "美颜/塑形"
+    },
+    {
+      "method": "SetBeautyToAll",
+      "ns": "lyra",
+      "req": "lyra::SetBeautyToAllReqStruct",
+      "resp": "lyra::SetBeautyToAllRespStruct",
+      "domain": "美颜/塑形"
+    },
+    {
+      "method": "SetFigure",
+      "ns": "lyra",
+      "req": "lyra::SetFigureReqStruct",
+      "resp": "lyra::SetFigureRespStruct",
+      "domain": "美颜/塑形"
+    },
+    {
+      "method": "SetFigureToAll",
+      "ns": "lyra",
+      "req": "lyra::SetFigureToAllReqStruct",
+      "resp": "lyra::SetFigureToAllRespStruct",
+      "domain": "美颜/塑形"
+    },
+    {
+      "method": "SetHistoriesLimitConfig",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SetHistoriesLimitConfigRespStruct",
+      "domain": "美颜/塑形"
+    },
+    {
+      "method": "SetMakeupRoot",
+      "ns": "lyra",
+      "req": "lyra::SetMakeupRootReqStruct",
+      "resp": "lyra::SetMakeupRootRespStruct",
+      "domain": "美颜/塑形"
+    },
+    {
+      "method": "UpdateBeautyValue",
+      "ns": "lyra",
+      "req": "lyra::UpdateBeautyValueReqStruct",
+      "resp": "lyra::UpdateBeautyValueRespStruct",
+      "domain": "美颜/塑形"
+    },
+    {
+      "method": "UpdateManualBeautyBrush",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateManualBeautyBrushRespStruct",
+      "domain": "美颜/塑形"
+    },
+    {
+      "method": "UpdateRetouchCover",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateRetouchCoverRespStruct",
+      "domain": "美颜/塑形"
+    },
+    {
+      "method": "UpdateRetouchCoverStaticImage",
+      "ns": "lyra",
+      "req": "lyra::UpdateRetouchCoverStaticImageReqStruct",
+      "resp": "lyra::UpdateRetouchCoverStaticImageRespStruct",
+      "domain": "美颜/塑形"
+    },
+    {
+      "method": "WriteManualBeautyAlgCache",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::WriteManualBeautyAlgCacheRespStruct",
+      "domain": "美颜/塑形"
+    },
+    {
+      "method": "AddEditableMaterialKeyFrameTrackTarget",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::AddEditableMaterialKeyFrameTrackTargetRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "AddEditableMaterialObjectTrackTarget",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::AddEditableMaterialObjectTrackTargetRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "AddMaskTracking",
+      "ns": "lyra",
+      "req": "lyra::AddMaskTrackingReqStruct",
+      "resp": "lyra::AddMaskTrackingRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "AddObjectLockedEffect",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::AddObjectLockedEffectRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "AddSingleSmartMotionKeyframes",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::AddSingleSmartMotionKeyframesRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "AddTempSmartMotionKeyframes",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::AddTempSmartMotionKeyframesRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "AddVideoObjectLocked",
+      "ns": "lyra",
+      "req": "lyra::AddVideoObjectLockedReqStruct",
+      "resp": "lyra::AddVideoObjectLockedRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "AddVideoSmartMotion",
+      "ns": "lyra",
+      "req": "lyra::AddVideoSmartMotionReqStruct",
+      "resp": "lyra::AddVideoSmartMotionRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "AddVideoTrackingListener",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::AddVideoTrackingListenerRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "AppendVideoObjectLocked",
+      "ns": "lyra",
+      "req": "lyra::AppendVideoObjectLockedReqStruct",
+      "resp": "lyra::AppendVideoObjectLockedRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "ArrangeTimelineTracks",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::ArrangeTimelineTracksRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "BeginVideoTracking2",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::BeginVideoTracking2RespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "CancelAutoCineMotionAlgorithm",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::CancelAutoCineMotionAlgorithmRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "CancelMotionBlur",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::CancelMotionBlurRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "CancelPreviewMotionBlur",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::CancelPreviewMotionBlurRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "CancelPreviewSlowMotion",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::CancelPreviewSlowMotionRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "CancelSlowMotion",
+      "ns": "lyra",
+      "req": "lyra::CancelSlowMotionReqStruct",
+      "resp": "lyra::CancelSlowMotionRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "CancelVideoTracking",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::CancelVideoTrackingRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "CancelVideoTracking2",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::CancelVideoTracking2RespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "CancelVideoTrackingV3",
+      "ns": "lyra",
+      "req": "lyra::CancelVideoTrackingV3ReqStruct",
+      "resp": "lyra::CancelVideoTrackingV3RespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "CleanupVideoTracking2",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::CleanupVideoTracking2RespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "CopyVideoTrackingMap",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::CopyVideoTrackingMapRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "CropTrackTimeInterval",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::CropTrackTimeIntervalRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "CutTrackFragment",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::CutTrackFragmentRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "DeleteEditableMaterialKeyFrameTrackTarget",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::DeleteEditableMaterialKeyFrameTrackTargetRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "DeleteEditableMaterialTrack",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::DeleteEditableMaterialTrackRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "DestroyAutoCineMotionAlgorithm",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::DestroyAutoCineMotionAlgorithmRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "DrawObjectLockedFrame",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::DrawObjectLockedFrameRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "FindTrackingSegmentsByTrackedSegment",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::FindTrackingSegmentsByTrackedSegmentRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "FinishedTrackAction",
+      "ns": "lyra",
+      "req": "lyra::FinishedTrackActionReqStruct",
+      "resp": "lyra::FinishedTrackActionRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "FixSegmentOverlapInTrack",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::FixSegmentOverlapInTrackRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "GetEditableMaterialTrackIntelligentType",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetEditableMaterialTrackIntelligentTypeRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "GetMotionBlurPath",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetMotionBlurPathRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "GetSingleTrackProcessedImage",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetSingleTrackProcessedImageRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "GetSlowMotionPath",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetSlowMotionPathRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "GetTrackPixelColor",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetTrackPixelColorRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "GetTrackerKeyPointTimeStamp",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetTrackerKeyPointTimeStampRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "GetTrackerPosition",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetTrackerPositionRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "GetTrackingBaseLineTrs",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetTrackingBaseLineTrsRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "GetTrackingTarget",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetTrackingTargetRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "GetVideoTrackingTargetSegment",
+      "ns": "lyra",
+      "req": "lyra::GetVideoTrackingTargetSegmentReqStruct",
+      "resp": "lyra::GetVideoTrackingTargetSegmentRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "HasKeyframeTracking",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::HasKeyframeTrackingRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "IsLyricEffectNeedMotionBlur",
+      "ns": "lyra",
+      "req": "lyra::IsLyricEffectNeedMotionBlurReqStruct",
+      "resp": "lyra::IsLyricEffectNeedMotionBlurRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "KeyframeTracking",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::KeyframeTrackingRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "MixedTrackMode",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::MixedTrackModeRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "MoveTrack",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::MoveTrackRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "MultiTrackModeMoveSegments",
+      "ns": "lyra",
+      "req": "lyra::MultiTrackModeMoveSegmentsReqStruct",
+      "resp": "lyra::MultiTrackModeMoveSegmentsRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "MultiTrackModePasteSegments",
+      "ns": "lyra",
+      "req": "lyra::MultiTrackModePasteSegmentsReqStruct",
+      "resp": "lyra::MultiTrackModePasteSegmentsRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "MultiTrackV2TDraftPreprocess",
+      "ns": "lyra",
+      "req": "lyra::MultiTrackV2TDraftPreprocessReqStruct",
+      "resp": "lyra::MultiTrackV2TDraftPreprocessRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "MuteAllTracks",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::MuteAllTracksRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "NotifySlowMotionComplete",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::NotifySlowMotionCompleteRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "PauseAutoCineMotion",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::PauseAutoCineMotionRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "PauseMotionBlur",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::PauseMotionBlurRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "PreviewMotionBlur",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::PreviewMotionBlurRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "PreviewSlowMotionFrameBlending",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::PreviewSlowMotionFrameBlendingRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "PreviewSlowMotionOpticalFlow",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::PreviewSlowMotionOpticalFlowRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "QueryLyricEffectMotionBlurStatus",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::QueryLyricEffectMotionBlurStatusRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "RemoveEmptyTrack",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::RemoveEmptyTrackRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "RemoveTempSmartMotionKeyframes",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::RemoveTempSmartMotionKeyframesRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "RemoveVideoObjectLocked",
+      "ns": "lyra",
+      "req": "lyra::RemoveVideoObjectLockedReqStruct",
+      "resp": "lyra::RemoveVideoObjectLockedRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "RemoveVideoSmartMotion",
+      "ns": "lyra",
+      "req": "lyra::RemoveVideoSmartMotionReqStruct",
+      "resp": "lyra::RemoveVideoSmartMotionRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "RemoveVideoTracking",
+      "ns": "lyra",
+      "req": "lyra::RemoveVideoTrackingReqStruct",
+      "resp": "lyra::RemoveVideoTrackingRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "RemoveVideoTrackingListener",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::RemoveVideoTrackingListenerRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "RenderIndexTrackMode",
+      "ns": "lyra",
+      "req": "lyra::RenderIndexTrackModeReqStruct",
+      "resp": "lyra::RenderIndexTrackModeRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "RenderIndexTrackModeOn",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::RenderIndexTrackModeOnRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "ReplaceMainTrackSegment",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::ReplaceMainTrackSegmentRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "ResumeMotionBlur",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::ResumeMotionBlurRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "RunAutoCineMotionAlgorithm",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::RunAutoCineMotionAlgorithmRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "SaveAttachmentWorkflowTrackerInfo",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SaveAttachmentWorkflowTrackerInfoRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "SaveVideoTracking2Data",
+      "ns": "lyra",
+      "req": "lyra::SaveVideoTracking2DataReqStruct",
+      "resp": "lyra::SaveVideoTracking2DataRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "SetAudioTrackIndex",
+      "ns": "lyra",
+      "req": "lyra::SetAudioTrackIndexReqStruct",
+      "resp": "lyra::SetAudioTrackIndexRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "SetFixClashInSameTrack",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SetFixClashInSameTrackRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "SetIsOnlyOneSubtitleTrack",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SetIsOnlyOneSubtitleTrackRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "SetMainTrackAdsorb",
+      "ns": "lyra",
+      "req": "lyra::SetMainTrackAdsorbReqStruct",
+      "resp": "lyra::SetMainTrackAdsorbRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "SetMultiViewSeqChoseTrackId",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SetMultiViewSeqChoseTrackIdRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "SetTrackAttributes",
+      "ns": "lyra",
+      "req": "lyra::SetTrackAttributesReqStruct",
+      "resp": "lyra::SetTrackAttributesRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "SetTrackInfo",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SetTrackInfoRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "SetTrackName",
+      "ns": "lyra",
+      "req": "lyra::SetTrackNameReqStruct",
+      "resp": "lyra::SetTrackNameRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "SetTrackerSelectArea",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SetTrackerSelectAreaRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "SetTrackingRelationCacheUpdateCallback",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SetTrackingRelationCacheUpdateCallbackRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "SetVideoSmartMotionRunningMode",
+      "ns": "lyra",
+      "req": "lyra::SetVideoSmartMotionRunningModeReqStruct",
+      "resp": "lyra::SetVideoSmartMotionRunningModeRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "SetVideoTrackingCallback2",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SetVideoTrackingCallback2RespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "SetVideoTrackingDataReadCallback2",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SetVideoTrackingDataReadCallback2RespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "SingleKeyframeTracking",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SingleKeyframeTrackingRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "SplitScreenAddPlaceholderTrack",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SplitScreenAddPlaceholderTrackRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "SplitScreenUpdateTrackerInfo",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SplitScreenUpdateTrackerInfoRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "StartConvertMotionBlur",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::StartConvertMotionBlurRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "StartConvertSlowMotion",
+      "ns": "lyra",
+      "req": "lyra::StartConvertSlowMotionReqStruct",
+      "resp": "lyra::StartConvertSlowMotionRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "StartLyricEffectMotionBlur",
+      "ns": "lyra",
+      "req": "lyra::StartLyricEffectMotionBlurReqStruct",
+      "resp": "lyra::StartLyricEffectMotionBlurRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "StartVideoTracking",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::StartVideoTrackingRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "StartVideoTrackingV3",
+      "ns": "lyra",
+      "req": "lyra::StartVideoTrackingV3ReqStruct",
+      "resp": "lyra::StartVideoTrackingV3RespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "TrackViewSeek",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::TrackViewSeekRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "UpdateAdjustColorMaskTrackViewVisible",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateAdjustColorMaskTrackViewVisibleRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "UpdateLyricEffectMotionBlurPath",
+      "ns": "lyra",
+      "req": "lyra::UpdateLyricEffectMotionBlurPathReqStruct",
+      "resp": "lyra::UpdateLyricEffectMotionBlurPathRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "UpdateVideoObjectLocked",
+      "ns": "lyra",
+      "req": "lyra::UpdateVideoObjectLockedReqStruct",
+      "resp": "lyra::UpdateVideoObjectLockedRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "UpdateVideoObjectLockedEnable",
+      "ns": "lyra",
+      "req": "lyra::UpdateVideoObjectLockedEnableReqStruct",
+      "resp": "lyra::UpdateVideoObjectLockedEnableRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "UpdateVideoSmartMotion",
+      "ns": "lyra",
+      "req": "lyra::UpdateVideoSmartMotionReqStruct",
+      "resp": "lyra::UpdateVideoSmartMotionRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "UpdateVideoSmartMotionEnable",
+      "ns": "lyra",
+      "req": "lyra::UpdateVideoSmartMotionEnableReqStruct",
+      "resp": "lyra::UpdateVideoSmartMotionEnableRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "UpdateVideoTracking2",
+      "ns": "lyra",
+      "req": "lyra::UpdateVideoTracking2ReqStruct",
+      "resp": "lyra::UpdateVideoTracking2RespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "VideoTracking",
+      "ns": "lyra",
+      "req": "lyra::VideoTrackingReqStruct",
+      "resp": "lyra::VideoTrackingRespStruct",
+      "domain": "跟踪/锁定"
+    },
+    {
+      "method": "AddAudioBeat",
+      "ns": "lyra",
+      "req": "lyra::AddAudioBeatReqStruct",
+      "resp": "lyra::AddAudioBeatRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "AddLyricEffect",
+      "ns": "lyra",
+      "req": "lyra::AddLyricEffectReqStruct",
+      "resp": "lyra::AddLyricEffectRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "AddTtsPart",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::AddTtsPartRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "AddVideoBeat",
+      "ns": "lyra",
+      "req": "lyra::AddVideoBeatReqStruct",
+      "resp": "lyra::AddVideoBeatRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "AudioChangeVoice",
+      "ns": "lyra",
+      "req": "lyra::AudioChangeVoiceReqStruct",
+      "resp": "lyra::AudioChangeVoiceRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "AudioChangeVoiceAdjust",
+      "ns": "lyra",
+      "req": "lyra::AudioChangeVoiceAdjustReqStruct",
+      "resp": "lyra::AudioChangeVoiceAdjustRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "AudioLoudness",
+      "ns": "lyra",
+      "req": "lyra::AudioLoudnessReqStruct",
+      "resp": "lyra::AudioLoudnessRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "AudioLoudnessUnify",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::AudioLoudnessUnifyRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "AudioSeparateSound",
+      "ns": "lyra",
+      "req": "lyra::AudioSeparateSoundReqStruct",
+      "resp": "lyra::AudioSeparateSoundRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "BatchMoveSuccessorTts",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::BatchMoveSuccessorTtsRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "CancelLyricEffect",
+      "ns": "lyra",
+      "req": "lyra::CancelLyricEffectReqStruct",
+      "resp": "lyra::CancelLyricEffectRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "CanvasRemoveRadiusCornerBorder",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::CanvasRemoveRadiusCornerBorderRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "CanvasRemoveTransform",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::CanvasRemoveTransformRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "ChangeVoiceApplyToAll",
+      "ns": "lyra",
+      "req": "lyra::ChangeVoiceApplyToAllReqStruct",
+      "resp": "lyra::ChangeVoiceApplyToAllRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "ClearDraftLyricEffect",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::ClearDraftLyricEffectRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "ClearLyricEffectBySource",
+      "ns": "lyra",
+      "req": "lyra::ClearLyricEffectBySourceReqStruct",
+      "resp": "lyra::ClearLyricEffectBySourceRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "DetectAudioLoudness",
+      "ns": "lyra",
+      "req": "lyra::DetectAudioLoudnessReqStruct",
+      "resp": "lyra::DetectAudioLoudnessRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "DetectVoiceActivity",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::DetectVoiceActivityRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "DigitalHumanConvertTts",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::DigitalHumanConvertTtsRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "EnableVocalBeautify",
+      "ns": "lyra",
+      "req": "lyra::EnableVocalBeautifyReqStruct",
+      "resp": "lyra::EnableVocalBeautifyRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "EnableVocalBeautifyWithParam",
+      "ns": "lyra",
+      "req": "lyra::EnableVocalBeautifyWithParamReqStruct",
+      "resp": "lyra::EnableVocalBeautifyWithParamRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "GenerateCurveSpeedPointsFromBeats",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GenerateCurveSpeedPointsFromBeatsRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "GetAllAudioBeats",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetAllAudioBeatsRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "GetAllBeats",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetAllBeatsRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "GetAllVideoBeats",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetAllVideoBeatsRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "GetLyricEffectCombinationSegmentId",
+      "ns": "lyra",
+      "req": "lyra::GetLyricEffectCombinationSegmentIdReqStruct",
+      "resp": "lyra::GetLyricEffectCombinationSegmentIdRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "GetLyricsRecognizeInfo",
+      "ns": "lyra",
+      "req": "lyra::GetLyricsRecognizeInfoReqStruct",
+      "resp": "lyra::GetLyricsRecognizeInfoRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "GetRequestTtsParams",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetRequestTtsParamsRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "GetResourcesFromLyricsEffect",
+      "ns": "lyra",
+      "req": "lyra::GetResourcesFromLyricsEffectReqStruct",
+      "resp": "lyra::GetResourcesFromLyricsEffectRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "GetVocalSeparationPath",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetVocalSeparationPathRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "GetVoiceType",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::GetVoiceTypeRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "MediaToneModify",
+      "ns": "lyra",
+      "req": "lyra::MediaToneModifyReqStruct",
+      "resp": "lyra::MediaToneModifyRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "OnlyExportNeedRecognitionFragments",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::OnlyExportNeedRecognitionFragmentsRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "RegisterLyricEffectDowngradeCallback",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::RegisterLyricEffectDowngradeCallbackRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "RemoveAudioBeat",
+      "ns": "lyra",
+      "req": "lyra::RemoveAudioBeatReqStruct",
+      "resp": "lyra::RemoveAudioBeatRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "RemoveAudioChangeVoice",
+      "ns": "lyra",
+      "req": "lyra::RemoveAudioChangeVoiceReqStruct",
+      "resp": "lyra::RemoveAudioChangeVoiceRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "RemoveAudioLoudness",
+      "ns": "lyra",
+      "req": "lyra::RemoveAudioLoudnessReqStruct",
+      "resp": "lyra::RemoveAudioLoudnessRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "RemoveBeats",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::RemoveBeatsRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "RemoveLyricEffect",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::RemoveLyricEffectRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "RemoveLyricEffectGroup",
+      "ns": "lyra",
+      "req": "lyra::RemoveLyricEffectGroupReqStruct",
+      "resp": "lyra::RemoveLyricEffectGroupRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "RemoveVideoBeat",
+      "ns": "lyra",
+      "req": "lyra::RemoveVideoBeatReqStruct",
+      "resp": "lyra::RemoveVideoBeatRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "ResetVocalBeautify",
+      "ns": "lyra",
+      "req": "lyra::ResetVocalBeautifyReqStruct",
+      "resp": "lyra::ResetVocalBeautifyRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "RevertBeatsFromAudio",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::RevertBeatsFromAudioRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "SeparateVideoAudio",
+      "ns": "lyra",
+      "req": "lyra::SeparateVideoAudioReqStruct",
+      "resp": "lyra::SeparateVideoAudioRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "SetBeats",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SetBeatsRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "SetDefaultTtsParamCallback",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SetDefaultTtsParamCallbackRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "SetLyricsAdaptMusic",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::SetLyricsAdaptMusicRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "SetVocalBeautifyAmbientSoundLevel",
+      "ns": "lyra",
+      "req": "lyra::SetVocalBeautifyAmbientSoundLevelReqStruct",
+      "resp": "lyra::SetVocalBeautifyAmbientSoundLevelRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "SetVocalBeautifyProductionPath",
+      "ns": "lyra",
+      "req": "lyra::SetVocalBeautifyProductionPathReqStruct",
+      "resp": "lyra::SetVocalBeautifyProductionPathRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "SetVocalBeautifySlideValue",
+      "ns": "lyra",
+      "req": "lyra::SetVocalBeautifySlideValueReqStruct",
+      "resp": "lyra::SetVocalBeautifySlideValueRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "SetVocalBeautifyVoiceChangeMode",
+      "ns": "lyra",
+      "req": "lyra::SetVocalBeautifyVoiceChangeModeReqStruct",
+      "resp": "lyra::SetVocalBeautifyVoiceChangeModeRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "TemplateRemoveBeats",
+      "ns": "lyra",
+      "req": "lyra::TemplateRemoveBeatsReqStruct",
+      "resp": "lyra::TemplateRemoveBeatsRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "TemplateResetVoiceSeparate",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::TemplateResetVoiceSeparateRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "TemplateSetBeats",
+      "ns": "lyra",
+      "req": "lyra::TemplateSetBeatsReqStruct",
+      "resp": "lyra::TemplateSetBeatsRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "TtsBatchUpdateVoice",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::TtsBatchUpdateVoiceRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "TtsUpdate",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::TtsUpdateRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "UpdateAudioLoudness",
+      "ns": "lyra",
+      "req": "lyra::UpdateAudioLoudnessReqStruct",
+      "resp": "lyra::UpdateAudioLoudnessRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "UpdateLyricTemplate",
+      "ns": "lyra",
+      "req": "lyra::UpdateLyricTemplateReqStruct",
+      "resp": "lyra::UpdateLyricTemplateRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "UpdateMutableMaterialLyric",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateMutableMaterialLyricRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "UpdateScriptVideoTtsAllPart",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateScriptVideoTtsAllPartRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "UpdateScriptVideoTtsPart",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateScriptVideoTtsPartRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "UpdateSegmentsAudioPitchShiftSwitch",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateSegmentsAudioPitchShiftSwitchRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "UpdateSegmentsAudioPitchShiftValue",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateSegmentsAudioPitchShiftValueRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "UpdateSpeakerTtsInfo",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::UpdateSpeakerTtsInfoRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "UpdateTextToAudioTone",
+      "ns": "lyra",
+      "req": "lyra::UpdateTextToAudioToneReqStruct",
+      "resp": "lyra::UpdateTextToAudioToneRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "UpdateVocalSeparationChoice",
+      "ns": "lyra",
+      "req": "lyra::UpdateVocalSeparationChoiceReqStruct",
+      "resp": "lyra::UpdateVocalSeparationChoiceRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "VideoLoudnessUnify",
+      "ns": "lyra",
+      "req": "lyra::VideoLoudnessUnifyReqStruct",
+      "resp": "lyra::VideoLoudnessUnifyRespStruct",
+      "domain": "音频 AI"
+    },
+    {
+      "method": "VoTtsChangeSpeed",
+      "ns": "lyra",
+      "req": null,
+      "resp": "lyra::VoTtsChangeSpeedRespStruct",
+      "domain": "音频 AI"
+    }
+  ],
+  "pipeline": [
+    {
+      "dir": "lyra/generated/attachment/model",
+      "count": 86,
+      "files": [
+        "attachment_ai_asset_info.cpp",
+        "attachment_ai_chat_sugs_info.cpp",
+        "attachment_ai_clipper_info.cpp",
+        "attachment_ai_clipper_transcript.cpp",
+        "attachment_ai_clipper_transcript_chapter.cpp",
+        "attachment_ai_clipper_transcript_deletion_span.cpp",
+        "attachment_ai_clipper_transcript_paragraph.cpp",
+        "attachment_ai_clipper_transcript_segment.cpp",
+        "attachment_ai_clipper_transcript_sentence.cpp",
+        "attachment_ai_clipper_transcript_word.cpp",
+        "attachment_ai_clone_model_item.cpp",
+        "attachment_ai_create.cpp"
+      ]
+    },
+    {
+      "dir": "lyra/generated/draft",
+      "count": 54,
+      "files": [
+        "ai_background.cpp",
+        "ai_beats.cpp",
+        "ai_emoji_config.cpp",
+        "ai_generate_task_info.cpp",
+        "ai_in_painting.cpp",
+        "ai_music_mv_template_info.cpp",
+        "aigc_audio_generate_info.cpp",
+        "aigc_generate.cpp",
+        "aigc_output_config.cpp",
+        "algorithm.cpp",
+        "beauty_body_auto_preset.cpp",
+        "beauty_face_auto_preset.cpp"
+      ]
+    },
+    {
+      "dir": "lyra/trash_src/migration/tasks",
+      "count": 15,
+      "files": [
+        "migration_to_1060000.cpp",
+        "migration_to_1160001.cpp",
+        "migration_to_1250000.cpp",
+        "migration_to_1260000.cpp",
+        "migration_to_1270000.cpp",
+        "migration_to_1290000.cpp",
+        "migration_to_1330000.cpp",
+        "migration_to_1550000.cpp",
+        "migration_to_430000.cpp",
+        "migration_to_470000.cpp",
+        "migration_to_490000.cpp",
+        "migration_to_560000.cpp"
+      ]
+    },
+    {
+      "dir": "lyra/service/patch/helper/patch_extra_handlers/algorithm",
+      "count": 11,
+      "files": [
+        "ai_matting_handler.cpp",
+        "algorithm_crypto_helper.cpp",
+        "custom_matting_handler.cpp",
+        "denoise_handler.cpp",
+        "frame_interpolation_handler.cpp",
+        "mask_tracking_matting_handler.cpp",
+        "quality_enhance_handler.cpp",
+        "smart_complement_frame_handler.cpp",
+        "tts_handler.cpp",
+        "upscale_resolution_handler.cpp",
+        "video_tracking_handler.cpp"
+      ]
+    },
+    {
+      "dir": "lyra/ve_wrapper/clipflow/shell/common_node",
+      "count": 11,
+      "files": [
+        "aigc_effect_start_ve_task_mix_node.cpp",
+        "batch_remote_task_node.cpp",
+        "clip_audio_node.cpp",
+        "clip_video_node.cpp",
+        "copy_node.cpp",
+        "download_node.cpp",
+        "empty_node.cpp",
+        "minidraft_node.cpp",
+        "patch_node.cpp",
+        "remote_task_node.cpp",
+        "upload_node.cpp"
+      ]
+    },
+    {
+      "dir": "lyra/trash_platform/pubapi",
+      "count": 9,
+      "files": [
+        "ai_beat_manager.cpp",
+        "ai_matting_client_pubapi.cpp",
+        "mask_tracking_service.cpp",
+        "matting_task_service.cpp",
+        "media_algorithm.cpp",
+        "object_lock_algorithm.cpp",
+        "smart_crop_manager.cpp",
+        "smart_crop_utils.cpp",
+        "smart_relight_utils.cpp"
+      ]
+    },
+    {
+      "dir": "lyra/ve_wrapper/algorithm",
+      "count": 9,
+      "files": [
+        "algorithm_cache_wrapper.cpp",
+        "algorithm_cache_wrapper_impl_v1.cpp",
+        "algorithm_cache_wrapper_impl_v2.cpp",
+        "algorithm_cache_wrapper_utils.cpp",
+        "algorithm_engine.cpp",
+        "algorithm_history.cpp",
+        "algorithm_task.h",
+        "algorithm_wrapper.cpp",
+        "combo_algorithm.cpp"
+      ]
+    },
+    {
+      "dir": "lyra/service/draft/repair/tasks",
+      "count": 8,
+      "files": [
+        "draft_duration_repair_task.cpp",
+        "main_track_duplicate_repair_task.cpp",
+        "material_duration_repair_task.cpp",
+        "render_index_conflict_repair_task.cpp",
+        "seg_id_confict_repair_task.cpp",
+        "seg_in_error_track_repair_task.cpp",
+        "seg_time_conflict_repair_task.cpp",
+        "transition_conflict_repair_task.cpp"
+      ]
+    },
+    {
+      "dir": "lyra/ve_wrapper/algorithm/utils",
+      "count": 8,
+      "files": [
+        "algorithm_async_utils.cpp",
+        "algorithm_cache_manager.cpp",
+        "algorithm_cache_persistence.cpp",
+        "algorithm_compiler.cpp",
+        "algorithm_overlay_helper.cpp",
+        "algorithm_path_generator.cpp",
+        "algorithm_task_info_manager.cpp",
+        "algorithm_utils.cpp"
+      ]
+    },
+    {
+      "dir": "lyra/ve_wrapper/clipflow/task/material_generation/node",
+      "count": 8,
+      "files": [
+        "build_item_node.cpp",
+        "check_gen_status_node.cpp",
+        "extract_frames_node.cpp",
+        "image_parse_node.cpp",
+        "image_parse_node_prod.cpp",
+        "resize_image_node.cpp",
+        "update_item_node.cpp",
+        "verify_media_node.cpp"
+      ]
+    },
+    {
+      "dir": "lyra/ve_wrapper/clipflow/task/subtitle_recognize/node",
+      "count": 7,
+      "files": [
+        "detach_audio_node.cpp",
+        "poll_asr_result_node.cpp",
+        "submit_asr_node.cpp",
+        "subtitle_recognize_node_utils.cpp",
+        "talking_head_cleanup_node.cpp",
+        "upload_vod_node.cpp",
+        "write_subtitle_node.cpp"
+      ]
+    },
+    {
+      "dir": "lyra/service/ai_edit/rough_edit",
+      "count": 3,
+      "files": [
+        "ai_clipper_transcript_edit_helper.cpp",
+        "roughcut2_edit_imp.cpp",
+        "roughcut_edit_imp.cpp"
+      ]
+    },
+    {
+      "dir": "lyra/service/async_task/manager/json_obj",
+      "count": 3,
+      "files": [
+        "asynctasknew.cpp",
+        "asynctaskpush.cpp",
+        "asynctaskquery.cpp"
+      ]
+    },
+    {
+      "dir": "lyra/service/async_task/manager/request_group",
+      "count": 3,
+      "files": [
+        "async_task_request_group.cpp",
+        "async_task_request_group_item.h",
+        "async_task_request_group_manager.cpp"
+      ]
+    },
+    {
+      "dir": "lyra/service/tail_leader",
+      "count": 3,
+      "files": [
+        "tail_leader_default_impl.cpp",
+        "tail_leader_driver_impl.cpp",
+        "tail_leader_service.cpp"
+      ]
+    },
+    {
+      "dir": "lyra/ve_wrapper/clipflow/task/publish_inspriation/node",
+      "count": 3,
+      "files": [
+        "inspiration_publish_init_node.cpp",
+        "inspiration_publish_node.cpp",
+        "inspiration_publish_upload_node.cpp"
+      ]
+    },
+    {
+      "dir": "lyra/base/looper/thread_looper",
+      "count": 2,
+      "files": [
+        "task_executor.h",
+        "task_executor_impl.h"
+      ]
+    },
+    {
+      "dir": "lyra/base/lb_thread",
+      "count": 2,
+      "files": [
+        "priority_task_executor.cpp",
+        "priority_task_executor_impl.h"
+      ]
+    },
+    {
+      "dir": "lyra/base/looper/main_looper/platform/win",
+      "count": 2,
+      "files": [
+        "message_loop_win.cpp",
+        "message_window_win.cpp"
+      ]
+    },
+    {
+      "dir": "lyra/generated/action/params",
+      "count": 2,
+      "files": [
+        "recognized_subtitle_word_param.cpp",
+        "single_face_adjust_param.cpp"
+      ]
+    },
+    {
+      "dir": "lyra/service/text/helper",
+      "count": 2,
+      "files": [
+        "ai_generate_text_utils.h",
+        "ai_text_effect_utils.h"
+      ]
+    },
+    {
+      "dir": "lyra/service/ai_edit/common",
+      "count": 2,
+      "files": [
+        "ai_edit_base_utils.cpp",
+        "clipinfo_protocol_result.cpp"
+      ]
+    },
+    {
+      "dir": "lyra/service/ai_edit/script_ai_cut",
+      "count": 2,
+      "files": [
+        "ai_edit_script_utils.cpp",
+        "script_ai_cut_impl.cpp"
+      ]
+    },
+    {
+      "dir": "lyra/service/ai_moment",
+      "count": 2,
+      "files": [
+        "ai_moment_action_impl.cpp",
+        "ai_moment_service.cpp"
+      ]
+    },
+    {
+      "dir": "lyra/service/aigc_generate",
+      "count": 2,
+      "files": [
+        "aigc_generate_impl.cpp",
+        "aigc_generate_service.cpp"
+      ]
+    },
+    {
+      "dir": "lyra/service/aigc_workflow",
+      "count": 2,
+      "files": [
+        "aigc_workflow_action_impl.cpp",
+        "aigc_workflow_service.cpp"
+      ]
+    },
+    {
+      "dir": "lyra/service/algorithm",
+      "count": 2,
+      "files": [
+        "algorithm_impl.cpp",
+        "algorithm_service.cpp"
+      ]
+    },
+    {
+      "dir": "lyra/service/async_task/manager/merge_group",
+      "count": 2,
+      "files": [
+        "async_task_merge_group.cpp",
+        "async_task_merge_group_manager.cpp"
+      ]
+    },
+    {
+      "dir": "lyra/service/audio/helper",
+      "count": 2,
+      "files": [
+        "audio_algorithm_utils.cpp",
+        "voice_activity_detection_manager.cpp"
+      ]
+    },
+    {
+      "dir": "lyra/service/bach_algorithm_cache",
+      "count": 2,
+      "files": [
+        "bach_algorithm_cache_impl.cpp",
+        "bach_algorithm_cache_service.cpp"
+      ]
+    },
+    {
+      "dir": "lyra/service/draft/repair",
+      "count": 2,
+      "files": [
+        "draft_repair_engine.cpp",
+        "draft_repair_pipeline_controller.cpp"
+      ]
+    },
+    {
+      "dir": "lyra/service/patch/helper/cli_intent/face_beauty",
+      "count": 2,
+      "files": [
+        "face_beauty_cli_intent_handler.cpp",
+        "face_beauty_cli_intent_resolver.cpp"
+      ]
+    },
+    {
+      "dir": "lyra/service/smart_crop",
+      "count": 2,
+      "files": [
+        "smart_crop_default_impl.cpp",
+        "smart_crop_service.cpp"
+      ]
+    },
+    {
+      "dir": "lyra/service/smart_edit",
+      "count": 2,
+      "files": [
+        "smart_edit_action_impl.cpp",
+        "smart_edit_service.cpp"
+      ]
+    },
+    {
+      "dir": "lyra/service/smart_relight/keyframe",
+      "count": 2,
+      "files": [
+        "set_light_source_keyframe.cpp",
+        "set_light_source_keyframe.h"
+      ]
+    },
+    {
+      "dir": "lyra/service/smart_relight",
+      "count": 2,
+      "files": [
+        "smart_relight_default_impl.cpp",
+        "smart_relight_service.cpp"
+      ]
+    },
+    {
+      "dir": "lyra/service/video_algorithm",
+      "count": 2,
+      "files": [
+        "video_algorithm_default_impl.cpp",
+        "video_algorithm_service.cpp"
+      ]
+    },
+    {
+      "dir": "lyra/trash_src/attachment/ai_clipper",
+      "count": 2,
+      "files": [
+        "attachment_ai_clipper_control.cpp",
+        "attachment_ai_clipper_transcript_control.cpp"
+      ]
+    },
+    {
+      "dir": "lyra/trash_src/business/materials/preset",
+      "count": 2,
+      "files": [
+        "preset_beauty_body.cpp",
+        "preset_beauty_face.cpp"
+      ]
+    },
+    {
+      "dir": "lyra/trash_src/draft_cross/template/json_parser",
+      "count": 2,
+      "files": [
+        "ai_text_template_path_corrector.cpp",
+        "template_beauty_path_corrector.cpp"
+      ]
+    }
+  ],
+  "models": [
+    {
+      "dir": "SegmentJS",
+      "mb": 1.34,
+      "file_count": 4,
+      "weights": [
+        {
+          "name": "main.js",
+          "mb": 0.73
+        },
+        {
+          "name": "template.js",
+          "mb": 0.61
+        },
+        {
+          "name": "package_info.json",
+          "mb": 0.0
+        },
+        {
+          "name": "version.json",
+          "mb": 0.0
+        }
+      ],
+      "specs": {},
+      "domain": "其它"
+    },
+    {
+      "dir": "aec",
+      "mb": 1.14,
+      "file_count": 2,
+      "weights": [
+        {
+          "name": "aec44k_v1.2.model",
+          "mb": 0.85
+        },
+        {
+          "name": "aec44k_resnet_echo_cancellation_v1.2.model",
+          "mb": 0.29
+        }
+      ],
+      "specs": {},
+      "domain": "其它"
+    },
+    {
+      "dir": "alg_scene_normal",
+      "mb": 5.14,
+      "file_count": 1,
+      "weights": [
+        {
+          "name": "bingo_scene_normal_tt_v2.1_size0.model",
+          "mb": 5.14
+        }
+      ],
+      "specs": {},
+      "domain": "智能剪辑决策"
+    },
+    {
+      "dir": "audiomodel",
+      "mb": 31.07,
+      "file_count": 8,
+      "weights": [
+        {
+          "name": "aed40_10m.model",
+          "mb": 9.33
+        },
+        {
+          "name": "sentence_score_v1.0.model",
+          "mb": 6.04
+        },
+        {
+          "name": "music2vibes_video_mobile_v1.0.model",
+          "mb": 4.84
+        },
+        {
+          "name": "aed_pets_v3.0.model",
+          "mb": 4.76
+        }
+      ],
+      "specs": {},
+      "domain": "其它"
+    },
+    {
+      "dir": "avatar3d",
+      "mb": 10.04,
+      "file_count": 1,
+      "weights": [
+        {
+          "name": "tt_avatar3d_v4.0.model",
+          "mb": 10.04
+        }
+      ],
+      "specs": {},
+      "domain": "数字人"
+    },
+    {
+      "dir": "avatar_drive",
+      "mb": 0.6,
+      "file_count": 1,
+      "weights": [
+        {
+          "name": "tt_avatar_drive_v1.0.model",
+          "mb": 0.6
+        }
+      ],
+      "specs": {},
+      "domain": "数字人"
+    },
+    {
+      "dir": "bingo_facegan_model",
+      "mb": 5.1,
+      "file_count": 1,
+      "weights": [
+        {
+          "name": "female_gan_v3.0.model",
+          "mb": 5.1
+        }
+      ],
+      "specs": {},
+      "domain": "人脸"
+    },
+    {
+      "dir": "colorcard",
+      "mb": 0.16,
+      "file_count": 1,
+      "weights": [
+        {
+          "name": "lookup.png",
+          "mb": 0.16
+        }
+      ],
+      "specs": {},
+      "domain": "其它"
+    },
+    {
+      "dir": "deflicker",
+      "mb": 0.08,
+      "file_count": 1,
+      "weights": [
+        {
+          "name": "deflicker.metallib",
+          "mb": 0.08
+        }
+      ],
+      "specs": {},
+      "domain": "画质"
+    },
+    {
+      "dir": "depthmodel",
+      "mb": 1.15,
+      "file_count": 1,
+      "weights": [
+        {
+          "name": "tt_depth_estimation_v3.0.model",
+          "mb": 1.15
+        }
+      ],
+      "specs": {},
+      "domain": "其它"
+    },
+    {
+      "dir": "facebeautifymodel",
+      "mb": 0.55,
+      "file_count": 1,
+      "weights": [
+        {
+          "name": "tt_facebeautify_v2.0.model",
+          "mb": 0.55
+        }
+      ],
+      "specs": {},
+      "domain": "人脸"
+    },
+    {
+      "dir": "faceclustingmodel",
+      "mb": 4.7,
+      "file_count": 2,
+      "weights": [
+        {
+          "name": "douyin_leader_v1.0.model",
+          "mb": 3.1
+        },
+        {
+          "name": "tt_bigbrother_v6.0.model",
+          "mb": 1.59
+        }
+      ],
+      "specs": {},
+      "domain": "人脸"
+    },
+    {
+      "dir": "facefitting",
+      "mb": 1.15,
+      "file_count": 2,
+      "weights": [
+        {
+          "name": "tt_facefitting1256_v2.0.model",
+          "mb": 0.63
+        },
+        {
+          "name": "tt_facefitting1220_v2.0.model",
+          "mb": 0.52
+        }
+      ],
+      "specs": {},
+      "domain": "美颜/塑形"
+    },
+    {
+      "dir": "faceverifymodel",
+      "mb": 4.14,
+      "file_count": 1,
+      "weights": [
+        {
+          "name": "tt_faceverify_v7.0.model",
+          "mb": 4.14
+        }
+      ],
+      "specs": {},
+      "domain": "人脸"
+    },
+    {
+      "dir": "freidmodel",
+      "mb": 23.63,
+      "file_count": 3,
+      "weights": [
+        {
+          "name": "tt_freid_v2.0.model",
+          "mb": 11.82
+        },
+        {
+          "name": "tt_freid_v1.0.model",
+          "mb": 5.91
+        },
+        {
+          "name": "qingyan_freid_v1.0.model",
+          "mb": 5.91
+        }
+      ],
+      "specs": {},
+      "domain": "人脸"
+    },
+    {
+      "dir": "hairparser",
+      "mb": 0.08,
+      "file_count": 1,
+      "weights": [
+        {
+          "name": "tt_hair_v11.0.model",
+          "mb": 0.08
+        }
+      ],
+      "specs": {},
+      "domain": "其它"
+    },
+    {
+      "dir": "handmodel",
+      "mb": 0.6,
+      "file_count": 3,
+      "weights": [
+        {
+          "name": "tt_hand_kp_v6.0.model",
+          "mb": 0.33
+        },
+        {
+          "name": "tt_hand_gesture_v11.0.model",
+          "mb": 0.21
+        },
+        {
+          "name": "tt_hand_det_v11.0.model",
+          "mb": 0.06
+        }
+      ],
+      "specs": {},
+      "domain": "其它"
+    },
+    {
+      "dir": "headsegmodel",
+      "mb": 0.04,
+      "file_count": 1,
+      "weights": [
+        {
+          "name": "tt_headseg_v6.0.model",
+          "mb": 0.04
+        }
+      ],
+      "specs": {},
+      "domain": "其它"
+    },
+    {
+      "dir": "humanparsingmodel",
+      "mb": 0.73,
+      "file_count": 1,
+      "weights": [
+        {
+          "name": "tt_human_parsing_for_jianying_v1.0.model",
+          "mb": 0.73
+        }
+      ],
+      "specs": {},
+      "domain": "其它"
+    },
+    {
+      "dir": "idream",
+      "mb": 0.93,
+      "file_count": 1,
+      "weights": [
+        {
+          "name": "tt_eyegrad_v1.0.model",
+          "mb": 0.93
+        }
+      ],
+      "specs": {},
+      "domain": "AIGC 生成"
+    },
+    {
+      "dir": "interpolation",
+      "mb": 10.05,
+      "file_count": 1,
+      "weights": [
+        {
+          "name": "lens_vfi_v1.0.model",
+          "mb": 10.05
+        }
+      ],
+      "specs": {},
+      "domain": "画质"
+    },
+    {
+      "dir": "invisible_watermark",
+      "mb": 1.53,
+      "file_count": 2,
+      "weights": [
+        {
+          "name": "win_lens_wm_embed_model_c4_v2.bytenn",
+          "mb": 0.76
+        },
+        {
+          "name": "mac_lens_wm_embed_model_c4_v2.bytenn",
+          "mb": 0.76
+        }
+      ],
+      "specs": {},
+      "domain": "其它"
+    },
+    {
+      "dir": "jianying_aigc_charge",
+      "mb": 0.0,
+      "file_count": 1,
+      "weights": [
+        {
+          "name": "jianying_aigc_charge_v1.0_size0.model",
+          "mb": 0.0
+        }
+      ],
+      "specs": {},
+      "domain": "AIGC 生成"
+    },
+    {
+      "dir": "mangamodel",
+      "mb": 2.92,
+      "file_count": 1,
+      "weights": [
+        {
+          "name": "ap_manga_v1.0.model",
+          "mb": 2.92
+        }
+      ],
+      "specs": {},
+      "domain": "其它"
+    },
+    {
+      "dir": "mattingmodel",
+      "mb": 20.03,
+      "file_count": 7,
+      "weights": [
+        {
+          "name": "saliency_matting_v1.0.model",
+          "mb": 6.74
+        },
+        {
+          "name": "tt_matting_video_v1.0.model",
+          "mb": 5.64
+        },
+        {
+          "name": "video_saliency_seg_bce_v1.0.model",
+          "mb": 3.79
+        },
+        {
+          "name": "tt_matting_video_gru_v1.0.model",
+          "mb": 3.44
+        }
+      ],
+      "specs": {},
+      "domain": "抠像/分割"
+    },
+    {
+      "dir": "media_search",
+      "mb": 31.58,
+      "file_count": 8,
+      "weights": [
+        {
+          "name": "ptl_2.dat",
+          "mb": 31.0
+        },
+        {
+          "name": "ptl_1.dat",
+          "mb": 0.56
+        },
+        {
+          "name": "ptl_2.idx",
+          "mb": 0.01
+        },
+        {
+          "name": "ptl_1.idx",
+          "mb": 0.01
+        }
+      ],
+      "specs": {},
+      "domain": "其它"
+    },
+    {
+      "dir": "nh_nodehub_image",
+      "mb": 0.44,
+      "file_count": 1,
+      "weights": [
+        {
+          "name": "nodehub_image_saliency_v1.0.model",
+          "mb": 0.44
+        }
+      ],
+      "specs": {},
+      "domain": "其它"
+    },
+    {
+      "dir": "nh_script",
+      "mb": 0.03,
+      "file_count": 1,
+      "weights": [
+        {
+          "name": "saliencyseg_crop_script.model",
+          "mb": 0.03
+        }
+      ],
+      "specs": {},
+      "domain": "其它"
+    },
+    {
+      "dir": "noise_reduction",
+      "mb": 0.24,
+      "file_count": 1,
+      "weights": [
+        {
+          "name": "nn_denoise.bytenn",
+          "mb": 0.24
+        }
+      ],
+      "specs": {},
+      "domain": "其它"
+    },
+    {
+      "dir": "object_tracking",
+      "mb": 0.16,
+      "file_count": 1,
+      "weights": [
+        {
+          "name": "bingo_objectTracking_v1.0.dat",
+          "mb": 0.16
+        }
+      ],
+      "specs": {},
+      "domain": "跟踪/锁定"
+    },
+    {
+      "dir": "oilpaintbrush",
+      "mb": 0.02,
+      "file_count": 1,
+      "weights": [
+        {
+          "name": "brush1.png",
+          "mb": 0.02
+        }
+      ],
+      "specs": {},
+      "domain": "其它"
+    },
+    {
+      "dir": "petfacemodel",
+      "mb": 1.03,
+      "file_count": 1,
+      "weights": [
+        {
+          "name": "tt_petface_v5.2.model",
+          "mb": 1.03
+        }
+      ],
+      "specs": {},
+      "domain": "人脸"
+    },
+    {
+      "dir": "saliency_seg_model",
+      "mb": 3.65,
+      "file_count": 1,
+      "weights": [
+        {
+          "name": "bingo_saliency_seg_v1.0.model",
+          "mb": 3.65
+        }
+      ],
+      "specs": {},
+      "domain": "其它"
+    },
+    {
+      "dir": "scene_normal_model",
+      "mb": 5.14,
+      "file_count": 1,
+      "weights": [
+        {
+          "name": "bingo_scene_normal_v2.0.model",
+          "mb": 5.14
+        }
+      ],
+      "specs": {},
+      "domain": "智能剪辑决策"
+    },
+    {
+      "dir": "skeleton_model",
+      "mb": 0.38,
+      "file_count": 1,
+      "weights": [
+        {
+          "name": "tt_skeleton_v7.0.model",
+          "mb": 0.38
+        }
+      ],
+      "specs": {},
+      "domain": "其它"
+    },
+    {
+      "dir": "skin_seg",
+      "mb": 0.64,
+      "file_count": 2,
+      "weights": [
+        {
+          "name": "tt_skin_seg_video_seg_fp16_v1.0.model",
+          "mb": 0.39
+        },
+        {
+          "name": "tt_skin_seg_v5.0.model",
+          "mb": 0.25
+        }
+      ],
+      "specs": {},
+      "domain": "其它"
+    },
+    {
+      "dir": "tt_eyefitting",
+      "mb": 0.1,
+      "file_count": 1,
+      "weights": [
+        {
+          "name": "tt_eyefitting_v1.0.model",
+          "mb": 0.1
+        }
+      ],
+      "specs": {},
+      "domain": "美颜/塑形"
+    },
+    {
+      "dir": "tt_facefitting_3d",
+      "mb": 2.0,
+      "file_count": 1,
+      "weights": [
+        {
+          "name": "tt_facefitting_3d_v6.1.model",
+          "mb": 2.0
+        }
+      ],
+      "specs": {},
+      "domain": "美颜/塑形"
+    },
+    {
+      "dir": "tt_gendergan",
+      "mb": 4.34,
+      "file_count": 1,
+      "weights": [
+        {
+          "name": "tt_gendergan_v4.2.model",
+          "mb": 4.34
+        }
+      ],
+      "specs": {},
+      "domain": "人脸"
+    },
+    {
+      "dir": "tt_interactive_matting",
+      "mb": 10.53,
+      "file_count": 1,
+      "weights": [
+        {
+          "name": "tt_interactive_matting_v1.0.model",
+          "mb": 10.53
+        }
+      ],
+      "specs": {},
+      "domain": "抠像/分割"
+    },
+    {
+      "dir": "tt_mobilevos",
+      "mb": 22.34,
+      "file_count": 2,
+      "weights": [
+        {
+          "name": "mobilevos_packed_v1.1.model",
+          "mb": 11.19
+        },
+        {
+          "name": "mobilevos_v1.1.model",
+          "mb": 11.15
+        }
+      ],
+      "specs": {},
+      "domain": "其它"
+    },
+    {
+      "dir": "tt_salient_human",
+      "mb": 1.39,
+      "file_count": 1,
+      "weights": [
+        {
+          "name": "tt_salient_human_v1.0.model",
+          "mb": 1.39
+        }
+      ],
+      "specs": {},
+      "domain": "抠像/分割"
+    },
+    {
+      "dir": "umvfi",
+      "mb": 0.09,
+      "file_count": 1,
+      "weights": [
+        {
+          "name": "umvfi.metallib",
+          "mb": 0.09
+        }
+      ],
+      "specs": {},
+      "domain": "画质"
+    },
+    {
+      "dir": "v1-models",
+      "mb": 1.05,
+      "file_count": 8,
+      "weights": [
+        {
+          "name": "smartcodec_v1.nnet",
+          "mb": 0.28
+        },
+        {
+          "name": "smartcodec_v1.nnet",
+          "mb": 0.27
+        },
+        {
+          "name": "smartcodec_v1.nnet",
+          "mb": 0.27
+        },
+        {
+          "name": "smartcodec_v1.nnet",
+          "mb": 0.23
+        }
+      ],
+      "specs": {},
+      "domain": "其它"
+    },
+    {
+      "dir": "v2-models",
+      "mb": 1.74,
+      "file_count": 12,
+      "weights": [
+        {
+          "name": "smartcodec_v1.nnet",
+          "mb": 0.29
+        },
+        {
+          "name": "smartcodec_v1.nnet",
+          "mb": 0.29
+        },
+        {
+          "name": "smartcodec_v1.nnet",
+          "mb": 0.29
+        },
+        {
+          "name": "smartcodec_v1.nnet",
+          "mb": 0.29
+        }
+      ],
+      "specs": {},
+      "domain": "其它"
+    }
+  ],
+  "cloud": {
+    "services": {
+      "account/get_pippit_token": [
+        "agent_runtime_addon.node"
+      ],
+      "account/get_pippit_user_info": [
+        "agent_runtime_addon.node"
+      ],
+      "account/user": [
+        "DeepAgentsService.dll"
+      ],
+      "ai_writing/get_results_by_images": [
+        "agent_runtime_addon.node"
+      ],
+      "ai_writing/get_results_by_texts": [
+        "agent_runtime_addon.node"
+      ],
+      "aigc_image/super_resolution": [
+        "DeepAgentsService.dll"
+      ],
+      "aigc_text/get_voiceclone_text": [
+        "DeepAgentsService.dll"
+      ],
+      "asset/create_cloud_asset": [
+        "agent_runtime_addon.node"
+      ],
+      "asset/detail": [
+        "DeepAgentsService.dll"
+      ],
+      "asset/prepare_upload_cloud": [
+        "agent_runtime_addon.node"
+      ],
+      "audio_subtitle/feedback": [
+        "DeepAgentsService.dll"
+      ],
+      "audio_subtitle/get_keyword": [
+        "DeepAgentsService.dll"
+      ],
+      "audio_subtitle/highlight": [
+        "videoeditor.dll"
+      ],
+      "audio_subtitle/query": [
+        "DeepAgentsService.dll"
+      ],
+      "audio_subtitle/submit": [
+        "DeepAgentsService.dll"
+      ],
+      "audio_subtitle/update_keyword": [
+        "DeepAgentsService.dll"
+      ],
+      "benefit_redemption": [
+        "DeepAgentsService.dll"
+      ],
+      "calc_video_score": [
+        "DeepAgentsService.dll"
+      ],
+      "capflow/cancel": [
+        "DeepAgentsService.dll"
+      ],
+      "capflow/history_task": [
+        "DeepAgentsService.dll"
+      ],
+      "capflow/query": [
+        "DeepAgentsService.dll"
+      ],
+      "capflow/submit": [
+        "DeepAgentsService.dll"
+      ],
+      "check_rate_limit": [
+        "DeepAgentsService.dll"
+      ],
+      "check_spam": [
+        "DeepAgentsService.dll"
+      ],
+      "cloud/auto_upload": [
+        "agent_runtime_addon.node"
+      ],
+      "cloud/group": [
+        "agent_runtime_addon.node"
+      ],
+      "cloud/upload": [
+        "agent_runtime_addon.node"
+      ],
+      "cloud_property/get_user_recent_package": [
+        "agent_runtime_addon.node"
+      ],
+      "cloud_property/property_count": [
+        "agent_runtime_addon.node"
+      ],
+      "cloud_property/search": [
+        "agent_runtime_addon.node"
+      ],
+      "common_task/cancel": [
+        "videoeditor.dll"
+      ],
+      "common_task/new": [
+        "videoeditor.dll"
+      ],
+      "common_task/query": [
+        "videoeditor.dll"
+      ],
+      "common_task/sync": [
+        "videoeditor.dll"
+      ],
+      "coordination/batch_send_message": [
+        "agent_runtime_addon.node"
+      ],
+      "coordination/check_white_list": [
+        "DeepAgentsService.dll"
+      ],
+      "coordination/cluster_create": [
+        "DeepAgentsService.dll"
+      ],
+      "coordination/get_share_info": [
+        "agent_runtime_addon.node"
+      ],
+      "coordination/mark_notice": [
+        "DeepAgentsService.dll"
+      ],
+      "coordination/owner_share_list": [
+        "agent_runtime_addon.node"
+      ],
+      "coordination/record_delete": [
+        "agent_runtime_addon.node"
+      ],
+      "coordination/share_create": [
+        "agent_runtime_addon.node"
+      ],
+      "coordination/share_update": [
+        "agent_runtime_addon.node"
+      ],
+      "coordination/shared_record_list": [
+        "agent_runtime_addon.node"
+      ],
+      "copilot/conversation": [
+        "DeepAgentsService.dll"
+      ],
+      "copilot/get_preupload_time": [
+        "DeepAgentsService.dll"
+      ],
+      "copilot/modify_message": [
+        "DeepAgentsService.dll"
+      ],
+      "copilot/section": [
+        "DeepAgentsService.dll"
+      ],
+      "copilot/upload_material": [
+        "DeepAgentsService.dll"
+      ],
+      "custom_service/get_entrance": [
+        "DeepAgentsService.dll"
+      ],
+      "custom_service/get_entrance_allow_guest": [
+        "DeepAgentsService.dll"
+      ],
+      "custom_service/im": [
+        "agent_runtime_addon.node"
+      ],
+      "edit/get_config": [
+        "agent_runtime_addon.node"
+      ],
+      "effect/search": [
+        "resourcecli.dll"
+      ],
+      "encrypt/get_public_key": [
+        "videoeditor.dll"
+      ],
+      "ever_photo/get_token": [
+        "DeepAgentsService.dll"
+      ],
+      "ever_photo/promote_asset": [
+        "DeepAgentsService.dll"
+      ],
+      "font/check": [
+        "agent_runtime_addon.node"
+      ],
+      "get_collection_songs": [
+        "resourcecli.dll"
+      ],
+      "get_collections": [
+        "resourcecli.dll"
+      ],
+      "get_music_effect_collections": [
+        "resourcecli.dll"
+      ],
+      "get_my_douyin_songs": [
+        "resourcecli.dll"
+      ],
+      "get_my_tiktok_songs": [
+        "resourcecli.dll"
+      ],
+      "get_recommend_songs": [
+        "resourcecli.dll"
+      ],
+      "get_sami_token": [
+        "videoeditor.dll"
+      ],
+      "get_user_vid_list": [
+        "agent_runtime_addon.node"
+      ],
+      "group/templates": [
+        "agent_runtime_addon.node"
+      ],
+      "image/anime_copyright_checker": [
+        "agent_runtime_addon.node"
+      ],
+      "image/content_classifier": [
+        "agent_runtime_addon.node"
+      ],
+      "image/face_compare": [
+        "agent_runtime_addon.node"
+      ],
+      "intelligent_edit/security_audit": [
+        "agent_runtime_addon.node"
+      ],
+      "lan_transfer/get_user_devices_info": [
+        "agent_runtime_addon.node"
+      ],
+      "lan_transfer/upload_device_info": [
+        "agent_runtime_addon.node"
+      ],
+      "multi_get_songs": [
+        "resourcecli.dll"
+      ],
+      "music/filter": [
+        "resourcecli.dll"
+      ],
+      "music/get_recommend_music": [
+        "resourcecli.dll"
+      ],
+      "music/similar_music_rec": [
+        "resourcecli.dll"
+      ],
+      "music/template_music_recommend": [
+        "resourcecli.dll"
+      ],
+      "music_finger": [
+        "resourcecli.dll"
+      ],
+      "music_scene_check": [
+        "agent_runtime_addon.node"
+      ],
+      "notice/list": [
+        "agent_runtime_addon.node"
+      ],
+      "notice/unread_count": [
+        "agent_runtime_addon.node"
+      ],
+      "oauth/access_token": [
+        "DeepAgentsService.dll"
+      ],
+      "pc/aweme_collection_songs": [
+        "DeepAgentsService.dll"
+      ],
+      "pc/commerce_replicate": [
+        "agent_runtime_addon.node"
+      ],
+      "pc/export_page": [
+        "agent_runtime_addon.node"
+      ],
+      "pc/get_user_info": [
+        "DeepAgentsService.dll"
+      ],
+      "pc/get_user_keyboard_shortcut": [
+        "DeepAgentsService.dll"
+      ],
+      "pc/homepage": [
+        "DeepAgentsService.dll"
+      ],
+      "pc/replicate": [
+        "DeepAgentsService.dll"
+      ],
+      "pc/search": [
+        "DeepAgentsService.dll",
+        "agent_runtime_addon.node"
+      ],
+      "pc/share": [
+        "agent_runtime_addon.node"
+      ],
+      "pc/storyboard": [
+        "DeepAgentsService.dll"
+      ],
+      "pc/to_shoot": [
+        "DeepAgentsService.dll"
+      ],
+      "pc/update_user_keyboard_shortcut": [
+        "DeepAgentsService.dll"
+      ],
+      "pc/zenith": [
+        "DeepAgentsService.dll"
+      ],
+      "persona/get_features": [
+        "agent_runtime_addon.node"
+      ],
+      "personal/pc": [
+        "agent_runtime_addon.node"
+      ],
+      "purchase/purchase_templates": [
+        "DeepAgentsService.dll"
+      ],
+      "replicate/add": [
+        "agent_runtime_addon.node"
+      ],
+      "replicate/add_usage_amount": [
+        "agent_runtime_addon.node"
+      ],
+      "replicate/delete": [
+        "agent_runtime_addon.node"
+      ],
+      "replicate/get_collection_templates": [
+        "DeepAgentsService.dll"
+      ],
+      "replicate/get_collections": [
+        "DeepAgentsService.dll"
+      ],
+      "replicate/update_settings": [
+        "DeepAgentsService.dll"
+      ],
+      "report/report": [
+        "DeepAgentsService.dll"
+      ],
+      "search/songs": [
+        "resourcecli.dll"
+      ],
+      "search/sug_topic": [
+        "agent_runtime_addon.node"
+      ],
+      "search_songs": [
+        "resourcecli.dll"
+      ],
+      "smart_recognition": [
+        "agent_runtime_addon.node"
+      ],
+      "smartvideo/text_video": [
+        "agent_runtime_addon.node"
+      ],
+      "text_correction/get_correction_rlt": [
+        "DeepAgentsService.dll"
+      ],
+      "text_to_audio": [
+        "videoeditor.dll"
+      ],
+      "text_to_video/parse_article_url": [
+        "agent_runtime_addon.node"
+      ],
+      "text_to_video/prompt_to_text": [
+        "agent_runtime_addon.node"
+      ],
+      "text_to_video/query_generate_video_task": [
+        "agent_runtime_addon.node"
+      ],
+      "text_to_video/submit_generate_video_task": [
+        "agent_runtime_addon.node"
+      ],
+      "third_crawl": [
+        "resourcecli.dll"
+      ],
+      "third_resource/favorite": [
+        "agent_runtime_addon.node"
+      ],
+      "third_resource/get_category_info": [
+        "agent_runtime_addon.node"
+      ],
+      "third_resource/mget": [
+        "agent_runtime_addon.node"
+      ],
+      "third_resource/mget_by_category_id": [
+        "agent_runtime_addon.node"
+      ],
+      "third_resource/mget_favorite_info": [
+        "agent_runtime_addon.node"
+      ],
+      "third_resource/search": [
+        "agent_runtime_addon.node"
+      ],
+      "topic/get_topic_list": [
+        "agent_runtime_addon.node"
+      ],
+      "translate/translate_texts": [
+        "videoeditor.dll"
+      ],
+      "trial/batch_query_eligibility": [
+        "agent_runtime_addon.node"
+      ],
+      "trial/finished_report": [
+        "agent_runtime_addon.node"
+      ],
+      "update_user_vid_list": [
+        "agent_runtime_addon.node"
+      ],
+      "upload_sign": [
+        "DeepAgentsService.dll",
+        "agent_runtime_addon.node"
+      ],
+      "user/get_enable_list": [
+        "DeepAgentsService.dll"
+      ],
+      "user/oauth": [
+        "agent_runtime_addon.node"
+      ],
+      "user/update": [
+        "DeepAgentsService.dll"
+      ],
+      "vmtag": [
+        "DeepAgentsService.dll"
+      ],
+      "voice/delete_voice_clone": [
+        "agent_runtime_addon.node"
+      ],
+      "voice/release_voice_clone": [
+        "agent_runtime_addon.node"
+      ],
+      "voice/voice_clone_condition": [
+        "agent_runtime_addon.node"
+      ],
+      "watermark/get_watermark": [
+        "DeepAgentsService.dll"
+      ],
+      "zenith/submit_image_task": [
+        "DeepAgentsService.dll"
+      ]
+    },
+    "hosts": {
+      "github.com": 1,
+      "lv-api.ulikecam.com": 1,
+      "cacerts.digicert.com": 1,
+      "crl3.digicert.com": 1,
+      "www.digicert.com": 1,
+      "crl4.digicert.com": 1,
+      "sectigo.com": 1,
+      "crl.sectigo.com": 1,
+      "crt.sectigo.com": 1,
+      "crl.usertrust.com": 1,
+      "lv-pc-api.ulikecam.com": 1,
+      "crash.snssdk.com": 1,
+      "dig.bdurl.net": 1,
+      "tnc3-bjlgy.zijieapi.com": 1,
+      "tnc3-alisc1.zijieapi.com": 1,
+      "tnc3-aliec2.zijieapi.com": 1,
+      "lv.ulikecam.com": 1,
+      "lf9-cdn-tos.draftstatic.com": 1,
+      "sf1-cdn-tos.douyinstatic.com": 1,
+      "sf16-draftcdn-sg.ibytedtos.com": 1
+    }
+  }
+}

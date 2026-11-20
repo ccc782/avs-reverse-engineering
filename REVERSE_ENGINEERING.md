@@ -129,6 +129,29 @@ D:\j\workspace\lv-window-Release@2\jianying_build\CPM_current\videoeditor\lyra\t
 
 本仓库到「识别与分类」为止：`jianying/draft_reader.py` 能判定明文/密文并给出壳特征，不解密、不提密钥。
 
+### 1.8 AI 层：21 项能力、567 个 AI RPC、45 个端侧模型包、139 个云服务
+
+`jianying/ai_surface.py` + `jianying/ai_deep.py` + `jianying/endpoint_scan.py` 三件套扫出来的规模：
+
+| 维度 | 实测 |
+| --- | --- |
+| AI 能力条目 | 21（端侧 14 / 云侧 3 / 双路 5，含 1 项未命中） |
+| AI 命中的 RTTI 类名 | 1,000+（AIGC 106 个 RPC、跟踪 100、音频 68、画质 58、智能剪辑 52、任务调度 44、字幕 44） |
+| AI RPC（Req/Resp 配对） | **567** |
+| 端侧模型包 | **45** 个目录，合计 **240MB** |
+| 云 API 服务条目 | **139**（`/lv/v1/<service>/<action>` 聚合） |
+| 扫描到的 URL / 主机 / 路径 | 214 / 133 / 629（跨 18 个模块） |
+
+四条硬结论：
+
+1. **本地真有 ASR**：`audiomodel/bt_espresso_mobile_offline_v1.4.model` 0.4MB、`bt_streaming_espresso_v1.2` 0.5MB。之前判「字幕全靠云」是错的，实为双路——本地出草稿，云端做高质量修正（`audio_subtitle/{submit,query,highlight,get_keyword}`）。
+2. **去水词靠模型不靠规则**：`sentence_score_v1.0/1.1`（4.6–6.2MB）+ `aed40_10m`（音频事件检测 9.5MB）。两段式：句子打分 + 音频事件校正。
+3. **AI 任务句柄写进工程文件**：草稿附件有 `insertAsyncTasks / updateAsyncTasksStatus`，内核还有 `GetAsyncTaskPersistDir`，即「哪些片段的 AI 处理没跑完」随工程持久化。
+4. **它自己不做 LLM**：`copilot/{conversation,modify_message,section,upload_material}` 在云侧，端侧只有 CV/音频小模型。AI 剪辑 = 云上大模型决策 + 端侧小模型执行 + 本地 clipflow 编排。
+
+完整的接管方案（逐能力：证据 / 端侧模型 / 云服务 / 开源替代 / 工作量）见 [`reports/jianying_ai_playbook.md`](reports/jianying_ai_playbook.md)；
+机器可读结果见 [`reports/jianying_ai_matrix.json`](reports/jianying_ai_matrix.json) 与 [`reports/jianying_ai_deep.json`](reports/jianying_ai_deep.json)。
+
 ### 1.7 剪映侧复核命令
 
 ```bash
@@ -140,6 +163,10 @@ python tools/src_tree.py <...>/videoeditor.dll --out reports/src_jy_veditor --ro
 python tools/find_crypto.py <...>/videoeditor.dll
 python jianying/command_table.py <...>/app-server.mjs --json reports/commands_jy.json
 python jianying/draft_reader.py <草稿目录> --json reports/draft_plain.json
+python jianying/ai_surface.py --install <剪映安装根> --rtti reports/rtti_jy_veditor.json --commands reports/commands_jy.json --strings reports/str_jy_veditor.txt --endpoints reports/jy_endpoints.txt --out reports/jianying_ai_matrix
+python jianying/ai_deep.py --install <剪映安装根> --rtti reports/rtti_jy_veditor.json --src reports/src_jy_veditor.json --endpoints reports/jy_endpoints.txt --out reports/jianying_ai_deep
+python jianying/ai_surface.py --install <剪映安装根> --rtti reports/rtti_jy_veditor.json --commands reports/commands_jy.json --strings reports/str_jy_veditor.txt --endpoints reports/jy_endpoints.txt --out reports/jianying_ai_matrix
+python jianying/ai_deep.py --install <剪映安装根> --rtti reports/rtti_jy_veditor.json --src reports/src_jy_veditor.json --endpoints reports/jy_endpoints.txt --out reports/jianying_ai_deep
 ```
 
 ---

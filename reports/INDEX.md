@@ -20,6 +20,11 @@
 | `imp_dv_fusionscript.json` | 180.6 KB |
 | `imp_jy_veditor.json` | 819.3 KB |
 | `INDEX.md` | 1.5 KB |
+| `jianying_ai_deep.json` | 148 KB |
+| `jianying_ai_deep.md` | 84 KB |
+| `jianying_ai_matrix.json` | 30.9 KB |
+| `jianying_ai_matrix.md` | 11.4 KB |
+| `jianying_ai_playbook.md` | 12.9 KB |
 | `pe_dv_fairlight.json` | 6.1 KB |
 | `pe_dv_fusiongfx.json` | 3.6 KB |
 | `pe_dv_fusionscript.json` | 6.3 KB |

@@ -17,6 +17,8 @@
 | 达芬奇 `Resolve.exe` + DLL | 251 万唯一串、OpenSSL+CNG 双加密栈、`.drp` 包结构与时间轴解析、**530** 个脚本 API | `strings_extract` `find_crypto` `drp_tool` `pyi_to_md` |
 | AE `.aep` | RIFX chunk 走查器（自检 PASS） | `rifx_parse` |
 | 剪映草稿 | 明文/密文自动识别 + 结构画像 | `draft_reader` |
+| 剪映 AI 层 | **21** 项能力 / **567** 个 AI RPC / **45** 个端侧模型包 / **139** 个云服务 | `ai_surface` `ai_deep` `endpoint_scan` |
+| 剪映 AI 层 | **21** 项能力 / **567** 个 AI RPC / **45** 个端侧模型包 / **139** 个云服务 | `ai_surface` `ai_deep` `endpoint_scan` |
 
 ## 目录
 
@@ -34,6 +36,12 @@ tools/                      通用二进制工具
 jianying/
   draft_reader.py           草稿读取（明文解剖 / 密文壳特征）
   command_table.py          原生编辑命令表抽取（含模型安全子集）
+  ai_surface.py             AI 能力矩阵：端侧/云侧/双路 × 类名/命令/端点证据
+  ai_deep.py                AI 深挖：567 个 RPC / 流水线目录 / 模型规格 / 云服务目录
+  endpoint_scan.py          18 个模块的 URL / 主机 / 路径扫描
+  ai_surface.py             AI 能力矩阵：端侧/云侧/双路 × 类名/命令/端点证据
+  ai_deep.py                AI 深挖：567 个 RPC / 流水线目录 / 模型规格 / 云服务目录
+  endpoint_scan.py          18 个模块的 URL / 主机 / 路径扫描
 resolve/
   drp_tool.py               .drp 拆包/解剖/重打包/差异/时间轴解析
   pyi_to_md.py              .pyi → 接口清单
