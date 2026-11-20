@@ -19,7 +19,7 @@
 | `drp_fuse_seq.json` | 0.9 KB |
 | `imp_dv_fusionscript.json` | 180.6 KB |
 | `imp_jy_veditor.json` | 819.3 KB |
-| `INDEX.md` | 1.5 KB |
+| `INDEX.md` | 1.7 KB |
 | `jianying_ai_deep.json` | 148 KB |
 | `jianying_ai_deep.md` | 84 KB |
 | `jianying_ai_matrix.json` | 30.9 KB |
@@ -47,3 +47,8 @@
 | `src_jy_veditor.md` | 268.1 KB |
 | `str_dv_resolve.json` | 26.7 KB |
 | `str_jy_veditor.json` | 32.2 KB |
+| `ui_jianying.json` | 145.4 KB |
+| `ui_jianying.md` | 107.9 KB |
+| `ui_resolve_skin.json` | 18 KB |
+| `ui_resolve_skin.md` | 6.8 KB |
+| `ui_source_availability.md` | 9.8 KB |

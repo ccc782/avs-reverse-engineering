@@ -1,0 +1,919 @@
+{
+  "inventory": {
+    "entries": 7201,
+    "ext": {
+      ".skin": 3,
+      ".png": 7190,
+      ".bmp": 8
+    },
+    "top_dirs": {
+      "Tools": 4376,
+      "Tracker": 350,
+      "ViewStrip": 324,
+      "Icons": 282,
+      "Polyline": 222,
+      "Text": 168,
+      "Spline": 166,
+      "Transport": 158,
+      "Paint": 148,
+      "Controls": 110,
+      "Color": 86,
+      "Views": 82,
+      "FlagMarkers": 68,
+      "Arrows": 52,
+      "TimeSlider": 50,
+      "Strokes": 48,
+      "MultiText": 40,
+      "Mesh": 40,
+      "PointCloud": 40,
+      "Slider": 36
+    },
+    "state_assets": {
+      "active": 1474,
+      "hover": 1250,
+      "light": 196,
+      "mask": 148,
+      "disabled": 110,
+      "selected": 18,
+      "focus": 18,
+      "dark": 10
+    },
+    "hidpi_assets": 3444
+  },
+  "skins": {
+    "Fusion.skin": {
+      "id": "Fu80",
+      "name": "Fusion 8",
+      "colors": {
+        "DropShipGray": {
+          "rgb": [
+            48,
+            48,
+            57
+          ],
+          "a": 255,
+          "hex": "#303039"
+        },
+        "PoseidonGray": {
+          "rgb": [
+            47,
+            48,
+            54
+          ],
+          "a": 255,
+          "hex": "#2f3036"
+        },
+        "DolphinGray": {
+          "rgb": [
+            55,
+            57,
+            62
+          ],
+          "a": 255,
+          "hex": "#37393e"
+        },
+        "NewtGray": {
+          "rgb": [
+            40,
+            41,
+            46
+          ],
+          "a": 255,
+          "hex": "#28292e"
+        },
+        "JaguarGray": {
+          "rgb": [
+            36,
+            36,
+            42
+          ],
+          "a": 255,
+          "hex": "#24242a"
+        },
+        "JellyFishGray": {
+          "rgb": [
+            67,
+            71,
+            77
+          ],
+          "a": 255,
+          "hex": "#43474d"
+        },
+        "JellyFishGray40": {
+          "rgb": [
+            67,
+            71,
+            77
+          ],
+          "a": 102,
+          "hex": "#43474d"
+        },
+        "JellyFishGray70": {
+          "rgb": [
+            67,
+            71,
+            77
+          ],
+          "a": 178,
+          "hex": "#43474d"
+        },
+        "OctopusGray": {
+          "rgb": [
+            23,
+            24,
+            26
+          ],
+          "a": 255,
+          "hex": "#17181a"
+        },
+        "OctopusGray40": {
+          "rgb": [
+            23,
+            24,
+            26
+          ],
+          "a": 102,
+          "hex": "#17181a"
+        },
+        "PenguinGray": {
+          "rgb": [
+            40,
+            40,
+            46
+          ],
+          "a": 255,
+          "hex": "#28282e"
+        },
+        "PlanktonGray": {
+          "rgb": [
+            97,
+            103,
+            112
+          ],
+          "a": 255,
+          "hex": "#616770"
+        },
+        "SquidGray": {
+          "rgb": [
+            171,
+            171,
+            171
+          ],
+          "a": 255,
+          "hex": "#ababab"
+        },
+        "SquidGray40": {
+          "rgb": [
+            171,
+            171,
+            171
+          ],
+          "a": 102,
+          "hex": "#ababab"
+        },
+        "White": {
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "a": 255,
+          "hex": "#ffffff"
+        },
+        "White40": {
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "a": 102,
+          "hex": "#ffffff"
+        },
+        "Transparent": {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "a": 0,
+          "hex": "#000000"
+        },
+        "OrcaGray": {
+          "rgb": [
+            33,
+            33,
+            38
+          ],
+          "a": 255,
+          "hex": "#212126"
+        },
+        "OrcaGray40": {
+          "rgb": [
+            33,
+            33,
+            38
+          ],
+          "a": 102,
+          "hex": "#212126"
+        },
+        "SealGray50": {
+          "rgb": [
+            44,
+            45,
+            50
+          ],
+          "a": 255,
+          "hex": "#2c2d32"
+        },
+        "ThunderstormGray": {
+          "rgb": [
+            31,
+            31,
+            31
+          ],
+          "a": 255,
+          "hex": "#1f1f1f"
+        },
+        "ThunderstormGray40": {
+          "rgb": [
+            31,
+            31,
+            31
+          ],
+          "a": 102,
+          "hex": "#1f1f1f"
+        },
+        "LicoriceGray": {
+          "rgb": [
+            7,
+            7,
+            7
+          ],
+          "a": 255,
+          "hex": "#070707"
+        },
+        "LicoriceGray40": {
+          "rgb": [
+            7,
+            7,
+            7
+          ],
+          "a": 102,
+          "hex": "#070707"
+        },
+        "StarfishGray": {
+          "rgb": [
+            45,
+            47,
+            51
+          ],
+          "a": 255,
+          "hex": "#2d2f33"
+        },
+        "NautilusGray": {
+          "rgb": [
+            37,
+            37,
+            37
+          ],
+          "a": 255,
+          "hex": "#252525"
+        },
+        "SmokeGray": {
+          "rgb": [
+            146,
+            146,
+            146
+          ],
+          "a": 255,
+          "hex": "#929292"
+        },
+        "SmokeGray40": {
+          "rgb": [
+            146,
+            146,
+            146
+          ],
+          "a": 102,
+          "hex": "#929292"
+        },
+        "TintGray": {
+          "rgb": [
+            9,
+            9,
+            9
+          ],
+          "a": 255,
+          "hex": "#090909"
+        },
+        "TintGray40": {
+          "rgb": [
+            9,
+            9,
+            9
+          ],
+          "a": 102,
+          "hex": "#090909"
+        },
+        "CoralRed": {
+          "rgb": [
+            230,
+            75,
+            61
+          ],
+          "a": 255,
+          "hex": "#e64b3d"
+        },
+        "WinterSkyGray": {
+          "rgb": [
+            71,
+            71,
+            71
+          ],
+          "a": 255,
+          "hex": "#474747"
+        },
+        "ParakeetGreen": {
+          "rgb": [
+            102,
+            221,
+            39
+          ],
+          "a": 255,
+          "hex": "#66dd27"
+        },
+        "BonesGray": {
+          "rgb": [
+            208,
+            208,
+            208
+          ],
+          "a": 255,
+          "hex": "#d0d0d0"
+        },
+        "BonesGray40": {
+          "rgb": [
+            208,
+            208,
+            208
+          ],
+          "a": 102,
+          "hex": "#d0d0d0"
+        },
+        "TabButtonGray": {
+          "rgb": [
+            34,
+            34,
+            38
+          ],
+          "a": 255,
+          "hex": "#222226"
+        },
+        "TabButtonGray40": {
+          "rgb": [
+            34,
+            34,
+            38
+          ],
+          "a": 102,
+          "hex": "#222226"
+        },
+        "HalfCoralRed": {
+          "rgb": [
+            115,
+            38,
+            31
+          ],
+          "a": 255,
+          "hex": "#73261f"
+        }
+      },
+      "aliases": {
+        "DropShipGrayCol": "DropShipGray",
+        "PoseidonGrayCol": "PoseidonGray",
+        "DolphinGrayCol": "DolphinGray",
+        "NewtGrayCol": "NewtGray",
+        "JaguarGrayCol": "JaguarGray",
+        "JellyFishGrayCol": "JellyFishGray",
+        "JellyFishGray40Col": "JellyFishGray40",
+        "JellyFishGray70Col": "JellyFishGray70",
+        "OctopusGrayCol": "OctopusGray",
+        "OctopusGray40Col": "OctopusGray40",
+        "PenguinGrayCol": "PenguinGray",
+        "PlanktonGrayCol": "PlanktonGray",
+        "SquidGrayCol": "SquidGray",
+        "SquidGray40Col": "SquidGray40",
+        "WhiteCol": "White",
+        "White40Col": "White40",
+        "TransparentCol": "Transparent",
+        "OrcaGrayCol": "OrcaGray",
+        "OrcaGray40Col": "OrcaGray40",
+        "SealGray50Col": "SealGray50",
+        "ThunderstormGrayCol": "ThunderstormGray",
+        "ThunderstormGray40Col": "ThunderstormGray40",
+        "LicoriceGrayCol": "LicoriceGray",
+        "LicoriceGray40Col": "LicoriceGray40",
+        "StarfishGrayCol": "StarfishGray",
+        "NautilusGrayCol": "NautilusGray",
+        "SmokeGrayCol": "SmokeGray",
+        "SmokeGray40Col": "SmokeGray40",
+        "TintGrayCol": "TintGray",
+        "TintGray40Col": "TintGray40",
+        "CoralRedCol": "CoralRed",
+        "WinterSkyGrayCol": "WinterSkyGray",
+        "ParakeetGreenCol": "ParakeetGreen",
+        "BonesGrayCol": "BonesGray",
+        "BonesGray40Col": "BonesGray40",
+        "TabButtonGrayCol": "TabButtonGray",
+        "TabButtonGray40Col": "TabButtonGray40",
+        "HalfCoralRedCol": "HalfCoralRed",
+        "FlatCol": "PenguinGray",
+        "AppBackgroundCol": "PenguinGray",
+        "TrackCol": "PenguinGray",
+        "TLScaleBGCol": "PenguinGray"
+      },
+      "metrics": {
+        "LabelW": 132,
+        "ResetW": 40,
+        "ReferenceW": 400,
+        "ButtonH": 22,
+        "CheckBoxH": 17,
+        "ComboH": 20,
+        "EditW": 55,
+        "EditH": 20,
+        "LabelH": 16
+      },
+      "categories": [
+        "System",
+        "Controls",
+        "Style",
+        "Button",
+        "Combo",
+        "CheckBox",
+        "Progress",
+        "RadioButton",
+        "ScrollBar",
+        "Spin",
+        "Tree",
+        "Button",
+        "CheckBox",
+        "CheckList",
+        "Clip",
+        "Color",
+        "ColorField",
+        "ColorRanges",
+        "ColorSuppression",
+        "ColorWheel",
+        "Combo",
+        "File",
+        "Fontfile",
+        "Gamma",
+        "Gamut",
+        "Gradient",
+        "Histogram",
+        "Image",
+        "Inspector",
+        "Label",
+        "Levels",
+        "LevelsOutput",
+        "Library",
+        "List",
+        "Log",
+        "LUT",
+        "Matrix",
+        "MultiButton",
+        "Nest",
+        "Offset",
+        "Range",
+        "Screw",
+        "ScriptValList",
+        "Slider",
+        "Separator",
+        "Spacer",
+        "Tabs",
+        "TextEdit",
+        "Titles",
+        "TrackerPattern",
+        "Other",
+        "Hourglass",
+        "AudioDisplay",
+        "Preferences",
+        "Appearance",
+        "TimeSlider",
+        "Transport",
+        "Flow",
+        "Tiles",
+        "Bins",
+        "StudioPlayer",
+        "SplineEditor",
+        "TimeLine",
+        "Views",
+        "Toolbar",
+        "Layoutbar",
+        "GainGamma",
+        "Tabs",
+        "Debug",
+        "ToolControl",
+        "Toolbars",
+        "ScriptView",
+        "ConsoleView",
+        "EffectsLibraryView",
+        "StatusBar",
+        "Icons",
+        "Guides",
+        "NGon",
+        "Rotation",
+        "Outline",
+        "Text",
+        "Control",
+        "Anchor",
+        "Emphasis",
+        "MultiText",
+        "Anchor",
+        "Alignment",
+        "Justification",
+        "AlignLayers",
+        "Emphasis",
+        "Indentation",
+        "CameraTracker",
+        "Polyline",
+        "Spline",
+        "Paint",
+        "Brush",
+        "Apply",
+        "Mesh",
+        "Tracker",
+        "Pattern",
+        "MagicMask",
+        "SurfaceTracker",
+        "Positioner",
+        "Transform",
+        "PointCloud",
+        "Tools",
+        "ViewStrip"
+      ],
+      "bytes": 289450
+    },
+    "Neutral.skin": {
+      "id": "Ne80",
+      "name": "Fusion 8",
+      "colors": {
+        "DropShipGray": {
+          "rgb": [
+            48,
+            48,
+            48
+          ],
+          "a": 255,
+          "hex": "#303030"
+        },
+        "PoseidonGray": {
+          "rgb": [
+            50,
+            50,
+            50
+          ],
+          "a": 255,
+          "hex": "#323232"
+        },
+        "DolphinGray": {
+          "rgb": [
+            57,
+            57,
+            57
+          ],
+          "a": 255,
+          "hex": "#393939"
+        },
+        "NewtGray": {
+          "rgb": [
+            41,
+            41,
+            41
+          ],
+          "a": 255,
+          "hex": "#292929"
+        },
+        "JaguarGray": {
+          "rgb": [
+            36,
+            36,
+            36
+          ],
+          "a": 255,
+          "hex": "#242424"
+        },
+        "JellyFishGray": {
+          "rgb": [
+            71,
+            71,
+            71
+          ],
+          "a": 255,
+          "hex": "#474747"
+        },
+        "JellyFishGray40": {
+          "rgb": [
+            71,
+            71,
+            71
+          ],
+          "a": 102,
+          "hex": "#474747"
+        },
+        "OctopusGray": {
+          "rgb": [
+            24,
+            24,
+            24
+          ],
+          "a": 255,
+          "hex": "#181818"
+        },
+        "OctopusGray40": {
+          "rgb": [
+            24,
+            24,
+            24
+          ],
+          "a": 102,
+          "hex": "#181818"
+        },
+        "PenguinGray": {
+          "rgb": [
+            40,
+            40,
+            40
+          ],
+          "a": 255,
+          "hex": "#282828"
+        },
+        "PlanktonGray": {
+          "rgb": [
+            103,
+            103,
+            103
+          ],
+          "a": 255,
+          "hex": "#676767"
+        },
+        "SquidGray": {
+          "rgb": [
+            171,
+            171,
+            171
+          ],
+          "a": 255,
+          "hex": "#ababab"
+        },
+        "SquidGray40": {
+          "rgb": [
+            171,
+            171,
+            171
+          ],
+          "a": 102,
+          "hex": "#ababab"
+        },
+        "White": {
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "a": 255,
+          "hex": "#ffffff"
+        },
+        "White40": {
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "a": 102,
+          "hex": "#ffffff"
+        },
+        "Transparent": {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "a": 0,
+          "hex": "#000000"
+        },
+        "OrcaGray": {
+          "rgb": [
+            33,
+            33,
+            33
+          ],
+          "a": 255,
+          "hex": "#212121"
+        },
+        "OrcaGray40": {
+          "rgb": [
+            33,
+            33,
+            33
+          ],
+          "a": 102,
+          "hex": "#212121"
+        },
+        "SealGray50": {
+          "rgb": [
+            45,
+            45,
+            45
+          ],
+          "a": 255,
+          "hex": "#2d2d2d"
+        },
+        "MilkGray": {
+          "rgb": [
+            241,
+            241,
+            241
+          ],
+          "a": 255,
+          "hex": "#f1f1f1"
+        },
+        "StarfishGray": {
+          "rgb": [
+            47,
+            47,
+            47
+          ],
+          "a": 255,
+          "hex": "#2f2f2f"
+        },
+        "SmokeGray": {
+          "rgb": [
+            146,
+            146,
+            146
+          ],
+          "a": 255,
+          "hex": "#929292"
+        },
+        "SmokeGray40": {
+          "rgb": [
+            146,
+            146,
+            146
+          ],
+          "a": 102,
+          "hex": "#929292"
+        },
+        "CoralRed": {
+          "rgb": [
+            230,
+            75,
+            61
+          ],
+          "a": 255,
+          "hex": "#e64b3d"
+        },
+        "TabButtonGray": {
+          "rgb": [
+            34,
+            34,
+            34
+          ],
+          "a": 255,
+          "hex": "#222222"
+        },
+        "TabButtonGray40": {
+          "rgb": [
+            34,
+            34,
+            34
+          ],
+          "a": 102,
+          "hex": "#222222"
+        }
+      },
+      "aliases": {
+        "DropShipGrayCol": "DropShipGray",
+        "PoseidonGrayCol": "PoseidonGray",
+        "DolphinGrayCol": "DolphinGray",
+        "NewtGrayCol": "NewtGray",
+        "JaguarGrayCol": "JaguarGray",
+        "JellyFishGrayCol": "JellyFishGray",
+        "JellyFishGray40Col": "JellyFishGray40",
+        "OctopusGrayCol": "OctopusGray",
+        "OctopusGray40Col": "OctopusGray40",
+        "PenguinGrayCol": "PenguinGray",
+        "PlanktonGrayCol": "PlanktonGray",
+        "SquidGrayCol": "SquidGray",
+        "SquidGray40Col": "SquidGray40",
+        "WhiteCol": "White",
+        "White40Col": "White40",
+        "TransparentCol": "Transparent",
+        "OrcaGrayCol": "OrcaGray",
+        "OrcaGray40Col": "OrcaGray40",
+        "SealGray50Col": "SealGray50",
+        "MilkGrayCol": "MilkGray",
+        "StarfishGrayCol": "StarfishGray",
+        "SmokeGrayCol": "SmokeGray",
+        "SmokeGray40Col": "SmokeGray40",
+        "CoralRedCol": "CoralRed",
+        "TabButtonGrayCol": "TabButtonGray",
+        "TabButtonGray40Col": "TabButtonGray40"
+      },
+      "metrics": {},
+      "categories": [
+        "System",
+        "Controls",
+        "Style",
+        "Button",
+        "Combo",
+        "Tree",
+        "ColorRanges",
+        "Gamma",
+        "Log",
+        "MultiButton",
+        "Range",
+        "Slider",
+        "Screw",
+        "Tabs",
+        "TrackerPattern",
+        "Other",
+        "TimeSlider",
+        "Flow",
+        "Bins",
+        "SplineEditor",
+        "TimeLine",
+        "Views",
+        "Toolbar",
+        "Layoutbar",
+        "Toolbars",
+        "ScriptView",
+        "EffectsLibraryView",
+        "StatusBar",
+        "ViewStrip"
+      ],
+      "bytes": 7616
+    },
+    "Tablet.skin": {
+      "id": "Tb80",
+      "name": "Fusion 8",
+      "colors": {},
+      "aliases": {},
+      "metrics": {
+        "LabelW": 132,
+        "ResetW": 60,
+        "ReferenceW": 460,
+        "ButtonH": 26,
+        "CheckBoxH": 17,
+        "ComboH": 24,
+        "EditW": 55,
+        "EditH": 24,
+        "LabelH": 16
+      },
+      "categories": [
+        "Controls",
+        "Button",
+        "CheckBox",
+        "CheckList",
+        "Clip",
+        "Color",
+        "ColorField",
+        "ColorRanges",
+        "ColorSuppression",
+        "ColorWheel",
+        "Combo",
+        "File",
+        "Fontfile",
+        "Gamma",
+        "Gamut",
+        "Gradient",
+        "Histogram",
+        "Image",
+        "Label",
+        "Levels",
+        "LevelsOutput",
+        "Library",
+        "List",
+        "Log",
+        "LUT",
+        "Matrix",
+        "MultiButton",
+        "Nest",
+        "Offset",
+        "Range",
+        "Screw",
+        "ScriptValList",
+        "Slider",
+        "Separator",
+        "Spacer",
+        "TextEdit",
+        "Titles",
+        "TrackerPattern",
+        "Icons",
+        "Text"
+      ],
+      "bytes": 44037
+    }
+  }
+}

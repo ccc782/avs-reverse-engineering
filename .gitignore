@@ -22,3 +22,6 @@ __pycache__/
 .DS_Store
 Thumbs.db
 *.log
+# 从第三方产品恢复出的源码与去压缩代码：只在本地持有，不入库
+ui_src/
+ui_src_beautified/
